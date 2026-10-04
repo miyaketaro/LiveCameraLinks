@@ -1,0 +1,67 @@
+{
+  "version": "0.5.0",
+
+  "providers": [
+
+    {
+      "id": "mlit",
+      "name": "国土交通省",
+      "type": "Government"
+    },
+
+    {
+      "id": "prefecture",
+      "name": "都道府県",
+      "type": "Government"
+    },
+
+    {
+      "id": "municipality",
+      "name": "市区町村",
+      "type": "Government"
+    },
+
+    {
+      "id": "nexco-east",
+      "name": "NEXCO東日本",
+      "type": "Road"
+    },
+
+    {
+      "id": "nexco-central",
+      "name": "NEXCO中日本",
+      "type": "Road"
+    },
+
+    {
+      "id": "nexco-west",
+      "name": "NEXCO西日本",
+      "type": "Road"
+    },
+
+    {
+      "id": "tourism",
+      "name": "観光協会",
+      "type": "Tourism"
+    },
+
+    {
+      "id": "railway",
+      "name": "鉄道事業者",
+      "type": "Railway"
+    },
+
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "type": "Streaming"
+    },
+
+    {
+      "id": "other",
+      "name": "その他",
+      "type": "Other"
+    }
+
+  ]
+}

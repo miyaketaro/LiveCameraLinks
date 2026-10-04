@@ -1,0 +1,52 @@
+{
+  "version": "0.5.0",
+
+  "categories": [
+
+    {
+      "id": "road",
+      "name": "道路"
+    },
+    {
+      "id": "highway",
+      "name": "高速道路"
+    },
+    {
+      "id": "river",
+      "name": "河川"
+    },
+    {
+      "id": "station",
+      "name": "駅"
+    },
+    {
+      "id": "downtown",
+      "name": "繁華街"
+    },
+    {
+      "id": "tourism",
+      "name": "観光地"
+    },
+    {
+      "id": "airport",
+      "name": "空港"
+    },
+    {
+      "id": "port",
+      "name": "港"
+    },
+    {
+      "id": "parking",
+      "name": "駐車場"
+    },
+    {
+      "id": "mountain",
+      "name": "山岳"
+    },
+    {
+      "id": "ski",
+      "name": "スキー場"
+    }
+
+  ]
+}

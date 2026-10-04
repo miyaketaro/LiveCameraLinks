@@ -1,0 +1,73 @@
+{
+  "version": "0.5.0",
+
+  "badges": [
+
+    {
+      "id": "live",
+      "label": "LIVE",
+      "priority": 1
+    },
+
+    {
+      "id": "official",
+      "label": "公式",
+      "priority": 2
+    },
+
+    {
+      "id": "still",
+      "label": "静止画",
+      "priority": 3
+    },
+
+    {
+      "id": "road",
+      "label": "道路",
+      "priority": 4
+    },
+
+    {
+      "id": "snow",
+      "label": "雪道",
+      "priority": 5
+    },
+
+    {
+      "id": "river",
+      "label": "河川",
+      "priority": 6
+    },
+
+    {
+      "id": "station",
+      "label": "駅",
+      "priority": 7
+    },
+
+    {
+      "id": "downtown",
+      "label": "繁華街",
+      "priority": 8
+    },
+
+    {
+      "id": "tourism",
+      "label": "観光",
+      "priority": 9
+    },
+
+    {
+      "id": "airport",
+      "label": "空港",
+      "priority": 10
+    },
+
+    {
+      "id": "parking",
+      "label": "駐車場",
+      "priority": 11
+    }
+
+  ]
+}

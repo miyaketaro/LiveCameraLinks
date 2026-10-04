@@ -1,0 +1,19 @@
+{
+  "version": "0.3.0",
+  "project": "LiveCameraLinks",
+  "lastUpdated": "2026-10-04",
+  "description": "Place探索候補",
+
+  "statistics": {
+    "candidateCount": 0
+  },
+
+  "workflow": {
+    "purpose": "Place探索結果",
+    "nextStep": "確認後 place_index.json へ登録"
+  },
+
+  "places": [
+
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.3.0",
+  "project": "LiveCameraLinks",
+  "lastUpdated": "2026-10-04",
+  "description": "ライブカメラ探索候補",
+
+  "statistics": {
+    "candidateCount": 0,
+    "approvedCount": 0,
+    "rejectedCount": 0
+  },
+
+  "workflow": {
+    "purpose": "AI探索結果の一時保管",
+    "nextStep": "管理者確認後 camera_index.json へ登録"
+  },
+
+  "candidates": [
+
+  ]
+}

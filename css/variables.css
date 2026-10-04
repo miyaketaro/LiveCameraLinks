@@ -1,0 +1,25 @@
+:root{
+
+    --primary:#1565c0;
+    --primary-dark:#0d47a1;
+
+    --background:#f5f7fa;
+    --surface:#ffffff;
+
+    --text:#333333;
+    --text-light:#666666;
+
+    --border:#dcdcdc;
+
+    --road:#1976d2;
+    --river:#26a69a;
+    --station:#fb8c00;
+    --city:#8e24aa;
+    --tour:#43a047;
+    --airport:#546e7a;
+    --port:#00838f;
+    --parking:#6d4c41;
+
+    --radius:12px;
+
+}

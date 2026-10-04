@@ -1,0 +1,58 @@
+{
+  "version": "v10.165-interim",
+  "date": "2026-10-03",
+  "base_archive": "livecameralinks.com_20261003.zip",
+  "policy": "他社ライブカメラサイトは候補発見の参考索引に限定。今回の追加データは元配信または運営公式ページを2026-10-03に確認して独自作成。",
+  "camera_count_after": 2057,
+  "added_count": 11,
+  "updated_count": 0,
+  "added_ids": [
+    "tokyo_haneda_p2_entrance",
+    "tokyo_haneda_p2_rooftop",
+    "tokyo_haneda_p3_entrance",
+    "tokyo_haneda_p3_rooftop",
+    "aomori_station_aba_2026",
+    "akita_station_abs_2026",
+    "iwate_morioka_iat_live_2026",
+    "fukushima_fct_4city_loop_2026",
+    "hokkaido_obihiro_station_kachimai",
+    "hokkaido_obihiro_airport_kachimai",
+    "hokkaido_wakkanai_hbc_info_cam"
+  ],
+  "updated_ids": [],
+  "sources": [
+    {
+      "name": "空港振興・環境整備支援機構",
+      "url": "https://www.aeif.or.jp/haneda/"
+    },
+    {
+      "name": "ABA青森朝日放送",
+      "url": "https://www.aba-net.com/livecamera/"
+    },
+    {
+      "name": "ABS秋田放送",
+      "url": "https://www.akita-abs.co.jp/sns_banner/youtube/"
+    },
+    {
+      "name": "IAT岩手朝日テレビ",
+      "url": "https://www.youtube.com/watch?v=lF2JP2Bcb4c"
+    },
+    {
+      "name": "福島中央テレビ",
+      "url": "https://www.fct.co.jp/livecamera/"
+    },
+    {
+      "name": "十勝毎日新聞社",
+      "url": "https://kachimai.jp/livecamera/"
+    },
+    {
+      "name": "HBC北海道放送",
+      "url": "https://www.hbc.co.jp/info-cam/wakkanai.html"
+    }
+  ],
+  "notes": [
+    "羽田空港P2/P3は公式ページ内の入口・屋上ライブカメラを4カード化。",
+    "YouTube LIVEは配信URLが将来変わる可能性があるため、公式チャンネル/運営ページも併記。",
+    "既存データは削除せず、今回確認分を追加した途中版。"
+  ]
+}

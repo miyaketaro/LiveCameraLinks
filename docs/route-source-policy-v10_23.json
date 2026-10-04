@@ -1,0 +1,23 @@
+{
+  "version": "10.23",
+  "public_link_policy": "PRIMARY_ONLY",
+  "exclude_public_link_types": ["competitor_live_camera_db", "secondary_aggregator"],
+  "allowed_primary_source_examples": ["NEXCO", "MLIT", "municipality", "broadcaster", "cable_tv", "official_youtube", "road_operator"],
+  "route": "Tokyo-Kawaguchiko",
+  "published_points": [
+    {
+      "name": "Uenohara IC",
+      "source_level": "PRIMARY",
+      "provider": "UTY TV Yamanashi",
+      "url": "https://www.uty.co.jp/livecam/chuo_expressway.php/livecam/shojiko.php"
+    },
+    {
+      "name": "Kodachi-minami Intersection",
+      "source_level": "PRIMARY",
+      "provider": "Kawaguchiko Cable Television",
+      "url": "https://www.kawaguchiko.ne.jp/disaster/chiku/kodachimin.html"
+    }
+  ],
+  "withheld_points": ["Hachioji JCT", "Sagamiko IC", "Fuji-Yoshida"],
+  "reason": "Primary live camera source not yet directly verified for public linking"
+}

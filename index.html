@@ -1,107 +1,138 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ライブカメラリンクス | 現地は？ 天気は？ 道は？</title>
 
     <meta name="description"
-        content="道路・駅・繁華街・観光地・河川・空港・港など全国のライブカメラを地図から探せます。">
+        content="道路・高速道路・駅・繁華街・観光地・河川・空港・港など全国のライブカメラを地図から探せます。">
 
+    <meta name="keywords"
+        content="ライブカメラ,道路ライブカメラ,高速道路,駅ライブカメラ,観光地ライブカメラ,ライブカメラリンクス">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- OpenStreetMap (Leaflet) -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        crossorigin=""
+    />
+
 </head>
 
 <body>
 
 <header class="site-header">
 
-    <h1>
-        📷 ライブカメラリンクス
-    </h1>
+    <h1>📷 ライブカメラリンクス</h1>
 
     <p class="tagline">
-        現地は？ 天気は？ 道は？
+
+        現地は？　天気は？　道は？
+
     </p>
 
 </header>
 
 <main>
 
-<section class="search-panel">
+    <!-- ========================= -->
+    <!-- 検索 -->
+    <!-- ========================= -->
 
-<h2>検索</h2>
+    <section class="search-panel">
 
-<label>
+        <h2>検索</h2>
 
-目的地
+        <label for="destination">
 
-<input
-type="text"
-placeholder="例：箱根・東京駅・白川郷">
+            目的地
 
-</label>
+        </label>
 
-<label>
+        <input
+            id="destination"
+            type="text"
+            placeholder="例：箱根・東京駅・白川郷">
 
-出発地
+        <label for="departure">
 
-<input
-type="text"
-placeholder="例：新宿・横浜・名古屋">
+            出発地
 
-</label>
+        </label>
 
-<button>
+        <input
+            id="departure"
+            type="text"
+            placeholder="例：新宿・横浜・名古屋">
 
-検索（Build0.2）
+        <button id="searchButton">
 
-</button>
+            検索
 
-</section>
+        </button>
 
-
-<section class="map-panel">
-
-<h2>🗺 地図</h2>
-
-<div id="map">
-
-Build0.1.2でOpenStreetMapを表示します
-
-</div>
-
-</section>
+    </section>
 
 
-<section class="camera-panel">
+    <!-- ========================= -->
+    <!-- 地図 -->
+    <!-- ========================= -->
 
-<h2>
+    <section class="map-panel">
 
-📷 ライブカメラ一覧
+        <h2>🗺 地図</h2>
 
-</h2>
+        <div id="map"></div>
 
-<p>
+    </section>
 
-まだデータはありません
 
-</p>
+    <!-- ========================= -->
+    <!-- ライブカメラ -->
+    <!-- ========================= -->
 
-</section>
+    <section class="camera-panel">
+
+        <h2>📷 ライブカメラ一覧</h2>
+
+        <div id="camera-list">
+
+            <p>まだライブカメラは登録されていません。</p>
+
+        </div>
+
+    </section>
 
 </main>
 
-<footer>
 
-© LiveCameraLinks
+<footer class="site-footer">
+
+    © 2026 LiveCameraLinks
 
 </footer>
 
+
+<!-- Leaflet -->
+<script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin="">
+</script>
+
+<!-- JavaScript -->
+<script src="js/map.js"></script>
 <script src="js/app.js"></script>
 
 </body>
+
 </html>

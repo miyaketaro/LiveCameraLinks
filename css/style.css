@@ -1,3 +1,53 @@
-body{
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:8px 0 16px;
+
+    border:1px solid var(--border);
+
+    border-radius:8px;
+
+    box-sizing:border-box;
+
+}
+
+button{
+
+    background:var(--primary);
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:12px 24px;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:var(--primary-dark);
+
+}
+
+#map{
+
+    height:500px;
+
+    background:#eeeeee;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:10px;
 
 }

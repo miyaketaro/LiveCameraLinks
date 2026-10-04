@@ -1,20 +1,107 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
+    <title>ライブカメラリンクス | 現地は？ 天気は？ 道は？</title>
 
-<title>LiveCameraLinks 3.0</title>
+    <meta name="description"
+        content="道路・駅・繁華街・観光地・河川・空港・港など全国のライブカメラを地図から探せます。">
 
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<h1>LiveCameraLinks 3.0</h1>
+<header class="site-header">
 
-<p>現地は？ 天気は？ 道は？</p>
+    <h1>
+        📷 ライブカメラリンクス
+    </h1>
+
+    <p class="tagline">
+        現地は？ 天気は？ 道は？
+    </p>
+
+</header>
+
+<main>
+
+<section class="search-panel">
+
+<h2>検索</h2>
+
+<label>
+
+目的地
+
+<input
+type="text"
+placeholder="例：箱根・東京駅・白川郷">
+
+</label>
+
+<label>
+
+出発地
+
+<input
+type="text"
+placeholder="例：新宿・横浜・名古屋">
+
+</label>
+
+<button>
+
+検索（Build0.2）
+
+</button>
+
+</section>
+
+
+<section class="map-panel">
+
+<h2>🗺 地図</h2>
+
+<div id="map">
+
+Build0.1.2でOpenStreetMapを表示します
+
+</div>
+
+</section>
+
+
+<section class="camera-panel">
+
+<h2>
+
+📷 ライブカメラ一覧
+
+</h2>
+
+<p>
+
+まだデータはありません
+
+</p>
+
+</section>
+
+</main>
+
+<footer>
+
+© LiveCameraLinks
+
+</footer>
+
+<script src="js/app.js"></script>
 
 </body>
-
 </html>

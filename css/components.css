@@ -1,0 +1,25 @@
+.site-header{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+.search-panel,
+.map-panel,
+.camera-panel{
+
+    background:white;
+
+    border-radius:var(--radius);
+
+    padding:20px;
+
+    box-shadow:var(--shadow);
+
+}

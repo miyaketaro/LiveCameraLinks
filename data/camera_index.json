@@ -1,0 +1,17 @@
+{
+  "version": "0.3.0",
+  "project": "LiveCameraLinks",
+  "lastUpdated": "2026-10-04",
+  "description": "全国ライブカメラマスター",
+
+  "statistics": {
+    "cameraCount": 0,
+    "prefectureCount": 47,
+    "placeCount": 0,
+    "routeCount": 0
+  },
+
+  "cameras": [
+
+  ]
+}

@@ -1,0 +1,117 @@
+/* LiveCameraLinks Build 0.1.8 - camera cards */
+.camera-panel-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:16px;
+}
+.camera-panel-head h2{margin:0}
+.camera-count{
+  font-size:14px;
+  font-weight:700;
+  color:#555;
+  background:#f3f6f9;
+  border:1px solid #dde3e8;
+  border-radius:999px;
+  padding:6px 10px;
+}
+.camera-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+  gap:14px;
+}
+.camera-card{
+  border:1px solid #dfe5ea;
+  border-radius:14px;
+  padding:16px;
+  background:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+.camera-card-top{
+  display:flex;
+  gap:10px;
+  align-items:flex-start;
+}
+.camera-icon{
+  width:36px;
+  height:36px;
+  display:grid;
+  place-items:center;
+  flex:0 0 auto;
+  font-size:22px;
+  background:#f4f7fa;
+  border-radius:10px;
+}
+.camera-card-title h3{
+  margin:0 0 5px;
+  font-size:17px;
+  line-height:1.35;
+}
+.camera-card-title p{
+  margin:0;
+  color:#666;
+  font-size:12px;
+  line-height:1.55;
+}
+.camera-desc{
+  margin:12px 0;
+  color:#444;
+  font-size:13px;
+  line-height:1.65;
+}
+.camera-badges{
+  display:flex;
+  gap:6px;
+  flex-wrap:wrap;
+  margin:10px 0 12px;
+}
+.camera-badges span{
+  padding:4px 7px;
+  border-radius:999px;
+  background:#eef4fb;
+  color:#31557a;
+  font-size:11px;
+  font-weight:700;
+}
+.camera-actions{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+}
+.camera-action{
+  display:block;
+  text-align:center;
+  padding:9px 8px;
+  border:1px solid #cfd8e3;
+  border-radius:9px;
+  background:#fff;
+  color:#174f8a;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:700;
+}
+.camera-action:hover{
+  background:#f3f8ff;
+  border-color:#9dbbe0;
+}
+.camera-action.is-disabled{
+  color:#aaa;
+  background:#f7f7f7;
+  border-color:#e5e5e5;
+  cursor:not-allowed;
+}
+.camera-limit-note,.camera-empty{
+  padding:12px 14px;
+  margin-bottom:14px;
+  border-radius:10px;
+  background:#fff8e1;
+  border:1px solid #f1dfaa;
+  font-size:13px;
+  line-height:1.6;
+}
+@media (max-width:640px){
+  .camera-grid{grid-template-columns:1fr}
+  .camera-actions{grid-template-columns:1fr 1fr}
+}

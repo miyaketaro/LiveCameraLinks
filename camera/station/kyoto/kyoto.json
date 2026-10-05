@@ -1,0 +1,73 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "kyoto",
+    "area":  "kyoto",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "kyoto_kyoto_station_bus",
+                        "name":  "京都駅前バス乗り場",
+                        "place":  "京都府 京都市 下京区 京都駅前",
+                        "region":  "近畿",
+                        "kind":  "駅・交通",
+                        "category":  "station",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "駅周辺",
+                                       "交通",
+                                       "混雑"
+                                   ],
+                        "viewTargets":  [
+                                            "京都駅前バス乗り場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_hachijo_taxi",
+                        "name":  "京都駅八条口タクシー乗り場",
+                        "place":  "京都府 京都市 南区 京都駅八条口",
+                        "region":  "近畿",
+                        "kind":  "駅・交通",
+                        "category":  "station",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "駅周辺",
+                                       "交通",
+                                       "混雑"
+                                   ],
+                        "viewTargets":  [
+                                            "京都駅八条口タクシー乗り場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    }
+                ]
+}

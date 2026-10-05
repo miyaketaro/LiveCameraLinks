@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "nagano",
+    "areaCount":  1,
+    "cameraCount":  4,
+    "areas":  [
+                  {
+                      "area":  "matsumoto",
+                      "file":  "matsumoto.json",
+                      "cameraCount":  4
+                  }
+              ]
+}

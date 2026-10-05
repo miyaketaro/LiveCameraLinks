@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "airport",
+    "prefecture":  "gifu",
+    "areaCount":  1,
+    "cameraCount":  0,
+    "areas":  [
+                  {
+                      "area":  "shirakawago",
+                      "file":  "shirakawago.json",
+                      "cameraCount":  0
+                  }
+              ]
+}

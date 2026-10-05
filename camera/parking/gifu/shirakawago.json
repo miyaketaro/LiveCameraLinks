@@ -1,0 +1,73 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "gifu",
+    "area":  "shirakawago",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "gifu_shirakawago_seseragi_parking",
+                        "name":  "せせらぎ公園駐車場",
+                        "place":  "岐阜県 大野郡白川村 荻町",
+                        "region":  "中部",
+                        "kind":  "駐車場",
+                        "category":  "parking",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "SHIRAKAWA - Going",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://shirakawa-going.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "交通ライブカメラ",
+                        "themes":  [
+                                       "駐車場",
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "せせらぎ公園駐車場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式交通情報ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    },
+                    {
+                        "id":  "gifu_shirakawago_midashima_parking",
+                        "name":  "みだしま公園駐車場",
+                        "place":  "岐阜県 大野郡白川村",
+                        "region":  "中部",
+                        "kind":  "駐車場",
+                        "category":  "parking",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "SHIRAKAWA - Going",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://shirakawa-going.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "交通ライブカメラ",
+                        "themes":  [
+                                       "駐車場",
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "みだしま公園駐車場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式交通情報ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    }
+                ]
+}

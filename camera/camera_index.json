@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  317,
-                       "prefectureCount":  2,
-                       "areaCount":  24,
+                       "cameraCount":  394,
+                       "prefectureCount":  7,
+                       "areaCount":  29,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  98
+                                          "cameraCount":  131
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -20,11 +20,11 @@
                                        },
                              "station":  {
                                              "file":  "station/index.json",
-                                             "cameraCount":  25
+                                             "cameraCount":  27
                                          },
                              "city":  {
                                           "file":  "city/index.json",
-                                          "cameraCount":  7
+                                          "cameraCount":  10
                                       },
                              "airport":  {
                                              "file":  "airport/index.json",
@@ -32,30 +32,55 @@
                                          },
                              "parking":  {
                                              "file":  "parking/index.json",
-                                             "cameraCount":  10
-                                         },
-                             "tourism":  {
-                                             "file":  "tourism/index.json",
-                                             "cameraCount":  16
+                                             "cameraCount":  12
                                          },
                              "port":  {
                                           "file":  "port/index.json",
                                           "cameraCount":  0
-                                      }
+                                      },
+                             "tourism":  {
+                                             "file":  "tourism/index.json",
+                                             "cameraCount":  53
+                                         }
                          },
     "routes":  {
                    "index":  "route/index.json"
                },
     "prefectures":  [
                         {
-                            "prefecture":  "tokyo",
-                            "areaCount":  23,
-                            "cameraCount":  311
+                            "prefecture":  "gifu",
+                            "areaCount":  1,
+                            "cameraCount":  6
+                        },
+                        {
+                            "prefecture":  "gunma",
+                            "areaCount":  1,
+                            "cameraCount":  14
                         },
                         {
                             "prefecture":  "kanagawa",
                             "areaCount":  1,
                             "cameraCount":  6
+                        },
+                        {
+                            "prefecture":  "kyoto",
+                            "areaCount":  1,
+                            "cameraCount":  39
+                        },
+                        {
+                            "prefecture":  "nagano",
+                            "areaCount":  1,
+                            "cameraCount":  13
+                        },
+                        {
+                            "prefecture":  "shizuoka",
+                            "areaCount":  1,
+                            "cameraCount":  5
+                        },
+                        {
+                            "prefecture":  "tokyo",
+                            "areaCount":  23,
+                            "cameraCount":  311
                         }
                     ]
 }

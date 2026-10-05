@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "gifu",
+    "areaCount":  1,
+    "cameraCount":  3,
+    "areas":  [
+                  {
+                      "area":  "shirakawago",
+                      "file":  "shirakawago.json",
+                      "cameraCount":  3
+                  }
+              ]
+}

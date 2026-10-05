@@ -1,0 +1,132 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "nagano",
+    "area":  "matsumoto",
+    "cameraCount":  4,
+    "cameras":  [
+                    {
+                        "id":  "nagano_matsumoto_castle_alps",
+                        "name":  "松本城と北アルプス",
+                        "place":  "長野県 松本市 松本市役所屋上",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "松本市公式観光サイト 松本旅のしらべ",
+                        "publisher":  "松本市公式観光サイト",
+                        "providerPageUrl":  "https://visitmatsumoto.com/livecamera/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所"
+                                   ],
+                        "viewTargets":  [
+                                            "松本市役所屋上"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "nagano",
+                        "areaCode":  "matsumoto"
+                    },
+                    {
+                        "id":  "nagano_matsumoto_castle_honmaru",
+                        "name":  "松本城本丸庭園",
+                        "place":  "長野県 松本市 松本城本丸庭園",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "松本市公式観光サイト 松本旅のしらべ",
+                        "publisher":  "松本市公式観光サイト",
+                        "providerPageUrl":  "https://visitmatsumoto.com/livecamera/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所"
+                                   ],
+                        "viewTargets":  [
+                                            "松本城本丸庭園"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "nagano",
+                        "areaCode":  "matsumoto"
+                    },
+                    {
+                        "id":  "nagano_matsumoto_castle_kuromon",
+                        "name":  "松本城黒門",
+                        "place":  "長野県 松本市 松本城黒門",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "松本市公式観光サイト 松本旅のしらべ",
+                        "publisher":  "松本市公式観光サイト",
+                        "providerPageUrl":  "https://visitmatsumoto.com/livecamera/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所"
+                                   ],
+                        "viewTargets":  [
+                                            "松本城黒門"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "nagano",
+                        "areaCode":  "matsumoto"
+                    },
+                    {
+                        "id":  "nagano_matsumoto_utsukushigahara",
+                        "name":  "美ヶ原高原・うつくしテラス",
+                        "place":  "長野県 松本市 美ヶ原高原",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "松本市公式観光サイト 松本旅のしらべ",
+                        "publisher":  "松本市公式観光サイト",
+                        "providerPageUrl":  "https://visitmatsumoto.com/livecamera/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式定点画像",
+                        "themes":  [
+                                       "観光・名所",
+                                       "高原",
+                                       "駐車場",
+                                       "天気"
+                                   ],
+                        "viewTargets":  [
+                                            "美ヶ原高原"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "nagano",
+                        "areaCode":  "matsumoto"
+                    }
+                ]
+}

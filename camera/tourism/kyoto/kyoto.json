@@ -1,0 +1,629 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "kyoto",
+    "area":  "kyoto",
+    "cameraCount":  20,
+    "cameras":  [
+                    {
+                        "id":  "kyoto_kyoto_fushimi_inari_front",
+                        "name":  "伏見稲荷大社・表参道",
+                        "place":  "京都府 京都市 伏見区 伏見稲荷大社 表参道",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "伏見稲荷大社・表参道"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_heian_jingu",
+                        "name":  "平安神宮",
+                        "place":  "京都府 京都市 左京区 平安神宮",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "平安神宮"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_eikando",
+                        "name":  "永観堂",
+                        "place":  "京都府 京都市 左京区 永観堂",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "永観堂"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_ginkakuji",
+                        "name":  "銀閣寺",
+                        "place":  "京都府 京都市 左京区 銀閣寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "銀閣寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_ninnaji",
+                        "name":  "仁和寺",
+                        "place":  "京都府 京都市 右京区 仁和寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "仁和寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_daigoji",
+                        "name":  "醍醐寺",
+                        "place":  "京都府 京都市 伏見区 醍醐寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "醍醐寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_jonangu",
+                        "name":  "城南宮",
+                        "place":  "京都府 京都市 伏見区 城南宮",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "城南宮"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_oharano_jinja",
+                        "name":  "大原野神社",
+                        "place":  "京都府 京都市 西京区 大原野神社",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "大原野神社"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_jakkoin",
+                        "name":  "寂光院",
+                        "place":  "京都府 京都市 左京区 大原 寂光院",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "寂光院"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_kifune_jinja",
+                        "name":  "貴船神社",
+                        "place":  "京都府 京都市 左京区 貴船神社",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "貴船神社"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_jingoji",
+                        "name":  "神護寺",
+                        "place":  "京都府 京都市 右京区 高雄 神護寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "神護寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_woody_keihoku",
+                        "name":  "道の駅ウッディー京北",
+                        "place":  "京都府 京都市 右京区 京北",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "publisher":  "国土交通省 近畿地方整備局 京都国道事務所",
+                        "providerPageUrl":  "https://www.youtube.com/@kyototouristspotlive/streams",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "道の駅ウッディー京北"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_fushimi_inari_back",
+                        "name":  "伏見稲荷大社・裏参道",
+                        "place":  "京都府 京都市 伏見区 伏見稲荷大社 裏参道",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "伏見稲荷大社・裏参道"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_tetsugaku",
+                        "name":  "哲学の道北端",
+                        "place":  "京都府 京都市 左京区 哲学の道北端",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "哲学の道北端"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_kitano_tenmangu",
+                        "name":  "北野天満宮前付近",
+                        "place":  "京都府 京都市 上京区 北野天満宮前",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "北野天満宮前付近"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_arashiyama_togetsukyo",
+                        "name":  "嵐山・渡月橋北詰",
+                        "place":  "京都府 京都市 右京区 嵐山 渡月橋北詰",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "嵐山・渡月橋北詰"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_bamboo_path",
+                        "name":  "竹林の小径",
+                        "place":  "京都府 京都市 右京区 嵯峨 竹林の小径",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "竹林の小径"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_daikakuji",
+                        "name":  "大覚寺",
+                        "place":  "京都府 京都市 右京区 嵯峨 大覚寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "大覚寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_saga_toriimoto",
+                        "name":  "嵯峨鳥居本",
+                        "place":  "京都府 京都市 右京区 嵯峨鳥居本",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "嵯峨鳥居本"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_kiyomizudera",
+                        "name":  "清水寺",
+                        "place":  "京都府 京都市 東山区 清水寺",
+                        "region":  "近畿",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "清水寺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    }
+                ]
+}

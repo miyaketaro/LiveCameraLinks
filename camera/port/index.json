@@ -2,6 +2,35 @@
     "schemaVersion":  "1.0",
     "category":  "port",
     "prefectures":  [
-
+                        {
+                            "prefecture":  "gifu",
+                            "file":  "gifu/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "gunma",
+                            "file":  "gunma/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "kyoto",
+                            "file":  "kyoto/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "nagano",
+                            "file":  "nagano/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "shizuoka",
+                            "file":  "shizuoka/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        }
                     ]
 }

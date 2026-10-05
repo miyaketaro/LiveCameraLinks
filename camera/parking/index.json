@@ -3,16 +3,46 @@
     "category":  "parking",
     "prefectures":  [
                         {
-                            "prefecture":  "tokyo",
-                            "file":  "tokyo/index.json",
-                            "areaCount":  23,
-                            "cameraCount":  10
+                            "prefecture":  "gifu",
+                            "file":  "gifu/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  2
+                        },
+                        {
+                            "prefecture":  "gunma",
+                            "file":  "gunma/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
                         },
                         {
                             "prefecture":  "kanagawa",
                             "file":  "kanagawa/index.json",
                             "areaCount":  1,
                             "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "kyoto",
+                            "file":  "kyoto/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "nagano",
+                            "file":  "nagano/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "shizuoka",
+                            "file":  "shizuoka/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "tokyo",
+                            "file":  "tokyo/index.json",
+                            "areaCount":  23,
+                            "cameraCount":  10
                         }
                     ]
 }

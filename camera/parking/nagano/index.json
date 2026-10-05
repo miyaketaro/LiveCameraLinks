@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "nagano",
+    "areaCount":  1,
+    "cameraCount":  0,
+    "areas":  [
+                  {
+                      "area":  "matsumoto",
+                      "file":  "matsumoto.json",
+                      "cameraCount":  0
+                  }
+              ]
+}

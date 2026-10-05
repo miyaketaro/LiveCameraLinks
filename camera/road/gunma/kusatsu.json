@@ -1,0 +1,79 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "gunma",
+    "area":  "kusatsu",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "gunma_kusatsu_r292_entrance",
+                        "name":  "国道292号・草津入口",
+                        "place":  "群馬県 吾妻郡草津町 草津入口",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道292号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/road.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "道路",
+                                       "国道",
+                                       "雪道",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "国道292号",
+                                            "草津入口"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_r292_maeguchi",
+                        "name":  "国道292号・前口",
+                        "place":  "群馬県 吾妻郡草津町 前口",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道292号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/road.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "道路",
+                                       "国道",
+                                       "雪道",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "国道292号",
+                                            "前口"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    }
+                ]
+}

@@ -1,0 +1,179 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "shizuoka",
+    "area":  "atami",
+    "cameraCount":  5,
+    "cameras":  [
+                    {
+                        "id":  "shizuoka_atami_station_plaza",
+                        "name":  "熱海駅前広場",
+                        "place":  "静岡県 熱海市 熱海駅前広場",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "熱海市",
+                        "publisher":  "熱海市",
+                        "providerPageUrl":  "https://www.city.atami.lg.jp/kurashi/douro/1000929/1017443.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式YouTubeライブ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "駅周辺",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "熱海駅前広場",
+                                            "熱海駅周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "熱海市公式ページ確認済み",
+                        "prefectureCode":  "shizuoka",
+                        "areaCode":  "atami"
+                    },
+                    {
+                        "id":  "shizuoka_atami_station_intersection",
+                        "name":  "熱海駅前交差点",
+                        "place":  "静岡県 熱海市 熱海駅前交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "熱海市",
+                        "publisher":  "熱海市",
+                        "providerPageUrl":  "https://www.city.atami.lg.jp/kurashi/douro/1000929/1017443.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式YouTubeライブ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "駅周辺",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "熱海駅前交差点",
+                                            "熱海駅周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "熱海市公式ページ確認済み",
+                        "prefectureCode":  "shizuoka",
+                        "areaCode":  "atami"
+                    },
+                    {
+                        "id":  "shizuoka_atami_taharahoncho_1",
+                        "name":  "田原本町交差点 1",
+                        "place":  "静岡県 熱海市 田原本町交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "熱海市",
+                        "publisher":  "熱海市",
+                        "providerPageUrl":  "https://www.city.atami.lg.jp/kurashi/douro/1000929/1017443.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式YouTubeライブ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "駅周辺",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "田原本町交差点",
+                                            "熱海駅周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "熱海市公式ページ確認済み",
+                        "prefectureCode":  "shizuoka",
+                        "areaCode":  "atami"
+                    },
+                    {
+                        "id":  "shizuoka_atami_taharahoncho_2",
+                        "name":  "田原本町交差点 2",
+                        "place":  "静岡県 熱海市 田原本町交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "熱海市",
+                        "publisher":  "熱海市",
+                        "providerPageUrl":  "https://www.city.atami.lg.jp/kurashi/douro/1000929/1017443.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式YouTubeライブ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "駅周辺",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "田原本町交差点",
+                                            "熱海駅周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "熱海市公式ページ確認済み",
+                        "prefectureCode":  "shizuoka",
+                        "areaCode":  "atami"
+                    },
+                    {
+                        "id":  "shizuoka_atami_shell_front",
+                        "name":  "熱海シェル前",
+                        "place":  "静岡県 熱海市 熱海シェル前",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "熱海市",
+                        "publisher":  "熱海市",
+                        "providerPageUrl":  "https://www.city.atami.lg.jp/kurashi/douro/1000929/1017443.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式YouTubeライブ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "駅周辺",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "熱海シェル前",
+                                            "熱海駅周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "熱海市公式ページ確認済み",
+                        "prefectureCode":  "shizuoka",
+                        "areaCode":  "atami"
+                    }
+                ]
+}

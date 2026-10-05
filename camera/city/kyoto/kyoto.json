@@ -1,0 +1,108 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "kyoto",
+    "area":  "kyoto",
+    "cameraCount":  3,
+    "cameras":  [
+                    {
+                        "id":  "kyoto_kyoto_nishiki",
+                        "name":  "錦市場",
+                        "place":  "京都府 京都市 中京区 錦市場",
+                        "region":  "近畿",
+                        "kind":  "街・繁華街",
+                        "category":  "city",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "繁華街",
+                                       "市街地",
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "錦市場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_hanamikoji",
+                        "name":  "花見小路",
+                        "place":  "京都府 京都市 東山区 花見小路",
+                        "region":  "近畿",
+                        "kind":  "街・繁華街",
+                        "category":  "city",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "繁華街",
+                                       "市街地",
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "花見小路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    },
+                    {
+                        "id":  "kyoto_kyoto_nenenomichi",
+                        "name":  "ねねの道",
+                        "place":  "京都府 京都市 東山区 ねねの道",
+                        "region":  "近畿",
+                        "kind":  "街・繁華街",
+                        "category":  "city",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "京都市観光協会／京都市",
+                        "publisher":  "京都市観光協会／京都市",
+                        "providerPageUrl":  "https://ja.kyoto.travel/comfort/kyoto/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "繁華街",
+                                       "市街地",
+                                       "混雑",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "ねねの道"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式資料確認済み",
+                        "prefectureCode":  "kyoto",
+                        "areaCode":  "kyoto"
+                    }
+                ]
+}

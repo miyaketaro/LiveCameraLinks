@@ -3,7 +3,7 @@
     "category":  "road",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  80,
+    "cameraCount":  95,
     "areas":  [
                   {
                       "area":  "adachi",
@@ -53,7 +53,7 @@
                   {
                       "area":  "koto",
                       "file":  "koto.json",
-                      "cameraCount":  7
+                      "cameraCount":  10
                   },
                   {
                       "area":  "meguro",
@@ -63,7 +63,7 @@
                   {
                       "area":  "minato",
                       "file":  "minato.json",
-                      "cameraCount":  11
+                      "cameraCount":  14
                   },
                   {
                       "area":  "nakano",
@@ -78,7 +78,7 @@
                   {
                       "area":  "ota",
                       "file":  "ota.json",
-                      "cameraCount":  6
+                      "cameraCount":  11
                   },
                   {
                       "area":  "setagaya",
@@ -93,7 +93,7 @@
                   {
                       "area":  "shinagawa",
                       "file":  "shinagawa.json",
-                      "cameraCount":  9
+                      "cameraCount":  13
                   },
                   {
                       "area":  "shinjuku",

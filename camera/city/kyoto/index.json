@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "kyoto",
+    "areaCount":  1,
+    "cameraCount":  3,
+    "areas":  [
+                  {
+                      "area":  "kyoto",
+                      "file":  "kyoto.json",
+                      "cameraCount":  3
+                  }
+              ]
+}

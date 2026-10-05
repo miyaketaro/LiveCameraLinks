@@ -3,7 +3,7 @@
     "category":  "airport",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  0,
+    "cameraCount":  2,
     "areas":  [
                   {
                       "area":  "adachi",
@@ -78,7 +78,7 @@
                   {
                       "area":  "ota",
                       "file":  "ota.json",
-                      "cameraCount":  0
+                      "cameraCount":  2
                   },
                   {
                       "area":  "setagaya",

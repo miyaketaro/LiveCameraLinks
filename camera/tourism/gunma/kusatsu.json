@@ -1,0 +1,387 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "gunma",
+    "area":  "kusatsu",
+    "cameraCount":  12,
+    "cameras":  [
+                    {
+                        "id":  "gunma_kusatsu_yubatake_netsunoyu",
+                        "name":  "湯畑・熱乃湯側",
+                        "place":  "群馬県 吾妻郡草津町 湯畑",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "湯畑"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_yubatake_yutaki",
+                        "name":  "湯畑・湯滝側",
+                        "place":  "群馬県 吾妻郡草津町 湯畑",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "湯畑"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_ski_tenguyama_base",
+                        "name":  "草津温泉スキー場・天狗山山麓",
+                        "place":  "群馬県 吾妻郡草津町 天狗山山麓",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "スキー場",
+                                       "積雪"
+                                   ],
+                        "viewTargets":  [
+                                            "天狗山山麓"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_ski_tenguyama_top",
+                        "name":  "草津温泉スキー場・天狗山山頂",
+                        "place":  "群馬県 吾妻郡草津町 天狗山山頂",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "スキー場",
+                                       "積雪"
+                                   ],
+                        "viewTargets":  [
+                                            "天狗山山頂"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_sainokawara_1",
+                        "name":  "西の河原公園カメラ1",
+                        "place":  "群馬県 吾妻郡草津町 西の河原公園",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "西の河原公園"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_sainokawara_2",
+                        "name":  "西の河原公園カメラ2",
+                        "place":  "群馬県 吾妻郡草津町 西の河原公園",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "西の河原公園"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_shiranesan_disaster",
+                        "name":  "白根山防災カメラ",
+                        "place":  "群馬県 吾妻郡草津町 白根山",
+                        "region":  "関東",
+                        "kind":  "観光・防災",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "防災",
+                                       "火山監視"
+                                   ],
+                        "viewTargets":  [
+                                            "白根山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_shiranesan_mobile",
+                        "name":  "白根山防災カメラ・移動式",
+                        "place":  "群馬県 吾妻郡草津町 白根山",
+                        "region":  "関東",
+                        "kind":  "観光・防災",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "防災",
+                                       "火山監視"
+                                   ],
+                        "viewTargets":  [
+                                            "白根山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_motoshiranesan_disaster",
+                        "name":  "本白根山防災カメラ",
+                        "place":  "群馬県 吾妻郡草津町 本白根山",
+                        "region":  "関東",
+                        "kind":  "観光・防災",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "防災",
+                                       "火山監視"
+                                   ],
+                        "viewTargets":  [
+                                            "本白根山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_motoshiranesan_monitor",
+                        "name":  "本白根山監視カメラ",
+                        "place":  "群馬県 吾妻郡草津町 本白根山",
+                        "region":  "関東",
+                        "kind":  "観光・防災",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "防災",
+                                       "火山監視"
+                                   ],
+                        "viewTargets":  [
+                                            "本白根山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_urakusatsu_jizo_source",
+                        "name":  "裏草津・地蔵源泉広場",
+                        "place":  "群馬県 吾妻郡草津町 裏草津 地蔵源泉広場",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "裏草津 地蔵源泉広場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    },
+                    {
+                        "id":  "gunma_kusatsu_urakusatsu_jizo_high",
+                        "name":  "裏草津・地蔵高台広場",
+                        "place":  "群馬県 吾妻郡草津町 裏草津 地蔵高台広場",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "草津温泉観光協会",
+                        "publisher":  "草津温泉観光協会",
+                        "providerPageUrl":  "https://www.kusatsu-onsen.ne.jp/live/index.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式LIVEカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉"
+                                   ],
+                        "viewTargets":  [
+                                            "裏草津 地蔵高台広場"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式情報確認済み",
+                        "prefectureCode":  "gunma",
+                        "areaCode":  "kusatsu"
+                    }
+                ]
+}

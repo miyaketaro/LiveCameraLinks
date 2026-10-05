@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "gifu",
+    "areaCount":  1,
+    "cameraCount":  1,
+    "areas":  [
+                  {
+                      "area":  "shirakawago",
+                      "file":  "shirakawago.json",
+                      "cameraCount":  1
+                  }
+              ]
+}

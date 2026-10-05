@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "gifu",
+    "areaCount":  1,
+    "cameraCount":  2,
+    "areas":  [
+                  {
+                      "area":  "shirakawago",
+                      "file":  "shirakawago.json",
+                      "cameraCount":  2
+                  }
+              ]
+}

@@ -17,3 +17,21 @@ coordinate_normalization_report.json
 migration_port_report.json
 migration_port_rollback_report.json
 migration_hakone_report.json
+
+# Local migration scripts
+migrate_matsumoto_*.ps1
+migrate_shirakawago_*.ps1
+migrate_kusatsu_*.ps1
+migrate_atami_*.ps1
+migrate_kyoto_*.ps1
+add_kyoto_roads_*.ps1
+fix_kyoto_roads_*.ps1
+
+# Local migration reports
+migration_matsumoto_report.json
+migration_shirakawago_report.json
+migration_kusatsu_report.json
+migration_atami_report.json
+migration_kyoto_report.json
+migration_kyoto_roads_report.json
+migration_kyoto_roads_fix_report.json

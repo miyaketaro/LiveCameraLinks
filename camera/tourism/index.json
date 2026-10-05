@@ -3,16 +3,46 @@
     "category":  "tourism",
     "prefectures":  [
                         {
-                            "prefecture":  "tokyo",
-                            "file":  "tokyo/index.json",
-                            "areaCount":  23,
-                            "cameraCount":  13
+                            "prefecture":  "gifu",
+                            "file":  "gifu/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
+                            "prefecture":  "gunma",
+                            "file":  "gunma/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  12
                         },
                         {
                             "prefecture":  "kanagawa",
                             "file":  "kanagawa/index.json",
                             "areaCount":  1,
                             "cameraCount":  3
+                        },
+                        {
+                            "prefecture":  "kyoto",
+                            "file":  "kyoto/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  20
+                        },
+                        {
+                            "prefecture":  "nagano",
+                            "file":  "nagano/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  4
+                        },
+                        {
+                            "prefecture":  "shizuoka",
+                            "file":  "shizuoka/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "tokyo",
+                            "file":  "tokyo/index.json",
+                            "areaCount":  23,
+                            "cameraCount":  13
                         }
                     ]
 }

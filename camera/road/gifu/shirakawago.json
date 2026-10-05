@@ -1,0 +1,110 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "gifu",
+    "area":  "shirakawago",
+    "cameraCount":  3,
+    "cameras":  [
+                    {
+                        "id":  "gifu_shirakawago_ogimachi_intersection",
+                        "name":  "白川郷・荻町交差点",
+                        "place":  "岐阜県 大野郡白川村 荻町",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "SHIRAKAWA - Going",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://shirakawa-going.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "交通ライブカメラ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "観光地周辺"
+                                   ],
+                        "viewTargets":  [
+                                            "荻町交差点",
+                                            "せせらぎ公園駐車場方面"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式交通情報ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    },
+                    {
+                        "id":  "gifu_shirakawago_daily_intersection",
+                        "name":  "白川郷・デイリー交差点",
+                        "place":  "岐阜県 大野郡白川村",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "SHIRAKAWA - Going",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://shirakawa-going.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "交通ライブカメラ",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "観光地周辺"
+                                   ],
+                        "viewTargets":  [
+                                            "デイリー交差点",
+                                            "せせらぎ公園駐車場方面"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式交通情報ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    },
+                    {
+                        "id":  "gifu_shirakawago_r156",
+                        "name":  "白川郷・国道156号",
+                        "place":  "岐阜県 大野郡白川村",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道156号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "SHIRAKAWA - Going",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://shirakawa-going.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "交通ライブカメラ",
+                        "themes":  [
+                                       "道路",
+                                       "国道",
+                                       "渋滞・流れ",
+                                       "雪道"
+                                   ],
+                        "viewTargets":  [
+                                            "国道156号",
+                                            "白川郷アクセス"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式交通情報ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    }
+                ]
+}

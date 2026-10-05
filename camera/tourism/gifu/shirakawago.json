@@ -1,0 +1,43 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "gifu",
+    "area":  "shirakawago",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "gifu_shirakawago_ogimachi_viewpoint",
+                        "name":  "白川郷合掌造り集落・荻町城跡展望台",
+                        "place":  "岐阜県 大野郡白川村 荻町",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "白川村役場",
+                        "publisher":  "白川村",
+                        "providerPageUrl":  "https://www.vill.shirakawa.lg.jp/livecam/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式静止画",
+                        "updateInterval":  "1分",
+                        "themes":  [
+                                       "観光・名所",
+                                       "世界遺産",
+                                       "積雪"
+                                   ],
+                        "viewTargets":  [
+                                            "白川郷合掌造り集落",
+                                            "荻町"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "gifu",
+                        "areaCode":  "shirakawago"
+                    }
+                ]
+}

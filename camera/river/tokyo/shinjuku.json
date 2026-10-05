@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_16",
@@ -57,7 +58,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_kanda_minamiotakibashi",
@@ -89,7 +91,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

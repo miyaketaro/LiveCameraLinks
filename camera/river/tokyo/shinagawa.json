@@ -44,7 +44,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_41",
@@ -71,7 +72,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_shinagawa_meguro_ichibabashi",
@@ -104,7 +106,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_meguro_morinagabashi",
@@ -137,7 +140,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_tsukimibashi",
@@ -170,7 +174,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_sakurabashi",
@@ -203,7 +208,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_tachiaibashi",
@@ -236,7 +242,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_tachiaibashi_down",
@@ -269,7 +276,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_benten_up",
@@ -302,7 +310,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_estuary_up",
@@ -335,7 +344,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shinagawa_tachiai_estuary_down",
@@ -368,7 +378,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_showabashi",
@@ -400,7 +411,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_ebara_up",
@@ -432,7 +444,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_ebara_down",
@@ -464,7 +477,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_taniyamabashi",
@@ -496,7 +510,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "shinagawa_megurogawa_ichibabashi",
@@ -536,7 +551,8 @@
                         "auditStatus":  "現行掲載確認済み",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "shinagawa_megurogawa_suimon_inside",
@@ -576,7 +592,8 @@
                         "auditStatus":  "現行掲載・配信元確認済み",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

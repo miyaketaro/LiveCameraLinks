@@ -34,7 +34,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "chuoku_kachidoki_station_sumida",
@@ -81,7 +82,8 @@
                         "healthReason":  "参照ページ周辺カメラでLIVE掲載を確認。固定動画URLは未確定のため配信チャンネルを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_all",
@@ -128,7 +130,8 @@
                         "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_inside",
@@ -175,7 +178,8 @@
                         "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_outside",
@@ -222,7 +226,8 @@
                         "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

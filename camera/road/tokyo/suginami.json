@@ -42,7 +42,8 @@
                         "auditStatus":  "公式掲載・安定配信入口設定済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

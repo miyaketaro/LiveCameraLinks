@@ -48,7 +48,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_koto_big_sight_sky",
@@ -87,7 +88,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

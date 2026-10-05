@@ -41,7 +41,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/seibushinjuku-station-pepe-crossing/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_cityhall",
@@ -78,7 +79,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-5-kabukicho-teikei/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_kamiochiai_waseda",
@@ -112,7 +114,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_oguard_west",
@@ -149,7 +152,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-crossing/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_5chome",
@@ -188,7 +192,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-5-kabukicho-teikei/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_hatsudai_kita_r317",
@@ -229,7 +234,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_ichigaya_honmuracho_r405",
@@ -269,7 +275,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_east_odori",
@@ -313,7 +320,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_shinjuku_kuyakusho_dori",
@@ -353,7 +361,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

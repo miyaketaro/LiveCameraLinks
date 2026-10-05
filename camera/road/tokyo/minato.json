@@ -46,7 +46,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "odaiba",
@@ -72,7 +73,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_haigo_oi",
@@ -103,7 +105,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_immigration",
@@ -135,7 +138,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -175,7 +179,8 @@
                         "healthReason":  "配信中・24時間365日・独自リアルタイム配信を確認。首都高3号渋谷線・谷町JCT付近を撮影",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -216,7 +221,8 @@
                         "healthReason":  "映像コンサル公式チャンネル・個別YouTube映像へ置換",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -258,7 +264,8 @@
                         "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -299,7 +306,8 @@
                         "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_mita_route1",
@@ -338,7 +346,8 @@
                         "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_mita2_route1",
@@ -377,7 +386,8 @@
                         "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_ariake_jct",
@@ -418,7 +428,8 @@
                         "auditStatus":  "現行LIVE確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_shimbashi_area_live",
@@ -458,7 +469,8 @@
                         "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_shibakoen",
@@ -496,7 +508,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "mtv_shibaura",
@@ -535,7 +548,8 @@
                         "auditStatus":  "公式掲載・安定配信入口設定済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

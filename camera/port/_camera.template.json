@@ -1,0 +1,17 @@
+{
+    "id":  "port-prefecture-area-001",
+    "name":  "Port camera name",
+    "category":  "port",
+    "prefectureCode":  "",
+    "areaCode":  "",
+    "place":  "",
+    "lat":  null,
+    "lng":  null,
+    "coordinateType":  "unknown",
+    "providerPageUrl":  "",
+    "directStreamUrl":  "",
+    "themes":  [
+                   "port"
+               ],
+    "status":  "active"
+}

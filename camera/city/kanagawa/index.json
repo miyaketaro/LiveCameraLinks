@@ -1,0 +1,14 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "kanagawa",
+    "areaCount":  1,
+    "cameraCount":  0,
+    "areas":  [
+                  {
+                      "area":  "hakone",
+                      "file":  "hakone.json",
+                      "cameraCount":  0
+                  }
+              ]
+}

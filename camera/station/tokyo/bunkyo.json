@@ -40,7 +40,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "bunkyo"
+                        "areaCode":  "bunkyo",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

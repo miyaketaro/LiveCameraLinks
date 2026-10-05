@@ -1,0 +1,17 @@
+{
+    "id":  "airport-prefecture-area-001",
+    "name":  "Camera name",
+    "category":  "airport",
+    "prefectureCode":  "",
+    "areaCode":  "",
+    "place":  "",
+    "lat":  null,
+    "lng":  null,
+    "coordinateType":  "unknown",
+    "providerPageUrl":  "",
+    "directStreamUrl":  "",
+    "themes":  [
+                   "airport"
+               ],
+    "status":  "active"
+}

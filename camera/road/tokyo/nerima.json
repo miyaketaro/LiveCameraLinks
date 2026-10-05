@@ -54,7 +54,8 @@
                         "batchArea":  "東京都練馬区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

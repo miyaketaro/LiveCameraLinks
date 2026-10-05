@@ -47,7 +47,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_east",
@@ -79,7 +80,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_jonanjima",
@@ -128,7 +130,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_jonanjima_zoom",
@@ -177,7 +180,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_under",
@@ -209,7 +213,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_oi",
@@ -240,7 +245,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_kan7",
@@ -272,7 +278,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_chubou_outer_wharf",
@@ -304,7 +311,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_chubou_ohashi_tunnel",
@@ -337,7 +345,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_chubou_gatebridge_reiwajima",
@@ -370,7 +379,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_ota_tamagawa_denenchofu_marukobashi",
@@ -414,7 +424,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

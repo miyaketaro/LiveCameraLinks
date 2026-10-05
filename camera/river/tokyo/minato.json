@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_furukawa_shinobashi",
@@ -62,7 +63,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_furukawa_intake_up",
@@ -94,7 +96,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_furukawa_intake_down",
@@ -126,7 +129,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "region":  "関東",
@@ -165,7 +169,8 @@
                         "healthReason":  "livecombs港区現行一覧でLIVE掲載を確認。固定ダイレクトURL未確定のため配信元入口を主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -204,7 +209,8 @@
                         "healthReason":  "配信中・24時間365日・YouTubeリアルタイム動画を確認。高浜水門内水側を撮影",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "region":  "関東",
@@ -243,7 +249,8 @@
                         "healthReason":  "livecombs港区現行一覧でLIVE掲載を確認。固定ダイレクトURL未確定のため配信元入口を主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

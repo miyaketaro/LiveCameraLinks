@@ -42,7 +42,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_shinokubo_station",
@@ -75,7 +76,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_shinjuku_west_plaza",
@@ -115,7 +117,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

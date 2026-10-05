@@ -54,7 +54,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_takaracho_c1",
@@ -93,7 +94,8 @@
                         "referencePageUrl":  "https://livecombs.com/highway/tokyoto/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_gofukubashi_c1",
@@ -133,7 +135,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/metropolitan-exway-toshinkanjo-gofukubashi-jct/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_edobashi_hakozaki",
@@ -172,7 +175,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_chuo_kabuto_one",
@@ -215,7 +219,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

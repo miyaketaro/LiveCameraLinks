@@ -40,7 +40,8 @@
                                         ],
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "arakawa"
+                        "areaCode":  "arakawa",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

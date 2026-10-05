@@ -54,7 +54,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_kojimachi_r20",
@@ -93,7 +94,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_takebashi_jct_c1",
@@ -173,7 +175,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_sukiyabashi",
@@ -217,7 +220,8 @@
                         "mediaType":  "YouTube LIVE",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_chiyoda_kasumigaseki_tokyo_np",
@@ -274,7 +278,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_chiyoda_uchisaiwaicho_tokyo_np",
@@ -330,7 +335,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_chiyoda_entas_akihabara",
@@ -384,7 +390,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "mtv_iidabashi",
@@ -423,7 +430,8 @@
                         "auditStatus":  "公式掲載・安定配信入口設定済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

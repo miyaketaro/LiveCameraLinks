@@ -3,7 +3,7 @@
     "category":  "parking",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  10,
+    "cameraCount":  5,
     "areas":  [
                   {
                       "area":  "adachi",
@@ -63,7 +63,7 @@
                   {
                       "area":  "minato",
                       "file":  "minato.json",
-                      "cameraCount":  4
+                      "cameraCount":  3
                   },
                   {
                       "area":  "nakano",
@@ -78,7 +78,7 @@
                   {
                       "area":  "ota",
                       "file":  "ota.json",
-                      "cameraCount":  4
+                      "cameraCount":  0
                   },
                   {
                       "area":  "setagaya",

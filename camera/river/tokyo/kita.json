@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_shingashi_shimobashi",
@@ -62,7 +63,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shingashi_shingashibashi",
@@ -94,7 +96,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_shingashi_ukimabashi",
@@ -126,7 +129,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

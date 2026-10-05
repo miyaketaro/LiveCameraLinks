@@ -31,7 +31,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_jukansen_chubou",
@@ -63,7 +64,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_3chome",
@@ -94,7 +96,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_haigodouro1",
@@ -126,7 +129,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_jukansen_telecom",
@@ -158,7 +162,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_haigodouro2",
@@ -190,7 +195,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_1chome_chubou",
@@ -222,7 +228,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_aomi_waiting_area",
@@ -254,7 +261,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_gatebridge_chubou_tower",
@@ -286,7 +294,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "mtv_edagawa",
@@ -325,7 +334,8 @@
                         "auditStatus":  "公式掲載・安定配信入口設定済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

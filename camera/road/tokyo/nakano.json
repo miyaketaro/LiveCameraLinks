@@ -37,7 +37,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_nakano_auto_waseda",
@@ -76,7 +77,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

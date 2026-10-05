@@ -43,7 +43,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "koto"
+                        "areaCode":  "koto",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

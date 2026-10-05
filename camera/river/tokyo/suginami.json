@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_19",
@@ -57,7 +58,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_24",
@@ -84,7 +86,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_25",
@@ -111,7 +114,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_36",
@@ -138,7 +142,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_38",
@@ -165,7 +170,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_81",
@@ -192,7 +198,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_84",
@@ -219,7 +226,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_harajibu",
@@ -252,7 +260,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_maruyama",
@@ -285,7 +294,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_okita",
@@ -318,7 +328,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_ogikubo",
@@ -351,7 +362,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_matsumi",
@@ -384,7 +396,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_aioi",
@@ -417,7 +430,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_hakusammae",
@@ -450,7 +464,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_musashino",
@@ -483,7 +498,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_koyo",
@@ -516,7 +532,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_banya",
@@ -549,7 +566,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_wadami_up",
@@ -582,7 +600,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_zenpukuji_miyashitabashi",
@@ -615,7 +634,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_zenpukuji_wadabori_retarding",
@@ -650,7 +670,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_tokyo_suginami_fujimibashi_station",
@@ -690,7 +711,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_tokyo_suginami_musashinobashi_station",
@@ -730,7 +752,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_tokyo_suginami_koyobashi_station",
@@ -770,7 +793,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_tokyo_suginami_maruyamabashi_station",
@@ -810,7 +834,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "suginami"
+                        "areaCode":  "suginami",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

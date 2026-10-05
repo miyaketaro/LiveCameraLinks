@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  311,
-                       "prefectureCount":  1,
-                       "areaCount":  23,
+                       "cameraCount":  317,
+                       "prefectureCount":  2,
+                       "areaCount":  24,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  95
+                                          "cameraCount":  98
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -36,8 +36,12 @@
                                          },
                              "tourism":  {
                                              "file":  "tourism/index.json",
-                                             "cameraCount":  13
-                                         }
+                                             "cameraCount":  16
+                                         },
+                             "port":  {
+                                          "file":  "port/index.json",
+                                          "cameraCount":  0
+                                      }
                          },
     "routes":  {
                    "index":  "route/index.json"
@@ -47,6 +51,11 @@
                             "prefecture":  "tokyo",
                             "areaCount":  23,
                             "cameraCount":  311
+                        },
+                        {
+                            "prefecture":  "kanagawa",
+                            "areaCount":  1,
+                            "cameraCount":  6
                         }
                     ]
 }

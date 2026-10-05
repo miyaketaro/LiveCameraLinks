@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_88",
@@ -57,7 +58,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_89",
@@ -84,7 +86,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nogawa_kamatabashi",
@@ -116,7 +119,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_sengawa_kamatabashi",
@@ -148,7 +152,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_sengawa_miyashitabashi",
@@ -180,7 +185,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_yazawa_tamagawahikan",
@@ -212,7 +218,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

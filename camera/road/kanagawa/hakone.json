@@ -1,0 +1,113 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "kanagawa",
+    "area":  "hakone",
+    "cameraCount":  3,
+    "cameras":  [
+                    {
+                        "id":  "kanagawa_hakone_hakone_pass",
+                        "name":  "箱根峠",
+                        "place":  "神奈川県 足柄下郡箱根町 箱根峠",
+                        "region":  "関東",
+                        "kind":  "道路・観光",
+                        "category":  "road",
+                        "source":  "箱根町観光協会",
+                        "publisher":  "箱根町観光協会",
+                        "providerPageUrl":  "https://www.hakone.or.jp/7273",
+                        "directStreamUrl":  "https://www.ktr.mlit.go.jp/yokohama/yokokoku_index012.html",
+                        "linkPolicy":  "both",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "道路",
+                                       "観光・名所",
+                                       "雪道"
+                                   ],
+                        "viewTargets":  [
+                                            "箱根峠",
+                                            "国道1号",
+                                            "箱根新道周辺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    },
+                    {
+                        "id":  "kanagawa_hakone_otome_pass",
+                        "name":  "仙石原乙女峠",
+                        "place":  "神奈川県 足柄下郡箱根町 仙石原・乙女峠",
+                        "region":  "関東",
+                        "kind":  "道路・観光",
+                        "category":  "road",
+                        "source":  "箱根町観光協会",
+                        "publisher":  "箱根町観光協会",
+                        "providerPageUrl":  "https://www.hakone.or.jp/7285",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "道路",
+                                       "観光・名所",
+                                       "雪道",
+                                       "峠"
+                                   ],
+                        "viewTargets":  [
+                                            "仙石原",
+                                            "乙女峠",
+                                            "周辺道路"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    },
+                    {
+                        "id":  "kanagawa_hakone_shindo",
+                        "name":  "箱根新道ライブカメラ",
+                        "place":  "神奈川県 足柄下郡箱根町 箱根新道",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "source":  "国土交通省 関東地方整備局 横浜国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 横浜国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/yokohama/yokokoku_index012.html",
+                        "directStreamUrl":  "https://www.ktr.mlit.go.jp/yokohama/live-camera/live.html",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "公式静止画",
+                        "updateInterval":  "10分",
+                        "themes":  [
+                                       "道路",
+                                       "雪道",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "箱根峠付近",
+                                            "畑宿付近",
+                                            "箱根新道"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    }
+                ]
+}

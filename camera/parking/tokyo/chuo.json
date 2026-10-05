@@ -52,7 +52,8 @@
                         "healthReason":  "東京都道路整備保全公社の公式施設ページを主導線に設定",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

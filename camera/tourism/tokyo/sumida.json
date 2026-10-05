@@ -46,7 +46,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "sumida"
+                        "areaCode":  "sumida",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

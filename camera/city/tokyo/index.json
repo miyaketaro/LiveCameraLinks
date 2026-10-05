@@ -3,7 +3,7 @@
     "category":  "city",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  7,
+    "cameraCount":  5,
     "areas":  [
                   {
                       "area":  "adachi",
@@ -53,7 +53,7 @@
                   {
                       "area":  "koto",
                       "file":  "koto.json",
-                      "cameraCount":  1
+                      "cameraCount":  0
                   },
                   {
                       "area":  "meguro",
@@ -78,7 +78,7 @@
                   {
                       "area":  "ota",
                       "file":  "ota.json",
-                      "cameraCount":  1
+                      "cameraCount":  0
                   },
                   {
                       "area":  "setagaya",

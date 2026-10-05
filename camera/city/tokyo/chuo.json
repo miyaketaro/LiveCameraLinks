@@ -47,7 +47,8 @@
                         "healthReason":  "基準リスト掲載。朝日新聞の個別ライブ固定URLは未確定のため公式トップを主導線に設定",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chuo"
+                        "areaCode":  "chuo",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

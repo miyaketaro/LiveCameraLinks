@@ -43,7 +43,8 @@
                         "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_roppongi6_412",
@@ -83,7 +84,8 @@
                         "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_shimbashi3_parking",
@@ -123,7 +125,8 @@
                         "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "minato_kaigan2_481",
@@ -163,7 +166,8 @@
                         "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

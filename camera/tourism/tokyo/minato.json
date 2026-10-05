@@ -42,7 +42,8 @@
                         "jmaLabel":  "東京都 東京地方",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

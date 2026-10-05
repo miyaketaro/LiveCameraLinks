@@ -7,6 +7,12 @@
                             "file":  "tokyo/index.json",
                             "areaCount":  23,
                             "cameraCount":  95
+                        },
+                        {
+                            "prefecture":  "kanagawa",
+                            "file":  "kanagawa/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  3
                         }
                     ]
 }

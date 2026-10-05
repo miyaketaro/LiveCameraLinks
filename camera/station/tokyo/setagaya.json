@@ -57,7 +57,8 @@
                                         ],
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

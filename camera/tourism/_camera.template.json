@@ -1,0 +1,17 @@
+{
+    "id":  "tourism-prefecture-area-001",
+    "name":  "Camera name",
+    "category":  "tourism",
+    "prefectureCode":  "",
+    "areaCode":  "",
+    "place":  "",
+    "lat":  null,
+    "lng":  null,
+    "coordinateType":  "unknown",
+    "providerPageUrl":  "",
+    "directStreamUrl":  "",
+    "themes":  [
+                   "tourism"
+               ],
+    "status":  "active"
+}

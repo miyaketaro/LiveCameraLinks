@@ -1,0 +1,17 @@
+{
+    "id":  "river-prefecture-area-001",
+    "name":  "Camera name",
+    "category":  "river",
+    "prefectureCode":  "",
+    "areaCode":  "",
+    "place":  "",
+    "lat":  null,
+    "lng":  null,
+    "coordinateType":  "unknown",
+    "providerPageUrl":  "",
+    "directStreamUrl":  "",
+    "themes":  [
+                   "river"
+               ],
+    "status":  "active"
+}

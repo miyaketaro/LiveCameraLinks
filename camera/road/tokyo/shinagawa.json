@@ -35,7 +35,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_hokubu_upper",
@@ -67,7 +68,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_yashio2",
@@ -98,7 +100,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_zeikanmae",
@@ -130,7 +133,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/tokyo-road316-oi-customs-mae-crossroad1/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_container_center",
@@ -162,7 +166,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/tokyo-road480-shinagawa-container-center/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_haigo_shibaura",
@@ -193,7 +198,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_todou480",
@@ -225,7 +231,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_oi_minatogaoka",
@@ -269,7 +276,8 @@
                         "auditStatus":  "現行掲載・配信状態確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "road_tokyo_oi_chuo_rikkyo",
@@ -312,7 +320,8 @@
                         "auditStatus":  "現行配信・静止画方式確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "road_tokyo_oi_zeikanmae2",
@@ -354,7 +363,8 @@
                         "auditStatus":  "現行掲載・配信状態確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "road_tokyo_oi_chassis_pool",
@@ -388,7 +398,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "road_tokyo_oi_hokubu_south",
@@ -423,7 +434,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_mtv_oi_jct",
@@ -461,7 +473,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinagawa"
+                        "areaCode":  "shinagawa",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

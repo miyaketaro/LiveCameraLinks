@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_horikiri",
@@ -63,7 +64,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_higashiyotsugi",
@@ -96,7 +98,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_naka_shinnaka_branch",
@@ -129,7 +132,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_okudo",
@@ -162,7 +166,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_higashitateishi",
@@ -195,7 +200,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_obagawa",
@@ -228,7 +234,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_koaidame",
@@ -261,7 +268,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_horikiri_port",
@@ -294,7 +302,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_takasago",
@@ -327,7 +336,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_katsushika_edogawa_matsudo_gauge",
@@ -360,7 +370,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_tokyo_katsushika_ayasegawa_mitobashi",
@@ -400,7 +411,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_katsushika_nakagawa_aoto_mlit",
@@ -440,7 +452,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "katsushika"
+                        "areaCode":  "katsushika",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

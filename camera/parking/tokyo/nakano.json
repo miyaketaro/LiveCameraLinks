@@ -45,7 +45,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

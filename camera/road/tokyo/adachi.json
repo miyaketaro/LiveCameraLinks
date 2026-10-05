@@ -41,7 +41,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_toneri_liner",
@@ -82,7 +83,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_cityscape",
@@ -120,7 +122,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

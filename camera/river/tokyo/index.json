@@ -3,7 +3,7 @@
     "category":  "river",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  159,
+    "cameraCount":  158,
     "areas":  [
                   {
                       "area":  "adachi",
@@ -33,7 +33,7 @@
                   {
                       "area":  "edogawa",
                       "file":  "edogawa.json",
-                      "cameraCount":  5
+                      "cameraCount":  4
                   },
                   {
                       "area":  "itabashi",

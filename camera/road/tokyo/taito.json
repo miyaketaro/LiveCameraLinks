@@ -35,7 +35,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "taito"
+                        "areaCode":  "taito",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

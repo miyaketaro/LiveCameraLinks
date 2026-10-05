@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_08",
@@ -57,7 +58,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_26",
@@ -84,7 +86,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_33",
@@ -111,7 +114,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_57",
@@ -138,7 +142,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_58",
@@ -165,7 +170,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_59",
@@ -192,7 +198,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_60",
@@ -219,7 +226,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_70",
@@ -246,7 +254,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_71",
@@ -273,7 +282,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_72",
@@ -300,7 +310,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_73",
@@ -327,7 +338,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nerima_shirako_koyasubashi",
@@ -360,7 +372,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nerima"
+                        "areaCode":  "nerima",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

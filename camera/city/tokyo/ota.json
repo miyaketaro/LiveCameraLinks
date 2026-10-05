@@ -31,7 +31,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

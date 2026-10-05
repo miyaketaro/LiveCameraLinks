@@ -41,7 +41,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_kita_oku_center",
@@ -79,7 +80,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "kita"
+                        "areaCode":  "kita",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

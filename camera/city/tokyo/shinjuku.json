@@ -41,7 +41,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shinjuku"
+                        "areaCode":  "shinjuku",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

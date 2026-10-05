@@ -7,3 +7,13 @@ repository_tree.txt
 rebuild_camera*.ps1
 migrate_camera*.ps1
 migrate_tokyo23*.ps1
+
+# Local migration scripts / reports
+add_port_category_*.ps1
+rollback_port_*.ps1
+normalize_coordinates_*.ps1
+migrate_hakone_*.ps1
+coordinate_normalization_report.json
+migration_port_report.json
+migration_port_rollback_report.json
+migration_hakone_report.json

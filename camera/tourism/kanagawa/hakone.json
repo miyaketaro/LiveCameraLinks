@@ -1,0 +1,103 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "kanagawa",
+    "area":  "hakone",
+    "cameraCount":  3,
+    "cameras":  [
+                    {
+                        "id":  "kanagawa_hakone_yumoto",
+                        "name":  "箱根湯本",
+                        "place":  "神奈川県 足柄下郡箱根町 湯本",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "source":  "箱根町観光協会",
+                        "publisher":  "箱根町観光協会",
+                        "providerPageUrl":  "https://www.hakone.or.jp/7281",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "温泉地"
+                                   ],
+                        "viewTargets":  [
+                                            "箱根湯本"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    },
+                    {
+                        "id":  "kanagawa_hakone_ashinoko",
+                        "name":  "芦ノ湖眺望カメラ",
+                        "place":  "神奈川県 足柄下郡箱根町 芦ノ湖",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "source":  "箱根町観光協会",
+                        "publisher":  "箱根町観光協会",
+                        "providerPageUrl":  "https://www.hakone.or.jp/7273",
+                        "directStreamUrl":  "http://www.hakone.or.jp/web-camera/camera_window6.html",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "湖"
+                                   ],
+                        "viewTargets":  [
+                                            "芦ノ湖"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    },
+                    {
+                        "id":  "kanagawa_hakone_kintoki",
+                        "name":  "金時山山頂・金太郎茶屋",
+                        "place":  "神奈川県 足柄下郡箱根町 金時山",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "source":  "箱根町観光協会",
+                        "publisher":  "箱根町観光協会",
+                        "providerPageUrl":  "https://www.hakone.or.jp/7383",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "山"
+                                   ],
+                        "viewTargets":  [
+                                            "金時山山頂",
+                                            "金太郎茶屋"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "公式ページ確認済み",
+                        "prefectureCode":  "kanagawa",
+                        "areaCode":  "hakone",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown"
+                    }
+                ]
+}

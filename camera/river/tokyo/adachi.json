@@ -38,7 +38,8 @@
                                         ],
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_40",
@@ -68,7 +69,8 @@
                                    ],
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_shinshibakawa_shinshibakawabashi",
@@ -100,7 +102,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_kenagakawa_kenagabashi",
@@ -132,7 +135,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "adachi_arakawa_nishiarai_upstream",
@@ -173,7 +177,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

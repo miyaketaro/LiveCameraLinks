@@ -37,7 +37,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_adachi_gotanno_station",
@@ -84,7 +85,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_senju_asahicho",
@@ -123,7 +125,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_kitasenju_east",
@@ -162,7 +165,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "adachi"
+                        "areaCode":  "adachi",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

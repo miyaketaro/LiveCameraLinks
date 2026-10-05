@@ -44,7 +44,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_nakano_kogyo1",
@@ -85,7 +86,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_kandagawa_takasagobashi",
@@ -126,7 +128,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_04",
@@ -153,7 +156,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_17",
@@ -180,7 +184,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_20",
@@ -207,7 +212,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_23",
@@ -234,7 +240,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_35",
@@ -261,7 +268,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "river_tokyo_74",
@@ -288,7 +296,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_shinzen",
@@ -321,7 +330,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_myoshoji_kamitakadaue",
@@ -353,7 +363,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_saginomiya_retention",
@@ -394,7 +405,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_sosagibashi",
@@ -435,7 +447,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_kotobukijindo",
@@ -476,7 +489,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_kitaegota",
@@ -517,7 +531,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_nakano_myoshoji_myoko_confluence",
@@ -558,7 +573,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "nakano"
+                        "areaCode":  "nakano",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

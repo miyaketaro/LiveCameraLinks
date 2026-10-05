@@ -30,7 +30,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "bunkyo"
+                        "areaCode":  "bunkyo",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_kanda_ryukeibashi",
@@ -62,7 +63,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "bunkyo"
+                        "areaCode":  "bunkyo",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

@@ -52,7 +52,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_hatsudai",
@@ -90,7 +91,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_yoyogi_pa",
@@ -128,7 +130,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "shibuya_miyamasuzaka_305",
@@ -169,7 +172,8 @@
                         "auditStatus":  "現行LIVE確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "shibuya_center_inogashira",
@@ -210,7 +214,8 @@
                         "auditStatus":  "現行掲載・道路用途確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

@@ -36,7 +36,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "taito"
+                        "areaCode":  "taito",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "asakusa_main_hall",
@@ -69,7 +70,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "taito"
+                        "areaCode":  "taito",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "asakusa_hozomon",
@@ -102,7 +104,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "taito"
+                        "areaCode":  "taito",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "model_asakusa",
@@ -141,7 +144,8 @@
                         "jmaLabel":  "東京都 東京地方",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "taito"
+                        "areaCode":  "taito",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

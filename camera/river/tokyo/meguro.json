@@ -44,7 +44,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_horai",
@@ -90,7 +91,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-houraibashi/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_dengaku",
@@ -123,7 +125,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_taiko",
@@ -169,7 +172,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-taikobashi/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_nomikawa_kodai",
@@ -202,7 +206,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_aobadai",
@@ -247,7 +252,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-aobadai-2/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_funaire",
@@ -292,7 +298,8 @@
                         "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-funairiba/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "meguro"
+                        "areaCode":  "meguro",
+                        "coordinateType":  "unknown"
                     }
                 ]
 }

@@ -41,7 +41,8 @@
                         "desc":  "羽田空港P2駐車場入口の現在状況を公式ライブカメラで確認。",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "status":  "active",
@@ -78,7 +79,8 @@
                         "desc":  "羽田空港P2駐車場屋上の現在状況を公式ライブカメラで確認。",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "status":  "active",
@@ -116,7 +118,8 @@
                         "desc":  "羽田空港P3駐車場入口の現在状況を公式ライブカメラで確認。",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "status":  "active",
@@ -153,7 +156,8 @@
                         "desc":  "羽田空港P3駐車場屋上の現在状況を公式ライブカメラで確認。",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

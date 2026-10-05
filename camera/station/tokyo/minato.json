@@ -35,7 +35,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_hamamatsucho_station",
@@ -67,7 +68,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "minato"
+                        "areaCode":  "minato",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

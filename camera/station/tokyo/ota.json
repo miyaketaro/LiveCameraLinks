@@ -35,7 +35,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "city_tokyo_ota_kamata_sbps",
@@ -79,7 +80,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "ota"
+                        "areaCode":  "ota",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

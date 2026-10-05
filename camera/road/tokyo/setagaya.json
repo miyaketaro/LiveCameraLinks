@@ -49,7 +49,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "road_tokyo_setagaya_futagobashi_r246",
@@ -93,7 +94,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_yoga_road",
@@ -143,7 +145,8 @@
                                         ],
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_sangenjaya",
@@ -181,7 +184,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "setagaya"
+                        "areaCode":  "setagaya",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

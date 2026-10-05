@@ -40,7 +40,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "shibuya"
+                        "areaCode":  "shibuya",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

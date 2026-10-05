@@ -41,7 +41,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "toshima"
+                        "areaCode":  "toshima",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_mtv_kitaikebukuro",
@@ -79,7 +80,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "toshima"
+                        "areaCode":  "toshima",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

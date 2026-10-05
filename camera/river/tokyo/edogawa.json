@@ -36,7 +36,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "edogawa"
+                        "areaCode":  "edogawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_edogawa_shinnakagawa_nishikoiwa",
@@ -69,7 +70,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "edogawa"
+                        "areaCode":  "edogawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_edogawa_shinnaka_kyuedo",
@@ -102,7 +104,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "edogawa"
+                        "areaCode":  "edogawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "tokyo_edogawa_tokyobay_tide",
@@ -135,7 +138,8 @@
                         "completionDate":  "2026-09-27",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "edogawa"
+                        "areaCode":  "edogawa",
+                        "coordinateType":  "unknown"
                     },
                     {
                         "id":  "river_road_tokyo_edogawa_arakawa_shutoko7_downstream",
@@ -177,7 +181,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "edogawa"
+                        "areaCode":  "edogawa",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

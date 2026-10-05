@@ -58,7 +58,8 @@
                         "batchArea":  "東京都千代田区",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_chiyoda_chidorigafuchi",
@@ -108,7 +109,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "tokyo_chiyoda_yasukuni_sakura",
@@ -161,7 +163,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     },
                     {
                         "id":  "cametan_tokyo_chiyoda_benkeibashi_boat",
@@ -204,7 +207,8 @@
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
-                        "areaCode":  "chiyoda"
+                        "areaCode":  "chiyoda",
+                        "coordinateType":  "approximate"
                     }
                 ]
 }

@@ -1,0 +1,85 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "sumida",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_mtv_mukojima",
+                        "name":  "首都高6号向島線・向島付近",
+                        "place":  "東京都 墨田区",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.718,
+                        "lng":  139.814,
+                        "source":  "モバイルテレビジョン株式会社",
+                        "publisher":  "モバイルテレビジョン株式会社",
+                        "url":  "https://www.m-tv.jp/way.html",
+                        "providerPageUrl":  "https://www.m-tv.jp/way.html",
+                        "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "首都高速6号向島線",
+                                            "向島"
+                                        ],
+                        "desc":  "首都高6号向島線・向島付近。モバイルテレビジョン公式の自社所有道路ライブカメラ一覧に掲載。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "公式掲載確認",
+                        "healthReason":  "モバイルテレビジョン公式の自社所有道路ライブカメラ一覧で撮影地点を確認。個別LIVE URLはカメラ再起動で変わるため、安定した交通情報ライブカメラCHをダイレクト映像入口として採用。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "公式保有地点確認済み・YouTube配信入口統一済み",
+                        "completionVersion":  "v78",
+                        "completionDate":  "2026-09-29",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "sumida"
+                    },
+                    {
+                        "id":  "tokyo_mtv_kinshicho",
+                        "name":  "首都高7号小松川線・錦糸町付近",
+                        "place":  "東京都 墨田区",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.696,
+                        "lng":  139.814,
+                        "source":  "モバイルテレビジョン株式会社",
+                        "publisher":  "モバイルテレビジョン株式会社",
+                        "url":  "https://www.m-tv.jp/way.html",
+                        "providerPageUrl":  "https://www.m-tv.jp/way.html",
+                        "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "首都高速7号小松川線",
+                                            "錦糸町"
+                                        ],
+                        "desc":  "首都高7号小松川線・錦糸町付近。モバイルテレビジョン公式の自社所有道路ライブカメラ一覧に掲載。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "公式掲載確認",
+                        "healthReason":  "モバイルテレビジョン公式の自社所有道路ライブカメラ一覧で撮影地点を確認。個別LIVE URLはカメラ再起動で変わるため、安定した交通情報ライブカメラCHをダイレクト映像入口として採用。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "公式保有地点確認済み・YouTube配信入口統一済み",
+                        "completionVersion":  "v78",
+                        "completionDate":  "2026-09-29",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "sumida"
+                    }
+                ]
+}

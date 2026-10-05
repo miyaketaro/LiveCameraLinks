@@ -1,0 +1,85 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "toshima",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_mtv_minamiikebukuro_pa",
+                        "name":  "首都高5号池袋線・南池袋PA付近",
+                        "place":  "東京都 豊島区",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.723,
+                        "lng":  139.718,
+                        "source":  "モバイルテレビジョン株式会社",
+                        "publisher":  "モバイルテレビジョン株式会社",
+                        "url":  "https://www.m-tv.jp/way.html",
+                        "providerPageUrl":  "https://www.m-tv.jp/way.html",
+                        "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "首都高速5号池袋線",
+                                            "南池袋PA"
+                                        ],
+                        "desc":  "首都高5号池袋線・南池袋PA付近。モバイルテレビジョン公式の自社所有道路ライブカメラ一覧に掲載。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "公式掲載確認",
+                        "healthReason":  "モバイルテレビジョン公式の自社所有道路ライブカメラ一覧で撮影地点を確認。個別LIVE URLはカメラ再起動で変わるため、安定した交通情報ライブカメラCHをダイレクト映像入口として採用。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "公式保有地点確認済み・YouTube配信入口統一済み",
+                        "completionVersion":  "v78",
+                        "completionDate":  "2026-09-29",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "toshima"
+                    },
+                    {
+                        "id":  "tokyo_mtv_kitaikebukuro",
+                        "name":  "首都高5号池袋線・北池袋付近",
+                        "place":  "東京都 豊島区",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.741,
+                        "lng":  139.715,
+                        "source":  "モバイルテレビジョン株式会社",
+                        "publisher":  "モバイルテレビジョン株式会社",
+                        "url":  "https://www.m-tv.jp/way.html",
+                        "providerPageUrl":  "https://www.m-tv.jp/way.html",
+                        "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ"
+                                   ],
+                        "viewTargets":  [
+                                            "首都高速5号池袋線",
+                                            "北池袋"
+                                        ],
+                        "desc":  "首都高5号池袋線・北池袋付近。モバイルテレビジョン公式の自社所有道路ライブカメラ一覧に掲載。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "公式掲載確認",
+                        "healthReason":  "モバイルテレビジョン公式の自社所有道路ライブカメラ一覧で撮影地点を確認。個別LIVE URLはカメラ再起動で変わるため、安定した交通情報ライブカメラCHをダイレクト映像入口として採用。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "公式保有地点確認済み・YouTube配信入口統一済み",
+                        "completionVersion":  "v78",
+                        "completionDate":  "2026-09-29",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "toshima"
+                    }
+                ]
+}

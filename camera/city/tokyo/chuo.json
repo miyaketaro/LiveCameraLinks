@@ -1,0 +1,53 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "tokyo",
+    "area":  "chuo",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "chuoku_tsukiji_asahi",
+                        "name":  "築地",
+                        "place":  "東京都 中央区築地",
+                        "region":  "関東",
+                        "kind":  "街",
+                        "aliases":  [
+                                        "中央区",
+                                        "築地",
+                                        "築地市場",
+                                        "築地周辺"
+                                    ],
+                        "icon":  "🏙",
+                        "lat":  35.6666,
+                        "lng":  139.7707,
+                        "source":  "朝日新聞社",
+                        "publisher":  "朝日新聞社",
+                        "url":  "https://www.asahi.com/",
+                        "providerPageUrl":  "https://www.asahi.com/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "ライブカメラ",
+                        "themes":  [
+                                       "市街地",
+                                       "観光・名所"
+                                   ],
+                        "viewTargets":  [
+                                            "築地周辺"
+                                        ],
+                        "desc":  "朝日新聞社配信の築地周辺ライブカメラ。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "要継続確認",
+                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
+                        "batchSource":  "livecombs",
+                        "batchArea":  "東京都中央区",
+                        "completionVersion":  "v63",
+                        "completionDate":  "2026-09-29",
+                        "healthReason":  "基準リスト掲載。朝日新聞の個別ライブ固定URLは未確定のため公式トップを主導線に設定",
+                        "category":  "city",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "chuo"
+                    }
+                ]
+}

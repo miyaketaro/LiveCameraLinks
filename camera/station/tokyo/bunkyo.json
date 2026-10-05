@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "bunkyo",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_korakuen_station",
+                        "name":  "後楽園駅周辺・東京ドームシティ／都道434号",
+                        "place":  "東京都 文京区後楽1丁目",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅周辺",
+                        "aliases":  [
+                                        "後楽園駅",
+                                        "東京ドーム",
+                                        "東京ドームシティ",
+                                        "丸ノ内線"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.7056,
+                        "lng":  139.7518,
+                        "source":  "東京ドームシティ",
+                        "publisher":  "東京ドームシティ公式",
+                        "url":  "https://www.youtube.com/watch?v=7XzfKy8CzdY",
+                        "providerPageUrl":  "https://www.youtube.com/@TokyoDomeCity_Official",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=7XzfKy8CzdY",
+                        "linkPolicy":  "DUAL",
+                        "preferredView":  "DIRECT_STREAM",
+                        "mediaType":  "YouTube LIVE・24/7",
+                        "desc":  "東京ドームシティと後楽園駅周辺の景色。",
+                        "sourceTier":  "運営者",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "配信元または現行掲載を確認",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "bunkyo"
+                    }
+                ]
+}

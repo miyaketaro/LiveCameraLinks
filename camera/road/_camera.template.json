@@ -1,0 +1,24 @@
+{
+  "id": "road-prefecture-city-001",
+  "name": "Camera name",
+  "category": "road",
+  "prefecture": "",
+  "city": "",
+  "road_name": "",
+  "latitude": null,
+  "longitude": null,
+  "provider": {
+    "name": "",
+    "url": ""
+  },
+  "video": {
+    "type": "youtube|image|official",
+    "url": ""
+  },
+  "map_url": "",
+  "route_url": "",
+  "tags": [
+    "road"
+  ],
+  "status": "active"
+}

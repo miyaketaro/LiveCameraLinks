@@ -1,0 +1,10 @@
+{
+    "schemaVersion":  "1.0",
+    "entity":  "route",
+    "description":  "Route groups reference existing camera IDs.",
+    "routeTypes":  {
+                       "national":  "national/index.json",
+                       "expressway":  "expressway/index.json",
+                       "travel":  "travel/index.json"
+                   }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "route-national-158",
+  "name": "National Route 158",
+  "type": "national-road",
+  "route_number": "158",
+  "prefectures": [],
+  "camera_ids": [],
+  "tags": [
+    "national-road"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "shibuya",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_shibuya_station_panorama",
+                        "name":  "渋谷・セルリアンタワー定点カメラ",
+                        "place":  "東京都 渋谷区桜丘町",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅周辺",
+                        "aliases":  [
+                                        "渋谷駅",
+                                        "渋谷",
+                                        "東急東横線",
+                                        "東急田園都市線",
+                                        "新玉川線",
+                                        "渋谷スクランブルスクエア"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6567,
+                        "lng":  139.6993,
+                        "source":  "イッツ・コミュニケーションズ",
+                        "url":  "https://itscom.media/ch/livecam/",
+                        "providerPageUrl":  "https://itscom.media/ch/livecam/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=f50R4vDlCmA",
+                        "preferredView":  "direct",
+                        "desc":  "セルリアンタワーの定点カメラ。渋谷周辺や首都高速3号渋谷線方面の状況を確認できます。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "現行LIVE確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "現行のリアルタイムYouTube LIVEを再確認",
+                        "linkPolicy":  "both",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v109",
+                        "completionDate":  "2026-09-29",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "shibuya"
+                    }
+                ]
+}

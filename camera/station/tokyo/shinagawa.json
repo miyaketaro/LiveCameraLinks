@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "shinagawa",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_shimoshimmei_station",
+                        "name":  "下神明駅付近・鉄道立体交差",
+                        "place":  "東京都 品川区西品川",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "ホーム・線路",
+                        "aliases":  [
+                                        "下神明駅",
+                                        "東急大井町線",
+                                        "大井町線",
+                                        "東海道新幹線"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6097,
+                        "lng":  139.7281,
+                        "source":  "鉄道立体交差LIVE CAMERA",
+                        "publisher":  "鉄道立体交差LIVE CAMERA",
+                        "url":  "https://www.youtube.com/watch?v=2Z8isClEimg",
+                        "providerPageUrl":  "https://www.youtube.com/@shimoshimmei",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=2Z8isClEimg",
+                        "linkPolicy":  "DUAL",
+                        "preferredView":  "DIRECT_STREAM",
+                        "mediaType":  "YouTube LIVE",
+                        "desc":  "下神明駅付近を通る大井町線と新幹線。",
+                        "sourceTier":  "運営者",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "配信元または現行掲載を確認",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "shinagawa"
+                    }
+                ]
+}

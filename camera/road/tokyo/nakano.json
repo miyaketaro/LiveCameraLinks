@@ -1,0 +1,82 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "nakano",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "road_tokyo_nakano_waseda_auto",
+                        "name":  "早稲田通り・中野6丁目",
+                        "place":  "東京都 中野区中野6丁目3-7",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "aliases":  [
+                                        "早稲田通り",
+                                        "都道25号",
+                                        "飯田橋石神井新座線",
+                                        "中野6丁目",
+                                        "東京AUTO洗車中野店"
+                                    ],
+                        "icon":  "🛣",
+                        "lat":  35.7074,
+                        "lng":  139.6719,
+                        "source":  "東京AUTO洗車",
+                        "operatorType":  "民間配信",
+                        "url":  "https://www.youtube.com/@tokyo-auto-sensha-nakano",
+                        "desc":  "東京AUTO洗車中野店から東京都道25号飯田橋石神井新座線（早稲田通り）の交通状況をリアルタイムで確認できるライブカメラ。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "東京AUTO洗車中野店ライブが現行ライブカメラ一覧に掲載",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "nakano"
+                    },
+                    {
+                        "id":  "cametan_tokyo_nakano_auto_waseda",
+                        "name":  "早稲田通り・東京AUTO洗車中野店",
+                        "place":  "東京都 中野区中野6丁目3-7",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.708,
+                        "lng":  139.674,
+                        "source":  "東京AUTO洗車",
+                        "publisher":  "東京AUTO洗車",
+                        "url":  "https://tokyo-auto-sensha.com/",
+                        "providerPageUrl":  "https://tokyo-auto-sensha.com/",
+                        "directStreamUrl":  "https://www.youtube.com/@tokyo-auto-sensha-nakano",
+                        "linkPolicy":  "provider+direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路"
+                                   ],
+                        "viewTargets":  [
+                                            "早稲田通り",
+                                            "東京AUTO洗車中野店"
+                                        ],
+                        "desc":  "洗車場の混雑状況と早稲田通りをリアルタイム確認。",
+                        "status":  "active",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "現行LIVE確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13114.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都中野区",
+                        "completionVersion":  "v111",
+                        "completionDate":  "2026-09-29",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "nakano"
+                    }
+                ]
+}

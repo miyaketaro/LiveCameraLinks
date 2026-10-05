@@ -1,0 +1,36 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "river",
+    "prefecture":  "tokyo",
+    "area":  "shibuya",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "river_tokyo_91",
+                        "name":  "渋谷川・渋谷橋",
+                        "place":  "東京都 渋谷区恵比寿1",
+                        "region":  "関東",
+                        "kind":  "河川",
+                        "icon":  "🌊",
+                        "lat":  35.64805083,
+                        "lng":  139.7122828,
+                        "source":  "東京都建設局・東京都水防チャンネル",
+                        "providerPageUrl":  "https://www.kensetsu.metro.tokyo.lg.jp/river/suibo",
+                        "preferredView":  "PROVIDER_PAGE",
+                        "operatorType":  "自治体",
+                        "url":  "https://www.youtube.com/watch?v=Gwe_nY4QMj4",
+                        "desc":  "渋谷川の渋谷橋付近を映す河川監視カメラ。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "配信元または現行掲載を確認",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "river",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "shibuya"
+                    }
+                ]
+}

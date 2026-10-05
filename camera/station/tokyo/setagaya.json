@@ -1,0 +1,63 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "setagaya",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_futakotamagawa_station",
+                        "name":  "二子玉川駅周辺・多摩川",
+                        "place":  "東京都 世田谷区玉川",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅周辺",
+                        "aliases":  [
+                                        "二子玉川駅",
+                                        "二子玉川",
+                                        "二子玉川ライズ",
+                                        "田園都市線",
+                                        "旧新玉川線",
+                                        "新玉川線",
+                                        "東急大井町線",
+                                        "国道246号",
+                                        "玉川通り",
+                                        "新二子橋",
+                                        "多摩沿線道路"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6115,
+                        "lng":  139.6265,
+                        "source":  "イッツ・コミュニケーションズ",
+                        "url":  "https://www.youtube.com/live/fndY3LREfdE",
+                        "providerPageUrl":  "https://itscom.media/ch/livecam/",
+                        "directStreamUrl":  "https://www.youtube.com/live/fndY3LREfdE",
+                        "preferredView":  "direct",
+                        "desc":  "二子玉川駅周辺と多摩川の広域風景。国道246号（玉川通り）・新二子橋・多摩沿線道路も確認できる。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "道路用途再監査済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "イッツコム公式の24時間ライブ一覧で二子玉川を確認",
+                        "linkPolicy":  "both",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v92",
+                        "completionDate":  "2026-09-27",
+                        "themes":  [
+                                       "河川",
+                                       "道路",
+                                       "駅周辺"
+                                   ],
+                        "viewTargets":  [
+                                            "二子玉川駅",
+                                            "国道246号",
+                                            "多摩川",
+                                            "多摩沿線道路",
+                                            "新二子橋"
+                                        ],
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "setagaya"
+                    }
+                ]
+}

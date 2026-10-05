@@ -1,0 +1,40 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "sumida",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_ryogoku_station",
+                        "name":  "両国駅周辺",
+                        "place":  "東京都 墨田区両国",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅前",
+                        "aliases":  [
+                                        "両国駅",
+                                        "両国国技館"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6958,
+                        "lng":  139.7933,
+                        "source":  "Tokyolive",
+                        "url":  "https://www.youtube.com/watch?v=XpIILFB9iS0",
+                        "desc":  "両国駅周辺と街の景色。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "両国駅ライブが2026年7月時点で現行掲載",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "sumida"
+                    }
+                ]
+}

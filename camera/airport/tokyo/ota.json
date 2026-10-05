@@ -1,0 +1,86 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "airport",
+    "prefecture":  "tokyo",
+    "area":  "ota",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "cametan_tokyo_ota_haneda_t2_ntv",
+                        "name":  "羽田空港 第2ターミナル（日テレ）",
+                        "place":  "東京都 大田区羽田空港",
+                        "region":  "関東",
+                        "kind":  "空港",
+                        "icon":  "✈️",
+                        "lat":  35.551946,
+                        "lng":  139.788477,
+                        "source":  "日テレNEWS",
+                        "publisher":  "日テレNEWS",
+                        "url":  "https://www.youtube.com/watch?v=2PIdi3Xa7TY",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=2PIdi3Xa7TY",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=2PIdi3Xa7TY",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE・24時間",
+                        "themes":  [
+                                       "空港"
+                                   ],
+                        "viewTargets":  [
+                                            "羽田空港第2ターミナル",
+                                            "C滑走路",
+                                            "東京湾"
+                                        ],
+                        "desc":  "羽田空港第2ターミナルを日テレNEWSが24時間配信。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行24時間LIVE確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/map/3945.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都大田区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "airport",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "ota"
+                    },
+                    {
+                        "id":  "cametan_tokyo_ota_haneda_t2_ann",
+                        "name":  "羽田空港 第2ターミナル（ANN）",
+                        "place":  "東京都 大田区羽田空港",
+                        "region":  "関東",
+                        "kind":  "空港",
+                        "icon":  "✈️",
+                        "lat":  35.551062,
+                        "lng":  139.788645,
+                        "source":  "ANNnewsCH",
+                        "publisher":  "ANNnewsCH",
+                        "url":  "https://www.youtube.com/watch?v=KMqigNv3LcY",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=KMqigNv3LcY",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=KMqigNv3LcY",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE・24時間",
+                        "themes":  [
+                                       "空港"
+                                   ],
+                        "viewTargets":  [
+                                            "羽田空港第2ターミナル",
+                                            "C滑走路"
+                                        ],
+                        "desc":  "羽田空港第2ターミナルをANNnewsCHが24時間配信。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行24時間LIVE確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/map/5007.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都大田区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "airport",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "ota"
+                    }
+                ]
+}

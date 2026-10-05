@@ -1,0 +1,52 @@
+{
+    "schemaVersion":  "1.0",
+    "dataVersion":  "1.0",
+    "project":  "LiveCameraLinks",
+    "description":  "LiveCameraLinks camera master index",
+    "statistics":  {
+                       "cameraCount":  311,
+                       "prefectureCount":  1,
+                       "areaCount":  23,
+                       "routeCount":  0
+                   },
+    "cameraCategories":  {
+                             "road":  {
+                                          "file":  "road/index.json",
+                                          "cameraCount":  95
+                                      },
+                             "river":  {
+                                           "file":  "river/index.json",
+                                           "cameraCount":  159
+                                       },
+                             "station":  {
+                                             "file":  "station/index.json",
+                                             "cameraCount":  25
+                                         },
+                             "city":  {
+                                          "file":  "city/index.json",
+                                          "cameraCount":  7
+                                      },
+                             "airport":  {
+                                             "file":  "airport/index.json",
+                                             "cameraCount":  2
+                                         },
+                             "parking":  {
+                                             "file":  "parking/index.json",
+                                             "cameraCount":  10
+                                         },
+                             "tourism":  {
+                                             "file":  "tourism/index.json",
+                                             "cameraCount":  13
+                                         }
+                         },
+    "routes":  {
+                   "index":  "route/index.json"
+               },
+    "prefectures":  [
+                        {
+                            "prefecture":  "tokyo",
+                            "areaCount":  23,
+                            "cameraCount":  311
+                        }
+                    ]
+}

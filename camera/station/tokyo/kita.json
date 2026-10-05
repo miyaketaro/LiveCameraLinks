@@ -1,0 +1,85 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "kita",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "cametan_tokyo_kita_shinkansen_center",
+                        "name":  "東京新幹線車両センター周辺・田端",
+                        "place":  "東京都 北区田端付近",
+                        "region":  "関東",
+                        "kind":  "鉄道",
+                        "icon":  "🚉",
+                        "lat":  35.742,
+                        "lng":  139.759,
+                        "source":  "YouTube",
+                        "publisher":  "YouTube",
+                        "url":  "https://www.youtube.com/watch?v=tpqm6t978VY",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=tpqm6t978VY",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=tpqm6t978VY",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "鉄道"
+                                   ],
+                        "viewTargets":  [
+                                            "東京新幹線車両センター",
+                                            "田端駅周辺"
+                                        ],
+                        "desc":  "田端・東京新幹線車両センター周辺の鉄道を確認。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行ストリーミング確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13117.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都北区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "kita"
+                    },
+                    {
+                        "id":  "cametan_tokyo_kita_oku_center",
+                        "name":  "尾久車両センター",
+                        "place":  "東京都 北区昭和町付近",
+                        "region":  "関東",
+                        "kind":  "鉄道",
+                        "icon":  "🚉",
+                        "lat":  35.746,
+                        "lng":  139.754,
+                        "source":  "YouTube",
+                        "publisher":  "YouTube",
+                        "url":  "https://www.youtube.com/watch?v=yCIx_2o7mjs",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=yCIx_2o7mjs",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=yCIx_2o7mjs",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "鉄道"
+                                   ],
+                        "viewTargets":  [
+                                            "尾久車両センター",
+                                            "JR線"
+                                        ],
+                        "desc":  "尾久車両センター周辺の鉄道を確認。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行ストリーミング確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13117.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都北区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "kita"
+                    }
+                ]
+}

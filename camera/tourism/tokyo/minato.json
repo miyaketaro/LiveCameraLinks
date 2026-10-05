@@ -1,0 +1,48 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "tokyo",
+    "area":  "minato",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "model_odaiba",
+                        "name":  "お台場",
+                        "place":  "東京都 港区・江東区",
+                        "region":  "",
+                        "kind":  "観光",
+                        "icon":  "🌉",
+                        "lat":  35.627,
+                        "lng":  139.776,
+                        "aliases":  [
+                                        "お台場",
+                                        "台場",
+                                        "お台場海浜公園"
+                                    ],
+                        "source":  "東京観光財団",
+                        "publisher":  "東京観光財団",
+                        "url":  "https://www.gotokyo.org/jp/destinations/southern-tokyo/odaiba/index.html",
+                        "providerPageUrl":  "https://www.gotokyo.org/jp/destinations/southern-tokyo/odaiba/index.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "providerLinkStatus":  "official-entrance",
+                        "mediaType":  "公式サイト入口",
+                        "themes":  [
+                                       "観光・名所"
+                                   ],
+                        "desc":  "お台場・東京湾岸エリアの現在確認への公式入口。",
+                        "modelDestination":  true,
+                        "cardRole":  "destination",
+                        "showRouteButton":  false,
+                        "destinationText":  "お台場の現在・観光情報",
+                        "roadUrl":  "https://www.jartic.or.jp/",
+                        "roadText":  "首都高・湾岸道路情報",
+                        "jmaOffice":  "130000",
+                        "jmaArea":  "東京地方",
+                        "jmaLabel":  "東京都 東京地方",
+                        "category":  "tourism",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "minato"
+                    }
+                ]
+}

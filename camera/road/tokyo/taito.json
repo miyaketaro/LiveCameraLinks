@@ -1,0 +1,41 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "taito",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "road_tokyo_ueno_route1",
+                        "name":  "首都高速1号上野線・上野",
+                        "place":  "東京都 台東区上野",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "aliases":  [
+                                        "首都高速",
+                                        "首都高",
+                                        "1号上野線",
+                                        "上野線",
+                                        "上野"
+                                    ],
+                        "icon":  "🛣",
+                        "lat":  35.711,
+                        "lng":  139.777,
+                        "source":  "首都高速1号上野線ライブカメラ",
+                        "operatorType":  "民間配信",
+                        "url":  "https://www.youtube.com/watch?v=BaUmEmjCesQ",
+                        "desc":  "東京都台東区上野の首都高速1号上野線を映す定点ライブカメラ。交通状況や天候をリアルタイムで確認できる。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "配信元または現行掲載を確認",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "taito"
+                    }
+                ]
+}

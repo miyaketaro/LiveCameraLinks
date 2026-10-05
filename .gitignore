@@ -1,0 +1,9 @@
+
+# Local migration backups / reports
+camera_backup_*/
+migration_backup_*/
+migration_*_report.json
+repository_tree.txt
+rebuild_camera*.ps1
+migrate_camera*.ps1
+migrate_tokyo23*.ps1

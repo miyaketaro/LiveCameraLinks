@@ -1,0 +1,42 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "tokyo",
+    "area":  "bunkyo",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_rikugien_live",
+                        "name":  "六義園・ライブカメラ（しだれ桜／心泉亭）",
+                        "place":  "東京都 文京区本駒込6丁目16-3",
+                        "region":  "関東",
+                        "kind":  "観光",
+                        "aliases":  [
+                                        "六義園",
+                                        "しだれ桜",
+                                        "心泉亭"
+                                    ],
+                        "icon":  "🏞",
+                        "lat":  null,
+                        "lng":  null,
+                        "source":  "公益財団法人東京都公園協会",
+                        "url":  "https://www.tokyo-park.or.jp/park/rikugien/facility/",
+                        "providerPageUrl":  "https://www.tokyo-park.or.jp/park/rikugien/facility/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "desc":  "六義園公式ライブカメラ。通常9:00～17:00、ライトアップ期間は21:00まで。",
+                        "sourceTier":  "運営者",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "2026-09-26時点の公式掲載を確認",
+                        "lastChecked":  "2026-09-27",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "tourism",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "bunkyo"
+                    }
+                ]
+}

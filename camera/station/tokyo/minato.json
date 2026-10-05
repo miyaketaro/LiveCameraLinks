@@ -1,0 +1,73 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "minato",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_shimbashi_station",
+                        "name":  "新橋駅・銀座口方面",
+                        "place":  "東京都 港区新橋",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅前",
+                        "aliases":  [
+                                        "新橋駅",
+                                        "新橋駅前",
+                                        "銀座口"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6662,
+                        "lng":  139.7583,
+                        "source":  "静岡放送 SBS",
+                        "url":  "https://www.youtube.com/watch?v=4OHc1tvQnCY",
+                        "desc":  "新橋駅銀座口側の街並みと鉄道。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "現行LIVE確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "SBSnews6の2026年8月現行ライブを確認",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "minato"
+                    },
+                    {
+                        "id":  "tokyo_hamamatsucho_station",
+                        "name":  "浜松町駅付近・鉄道",
+                        "place":  "東京都 港区浜松町",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "ホーム・線路",
+                        "aliases":  [
+                                        "浜松町駅",
+                                        "浜松町駅周辺"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6554,
+                        "lng":  139.7571,
+                        "source":  "YouTube配信者",
+                        "url":  "https://www.youtube.com/watch?v=W0V8-6WrgBY",
+                        "desc":  "浜松町駅付近の鉄道。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "共同通信LiveCameraの浜松町駅24時間配信を現行掲載で確認",
+                        "providerPageUrl":  "https://www.youtube.com/@fl5vf9kr5b",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "minato"
+                    }
+                ]
+}

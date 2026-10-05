@@ -1,0 +1,51 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "tokyo",
+    "area":  "nakano",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_nakano_station_motorcycle_parking",
+                        "name":  "中野駅前オートバイ駐車場",
+                        "place":  "東京都 中野区中野駅周辺",
+                        "region":  "関東",
+                        "kind":  "道路・駐車場",
+                        "icon":  "🛣",
+                        "lat":  35.706,
+                        "lng":  139.665,
+                        "source":  "東京都道路整備保全公社",
+                        "publisher":  "東京都道路整備保全公社",
+                        "url":  "https://www.tmpc.or.jp/03_business/park/index_03.html",
+                        "providerPageUrl":  "https://www.tmpc.or.jp/03_business/park/index_03.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "独自配信",
+                        "themes":  [
+                                       "道路",
+                                       "駐車場",
+                                       "駅周辺"
+                                   ],
+                        "viewTargets":  [
+                                            "中野駅前オートバイ駐車場",
+                                            "中野駅周辺"
+                                        ],
+                        "desc":  "中野駅前オートバイ駐車場の混雑状況を確認。",
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "現行掲載・配信元確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "ライブカメラ一覧で東京都道路整備保全公社配信として現行掲載を確認",
+                        "referencePageUrl":  "https://livecombs.com/tokyoto/nakanoku/",
+                        "batchSource":  "livecombs",
+                        "batchArea":  "東京都中野区",
+                        "completionVersion":  "v95",
+                        "completionDate":  "2026-09-29",
+                        "category":  "parking",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "nakano"
+                    }
+                ]
+}

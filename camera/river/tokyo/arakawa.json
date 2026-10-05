@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "river",
+    "prefecture":  "tokyo",
+    "area":  "arakawa",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "river_tokyo_42",
+                        "name":  "隅田川・小台",
+                        "place":  "東京都 荒川区町屋6",
+                        "region":  "関東",
+                        "kind":  "河川・道路",
+                        "icon":  "🌊",
+                        "lat":  35.753194,
+                        "lng":  139.781972,
+                        "source":  "東京都建設局・東京都水防チャンネル",
+                        "providerPageUrl":  "https://www.kensetsu.metro.tokyo.lg.jp/river/suibo",
+                        "preferredView":  "PROVIDER_PAGE",
+                        "operatorType":  "自治体",
+                        "url":  "https://www.youtube.com/watch?v=pmTFyDvr4l4",
+                        "desc":  "荒川区町屋6丁目付近から隅田川と首都高速中央環状線を確認。河川・道路状況の双方に利用できる24時間ライブ。",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "道路・河川用途再監査済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "配信元または現行掲載を確認",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v103",
+                        "completionDate":  "2026-09-27",
+                        "themes":  [
+                                       "河川",
+                                       "道路",
+                                       "高速道路",
+                                       "防災"
+                                   ],
+                        "viewTargets":  [
+                                            "隅田川",
+                                            "首都高速中央環状線"
+                                        ],
+                        "category":  "river",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "arakawa"
+                    }
+                ]
+}

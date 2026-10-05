@@ -1,0 +1,10 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "airport",
+    "prefecture":  "tokyo",
+    "area":  "shinjuku",
+    "cameraCount":  0,
+    "cameras":  [
+
+                ]
+}

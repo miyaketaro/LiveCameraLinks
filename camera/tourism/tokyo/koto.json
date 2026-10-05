@@ -1,0 +1,93 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "tokyo",
+    "area":  "koto",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "cametan_tokyo_koto_kiba_park",
+                        "name":  "木場公園・三ツ目通り・首都高9号",
+                        "place":  "東京都 江東区木場",
+                        "region":  "関東",
+                        "kind":  "道路・公園",
+                        "icon":  "🛣",
+                        "lat":  35.676,
+                        "lng":  139.807,
+                        "source":  "のんびりカメラ RelaxCam",
+                        "publisher":  "のんびりカメラ RelaxCam",
+                        "url":  "https://www.youtube.com/@relaxcam8643",
+                        "providerPageUrl":  "https://www.youtube.com/@relaxcam8643",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=XXU3tg6cmGs",
+                        "linkPolicy":  "provider+direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "公園",
+                                       "河川"
+                                   ],
+                        "viewTargets":  [
+                                            "木場公園",
+                                            "首都高速9号深川線",
+                                            "三ツ目通り",
+                                            "木場駅",
+                                            "仙台堀川",
+                                            "大横川"
+                                        ],
+                        "desc":  "木場公園、首都高速9号深川線、三ツ目通り、木場駅周辺などを確認。",
+                        "status":  "active",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "現行LIVE確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都江東区",
+                        "completionVersion":  "v111",
+                        "completionDate":  "2026-09-29",
+                        "category":  "tourism",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "koto"
+                    },
+                    {
+                        "id":  "cametan_tokyo_koto_big_sight_sky",
+                        "name":  "東京ビッグサイト上空・有明",
+                        "place":  "東京都 江東区有明",
+                        "region":  "関東",
+                        "kind":  "街・観光",
+                        "icon":  "🏙",
+                        "lat":  35.629,
+                        "lng":  139.794,
+                        "source":  "YouTube",
+                        "publisher":  "YouTube",
+                        "url":  "https://www.youtube.com/watch?v=4T-ARSiV53g",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=4T-ARSiV53g",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=4T-ARSiV53g",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "街",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "東京ビッグサイト",
+                                            "有明"
+                                        ],
+                        "desc":  "東京ビッグサイト・有明上空周辺をリアルタイム配信。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行ストリーミング確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都江東区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "tourism",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "koto"
+                    }
+                ]
+}

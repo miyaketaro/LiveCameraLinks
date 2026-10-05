@@ -1,0 +1,48 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "suginami",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "mtv_takaido",
+                        "name":  "首都高4号新宿線・高井戸付近",
+                        "place":  "東京都 杉並区高井戸",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "icon":  "🛣",
+                        "lat":  35.683,
+                        "lng":  139.615,
+                        "source":  "モバイルテレビジョン株式会社",
+                        "publisher":  "モバイルテレビジョン株式会社",
+                        "url":  "https://www.m-tv.jp/way.html",
+                        "providerPageUrl":  "https://www.m-tv.jp/way.html",
+                        "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路"
+                                   ],
+                        "viewTargets":  [
+                                            "首都高速4号新宿線",
+                                            "高井戸"
+                                        ],
+                        "desc":  "首都高4号新宿線・高井戸付近の道路状況を確認。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "公式掲載確認済み",
+                        "healthReason":  "モバイルテレビジョン公式掲載を確認。交通情報ライブカメラCHを安定した配信入口として設定",
+                        "referencePageUrl":  "https://www.m-tv.jp/way.html",
+                        "batchSource":  "m-tv.jp",
+                        "batchArea":  "東京都23区",
+                        "completionVersion":  "v80",
+                        "completionDate":  "2026-09-29",
+                        "auditStatus":  "公式掲載・安定配信入口設定済み",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "suginami"
+                    }
+                ]
+}

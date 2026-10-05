@@ -1,0 +1,43 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "tokyo",
+    "area":  "suginami",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "tokyo_honancho_station",
+                        "name":  "方南町駅・方南町交差点",
+                        "place":  "東京都 杉並区方南2丁目",
+                        "region":  "関東",
+                        "kind":  "駅",
+                        "viewpoint":  "駅前",
+                        "aliases":  [
+                                        "方南町駅",
+                                        "方南町交差点",
+                                        "丸ノ内線",
+                                        "丸ノ内線分岐線"
+                                    ],
+                        "icon":  "🚉",
+                        "lat":  35.6837,
+                        "lng":  139.6575,
+                        "source":  "方南FM",
+                        "url":  "https://www.youtube.com/watch?v=lrpZAKk-WDE",
+                        "desc":  "方南町駅前の交差点。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "方南FMの方南町交差点ライブが2026年も現行掲載",
+                        "providerPageUrl":  "https://www.youtube.com/",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "station",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "suginami"
+                    }
+                ]
+}

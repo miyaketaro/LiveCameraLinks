@@ -1,0 +1,52 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "tokyo",
+    "area":  "sumida",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "sumida_skytree_town",
+                        "name":  "東京スカイツリータウン",
+                        "place":  "東京都 墨田区押上1丁目1-2",
+                        "region":  "関東",
+                        "kind":  "繁華街・観光",
+                        "icon":  "🏙",
+                        "lat":  35.7101,
+                        "lng":  139.8107,
+                        "source":  "東京スカイツリータウン",
+                        "publisher":  "東京スカイツリータウン",
+                        "url":  "https://www.tokyo-skytree.jp/",
+                        "providerPageUrl":  "https://www.tokyo-skytree.jp/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "静止画",
+                        "themes":  [
+                                       "繁華街",
+                                       "観光",
+                                       "駅周辺"
+                                   ],
+                        "viewTargets":  [
+                                            "東京スカイツリー",
+                                            "東京スカイツリータウン",
+                                            "押上駅周辺"
+                                        ],
+                        "desc":  "押上・東京スカイツリータウン周辺の空模様と市街地を確認。",
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "現行掲載確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "基準リストで東京スカイツリータウン配信の現行カメラを確認",
+                        "referencePageUrl":  "https://livecombs.com/tokyoto/sumida-ku/tokyo-skytree-town/",
+                        "batchSource":  "livecombs",
+                        "batchArea":  "東京都墨田区",
+                        "completionVersion":  "v104",
+                        "completionDate":  "2026-09-29",
+                        "category":  "tourism",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "sumida"
+                    }
+                ]
+}

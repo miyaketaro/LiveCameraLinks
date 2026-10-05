@@ -1,0 +1,45 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "itabashi",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "road_tokyo_itabashi_nakajuku_r17",
+                        "name":  "仲宿交差点・国道17号／山手通り",
+                        "place":  "東京都 板橋区氷川町7-1",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "aliases":  [
+                                        "仲宿交差点",
+                                        "国道17号",
+                                        "中山道",
+                                        "山手通り",
+                                        "都道420号",
+                                        "板橋区役所前"
+                                    ],
+                        "icon":  "🛣",
+                        "lat":  35.7518,
+                        "lng":  139.7088,
+                        "source":  "豊徳（ほうとくねっと）",
+                        "operatorType":  "民間配信",
+                        "url":  "https://www.youtube.com/watch?v=jIBl1-avIc0",
+                        "desc":  "仲宿交差点を映し、国道17号（中山道）と東京都道420号鮫洲大山線・山手通り周辺の交通状況を24時間確認できるライブカメラ。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "豊徳・仲宿交差点ライブの現行配信を確認",
+                        "providerPageUrl":  "https://www.youtube.com/@houtoku-net_start",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "itabashi"
+                    }
+                ]
+}

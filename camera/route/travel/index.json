@@ -1,0 +1,9 @@
+{
+    "schemaVersion":  "1.0",
+    "routeType":  "travel",
+    "label":  "Travel Route",
+    "description":  "Travel and destination routes",
+    "files":  [
+
+              ]
+}

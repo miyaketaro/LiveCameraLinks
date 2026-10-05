@@ -1,0 +1,58 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "tokyo",
+    "area":  "chuo",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "chuoku_shintomi_motorcycle_parking",
+                        "name":  "新富一丁目オートバイ駐車場",
+                        "place":  "東京都 中央区新富1丁目",
+                        "region":  "関東",
+                        "kind":  "駐車場",
+                        "aliases":  [
+                                        "中央区",
+                                        "新富一丁目",
+                                        "新富",
+                                        "オートバイ駐車場",
+                                        "都道50号",
+                                        "東京市川線"
+                                    ],
+                        "icon":  "🅿️",
+                        "lat":  35.6721,
+                        "lng":  139.7734,
+                        "source":  "東京都道路整備保全公社",
+                        "publisher":  "東京都道路整備保全公社",
+                        "url":  "https://www.tmpc.or.jp/04_parking/tabid753.html?pno_2863=21",
+                        "providerPageUrl":  "https://www.tmpc.or.jp/04_parking/tabid753.html?pno_2863=21",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式カメラ",
+                        "themes":  [
+                                       "道路",
+                                       "駐車場"
+                                   ],
+                        "viewTargets":  [
+                                            "新富一丁目オートバイ駐車場",
+                                            "東京都道・千葉県道50号東京市川線"
+                                        ],
+                        "desc":  "新富一丁目のオートバイ駐車場周辺を確認できるライブカメラ。",
+                        "status":  "active",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
+                        "batchSource":  "livecombs",
+                        "batchArea":  "東京都中央区",
+                        "completionVersion":  "v63",
+                        "completionDate":  "2026-09-29",
+                        "sourceTier":  "公式",
+                        "auditStatus":  "公式配信元確認済み",
+                        "healthReason":  "東京都道路整備保全公社の公式施設ページを主導線に設定",
+                        "category":  "parking",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "chuo"
+                    }
+                ]
+}

@@ -1,0 +1,49 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "tokyo",
+    "area":  "koto",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "cametan_tokyo_koto_toyosu_view",
+                        "name":  "江東区豊洲・レインボーブリッジ／豊洲市場",
+                        "place":  "東京都 江東区豊洲",
+                        "region":  "関東",
+                        "kind":  "街・港",
+                        "icon":  "🏙",
+                        "lat":  35.65,
+                        "lng":  139.79,
+                        "source":  "YouTube",
+                        "publisher":  "YouTube",
+                        "url":  "https://www.youtube.com/watch?v=i_K6t2b26G4",
+                        "providerPageUrl":  "https://www.youtube.com/watch?v=i_K6t2b26G4",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=i_K6t2b26G4",
+                        "linkPolicy":  "direct",
+                        "preferredView":  "direct",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "街",
+                                       "港"
+                                   ],
+                        "viewTargets":  [
+                                            "豊洲",
+                                            "レインボーブリッジ",
+                                            "豊洲市場"
+                                        ],
+                        "desc":  "豊洲からレインボーブリッジ・豊洲市場方面を確認。",
+                        "status":  "active",
+                        "auditStatus":  "カメ探現行ストリーミング確認",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
+                        "batchSource":  "cametan",
+                        "batchArea":  "東京都江東区",
+                        "completionVersion":  "v113",
+                        "completionDate":  "2026-09-29",
+                        "category":  "city",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "koto"
+                    }
+                ]
+}

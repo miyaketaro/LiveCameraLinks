@@ -1,0 +1,37 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "tokyo",
+    "area":  "ota",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "haneda",
+                        "name":  "羽田空港・第2ターミナル",
+                        "place":  "東京都 大田区",
+                        "region":  "関東",
+                        "kind":  "街",
+                        "icon":  "✈",
+                        "lat":  35.5523,
+                        "lng":  139.7867,
+                        "source":  "ANN／テレビ朝日",
+                        "url":  "https://www.youtube.com/live/KMqigNv3LcY",
+                        "desc":  "羽田空港第2ターミナル周辺の様子。",
+                        "providerPageUrl":  "https://www.youtube.com/@ANNnewsCH",
+                        "directStreamUrl":  "https://www.youtube.com/live/KMqigNv3LcY",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "構造・配信元監査済み",
+                        "lastChecked":  "2026-09-27",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "羽田空港第2ターミナルのANNライブが2026年9月現行掲載",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v10.129",
+                        "completionDate":  "2026-09-27",
+                        "category":  "city",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "ota"
+                    }
+                ]
+}

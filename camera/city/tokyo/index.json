@@ -1,0 +1,124 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefecture":  "tokyo",
+    "areaCount":  23,
+    "cameraCount":  7,
+    "areas":  [
+                  {
+                      "area":  "adachi",
+                      "file":  "adachi.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "arakawa",
+                      "file":  "arakawa.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "bunkyo",
+                      "file":  "bunkyo.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "chiyoda",
+                      "file":  "chiyoda.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "chuo",
+                      "file":  "chuo.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "edogawa",
+                      "file":  "edogawa.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "itabashi",
+                      "file":  "itabashi.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "katsushika",
+                      "file":  "katsushika.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "kita",
+                      "file":  "kita.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "koto",
+                      "file":  "koto.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "meguro",
+                      "file":  "meguro.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "minato",
+                      "file":  "minato.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "nakano",
+                      "file":  "nakano.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "nerima",
+                      "file":  "nerima.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "ota",
+                      "file":  "ota.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "setagaya",
+                      "file":  "setagaya.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "shibuya",
+                      "file":  "shibuya.json",
+                      "cameraCount":  2
+                  },
+                  {
+                      "area":  "shinagawa",
+                      "file":  "shinagawa.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "shinjuku",
+                      "file":  "shinjuku.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "suginami",
+                      "file":  "suginami.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "sumida",
+                      "file":  "sumida.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "taito",
+                      "file":  "taito.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "toshima",
+                      "file":  "toshima.json",
+                      "cameraCount":  1
+                  }
+              ]
+}

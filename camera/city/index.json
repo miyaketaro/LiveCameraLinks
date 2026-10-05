@@ -1,0 +1,12 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "city",
+    "prefectures":  [
+                        {
+                            "prefecture":  "tokyo",
+                            "file":  "tokyo/index.json",
+                            "areaCount":  23,
+                            "cameraCount":  7
+                        }
+                    ]
+}

@@ -1,0 +1,60 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "tokyo",
+    "area":  "nerima",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "road_tokyo_nerima_mejiro_auto",
+                        "name":  "目白通り・練馬高野台",
+                        "place":  "東京都 練馬区高野台2丁目3-3",
+                        "region":  "関東",
+                        "kind":  "道路",
+                        "aliases":  [
+                                        "目白通り",
+                                        "都道8号",
+                                        "千代田練馬田無線",
+                                        "高野台",
+                                        "石神井川",
+                                        "東京AUTO洗車練馬店"
+                                    ],
+                        "icon":  "🛣",
+                        "lat":  35.7419,
+                        "lng":  139.6168,
+                        "source":  "東京AUTO洗車",
+                        "operatorType":  "民間配信",
+                        "url":  "https://www.youtube.com/@tokyo-auto-sensha-nerima",
+                        "desc":  "東京AUTO洗車練馬店から東京都道8号千代田練馬田無線（目白通り）と石神井川付近の道路状況を確認できる24時間ライブカメラ。",
+                        "sourceTier":  "民間",
+                        "auditStatus":  "現行道路LIVE・配信元確認済み",
+                        "lastChecked":  "2026-09-29",
+                        "healthStatus":  "確認済み",
+                        "healthReason":  "練馬高野台から目白通りを確認できる24時間ライブとして現行掲載を確認",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "prefectureCompletion":  "初期完成",
+                        "completionVersion":  "v98",
+                        "completionDate":  "2026-09-29",
+                        "publisher":  "東京AUTO洗車",
+                        "providerPageUrl":  "https://www.youtube.com/@tokyo-auto-sensha-nerima",
+                        "directStreamUrl":  "",
+                        "mediaType":  "YouTube LIVE",
+                        "themes":  [
+                                       "道路",
+                                       "市街地"
+                                   ],
+                        "viewTargets":  [
+                                            "目白通り",
+                                            "東京都道8号千代田練馬田無線",
+                                            "練馬高野台",
+                                            "石神井川付近"
+                                        ],
+                        "status":  "active",
+                        "batchArea":  "東京都練馬区",
+                        "category":  "road",
+                        "prefectureCode":  "tokyo",
+                        "areaCode":  "nerima"
+                    }
+                ]
+}

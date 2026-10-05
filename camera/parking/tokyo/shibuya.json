@@ -1,0 +1,10 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "parking",
+    "prefecture":  "tokyo",
+    "area":  "shibuya",
+    "cameraCount":  0,
+    "cameras":  [
+
+                ]
+}

@@ -64,3 +64,6 @@ migration_backup_*/
 # Local asset backups
 assets/**/*.backup.css
 assets/**/*.backup.js
+
+# Local release backups
+index_before_release_0_1_5_*.html

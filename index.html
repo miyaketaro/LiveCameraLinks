@@ -1113,11 +1113,14 @@ window.LCLoadAllCameras=async function(){
   window.__lcCameraDataLoaded=true;
   const summary=document.getElementById('summary');
   if(summary)summary.textContent=`掲載 ${CAMERAS.length} 地点`;
+  window.LIVE_CAMERA_BUILD=window.LIVE_CAMERA_BUILD||{};
+  window.LIVE_CAMERA_BUILD.cameraCount=CAMERAS.length;
+  console.info(`LiveCameraLinks camera data loaded: ${CAMERAS.length} cameras`);
   return CAMERAS;
 };
 </script>
 <script>
-// v5: metadata derived conservatively from the existing 494-camera dataset.
+// v5: metadata derived conservatively from the loaded camera dataset.
 // Status/lastChecked are intentionally not fabricated: they remain unknown until verified.
 function deriveTheme(c){
   const t=[c.kind,c.name,c.desc,...(c.aliases||[])].join(' ');
@@ -1328,7 +1331,7 @@ function showTokyoStation(){const ids=['tokyo_station','tokyo_station_ntv_rail']
 const TOKYO_WARD_DIR={
 '千代田区':'chiyoda','千代田':'chiyoda','中央区':'chuo','港区':'minato','新宿区':'shinjuku','新宿':'shinjuku','文京区':'bunkyo','文京':'bunkyo','台東区':'taito','台東':'taito','墨田区':'sumida','墨田':'sumida','江東区':'koto','江東':'koto','品川区':'shinagawa','品川':'shinagawa','目黒区':'meguro','目黒':'meguro','大田区':'ota','大田':'ota','世田谷区':'setagaya','世田谷':'setagaya','渋谷区':'shibuya','渋谷':'shibuya','中野区':'nakano','中野':'nakano','杉並区':'suginami','杉並':'suginami','豊島区':'toshima','豊島':'toshima','北区':'kita','荒川区':'arakawa','板橋区':'itabashi','板橋':'itabashi','練馬区':'nerima','練馬':'nerima','足立区':'adachi','足立':'adachi','葛飾区':'katsushika','葛飾':'katsushika','江戸川区':'edogawa','江戸川':'edogawa'};
 function tokyoWardDirectory(q){let k=String(q||'').trim().replace(/^東京都\s*/,'');return TOKYO_WARD_DIR[k]||''}
-function destinationSearch(q){q=q.trim();$('destinationStatus').textContent='';if(!q){$('destinationStatus').textContent='目的地を入力してください。';return}const wardSlug=tokyoWardDirectory(q);if(wardSlug){window.location.href='tokyo/'+wardSlug+'/';return;}if(norm(q)==='東京駅'||norm(q)==='とうきょうえき'){showTokyoStation();return;}const modelNames={'京都':'model_kyoto','河口湖':'model_kawaguchiko','富士山':'model_fujisan','白川郷':'model_shirakawago','松本':'model_matsumoto','小田原':'model_odawara','箱根':'model_hakone','熱海':'model_atami','浅草':'model_asakusa','お台場':'model_odaiba','高尾山':'model_takao','横浜':'model_yokohama','鎌倉':'model_kamakura','江の島':'model_enoshima','川越':'model_kawagoe','長瀞':'model_nagatoro','秩父':'model_chichibu','成田':'model_narita','銚子':'model_choshi','館山':'model_tateyama','鋸山':'model_nokogiriyama','伊香保':'model_ikaho','みなかみ':'model_minakami','富岡':'model_tomioka','日光':'model_nikko','那須':'model_nasu','鬼怒川':'model_kinugawa'};if(modelNames[q]){const c=CAMERAS.find(x=>x.id===modelNames[q]);if(c){show([c],`「${q}」の今`,'モデル観光地');return}}const items=CAMERAS.map(c=>({c,s:scoreText(c,q)})).filter(x=>x.s>=0).sort((a,b)=>b.s-a.s||((a.c.cardRole==='destination'?0:(a.c.cardRole==='status-group'?20:(a.c.cardRole==='public-road-group'?30:10)))-(b.c.cardRole==='destination'?0:(b.c.cardRole==='status-group'?20:(b.c.cardRole==='public-road-group'?30:10))))||String(a.c.name).localeCompare(String(b.c.name),'ja')).slice(0,30).map(x=>x.c);show(items,`「${q}」のライブカメラ`,CAMERAS.length+'地点から検索')}
+function destinationSearch(q){q=q.trim();$('destinationStatus').textContent='';if(!q){$('destinationStatus').textContent='目的地を入力してください。';return}const wardSlug=tokyoWardDirectory(q);if(wardSlug){window.location.href='tokyo/'+wardSlug+'/';return;}if(norm(q)==='東京駅'||norm(q)==='とうきょうえき'){showTokyoStation();return;}const modelNames={'京都':'model_kyoto','河口湖':'model_kawaguchiko','富士山':'model_fujisan','白川郷':'model_shirakawago','松本':'model_matsumoto','小田原':'model_odawara','箱根':'model_hakone','熱海':'model_atami','浅草':'model_asakusa','お台場':'model_odaiba','高尾山':'model_takao','横浜':'model_yokohama','鎌倉':'model_kamakura','江の島':'model_enoshima','川越':'model_kawagoe','長瀞':'model_nagatoro','秩父':'model_chichibu','成田':'model_narita','銚子':'model_choshi','館山':'model_tateyama','鋸山':'model_nokogiriyama','伊香保':'model_ikaho','みなかみ':'model_minakami','富岡':'model_tomioka','日光':'model_nikko','那須':'model_nasu','鬼怒川':'model_kinugawa'};if(modelNames[q]){const c=CAMERAS.find(x=>x.id===modelNames[q]);if(c){show([c],`「${q}」の今`,'モデル観光地');return}}const items=CAMERAS.map(c=>({c,s:scoreText(c,q)})).filter(x=>x.s>=0).sort((a,b)=>b.s-a.s||((a.c.cardRole==='destination'?0:(a.c.cardRole==='status-group'?20:(a.c.cardRole==='public-road-group'?30:10)))-(b.c.cardRole==='destination'?0:(b.c.cardRole==='status-group'?20:(b.c.cardRole==='public-road-group'?30:10))))||String(a.c.name).localeCompare(String(b.c.name),'ja')).slice(0,100).map(x=>x.c);show(items,`「${q}」のライブカメラ`,CAMERAS.length+'地点から検索')}
 function resolve(q){const scored=CAMERAS.filter(c=>c.lat!==null&&c.lng!==null&&c.lat!==undefined&&c.lng!==undefined&&Number.isFinite(Number(c.lat))&&Number.isFinite(Number(c.lng))).map(c=>({c,s:scoreText(c,q)})).filter(x=>x.s>=0).sort((a,b)=>b.s-a.s);if(!scored.length)return null;const top=scored.slice(0,Math.min(8,scored.length));const w=top.map(x=>Math.max(1,x.s)),sw=w.reduce((a,b)=>a+b,0);return{lat:top.reduce((a,x,i)=>a+Number(x.c.lat)*w[i],0)/sw,lng:top.reduce((a,x,i)=>a+Number(x.c.lng)*w[i],0)/sw,label:q}}
 function kmxy(lat,lng,lat0){return[lng*111.32*Math.cos(lat0*Math.PI/180),lat*110.57]}
 function segInfo(c,a,b){const lat0=(a.lat+b.lat)/2,[x,y]=kmxy(c.lat,c.lng,lat0),[ax,ay]=kmxy(a.lat,a.lng,lat0),[bx,by]=kmxy(b.lat,b.lng,lat0),dx=bx-ax,dy=by-ay,L2=dx*dx+dy*dy;if(!L2)return{dist:Math.hypot(x-ax,y-ay),t:0};let t=((x-ax)*dx+(y-ay)*dy)/L2;t=Math.max(0,Math.min(1,t));const px=ax+t*dx,py=ay+t*dy;return{dist:Math.hypot(x-px,y-py),t}}
@@ -1392,7 +1395,7 @@ window.addEventListener('pageshow',render);window.addEventListener('focus',rende
 render();
 })();
 </script>
-<script>window.LIVE_CAMERA_BUILD={software:"v10.165-interim",data:"v10.165-interim",cameraCount:2057,integrated:"2026-10-03"};</script>
+<script>window.LIVE_CAMERA_BUILD=Object.assign(window.LIVE_CAMERA_BUILD||{},{software:"v10.165-interim",data:"v10.165-interim",integrated:"2026-10-03"});</script>
 
 <script>
 (function(){
@@ -1728,7 +1731,7 @@ document.addEventListener('click', function(e){
   window.addEventListener('resize',function(){const m=document.getElementById('lcMapModal');if(m&&!m.hidden)render();});
 })();
 </script>
-<script>console.info('LiveCameraLinks build v10.179-native-slippy-map / 2046 cameras');</script>
+<script>console.info('LiveCameraLinks build v10.179-native-slippy-map');</script>
 
 </body></html><style id="v10181-remove-bottom-gap">
 /* v10.181: remove remaining bottom whitespace from map modal */

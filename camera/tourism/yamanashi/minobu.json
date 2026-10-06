@@ -1,0 +1,45 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "yamanashi",
+    "area":  "minobu",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_minobu_1000yen_fuji",
+                        "name":  "千円富士・本栖湖",
+                        "place":  "山梨県 南巨摩郡身延町 本栖湖周辺",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "富士の国やまなし観光ネット",
+                        "publisher":  "やまなし観光推進機構",
+                        "providerPageUrl":  "https://www.yamanashi-kankou.jp/heritage/fujisanwatcher/jp/live/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式観光ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "本栖湖"
+                                   ],
+                        "viewTargets":  [
+                                            "千円富士",
+                                            "本栖湖",
+                                            "富士山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式観光",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "山梨県公式観光情報確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minobu",
+                        "slug":  "yamanashi_minobu_1000yen_fuji",
+                        "cameraId":  "JP-19-000019"
+                    }
+                ]
+}

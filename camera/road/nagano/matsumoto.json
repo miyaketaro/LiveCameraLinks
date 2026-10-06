@@ -37,7 +37,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_sawando",
+                        "cameraId":  "JP-20-000010"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_nakanoyu_1",
@@ -71,7 +73,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_nakanoyu_1",
+                        "cameraId":  "JP-20-000007"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_nakanoyu_2",
@@ -105,7 +109,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_nakanoyu_2",
+                        "cameraId":  "JP-20-000008"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_nakanoyu_3",
@@ -139,7 +145,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_nakanoyu_3",
+                        "cameraId":  "JP-20-000009"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_iriyama",
@@ -173,7 +181,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_iriyama",
+                        "cameraId":  "JP-20-000005"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_inakoki",
@@ -207,7 +217,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_inakoki",
+                        "cameraId":  "JP-20-000004"
                     },
                     {
                         "id":  "nagano_matsumoto_r158_mizudono",
@@ -241,7 +253,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r158_mizudono",
+                        "cameraId":  "JP-20-000006"
                     },
                     {
                         "id":  "nagano_matsumoto_r300_shirahone",
@@ -275,7 +289,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r300_shirahone",
+                        "cameraId":  "JP-20-000012"
                     },
                     {
                         "id":  "nagano_matsumoto_r24_taishoike",
@@ -309,7 +325,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_r24_taishoike",
+                        "cameraId":  "JP-20-000011"
                     }
                 ]
 }

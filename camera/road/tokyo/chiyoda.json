@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "tokyo",
@@ -55,7 +55,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_station_yaesu_taxi",
+                        "cameraId":  "JP-13-000294"
                     },
                     {
                         "id":  "road_tokyo_kojimachi_r20",
@@ -78,10 +80,8 @@
                         "url":  "https://www.youtube.com/@kojimachi_live",
                         "desc":  "千代田区麹町から新宿通り（国道20号）の車両通行や街路状況をリアルタイムで確認できる定点ライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "構造・配信元監査済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "参照ページで配信中・24時間365日・YouTubeリアルタイム動画を確認。国道20号を撮影",
                         "providerPageUrl":  "https://www.youtube.com/@kojimachi_live",
                         "linkPolicy":  "provider",
                         "preferredView":  "provider",
@@ -89,13 +89,13 @@
                         "completionVersion":  "v64",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/tokyo-chiyodaku-kojimachi/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_kojimachi_r20",
+                        "cameraId":  "JP-13-000111"
                     },
                     {
                         "id":  "road_tokyo_takebashi_jct_c1",
@@ -136,7 +136,7 @@
                         "providerId":  "mobile-television-livecamtraffic",
                         "operatorType":  "民間配信",
                         "url":  "https://www.m-tv.jp/way.html",
-                        "desc":  "竹橋JCT付近から、首都高速都心環状線（C1）、東京都道402号錦町有楽町線、東京都道403号大手町湯島線、神田橋公園・皇居方面などを確認できる道路ライブカメラ。個別LIVE URLは切り替わる場合があるため、配信チャンネルを安定した入口として案内します。",
+                        "desc":  "竹橋JCT付近から、首都高速都心環状線（C1）、東京都道402号錦町有楽町線、東京都道403号大手町湯島線、神田橋公園・皇居方面などを確認。",
                         "viewTargets":  [
                                             "首都高速都心環状線",
                                             "竹橋JCT",
@@ -154,10 +154,8 @@
                                    ],
                         "mediaType":  "YouTube",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・個別映像URL確認済み",
                         "lastChecked":  "2026-09-30",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "モバイルテレビジョン公式掲載と交通情報ライブカメラCHの竹橋JCT個別LIVE映像を確認",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=DjFPSjSOThc",
                         "providerPageUrl":  "https://www.m-tv.jp/way.html",
                         "channelUrl":  "https://www.youtube.com/@LIVECAMTraffic",
@@ -170,13 +168,21 @@
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v76",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/metropolitan-exway-toshinkanjo-takebashi-jct/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "liveStatus":  "live",
+                        "liveCheckedAt":  "2026-10-05T13:00:00+09:00",
+                        "providerMessage":  {
+                                                "enabled":  false,
+                                                "type":  "promotion",
+                                                "text":  "",
+                                                "url":  ""
+                                            },
+                        "slug":  "road_tokyo_takebashi_jct_c1",
+                        "cameraId":  "JP-13-000145"
                     },
                     {
                         "id":  "road_tokyo_sukiyabashi",
@@ -201,18 +207,14 @@
                         "url":  "https://www.youtube.com/watch?v=nP_xdzmt0AE",
                         "desc":  "有楽町マリオンから数寄屋橋交差点を映し、晴海通り（都道304号）と外堀通り（都道405号）の交通状況を24時間確認できるライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "配信元・ダイレクト映像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認し、朝日新聞LIVEの数寄屋橋ライブ固定URLを照合",
                         "linkPolicy":  "DUAL",
                         "preferredView":  "direct",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v65",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/sukiyabashi-scramble-crossing/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "providerPageUrl":  "https://www.youtube.com/@asahishimbun",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=nP_xdzmt0AE",
@@ -221,7 +223,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_sukiyabashi",
+                        "cameraId":  "JP-13-000143"
                     },
                     {
                         "id":  "tokyo_chiyoda_kasumigaseki_tokyo_np",
@@ -265,21 +269,19 @@
                                         ],
                         "desc":  "日比谷中日ビル方面から霞が関・国会通り・国会議事堂周辺を確認。",
                         "sourceTier":  "報道機関",
-                        "auditStatus":  "現行LIVE・配信元確認済み／固定ダイレクトURL未確定",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
                         "prefectureCompletion":  "千代田区モデル",
                         "completionVersion":  "v66",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "healthReason":  "配信中・24時間365日・YouTubeリアルタイム動画を再確認。国会通り・都道301号・国道1号・霞ケ関駅周辺を撮影",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/kasumigaseki-tokyo-np/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_chiyoda_kasumigaseki_tokyo_np",
+                        "cameraId":  "JP-13-000165"
                     },
                     {
                         "id":  "tokyo_chiyoda_uchisaiwaicho_tokyo_np",
@@ -322,21 +324,19 @@
                                         ],
                         "desc":  "内幸町から日比谷公園・日比谷通り・国会通り周辺を確認。",
                         "sourceTier":  "報道機関",
-                        "auditStatus":  "現行LIVE・配信元確認済み／固定ダイレクトURL未確定",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
                         "prefectureCompletion":  "千代田区モデル",
                         "completionVersion":  "v66",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "healthReason":  "配信中・24時間365日・YouTubeリアルタイム動画を再確認。日比谷公園・国会通り・日比谷通り・内幸町駅周辺を撮影",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/uchisaiwaicho-tokyo-np/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_chiyoda_uchisaiwaicho_tokyo_np",
+                        "cameraId":  "JP-13-000167"
                     },
                     {
                         "id":  "tokyo_chiyoda_entas_akihabara",
@@ -377,21 +377,19 @@
                                         ],
                         "desc":  "エンタスから秋葉原の都道437号・駅方面の現在を確認。",
                         "sourceTier":  "企業配信",
-                        "auditStatus":  "現行LIVE・配信元確認済み／固定ダイレクトURL未確定",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
                         "prefectureCompletion":  "千代田区モデル",
                         "completionVersion":  "v66",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "healthReason":  "配信中・24時間365日・YouTubeリアルタイム動画を再確認。外神田1丁目2-7から都道437号を撮影",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/tokyo-road437-akihabara/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_chiyoda_entas_akihabara",
+                        "cameraId":  "JP-13-000163"
                     },
                     {
                         "id":  "mtv_iidabashi",
@@ -431,7 +429,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_iidabashi",
+                        "cameraId":  "JP-13-000032"
                     }
                 ]
 }

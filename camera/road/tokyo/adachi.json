@@ -42,7 +42,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_senju_shinbashi",
+                        "cameraId":  "JP-13-000235"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_toneri_liner",
@@ -73,18 +75,17 @@
                         "desc":  "日暮里・舎人ライナーと尾久橋通りを24時間LIVEで確認。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13121.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v111",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_adachi_toneri_liner",
+                        "cameraId":  "JP-13-000159"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_cityscape",
@@ -112,18 +113,17 @@
                                         ],
                         "desc":  "足立区の街並みをリアルタイム配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13121.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_adachi_cityscape",
+                        "cameraId":  "JP-13-000155"
                     }
                 ]
 }

@@ -36,19 +36,17 @@
                         "desc":  "大井物流センターから都道316号・南部陸橋東詰交差点・大井車両待機場周辺を確認。1分間隔の静止画。",
                         "status":  "active",
                         "sourceTier":  "公式",
-                        "auditStatus":  "配信元・直接画像URL確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京港埠頭配信・24時間365日・1分間隔静止画を確認",
-                        "referencePageUrl":  "https://livecam.asia/tokyo/ota/ooifutou-ooisharyotaiki.html",
-                        "batchSource":  "東京港埠頭",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v89",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_vehicle_waiting_area",
+                        "cameraId":  "JP-13-000123"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_east",
@@ -81,7 +79,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_yachokoen_east",
+                        "cameraId":  "JP-13-000124"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_jonanjima",
@@ -119,19 +119,17 @@
                         "desc":  "ダイトーコーポレーション大井物流センターから野鳥公園東交差点・都道316号の城南島方面を確認。",
                         "status":  "active",
                         "sourceTier":  "運営者",
-                        "auditStatus":  "現行配信・公式直画像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京港埠頭配信・24時間365日・1分間隔静止画",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/ota-ku/tokyo-road316-yacho-park-east-crossroad-jonanjima/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v88",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_yachokoen_jonanjima",
+                        "cameraId":  "JP-13-000125"
                     },
                     {
                         "id":  "road_tokyo_oi_yachokoen_jonanjima_zoom",
@@ -169,19 +167,17 @@
                         "desc":  "野鳥公園東交差点・都道316号の城南島方面を拡大視点で確認。通常視点とは別カメラ。",
                         "status":  "active",
                         "sourceTier":  "運営者",
-                        "auditStatus":  "現行配信・公式直画像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京港埠頭配信・24時間365日・1分間隔静止画",
-                        "referencePageUrl":  "https://livecam.asia/tokyo/ota/ooifutou-wildbirdpark-higashikousaten-jonanjima-kakudai.html",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v88",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_yachokoen_jonanjima_zoom",
+                        "cameraId":  "JP-13-000126"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_under",
@@ -214,7 +210,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_nanbu_under",
+                        "cameraId":  "JP-13-000122"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_oi",
@@ -246,7 +244,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_nanbu_oi",
+                        "cameraId":  "JP-13-000121"
                     },
                     {
                         "id":  "road_tokyo_oi_nanbu_kan7",
@@ -279,7 +279,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_nanbu_kan7",
+                        "cameraId":  "JP-13-000120"
                     },
                     {
                         "id":  "road_tokyo_chubou_outer_wharf",
@@ -312,7 +314,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_chubou_outer_wharf",
+                        "cameraId":  "JP-13-000104"
                     },
                     {
                         "id":  "road_tokyo_chubou_ohashi_tunnel",
@@ -346,7 +350,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_chubou_ohashi_tunnel",
+                        "cameraId":  "JP-13-000103"
                     },
                     {
                         "id":  "road_tokyo_chubou_gatebridge_reiwajima",
@@ -380,7 +386,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_chubou_gatebridge_reiwajima",
+                        "cameraId":  "JP-13-000102"
                     },
                     {
                         "id":  "road_tokyo_ota_tamagawa_denenchofu_marukobashi",
@@ -413,19 +421,17 @@
                         "desc":  "田園調布出張所から丸子橋・都道2号と多摩川左岸を確認。10分ごとに更新される静止画。",
                         "status":  "active",
                         "sourceTier":  "国",
-                        "auditStatus":  "現行掲載・配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "配信中・24時間365日・10分更新静止画を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/ota-ku/tamagawa-denenchofu-bo/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v90",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_ota_tamagawa_denenchofu_marukobashi",
+                        "cameraId":  "JP-13-000130"
                     }
                 ]
 }

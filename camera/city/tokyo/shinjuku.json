@@ -31,18 +31,17 @@
                                         ],
                         "desc":  "歌舞伎町一番街をリアルタイム配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/map/4225.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都新宿区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shinjuku_kabukicho_ichibangai2",
+                        "cameraId":  "JP-13-000286"
                     }
                 ]
 }

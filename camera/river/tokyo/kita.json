@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_92",
+                        "cameraId":  "JP-13-000084"
                     },
                     {
                         "id":  "tokyo_shingashi_shimobashi",
@@ -64,7 +67,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_shingashi_shimobashi",
+                        "cameraId":  "JP-13-000283"
                     },
                     {
                         "id":  "tokyo_shingashi_shingashibashi",
@@ -97,7 +103,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_shingashi_shingashibashi",
+                        "cameraId":  "JP-13-000284"
                     },
                     {
                         "id":  "tokyo_shingashi_ukimabashi",
@@ -130,7 +139,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_shingashi_ukimabashi",
+                        "cameraId":  "JP-13-000285"
                     }
                 ]
 }

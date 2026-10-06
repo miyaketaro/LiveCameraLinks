@@ -38,7 +38,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_honancho_station",
+                        "cameraId":  "JP-13-000185"
                     }
                 ]
 }

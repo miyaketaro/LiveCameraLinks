@@ -39,7 +39,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_31",
+                        "cameraId":  "JP-13-000053"
                     },
                     {
                         "id":  "river_tokyo_40",
@@ -70,7 +73,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_40",
+                        "cameraId":  "JP-13-000062"
                     },
                     {
                         "id":  "tokyo_shinshibakawa_shinshibakawabashi",
@@ -103,7 +109,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_shinshibakawa_shinshibakawabashi",
+                        "cameraId":  "JP-13-000290"
                     },
                     {
                         "id":  "tokyo_kenagakawa_kenagabashi",
@@ -136,7 +145,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_kenagakawa_kenagabashi",
+                        "cameraId":  "JP-13-000208"
                     },
                     {
                         "id":  "adachi_arakawa_nishiarai_upstream",
@@ -166,19 +178,18 @@
                         "desc":  "荒川左岸・西新井橋上流の河川状況を確認。1分ごとに更新。",
                         "status":  "active",
                         "sourceTier":  "国",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "国土交通省荒川下流河川事務所配信・24時間365日・1分更新を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/adachiku/arakawa-nishiarai-bridge-upstream/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v104",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "adachi_arakawa_nishiarai_upstream",
+                        "cameraId":  "JP-13-000001"
                     }
                 ]
 }

@@ -34,7 +34,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_yubatake_netsunoyu",
+                        "cameraId":  "JP-10-000013"
                     },
                     {
                         "id":  "gunma_kusatsu_yubatake_yutaki",
@@ -65,7 +67,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_yubatake_yutaki",
+                        "cameraId":  "JP-10-000014"
                     },
                     {
                         "id":  "gunma_kusatsu_ski_tenguyama_base",
@@ -97,7 +101,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_ski_tenguyama_base",
+                        "cameraId":  "JP-10-000009"
                     },
                     {
                         "id":  "gunma_kusatsu_ski_tenguyama_top",
@@ -129,7 +135,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_ski_tenguyama_top",
+                        "cameraId":  "JP-10-000010"
                     },
                     {
                         "id":  "gunma_kusatsu_sainokawara_1",
@@ -160,7 +168,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_sainokawara_1",
+                        "cameraId":  "JP-10-000005"
                     },
                     {
                         "id":  "gunma_kusatsu_sainokawara_2",
@@ -191,7 +201,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_sainokawara_2",
+                        "cameraId":  "JP-10-000006"
                     },
                     {
                         "id":  "gunma_kusatsu_shiranesan_disaster",
@@ -223,7 +235,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_shiranesan_disaster",
+                        "cameraId":  "JP-10-000007"
                     },
                     {
                         "id":  "gunma_kusatsu_shiranesan_mobile",
@@ -255,7 +269,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_shiranesan_mobile",
+                        "cameraId":  "JP-10-000008"
                     },
                     {
                         "id":  "gunma_kusatsu_motoshiranesan_disaster",
@@ -287,7 +303,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_motoshiranesan_disaster",
+                        "cameraId":  "JP-10-000001"
                     },
                     {
                         "id":  "gunma_kusatsu_motoshiranesan_monitor",
@@ -319,7 +337,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_motoshiranesan_monitor",
+                        "cameraId":  "JP-10-000002"
                     },
                     {
                         "id":  "gunma_kusatsu_urakusatsu_jizo_source",
@@ -350,7 +370,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_urakusatsu_jizo_source",
+                        "cameraId":  "JP-10-000012"
                     },
                     {
                         "id":  "gunma_kusatsu_urakusatsu_jizo_high",
@@ -381,7 +403,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_urakusatsu_jizo_high",
+                        "cameraId":  "JP-10-000011"
                     }
                 ]
 }

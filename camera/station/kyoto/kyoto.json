@@ -35,7 +35,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_station_bus",
+                        "cameraId":  "JP-26-000037"
                     },
                     {
                         "id":  "kyoto_kyoto_hachijo_taxi",
@@ -67,7 +69,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_hachijo_taxi",
+                        "cameraId":  "JP-26-000009"
                     }
                 ]
 }

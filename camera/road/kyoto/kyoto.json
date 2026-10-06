@@ -35,7 +35,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_higashiyama_gojo",
+                        "cameraId":  "JP-26-000012"
                     },
                     {
                         "id":  "kyoto_kyoto_kiyomizuzaka",
@@ -67,7 +69,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_kiyomizuzaka",
+                        "cameraId":  "JP-26-000019"
                     },
                     {
                         "id":  "kyoto_kyoto_r1_higashiyama_east",
@@ -102,7 +106,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r1_higashiyama_east",
+                        "cameraId":  "JP-26-000024"
                     },
                     {
                         "id":  "kyoto_kyoto_r1_higashiyama_west",
@@ -137,7 +143,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r1_higashiyama_west",
+                        "cameraId":  "JP-26-000025"
                     },
                     {
                         "id":  "kyoto_kyoto_r1_horikawa_up",
@@ -172,7 +180,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r1_horikawa_up",
+                        "cameraId":  "JP-26-000027"
                     },
                     {
                         "id":  "kyoto_kyoto_r1_horikawa_down",
@@ -207,7 +217,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r1_horikawa_down",
+                        "cameraId":  "JP-26-000026"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_hankyu_underpass_down",
@@ -242,7 +254,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_hankyu_underpass_down",
+                        "cameraId":  "JP-26-000034"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_hankyu_underpass_up",
@@ -277,7 +291,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_hankyu_underpass_up",
+                        "cameraId":  "JP-26-000035"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_chiyoharaguchi_down_out",
@@ -312,7 +328,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_chiyoharaguchi_down_out",
+                        "cameraId":  "JP-26-000031"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_chiyoharaguchi_down_1",
@@ -347,7 +365,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_chiyoharaguchi_down_1",
+                        "cameraId":  "JP-26-000030"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_chiyoharaguchi_up_1",
@@ -382,7 +402,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_chiyoharaguchi_up_1",
+                        "cameraId":  "JP-26-000032"
                     },
                     {
                         "id":  "kyoto_kyoto_r9_chiyoharaguchi_up_out",
@@ -417,7 +439,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r9_chiyoharaguchi_up_out",
+                        "cameraId":  "JP-26-000033"
                     },
                     {
                         "id":  "kyoto_kyoto_r24_hachijo_down",
@@ -452,7 +476,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r24_hachijo_down",
+                        "cameraId":  "JP-26-000028"
                     },
                     {
                         "id":  "kyoto_kyoto_r24_hachijo_up",
@@ -487,7 +513,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "京都国道事務所公式ページ確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_r24_hachijo_up",
+                        "cameraId":  "JP-26-000029"
                     }
                 ]
 }

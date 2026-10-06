@@ -44,7 +44,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "edogawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_kasai_maihama",
+                        "cameraId":  "JP-13-000034"
                     },
                     {
                         "id":  "mtv_kasai_ariake",
@@ -85,7 +87,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "edogawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_kasai_ariake",
+                        "cameraId":  "JP-13-000033"
                     },
                     {
                         "id":  "road_river_tokyo_edogawa_komatsugawa_upstream_ground",
@@ -119,18 +123,17 @@
                         "desc":  "都道449号・荒川・首都高速中央環状線（小松川JCT付近）を確認できる24時間LIVE。配信元直リンクは再確認中。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認・直リンク再確認中",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/edogawaku/komatsugawa-up-baseball-field/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都江戸川区",
                         "completionVersion":  "v105",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "edogawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_river_tokyo_edogawa_komatsugawa_upstream_ground",
+                        "cameraId":  "JP-13-000094"
                     }
                 ]
 }

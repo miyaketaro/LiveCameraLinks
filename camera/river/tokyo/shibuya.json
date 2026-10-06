@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_91",
+                        "cameraId":  "JP-13-000083"
                     }
                 ]
 }

@@ -38,7 +38,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_kitasenju_station",
+                        "cameraId":  "JP-13-000211"
                     },
                     {
                         "id":  "tokyo_adachi_gotanno_station",
@@ -75,18 +77,17 @@
                         "desc":  "足立区民放送五反野スタジオから五反野駅を24時間リアルタイム配信。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13121.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v112",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_adachi_gotanno_station",
+                        "cameraId":  "JP-13-000156"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_senju_asahicho",
@@ -115,18 +116,17 @@
                                         ],
                         "desc":  "千住旭町・北千住駅東口周辺をリアルタイム配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13121.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_adachi_senju_asahicho",
+                        "cameraId":  "JP-13-000158"
                     },
                     {
                         "id":  "cametan_tokyo_adachi_kitasenju_east",
@@ -155,18 +155,17 @@
                                         ],
                         "desc":  "北千住駅東口周辺の街中をリアルタイム配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13121.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都足立区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "adachi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_adachi_kitasenju_east",
+                        "cameraId":  "JP-13-000157"
                     }
                 ]
 }

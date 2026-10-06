@@ -35,7 +35,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "sumida",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_ryogoku_station",
+                        "cameraId":  "JP-13-000267"
                     }
                 ]
 }

@@ -43,7 +43,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_takaido",
+                        "cameraId":  "JP-13-000036"
                     }
                 ]
 }

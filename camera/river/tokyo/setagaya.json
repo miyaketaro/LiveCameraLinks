@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_87",
+                        "cameraId":  "JP-13-000080"
                     },
                     {
                         "id":  "river_tokyo_88",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_88",
+                        "cameraId":  "JP-13-000081"
                     },
                     {
                         "id":  "river_tokyo_89",
@@ -87,7 +93,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_89",
+                        "cameraId":  "JP-13-000082"
                     },
                     {
                         "id":  "tokyo_nogawa_kamatabashi",
@@ -120,7 +129,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_nogawa_kamatabashi",
+                        "cameraId":  "JP-13-000250"
                     },
                     {
                         "id":  "tokyo_sengawa_kamatabashi",
@@ -153,7 +165,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_sengawa_kamatabashi",
+                        "cameraId":  "JP-13-000268"
                     },
                     {
                         "id":  "tokyo_sengawa_miyashitabashi",
@@ -186,7 +201,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_sengawa_miyashitabashi",
+                        "cameraId":  "JP-13-000269"
                     },
                     {
                         "id":  "tokyo_yazawa_tamagawahikan",
@@ -219,7 +237,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_yazawa_tamagawahikan",
+                        "cameraId":  "JP-13-000307"
                     }
                 ]
 }

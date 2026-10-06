@@ -31,6 +31,12 @@
                             "file":  "shizuoka/index.json",
                             "areaCount":  1,
                             "cameraCount":  0
+                        },
+                        {
+                            "prefecture":  "yamanashi",
+                            "file":  "yamanashi/index.json",
+                            "areaCount":  18,
+                            "cameraCount":  0
                         }
                     ]
 }

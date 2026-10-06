@@ -43,7 +43,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "model_odaiba",
+                        "cameraId":  "JP-13-000030"
                     }
                 ]
 }

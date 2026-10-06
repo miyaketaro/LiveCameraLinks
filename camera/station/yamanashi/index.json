@@ -1,0 +1,99 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "yamanashi",
+    "areaCount":  18,
+    "cameraCount":  1,
+    "areas":  [
+                  {
+                      "area":  "fuefuki",
+                      "file":  "fuefuki.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "fujikawa",
+                      "file":  "fujikawa.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "fujisan",
+                      "file":  "fujisan.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "fujiyoshida",
+                      "file":  "fujiyoshida.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "kai",
+                      "file":  "kai.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "kamanashi",
+                      "file":  "kamanashi.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "kawaguchiko",
+                      "file":  "kawaguchiko.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "kofu",
+                      "file":  "kofu.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "minamialps",
+                      "file":  "minamialps.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "minobu",
+                      "file":  "minobu.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "nanbu",
+                      "file":  "nanbu.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "nirasaki",
+                      "file":  "nirasaki.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "r20",
+                      "file":  "r20.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "r52",
+                      "file":  "r52.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "tsuru",
+                      "file":  "tsuru.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "uenohara",
+                      "file":  "uenohara.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "yamanakako",
+                      "file":  "yamanakako.json",
+                      "cameraCount":  0
+                  },
+                  {
+                      "area":  "yamanashi",
+                      "file":  "yamanashi.json",
+                      "cameraCount":  0
+                  }
+              ]
+}

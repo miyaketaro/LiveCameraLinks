@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_06",
+                        "cameraId":  "JP-13-000041"
                     },
                     {
                         "id":  "river_tokyo_19",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_19",
+                        "cameraId":  "JP-13-000047"
                     },
                     {
                         "id":  "river_tokyo_24",
@@ -87,7 +93,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_24",
+                        "cameraId":  "JP-13-000050"
                     },
                     {
                         "id":  "river_tokyo_25",
@@ -115,7 +124,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_25",
+                        "cameraId":  "JP-13-000051"
                     },
                     {
                         "id":  "river_tokyo_36",
@@ -143,7 +155,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_36",
+                        "cameraId":  "JP-13-000058"
                     },
                     {
                         "id":  "river_tokyo_38",
@@ -171,7 +186,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_38",
+                        "cameraId":  "JP-13-000060"
                     },
                     {
                         "id":  "river_tokyo_81",
@@ -199,7 +217,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_81",
+                        "cameraId":  "JP-13-000078"
                     },
                     {
                         "id":  "river_tokyo_84",
@@ -227,7 +248,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_84",
+                        "cameraId":  "JP-13-000079"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_harajibu",
@@ -261,7 +285,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_harajibu",
+                        "cameraId":  "JP-13-000301"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_maruyama",
@@ -295,7 +322,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_maruyama",
+                        "cameraId":  "JP-13-000302"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_okita",
@@ -329,7 +359,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_okita",
+                        "cameraId":  "JP-13-000306"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_ogikubo",
@@ -363,7 +396,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_ogikubo",
+                        "cameraId":  "JP-13-000305"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_matsumi",
@@ -397,7 +433,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_matsumi",
+                        "cameraId":  "JP-13-000303"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_aioi",
@@ -431,7 +470,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_aioi",
+                        "cameraId":  "JP-13-000299"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_hakusammae",
@@ -465,7 +507,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_hakusammae",
+                        "cameraId":  "JP-13-000300"
                     },
                     {
                         "id":  "tokyo_suginami_zenpukuji_musashino",
@@ -499,7 +544,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_zenpukuji_musashino",
+                        "cameraId":  "JP-13-000304"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_koyo",
@@ -533,7 +581,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_kanda_koyo",
+                        "cameraId":  "JP-13-000296"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_banya",
@@ -567,7 +618,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_kanda_banya",
+                        "cameraId":  "JP-13-000295"
                     },
                     {
                         "id":  "tokyo_suginami_kanda_wadami_up",
@@ -601,7 +655,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_suginami_kanda_wadami_up",
+                        "cameraId":  "JP-13-000298"
                     },
                     {
                         "id":  "tokyo_zenpukuji_miyashitabashi",
@@ -635,7 +692,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_zenpukuji_miyashitabashi",
+                        "cameraId":  "JP-13-000310"
                     },
                     {
                         "id":  "tokyo_zenpukuji_wadabori_retarding",
@@ -671,7 +731,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_zenpukuji_wadabori_retarding",
+                        "cameraId":  "JP-13-000311"
                     },
                     {
                         "id":  "river_tokyo_suginami_fujimibashi_station",
@@ -701,18 +764,18 @@
                         "desc":  "杉並区役所による神田川の河川監視カメラ。5分ごとに静止画更新。",
                         "status":  "active",
                         "sourceTier":  "自治体",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/suginami-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都杉並区",
                         "completionVersion":  "v97",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_suginami_fujimibashi_station",
+                        "cameraId":  "JP-13-000090"
                     },
                     {
                         "id":  "river_tokyo_suginami_musashinobashi_station",
@@ -742,18 +805,18 @@
                         "desc":  "杉並区役所による善福寺川右岸の河川監視カメラ。5分ごとに静止画更新。",
                         "status":  "active",
                         "sourceTier":  "自治体",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/suginami-ku/zempukujigawa-musashino-bridge-wlo/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都杉並区",
                         "completionVersion":  "v97",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_suginami_musashinobashi_station",
+                        "cameraId":  "JP-13-000093"
                     },
                     {
                         "id":  "river_tokyo_suginami_koyobashi_station",
@@ -783,18 +846,18 @@
                         "desc":  "杉並区役所による神田川の河川監視カメラ。5分ごとに静止画更新。",
                         "status":  "active",
                         "sourceTier":  "自治体",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/suginami-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都杉並区",
                         "completionVersion":  "v97",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_suginami_koyobashi_station",
+                        "cameraId":  "JP-13-000091"
                     },
                     {
                         "id":  "river_tokyo_suginami_maruyamabashi_station",
@@ -824,18 +887,18 @@
                         "desc":  "杉並区役所による善福寺川の河川監視カメラ。5分ごとに静止画更新。",
                         "status":  "active",
                         "sourceTier":  "自治体",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/suginami-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都杉並区",
                         "completionVersion":  "v97",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "suginami",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_suginami_maruyamabashi_station",
+                        "cameraId":  "JP-13-000092"
                     }
                 ]
 }

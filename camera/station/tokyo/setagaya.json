@@ -58,7 +58,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_futakotamagawa_station",
+                        "cameraId":  "JP-13-000177"
                     }
                 ]
 }

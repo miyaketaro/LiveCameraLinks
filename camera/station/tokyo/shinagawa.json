@@ -41,7 +41,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shimoshimmei_station",
+                        "cameraId":  "JP-13-000273"
                     }
                 ]
 }

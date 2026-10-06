@@ -42,18 +42,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式配信元確認済み",
-                        "healthReason":  "東京都道路整備保全公社の公式施設ページを主導線に設定",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "chuoku_shintomi_motorcycle_parking",
+                        "cameraId":  "JP-13-000006"
                     }
                 ]
 }

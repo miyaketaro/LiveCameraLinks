@@ -26,10 +26,8 @@
                         "url":  "",
                         "desc":  "原宿駅表参道口、神宮橋交差点、五輪橋付近、東京都道413号赤坂杉並線を24時間LIVEで確認。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "配信元リンク再確認中",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
                         "providerPageUrl":  "",
                         "linkPolicy":  "none",
                         "preferredView":  "none",
@@ -45,15 +43,15 @@
                                             "原宿駅・表参道口",
                                             "明治神宮前"
                                         ],
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shibuya-ku/harajuku-station-omotesando/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都渋谷区",
                         "completionVersion":  "v84",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_harajuku_station",
+                        "cameraId":  "JP-13-000184"
                     },
                     {
                         "id":  "tokyo_mtv_hatsudai",
@@ -92,7 +90,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_hatsudai",
+                        "cameraId":  "JP-13-000228"
                     },
                     {
                         "id":  "tokyo_mtv_yoyogi_pa",
@@ -131,7 +131,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_yoyogi_pa",
+                        "cameraId":  "JP-13-000237"
                     },
                     {
                         "id":  "shibuya_miyamasuzaka_305",
@@ -163,17 +165,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shibuya-ku/miyamasuzaka-crossing-bigcamera-shibuya/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都渋谷区",
                         "completionVersion":  "v83",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行LIVE確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "shibuya_miyamasuzaka_305",
+                        "cameraId":  "JP-13-000149"
                     },
                     {
                         "id":  "shibuya_center_inogashira",
@@ -205,17 +205,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "現行LIVE・YouTubeリアルタイム配信を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shibuya-ku/shibuya-center-gai-inogashira-dori/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都渋谷区",
                         "completionVersion":  "v83",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行掲載・道路用途確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "shibuya_center_inogashira",
+                        "cameraId":  "JP-13-000148"
                     }
                 ]
 }

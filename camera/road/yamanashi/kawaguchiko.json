@@ -1,0 +1,83 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "yamanashi",
+    "area":  "kawaguchiko",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_r139_motosu",
+                        "name":  "国道139号・本栖",
+                        "place":  "山梨県 南都留郡富士河口湖町 本栖",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道139号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/INFO_TABLE/michi.html",
+                        "directStreamUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/ROAD_WEATHER/10/M_TMframe.html",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
+                        "mediaType":  "公式道路カメラ",
+                        "themes":  [
+                                       "道路",
+                                       "国道",
+                                       "雪道",
+                                       "路面状況"
+                                   ],
+                        "viewTargets":  [
+                                            "国道139号",
+                                            "本栖"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所みちカメラ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_r139_motosu",
+                        "cameraId":  "JP-19-000033"
+                    },
+                    {
+                        "id":  "yamanashi_r139_shoji",
+                        "name":  "国道139号・精進",
+                        "place":  "山梨県 南都留郡富士河口湖町 精進",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道139号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/INFO_TABLE/michi.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式道路カメラ",
+                        "themes":  [
+                                       "道路",
+                                       "国道",
+                                       "雪道",
+                                       "路面状況"
+                                   ],
+                        "viewTargets":  [
+                                            "国道139号",
+                                            "精進"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所みちカメラ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_r139_shoji",
+                        "cameraId":  "JP-19-000034"
+                    }
+                ]
+}

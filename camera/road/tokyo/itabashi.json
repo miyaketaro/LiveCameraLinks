@@ -40,7 +40,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_itabashi_nakajuku_r17",
+                        "cameraId":  "JP-13-000109"
                     }
                 ]
 }

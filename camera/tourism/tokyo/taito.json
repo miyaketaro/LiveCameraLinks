@@ -37,7 +37,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "taito",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "asakusa",
+                        "cameraId":  "JP-13-000002"
                     },
                     {
                         "id":  "asakusa_main_hall",
@@ -71,7 +73,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "taito",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "asakusa_main_hall",
+                        "cameraId":  "JP-13-000004"
                     },
                     {
                         "id":  "asakusa_hozomon",
@@ -105,7 +109,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "taito",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "asakusa_hozomon",
+                        "cameraId":  "JP-13-000003"
                     },
                     {
                         "id":  "model_asakusa",
@@ -145,7 +151,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "taito",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "model_asakusa",
+                        "cameraId":  "JP-13-000029"
                     }
                 ]
 }

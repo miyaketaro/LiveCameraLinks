@@ -41,7 +41,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "bunkyo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_korakuen_station",
+                        "cameraId":  "JP-13-000212"
                     }
                 ]
 }

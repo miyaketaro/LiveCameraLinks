@@ -39,16 +39,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "要継続確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
-                        "healthReason":  "基準リスト掲載。朝日新聞の個別ライブ固定URLは未確定のため公式トップを主導線に設定",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "chuoku_tsukiji_asahi",
+                        "cameraId":  "JP-13-000007"
                     }
                 ]
 }

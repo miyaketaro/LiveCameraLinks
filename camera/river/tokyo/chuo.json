@@ -35,7 +35,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "tokyo_kachidoki_sumidagawa",
+                        "cameraId":  "JP-13-000193"
                     },
                     {
                         "id":  "chuoku_kachidoki_station_sumida",
@@ -74,16 +77,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
-                        "healthReason":  "参照ページ周辺カメラでLIVE掲載を確認。固定動画URLは未確定のため配信チャンネルを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "chuoku_kachidoki_station_sumida",
+                        "cameraId":  "JP-13-000005"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_all",
@@ -120,18 +123,17 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式配信元確認済み",
-                        "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "chuoku_tsukuda_suimon_all",
+                        "cameraId":  "JP-13-000008"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_inside",
@@ -168,18 +170,17 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式配信元確認済み",
-                        "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "chuoku_tsukuda_suimon_inside",
+                        "cameraId":  "JP-13-000009"
                     },
                     {
                         "id":  "chuoku_tsukuda_suimon_outside",
@@ -216,18 +217,17 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/toyosunga-tsukuda-sg-o-water/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v63",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式配信元確認済み",
-                        "healthReason":  "参照ページで24時間365日・YouTubeリアルタイム配信中を確認。固定動画URLは取得できないため東京都港湾局公式ページを主導線に設定",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "chuoku_tsukuda_suimon_outside",
+                        "cameraId":  "JP-13-000010"
                     }
                 ]
 }

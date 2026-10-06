@@ -33,19 +33,18 @@
                         "desc":  "東京都水防災総合情報システムの青葉台観測所。目黒川の最新静止画と水位情報を確認。",
                         "status":  "active",
                         "sourceTier":  "東京都",
-                        "auditStatus":  "東京都公式詳細ページ確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都水防災総合情報システムで青葉台の静止画・水位情報を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-aobadai/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都目黒区",
                         "completionVersion":  "v94",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_aobadai_static",
+                        "cameraId":  "JP-13-000219"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_horai",
@@ -69,9 +68,7 @@
                         "preferredView":  "direct",
                         "desc":  "目黒川・合流点（宝来橋上流）のライブカメラ。目黒区公式ページに掲載。",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行LIVE・公式入口・直接画像確認済み",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "目黒区役所配信。宝来橋上流の直接静止画URLを確認",
                         "lastChecked":  "2026-09-29",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v94",
@@ -88,11 +85,13 @@
                                             "烏山川・北沢川合流点"
                                         ],
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-houraibashi/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_horai",
+                        "cameraId":  "JP-13-000222"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_dengaku",
@@ -126,7 +125,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_dengaku",
+                        "cameraId":  "JP-13-000220"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_taiko",
@@ -150,9 +152,7 @@
                         "preferredView":  "direct",
                         "desc":  "目黒川・品川区境（太鼓橋下流）のライブカメラ。目黒区公式ページに掲載。",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行LIVE・公式入口・直接画像確認済み",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "目黒区役所配信。太鼓橋下流の直接静止画URLを確認",
                         "lastChecked":  "2026-09-29",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v94",
@@ -169,11 +169,13 @@
                                             "品川区境"
                                         ],
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-taikobashi/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_taiko",
+                        "cameraId":  "JP-13-000223"
                     },
                     {
                         "id":  "tokyo_meguro_nomikawa_kodai",
@@ -207,7 +209,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_nomikawa_kodai",
+                        "cameraId":  "JP-13-000224"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_aobadai",
@@ -231,9 +236,7 @@
                         "preferredView":  "provider",
                         "desc":  "目黒川・青葉台のライブカメラ。目黒区公式ページに掲載。",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行LIVE・配信元再確認済み",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都建設局配信。24時間365日のYouTubeリアルタイム動画を確認",
                         "lastChecked":  "2026-09-29",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v94",
@@ -249,11 +252,13 @@
                                             "目黒川"
                                         ],
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-aobadai-2/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_aobadai",
+                        "cameraId":  "JP-13-000218"
                     },
                     {
                         "id":  "tokyo_meguro_megurogawa_funaire",
@@ -277,9 +282,7 @@
                         "preferredView":  "provider",
                         "desc":  "目黒川・船入場のライブカメラ。目黒区公式ページに掲載。",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行LIVE・配信元再確認済み",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都建設局配信の現行LIVEを確認",
                         "lastChecked":  "2026-09-29",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v94",
@@ -295,11 +298,13 @@
                                             "船入場"
                                         ],
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/meguroku/megurogawa-funairiba/",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "meguro",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_meguro_megurogawa_funaire",
+                        "cameraId":  "JP-13-000221"
                     }
                 ]
 }

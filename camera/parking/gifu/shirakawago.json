@@ -35,7 +35,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式交通情報ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_seseragi_parking",
+                        "cameraId":  "JP-21-000006"
                     },
                     {
                         "id":  "gifu_shirakawago_midashima_parking",
@@ -67,7 +69,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式交通情報ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_midashima_parking",
+                        "cameraId":  "JP-21-000002"
                     }
                 ]
 }

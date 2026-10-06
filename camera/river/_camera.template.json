@@ -13,5 +13,6 @@
     "themes":  [
                    "river"
                ],
-    "status":  "active"
+    "status":  "active",
+    "riverName":  null
 }

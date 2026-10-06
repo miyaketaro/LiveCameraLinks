@@ -36,7 +36,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "taito",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_ueno_route1",
+                        "cameraId":  "JP-13-000146"
                     }
                 ]
 }

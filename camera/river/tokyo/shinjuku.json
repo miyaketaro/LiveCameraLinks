@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_07",
+                        "cameraId":  "JP-13-000042"
                     },
                     {
                         "id":  "river_tokyo_16",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_16",
+                        "cameraId":  "JP-13-000045"
                     },
                     {
                         "id":  "tokyo_kanda_minamiotakibashi",
@@ -92,7 +98,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_kanda_minamiotakibashi",
+                        "cameraId":  "JP-13-000195"
                     }
                 ]
 }

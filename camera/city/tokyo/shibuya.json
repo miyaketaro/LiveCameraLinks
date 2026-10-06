@@ -41,7 +41,9 @@
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "shibuya",
+                        "cameraId":  "JP-13-000147"
                     },
                     {
                         "id":  "tokyo_shibuya_center_gai",
@@ -75,7 +77,9 @@
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shibuya_center_gai",
+                        "cameraId":  "JP-13-000270"
                     }
                 ]
 }

@@ -1,0 +1,151 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "yamanashi",
+    "area":  "kawaguchiko",
+    "cameraCount":  4,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_kawaguchiko_lakeside_fuji",
+                        "name":  "河口湖・湖畔／富士山",
+                        "place":  "山梨県 南都留郡富士河口湖町",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  35.517,
+                        "lng":  138.751,
+                        "coordinateType":  "approximate",
+                        "source":  "富士河口湖町",
+                        "publisher":  "富士河口湖町",
+                        "providerPageUrl":  "https://www.town.fujikawaguchiko.lg.jp/life/info.php?if_id=7",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "河口湖",
+                                       "富士山",
+                                       "湖"
+                                   ],
+                        "viewTargets":  [
+                                            "河口湖",
+                                            "富士山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "既存本番ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_kawaguchiko_lakeside_fuji",
+                        "cameraId":  "JP-19-000012"
+                    },
+                    {
+                        "id":  "yamanashi_kawaguchiko_shoji",
+                        "name":  "精進湖・富士山",
+                        "place":  "山梨県 南都留郡富士河口湖町 精進",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "富士の国やまなし観光ネット",
+                        "publisher":  "やまなし観光推進機構",
+                        "providerPageUrl":  "https://www.yamanashi-kankou.jp/heritage/fujisanwatcher/jp/live/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式観光ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "精進湖"
+                                   ],
+                        "viewTargets":  [
+                                            "精進湖",
+                                            "富士山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式観光",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "山梨県公式観光情報確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_kawaguchiko_shoji",
+                        "cameraId":  "JP-19-000013"
+                    },
+                    {
+                        "id":  "yamanashi_kawaguchiko_fujigane",
+                        "name":  "富士ヶ嶺・富士山",
+                        "place":  "山梨県 南都留郡富士河口湖町 富士ヶ嶺",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "富士の国やまなし観光ネット",
+                        "publisher":  "やまなし観光推進機構",
+                        "providerPageUrl":  "https://www.yamanashi-kankou.jp/heritage/fujisanwatcher/jp/live/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式観光ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "高原"
+                                   ],
+                        "viewTargets":  [
+                                            "富士ヶ嶺",
+                                            "富士山"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式観光",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "山梨県公式観光情報確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_kawaguchiko_fujigane",
+                        "cameraId":  "JP-19-000011"
+                    },
+                    {
+                        "id":  "yamanashi_uty_fuji_panorama_ropeway",
+                        "name":  "富士山パノラマロープウェイ展望台",
+                        "place":  "山梨県 南都留郡富士河口湖町",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "UTYテレビ山梨／富士山パノラマロープウェイ",
+                        "publisher":  "UTYテレビ山梨",
+                        "providerPageUrl":  "https://www.uty.co.jp/livecam/ropeway.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "河口湖",
+                                       "ロープウェイ"
+                                   ],
+                        "viewTargets":  [
+                                            "富士山",
+                                            "河口湖"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "放送局公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "UTY公式ライブカメラ現行一覧確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_uty_fuji_panorama_ropeway",
+                        "cameraId":  "JP-19-000053"
+                    }
+                ]
+}

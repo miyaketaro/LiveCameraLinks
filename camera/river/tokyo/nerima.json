@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_05",
+                        "cameraId":  "JP-13-000040"
                     },
                     {
                         "id":  "river_tokyo_08",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_08",
+                        "cameraId":  "JP-13-000043"
                     },
                     {
                         "id":  "river_tokyo_26",
@@ -87,7 +93,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_26",
+                        "cameraId":  "JP-13-000052"
                     },
                     {
                         "id":  "river_tokyo_33",
@@ -115,7 +124,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_33",
+                        "cameraId":  "JP-13-000055"
                     },
                     {
                         "id":  "river_tokyo_57",
@@ -143,7 +155,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_57",
+                        "cameraId":  "JP-13-000066"
                     },
                     {
                         "id":  "river_tokyo_58",
@@ -171,7 +186,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_58",
+                        "cameraId":  "JP-13-000067"
                     },
                     {
                         "id":  "river_tokyo_59",
@@ -199,7 +217,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_59",
+                        "cameraId":  "JP-13-000068"
                     },
                     {
                         "id":  "river_tokyo_60",
@@ -227,7 +248,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_60",
+                        "cameraId":  "JP-13-000069"
                     },
                     {
                         "id":  "river_tokyo_70",
@@ -255,7 +279,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_70",
+                        "cameraId":  "JP-13-000073"
                     },
                     {
                         "id":  "river_tokyo_71",
@@ -283,7 +310,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_71",
+                        "cameraId":  "JP-13-000074"
                     },
                     {
                         "id":  "river_tokyo_72",
@@ -311,7 +341,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_72",
+                        "cameraId":  "JP-13-000075"
                     },
                     {
                         "id":  "river_tokyo_73",
@@ -339,7 +372,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_73",
+                        "cameraId":  "JP-13-000076"
                     },
                     {
                         "id":  "tokyo_nerima_shirako_koyasubashi",
@@ -373,7 +409,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_nerima_shirako_koyasubashi",
+                        "cameraId":  "JP-13-000249"
                     }
                 ]
 }

@@ -27,10 +27,8 @@
                         "url":  "https://www.youtube.com/watch?v=lA6TaaMGgDo",
                         "desc":  "西武新宿駅PePe前から新宿大ガード東交差点を映し、靖国通り（都道302号）や新宿通り（都道430号）周辺の交通状況を確認できる。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・ダイレクト映像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "西武新宿駅PePe前広場交差点・都道302号/430号を24時間365日YouTube配信中と再確認",
                         "providerPageUrl":  "https://www.youtube.com/@info-shinjuku",
                         "linkPolicy":  "both",
                         "preferredView":  "direct",
@@ -38,11 +36,12 @@
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=lA6TaaMGgDo",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/seibushinjuku-station-pepe-crossing/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinjuku_pepe",
+                        "cameraId":  "JP-13-000142"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_cityhall",
@@ -65,10 +64,8 @@
                         "url":  "https://www.youtube.com/watch?v=vuP9iwdyyFM",
                         "desc":  "新宿区役所前交差点と東京都道302号新宿両国線（靖国通り）を24時間リアルタイム配信するライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "テイケイ本社から新宿五丁目・区役所・大ガード東など複数交差点を24時間365日YouTube配信中と再確認",
                         "providerPageUrl":  "https://www.teikeigroup.co.jp/news/11/",
                         "linkPolicy":  "both",
                         "preferredView":  "direct",
@@ -76,11 +73,12 @@
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=vuP9iwdyyFM",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-5-kabukicho-teikei/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinjuku_cityhall",
+                        "cameraId":  "JP-13-000139"
                     },
                     {
                         "id":  "road_tokyo_kamiochiai_waseda",
@@ -115,7 +113,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_kamiochiai_waseda",
+                        "cameraId":  "JP-13-000110"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_oguard_west",
@@ -139,21 +139,20 @@
                         "url":  "https://www.youtube.com/watch?v=6dp-bvQ7RWo",
                         "desc":  "新宿大ガード西交差点を映し、東京都道4号東京所沢線（青梅街道）と都道302号支線（小滝橋通り）の交通状況を確認できる24時間ライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・ダイレクト映像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "新宿大ガード交差点を24時間365日YouTubeリアルタイム配信中と再確認",
                         "linkPolicy":  "both",
                         "preferredView":  "direct",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=6dp-bvQ7RWo",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-crossing/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinjuku_oguard_west",
+                        "cameraId":  "JP-13-000141"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_5chome",
@@ -178,10 +177,8 @@
                         "url":  "https://www.youtube.com/watch?v=gTO_FJzv70k",
                         "desc":  "新宿五丁目・新宿五丁目東交差点を映し、靖国通り（都道302号）と明治通り系統の都道305号周辺の交通状況を確認できるライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・ダイレクト映像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "都道302号・305号・430号と新宿五丁目周辺を24時間365日YouTube配信中と再確認",
                         "providerPageUrl":  "https://www.teikeigroup.co.jp/news/11/",
                         "linkPolicy":  "both",
                         "preferredView":  "direct",
@@ -189,11 +186,12 @@
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "directStreamUrl":  "https://www.youtube.com/watch?v=gTO_FJzv70k",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-5-kabukicho-teikei/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinjuku_5chome",
+                        "cameraId":  "JP-13-000138"
                     },
                     {
                         "id":  "road_tokyo_hatsudai_kita_r317",
@@ -223,19 +221,17 @@
                         "desc":  "初台北オートバイ駐車場から東京都道317号環状六号線の交通状況を確認。",
                         "status":  "active",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式配信ページ確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "配信中・独自配信・24時間365日を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/tokyo-road317-hatsudai-north-motorcycle-pa/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都新宿区",
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_hatsudai_kita_r317",
+                        "cameraId":  "JP-13-000107"
                     },
                     {
                         "id":  "road_tokyo_ichigaya_honmuracho_r405",
@@ -264,19 +260,17 @@
                         "desc":  "市谷本村町から外堀通り（東京都道405号外濠環状線）を確認。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE・配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "配信中・YouTube・24時間365日を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/tokyo-road405-ichigayahonmuracho/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都新宿区",
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_ichigaya_honmuracho_r405",
+                        "cameraId":  "JP-13-000108"
                     },
                     {
                         "id":  "road_tokyo_shinjuku_east_odori",
@@ -309,19 +303,17 @@
                         "desc":  "新宿駅東口周辺と新宿大通り・新宿3丁目交差点の交通・混雑状況を確認。",
                         "status":  "active",
                         "sourceTier":  "商店街公式",
-                        "auditStatus":  "現行LIVE・配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "配信中・独自配信・24時間365日。新宿大通りカメラと駅東口方面カメラの2視点を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinjuku-ku/shinjuku-station-east-odori/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都新宿区",
                         "completionVersion":  "v81",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinjuku_east_odori",
+                        "cameraId":  "JP-13-000140"
                     },
                     {
                         "id":  "cametan_tokyo_shinjuku_kuyakusho_dori",
@@ -351,18 +343,17 @@
                                         ],
                         "desc":  "歌舞伎町・新宿区役所通り交差点を24時間配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行24時間LIVE確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/map/3532.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都新宿区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinjuku",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shinjuku_kuyakusho_dori",
+                        "cameraId":  "JP-13-000287"
                     }
                 ]
 }

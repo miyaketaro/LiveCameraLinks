@@ -37,7 +37,9 @@
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "bunkyo",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "tokyo_rikugien_live",
+                        "cameraId":  "JP-13-000266"
                     }
                 ]
 }

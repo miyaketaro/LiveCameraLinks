@@ -55,7 +55,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nerima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_nerima_mejiro_auto",
+                        "cameraId":  "JP-13-000113"
                     }
                 ]
 }

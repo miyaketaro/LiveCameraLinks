@@ -38,18 +38,17 @@
                         "desc":  "木場公園、首都高速9号深川線、三ツ目通り、木場駅周辺などを確認。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都江東区",
                         "completionVersion":  "v111",
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_koto_kiba_park",
+                        "cameraId":  "JP-13-000214"
                     },
                     {
                         "id":  "cametan_tokyo_koto_big_sight_sky",
@@ -78,18 +77,17 @@
                                         ],
                         "desc":  "東京ビッグサイト・有明上空周辺をリアルタイム配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都江東区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_koto_big_sight_sky",
+                        "cameraId":  "JP-13-000213"
                     }
                 ]
 }

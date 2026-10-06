@@ -36,7 +36,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shimbashi_station",
+                        "cameraId":  "JP-13-000272"
                     },
                     {
                         "id":  "tokyo_hamamatsucho_station",
@@ -69,7 +71,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_hamamatsucho_station",
+                        "cameraId":  "JP-13-000178"
                     }
                 ]
 }

@@ -38,7 +38,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_r292_entrance",
+                        "cameraId":  "JP-10-000003"
                     },
                     {
                         "id":  "gunma_kusatsu_r292_maeguchi",
@@ -73,7 +75,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式情報確認済み",
                         "prefectureCode":  "gunma",
-                        "areaCode":  "kusatsu"
+                        "areaCode":  "kusatsu",
+                        "slug":  "gunma_kusatsu_r292_maeguchi",
+                        "cameraId":  "JP-10-000004"
                     }
                 ]
 }

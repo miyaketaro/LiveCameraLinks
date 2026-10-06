@@ -1,0 +1,44 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "yamanashi",
+    "area":  "kofu",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_uty_science_center",
+                        "name":  "山梨県立科学館・屋上",
+                        "place":  "山梨県 甲府市愛宕町",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "UTYテレビ山梨／山梨県立科学館",
+                        "publisher":  "UTYテレビ山梨",
+                        "providerPageUrl":  "https://www.uty.co.jp/livecam/kagakukan.php",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "甲府市街",
+                                       "眺望"
+                                   ],
+                        "viewTargets":  [
+                                            "甲府市街",
+                                            "山梨県立科学館周辺"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "放送局公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "UTY公式ライブカメラ現行一覧確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kofu",
+                        "slug":  "yamanashi_uty_science_center",
+                        "cameraId":  "JP-19-000054"
+                    }
+                ]
+}

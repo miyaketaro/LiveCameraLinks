@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "bunkyo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_39",
+                        "cameraId":  "JP-13-000061"
                     },
                     {
                         "id":  "tokyo_kanda_ryukeibashi",
@@ -64,7 +67,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "bunkyo",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_kanda_ryukeibashi",
+                        "cameraId":  "JP-13-000196"
                     }
                 ]
 }

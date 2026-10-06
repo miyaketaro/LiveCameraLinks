@@ -1,0 +1,167 @@
+/* LiveCameraLinks camera-ui.css
+ * Provider message extension additions.
+ * Append these rules to the existing camera-ui.css if you already have one.
+ */
+
+/* 拡張用配信元メッセージ欄 */
+.camera-preview-clean-link{
+    appearance:none;
+    -webkit-appearance:none;
+    border:0;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:stretch;
+    color:inherit;
+    font:inherit;
+}
+
+.camera-preview-media{
+    position:relative;
+    flex:1 1 auto;
+    min-height:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    background:#000;
+}
+
+.camera-preview-clean-image{
+    flex:1 1 auto;
+    min-height:0;
+}
+
+.provider-message-bar{
+    flex:0 0 auto;
+    min-height:34px;
+    padding:7px 12px;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+
+    background:#000;
+    color:#fff !important;
+
+    font-size:12px;
+    line-height:1.45;
+    font-weight:700;
+    text-align:left;
+    text-decoration:none !important;
+}
+
+.provider-message-bar--empty{
+    min-height:22px;
+    padding:0;
+}
+
+.provider-message-bar:hover,
+.provider-message-bar:visited,
+.provider-message-bar:active{
+    color:#fff !important;
+    text-decoration:none !important;
+}
+
+.provider-message-fixed{
+    display:block;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.provider-message-marquee{
+    display:block;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.provider-message-marquee__track{
+    display:inline-block;
+    min-width:100%;
+    padding-left:100%;
+    white-space:nowrap;
+    will-change:transform;
+    animation:provider-message-scroll 18s linear infinite;
+}
+
+@keyframes provider-message-scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%);
+    }
+}
+
+.provider-message-bar:hover .provider-message-marquee__track{
+    animation-play-state:paused;
+}
+
+.camera-preview-player{
+    width:100%;
+    height:100%;
+    min-height:305px;
+    background:#000;
+}
+
+.camera-preview-player iframe{
+    display:block;
+    width:100%;
+    height:100%;
+    min-height:305px;
+    border:0;
+}
+
+.camera-preview-fallback{
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:stretch;
+    padding:0;
+}
+
+.camera-preview-fallback-body{
+    flex:1 1 auto;
+    min-height:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    color:#fff;
+}
+
+.camera-preview-fallback-link{
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+}
+
+/* モーション低減設定を尊重 */
+@media(prefers-reduced-motion:reduce){
+    .provider-message-marquee__track{
+        animation:none;
+        padding-left:0;
+        transform:none;
+    }
+}
+
+@media(max-width:760px){
+    .provider-message-bar{
+        min-height:32px;
+        padding:7px 10px;
+        font-size:11px;
+    }
+
+    .provider-message-bar--empty{
+        min-height:20px;
+    }
+
+    .camera-preview-player,
+    .camera-preview-player iframe{
+        min-height:240px;
+    }
+}

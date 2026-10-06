@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_37",
+                        "cameraId":  "JP-13-000059"
                     },
                     {
                         "id":  "river_tokyo_62",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_62",
+                        "cameraId":  "JP-13-000071"
                     },
                     {
                         "id":  "river_tokyo_64",
@@ -87,7 +93,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_64",
+                        "cameraId":  "JP-13-000072"
                     },
                     {
                         "id":  "tokyo_ota_maruko_horai",
@@ -121,7 +130,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_maruko_horai",
+                        "cameraId":  "JP-13-000255"
                     },
                     {
                         "id":  "tokyo_ota_maruko_niji",
@@ -155,7 +167,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_maruko_niji",
+                        "cameraId":  "JP-13-000256"
                     },
                     {
                         "id":  "tokyo_ota_nomi_sakai",
@@ -189,7 +204,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_sakai",
+                        "cameraId":  "JP-13-000263"
                     },
                     {
                         "id":  "tokyo_ota_nomi_ishikawacho",
@@ -223,7 +241,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_ishikawacho",
+                        "cameraId":  "JP-13-000261"
                     },
                     {
                         "id":  "tokyo_ota_nomi_dodogawa_guard",
@@ -257,7 +278,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_dodogawa_guard",
+                        "cameraId":  "JP-13-000259"
                     },
                     {
                         "id":  "tokyo_ota_nomi_dodobashi",
@@ -291,7 +315,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_dodobashi",
+                        "cameraId":  "JP-13-000258"
                     },
                     {
                         "id":  "tokyo_ota_nomi_chuo",
@@ -325,7 +352,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_chuo",
+                        "cameraId":  "JP-13-000257"
                     },
                     {
                         "id":  "tokyo_ota_nomi_nakanohashi",
@@ -359,7 +389,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_nakanohashi",
+                        "cameraId":  "JP-13-000262"
                     },
                     {
                         "id":  "tokyo_ota_nomi_hachiman",
@@ -393,7 +426,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_nomi_hachiman",
+                        "cameraId":  "JP-13-000260"
                     },
                     {
                         "id":  "tokyo_ota_uchikawa_suwa",
@@ -427,7 +463,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_uchikawa_suwa",
+                        "cameraId":  "JP-13-000265"
                     },
                     {
                         "id":  "tokyo_ota_tama_rokugo_suimon",
@@ -461,7 +500,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_ota_tama_rokugo_suimon",
+                        "cameraId":  "JP-13-000264"
                     },
                     {
                         "id":  "tokyo_nomi_ikegami",
@@ -494,7 +536,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_nomi_ikegami",
+                        "cameraId":  "JP-13-000251"
                     },
                     {
                         "id":  "tokyo_nomi_nishikamata",
@@ -527,7 +572,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_nomi_nishikamata",
+                        "cameraId":  "JP-13-000252"
                     }
                 ]
 }

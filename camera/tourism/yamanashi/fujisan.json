@@ -1,0 +1,45 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "yamanashi",
+    "area":  "fujisan",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_fujisan_yoshida_5th",
+                        "name":  "富士山五合目・吉田ルート",
+                        "place":  "山梨県 富士山吉田口方面",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  35.3606,
+                        "lng":  138.7274,
+                        "coordinateType":  "approximate",
+                        "source":  "山梨県",
+                        "publisher":  "山梨県",
+                        "providerPageUrl":  "https://www.pref.yamanashi.jp/fujisan/livecamera.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "登山",
+                                       "積雪"
+                                   ],
+                        "viewTargets":  [
+                                            "富士山五合目",
+                                            "吉田ルート"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "既存本番ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fujisan",
+                        "slug":  "yamanashi_fujisan_yoshida_5th",
+                        "cameraId":  "JP-19-000007"
+                    }
+                ]
+}

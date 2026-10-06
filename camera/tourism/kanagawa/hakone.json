@@ -34,7 +34,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_yumoto",
+                        "cameraId":  "JP-14-000006"
                     },
                     {
                         "id":  "kanagawa_hakone_ashinoko",
@@ -65,7 +67,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_ashinoko",
+                        "cameraId":  "JP-14-000001"
                     },
                     {
                         "id":  "kanagawa_hakone_kintoki",
@@ -97,7 +101,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_kintoki",
+                        "cameraId":  "JP-14-000003"
                     }
                 ]
 }

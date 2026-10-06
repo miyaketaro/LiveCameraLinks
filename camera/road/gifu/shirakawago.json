@@ -36,7 +36,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式交通情報ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_ogimachi_intersection",
+                        "cameraId":  "JP-21-000003"
                     },
                     {
                         "id":  "gifu_shirakawago_daily_intersection",
@@ -69,7 +71,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式交通情報ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_daily_intersection",
+                        "cameraId":  "JP-21-000001"
                     },
                     {
                         "id":  "gifu_shirakawago_r156",
@@ -104,7 +108,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式交通情報ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_r156",
+                        "cameraId":  "JP-21-000005"
                     }
                 ]
 }

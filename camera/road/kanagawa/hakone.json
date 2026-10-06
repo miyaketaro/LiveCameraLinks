@@ -37,7 +37,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_hakone_pass",
+                        "cameraId":  "JP-14-000002"
                     },
                     {
                         "id":  "kanagawa_hakone_otome_pass",
@@ -72,7 +74,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_otome_pass",
+                        "cameraId":  "JP-14-000004"
                     },
                     {
                         "id":  "kanagawa_hakone_shindo",
@@ -107,7 +111,9 @@
                         "areaCode":  "hakone",
                         "lat":  null,
                         "lng":  null,
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "kanagawa_hakone_shindo",
+                        "cameraId":  "JP-14-000005"
                     }
                 ]
 }

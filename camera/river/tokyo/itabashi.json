@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_34",
+                        "cameraId":  "JP-13-000056"
                     },
                     {
                         "id":  "river_tokyo_56",
@@ -59,7 +62,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_56",
+                        "cameraId":  "JP-13-000065"
                     },
                     {
                         "id":  "river_tokyo_61",
@@ -87,7 +93,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_61",
+                        "cameraId":  "JP-13-000070"
                     },
                     {
                         "id":  "tokyo_itabashi_shakujii_itabashi",
@@ -121,7 +130,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shakujii_itabashi",
+                        "cameraId":  "JP-13-000187"
                     },
                     {
                         "id":  "tokyo_itabashi_shakujii_gakkobashi",
@@ -155,7 +167,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shakujii_gakkobashi",
+                        "cameraId":  "JP-13-000186"
                     },
                     {
                         "id":  "tokyo_itabashi_shingashi_shibaharabashi",
@@ -189,7 +204,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shingashi_shibaharabashi",
+                        "cameraId":  "JP-13-000191"
                     },
                     {
                         "id":  "tokyo_itabashi_shirako_narimasubashi",
@@ -223,7 +241,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shirako_narimasubashi",
+                        "cameraId":  "JP-13-000192"
                     },
                     {
                         "id":  "tokyo_itabashi_shingashi_heiseibashi",
@@ -257,7 +278,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shingashi_heiseibashi",
+                        "cameraId":  "JP-13-000190"
                     },
                     {
                         "id":  "tokyo_itabashi_shakujii_ochiaibashi",
@@ -291,7 +315,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shakujii_ochiaibashi",
+                        "cameraId":  "JP-13-000189"
                     },
                     {
                         "id":  "tokyo_itabashi_shakujii_kuriharabashi",
@@ -325,7 +352,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_itabashi_shakujii_kuriharabashi",
+                        "cameraId":  "JP-13-000188"
                     },
                     {
                         "id":  "river_tokyo_itabashi_shakujiigawa_kagabashi",
@@ -355,19 +385,18 @@
                         "desc":  "板橋区加賀から石神井川右岸を確認できる河川監視カメラ。",
                         "status":  "active",
                         "sourceTier":  "都",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都建設局配信・現行静止画を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/itabashiku/shakujiigawa-kaga-bridge/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都板橋区",
                         "completionVersion":  "v99",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_itabashi_shakujiigawa_kagabashi",
+                        "cameraId":  "JP-13-000085"
                     },
                     {
                         "id":  "river_tokyo_itabashi_shirakogawa_ochiaibashi",
@@ -397,19 +426,18 @@
                         "desc":  "板橋区三園から白子川右岸を確認。10分ごとに更新される河川監視カメラ。",
                         "status":  "active",
                         "sourceTier":  "区",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "板橋区役所配信・24時間365日・10分更新を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/itabashiku/shirakogawa-ochiai-bridge/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都板橋区",
                         "completionVersion":  "v99",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "itabashi",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_itabashi_shirakogawa_ochiaibashi",
+                        "cameraId":  "JP-13-000086"
                     }
                 ]
 }

@@ -31,18 +31,17 @@
                                         ],
                         "desc":  "田端・東京新幹線車両センター周辺の鉄道を確認。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13117.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都北区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_kita_shinkansen_center",
+                        "cameraId":  "JP-13-000210"
                     },
                     {
                         "id":  "cametan_tokyo_kita_oku_center",
@@ -70,18 +69,17 @@
                                         ],
                         "desc":  "尾久車両センター周辺の鉄道を確認。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13117.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都北区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "kita",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_kita_oku_center",
+                        "cameraId":  "JP-13-000209"
                     }
                 ]
 }

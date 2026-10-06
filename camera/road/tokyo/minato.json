@@ -47,7 +47,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_hamazakibashi_jct",
+                        "cameraId":  "JP-13-000179"
                     },
                     {
                         "id":  "odaiba",
@@ -74,7 +76,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "odaiba",
+                        "cameraId":  "JP-13-000037"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_haigo_oi",
@@ -106,7 +110,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinagawa_haigo_oi",
+                        "cameraId":  "JP-13-000134"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_immigration",
@@ -139,14 +145,15 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinagawa_immigration",
+                        "cameraId":  "JP-13-000136"
                     },
                     {
                         "region":  "関東",
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v71",
                         "completionDate":  "2026-09-29",
@@ -173,21 +180,19 @@
                                             "谷町JCT"
                                         ],
                         "desc":  "首都高速3号渋谷線・谷町JCT付近の交通状況を確認。",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/shutokosoku-3-shibuya-line-tanimachi-jct/",
                         "sourceTier":  "配信元",
-                        "auditStatus":  "配信方式再監査済み",
-                        "healthReason":  "配信中・24時間365日・独自リアルタイム配信を確認。首都高3号渋谷線・谷町JCT付近を撮影",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_tanimachi_jct",
+                        "cameraId":  "JP-13-000028"
                     },
                     {
                         "region":  "関東",
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v100",
                         "completionDate":  "2026-09-29",
@@ -215,21 +220,19 @@
                                             "東京タワー"
                                         ],
                         "desc":  "西麻布から首都高3号渋谷線・六本木六丁目交差点方面を確認。",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/metropolitan-exway-nishiazabu/",
                         "sourceTier":  "配信元",
-                        "auditStatus":  "現行LIVE確認済み",
-                        "healthReason":  "映像コンサル公式チャンネル・個別YouTube映像へ置換",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_nishiazabu_shutoko3",
+                        "cameraId":  "JP-13-000019"
                     },
                     {
                         "region":  "関東",
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v71",
                         "completionDate":  "2026-09-29",
@@ -258,21 +261,19 @@
                                             "東京湾"
                                         ],
                         "desc":  "レインボーブリッジ一般部・首都高11号台場線・東京湾を確認。",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/rainbow-bridge-ippan-tokyo-bay/",
                         "sourceTier":  "配信元",
-                        "auditStatus":  "現行LIVE確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_rainbow_bridge_general",
+                        "cameraId":  "JP-13-000020"
                     },
                     {
                         "region":  "関東",
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v71",
                         "completionDate":  "2026-09-29",
@@ -300,14 +301,13 @@
                                             "東京都道481号新橋日の出ふ頭線"
                                         ],
                         "desc":  "浜松町駅方面の鉄道と都道481号周辺を確認。",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/hamamatsucho-station-yurikamome/",
                         "sourceTier":  "配信元",
-                        "auditStatus":  "現行LIVE確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_hamamatsucho_kyodo",
+                        "cameraId":  "JP-13-000015"
                     },
                     {
                         "id":  "minato_mita_route1",
@@ -337,17 +337,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v74",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_mita_route1",
+                        "cameraId":  "JP-13-000017"
                     },
                     {
                         "id":  "minato_mita2_route1",
@@ -377,17 +375,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v74",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_mita2_route1",
+                        "cameraId":  "JP-13-000018"
                     },
                     {
                         "id":  "minato_ariake_jct",
@@ -419,17 +415,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/ariake-jct/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v71",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行LIVE確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_ariake_jct",
+                        "cameraId":  "JP-13-000014"
                     },
                     {
                         "id":  "minato_shimbashi_area_live",
@@ -460,17 +454,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "livecombs直接リンクを除去。配信元URL確認後に再設定",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/tokyo-minatoku-shimbashi/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v72",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "配信元リンク再確認中",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_shimbashi_area_live",
+                        "cameraId":  "JP-13-000023"
                     },
                     {
                         "id":  "tokyo_mtv_shibakoen",
@@ -509,7 +501,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_shibakoen",
+                        "cameraId":  "JP-13-000236"
                     },
                     {
                         "id":  "mtv_shibaura",
@@ -549,7 +543,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_shibaura",
+                        "cameraId":  "JP-13-000035"
                     }
                 ]
 }

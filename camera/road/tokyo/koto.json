@@ -32,7 +32,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "shinonome_jct",
+                        "cameraId":  "JP-13-000153"
                     },
                     {
                         "id":  "road_tokyo_aomi_jukansen_chubou",
@@ -65,7 +67,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_jukansen_chubou",
+                        "cameraId":  "JP-13-000099"
                     },
                     {
                         "id":  "road_tokyo_aomi_3chome",
@@ -97,7 +101,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_3chome",
+                        "cameraId":  "JP-13-000096"
                     },
                     {
                         "id":  "road_tokyo_aomi_haigodouro1",
@@ -130,7 +136,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_haigodouro1",
+                        "cameraId":  "JP-13-000097"
                     },
                     {
                         "id":  "road_tokyo_aomi_jukansen_telecom",
@@ -163,7 +171,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_jukansen_telecom",
+                        "cameraId":  "JP-13-000100"
                     },
                     {
                         "id":  "road_tokyo_aomi_haigodouro2",
@@ -196,7 +206,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_haigodouro2",
+                        "cameraId":  "JP-13-000098"
                     },
                     {
                         "id":  "road_tokyo_aomi_1chome_chubou",
@@ -229,7 +241,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_1chome_chubou",
+                        "cameraId":  "JP-13-000095"
                     },
                     {
                         "id":  "road_tokyo_aomi_waiting_area",
@@ -262,7 +276,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_aomi_waiting_area",
+                        "cameraId":  "JP-13-000101"
                     },
                     {
                         "id":  "road_tokyo_gatebridge_chubou_tower",
@@ -295,7 +311,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_gatebridge_chubou_tower",
+                        "cameraId":  "JP-13-000105"
                     },
                     {
                         "id":  "mtv_edagawa",
@@ -335,7 +353,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "mtv_edagawa",
+                        "cameraId":  "JP-13-000031"
                     }
                 ]
 }

@@ -1,0 +1,45 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "yamanashi",
+    "area":  "fuefuki",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_nns_r20_hirose",
+                        "name":  "国道20号・広瀬交差点",
+                        "place":  "山梨県 国道20号・広瀬交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "国道20号",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "株式会社日本ネットワークサービス（NNS）",
+                        "publisher":  "株式会社日本ネットワークサービス（NNS）",
+                        "providerPageUrl":  "https://www.nns-catv.co.jp/traffic/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "国道20号",
+                                            "国道20号・広瀬交差点"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "NNS公式道路状況カメラ一覧でYouTube Live配信確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fuefuki",
+                        "slug":  "yamanashi_nns_r20_hirose",
+                        "cameraId":  "JP-19-000027"
+                    }
+                ]
+}

@@ -37,7 +37,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "gifu",
-                        "areaCode":  "shirakawago"
+                        "areaCode":  "shirakawago",
+                        "slug":  "gifu_shirakawago_ogimachi_viewpoint",
+                        "cameraId":  "JP-21-000004"
                     }
                 ]
 }

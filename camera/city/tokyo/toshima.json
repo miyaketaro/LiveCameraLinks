@@ -30,7 +30,9 @@
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "toshima",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "ikebukuro",
+                        "cameraId":  "JP-13-000013"
                     }
                 ]
 }

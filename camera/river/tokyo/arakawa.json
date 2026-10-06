@@ -41,7 +41,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "arakawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_42",
+                        "cameraId":  "JP-13-000064"
                     }
                 ]
 }

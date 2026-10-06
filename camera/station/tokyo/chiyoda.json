@@ -52,21 +52,19 @@
                                         ],
                         "desc":  "東京駅丸の内口・丸の内駅前広場周辺の「今」を確認。公式情報と大丸有協議会のライブ映像へ直接アクセスできます。",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行LIVE再確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "現行のリアルタイムYouTube LIVEを再確認",
                         "prefectureCompletion":  "東京駅強化",
                         "completionVersion":  "v109",
                         "completionDate":  "2026-09-29",
                         "status":  "active",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/tokyo-marunouchi/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_station",
+                        "cameraId":  "JP-13-000291"
                     },
                     {
                         "id":  "tokyo_station_ntv_rail",
@@ -111,23 +109,21 @@
                                         ],
                         "desc":  "東京駅を発着する新幹線・在来線などを見られる鉄道ライブ映像。",
                         "sourceTier":  "報道機関",
-                        "auditStatus":  "現行LIVE再確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "現行のリアルタイムYouTube LIVEを再確認",
                         "livePreview":  true,
                         "youtubeVideoId":  "1oNQ9HoxAEE",
                         "status":  "active",
                         "prefectureCompletion":  "東京駅強化",
                         "completionVersion":  "v109",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chiyoda-ku/tokyo-station-jr-line/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都千代田区",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_station_ntv_rail",
+                        "cameraId":  "JP-13-000292"
                     },
                     {
                         "id":  "tokyo_kanda_station",
@@ -163,7 +159,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_kanda_station",
+                        "cameraId":  "JP-13-000197"
                     },
                     {
                         "id":  "tokyo_akihabara_station",
@@ -198,7 +196,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_akihabara_station",
+                        "cameraId":  "JP-13-000160"
                     },
                     {
                         "id":  "tokyo_yurakucho_station",
@@ -233,7 +233,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_yurakucho_station",
+                        "cameraId":  "JP-13-000309"
                     },
                     {
                         "id":  "tokyo_chiyoda_onoden_akihabara",
@@ -283,7 +285,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chiyoda",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_chiyoda_onoden_akihabara",
+                        "cameraId":  "JP-13-000166"
                     }
                 ]
 }

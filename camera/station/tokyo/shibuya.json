@@ -41,7 +41,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shibuya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_shibuya_station_panorama",
+                        "cameraId":  "JP-13-000271"
                     }
                 ]
 }

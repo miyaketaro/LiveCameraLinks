@@ -32,7 +32,9 @@
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "haneda",
+                        "cameraId":  "JP-13-000012"
                     }
                 ]
 }

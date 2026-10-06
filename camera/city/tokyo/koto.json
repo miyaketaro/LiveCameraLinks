@@ -33,18 +33,17 @@
                                         ],
                         "desc":  "豊洲からレインボーブリッジ・豊洲市場方面を確認。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行ストリーミング確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13108.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都江東区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "city",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "koto",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_koto_toyosu_view",
+                        "cameraId":  "JP-13-000215"
                     }
                 ]
 }

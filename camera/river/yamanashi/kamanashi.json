@@ -1,0 +1,83 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "river",
+    "prefecture":  "yamanashi",
+    "area":  "kamanashi",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_kamanashigawa_funayamabashi",
+                        "name":  "釜無川・船山橋",
+                        "place":  "山梨県 釜無川 船山橋周辺",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "riverName":  "釜無川",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/kawa/funayamabasi.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式河川カメラ・静止画",
+                        "themes":  [
+                                       "河川",
+                                       "防災",
+                                       "水位",
+                                       "釜無川"
+                                   ],
+                        "viewTargets":  [
+                                            "釜無川",
+                                            "船山橋"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所かわカメラ個別ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kamanashi",
+                        "slug":  "yamanashi_kamanashigawa_funayamabashi",
+                        "cameraId":  "JP-19-000010"
+                    },
+                    {
+                        "id":  "yamanashi_kamanashigawa_asaharabashi",
+                        "name":  "釜無川・浅原橋",
+                        "place":  "山梨県 釜無川 浅原橋周辺",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "riverName":  "釜無川",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/kawa/asaharabasi.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式河川カメラ・静止画",
+                        "themes":  [
+                                       "河川",
+                                       "防災",
+                                       "水位",
+                                       "釜無川"
+                                   ],
+                        "viewTargets":  [
+                                            "釜無川",
+                                            "浅原橋"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所かわカメラ個別ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kamanashi",
+                        "slug":  "yamanashi_kamanashigawa_asaharabashi",
+                        "cameraId":  "JP-19-000009"
+                    }
+                ]
+}

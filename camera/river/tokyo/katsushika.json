@@ -31,7 +31,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_32",
+                        "cameraId":  "JP-13-000054"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_horikiri",
@@ -65,7 +68,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_arakawa_horikiri",
+                        "cameraId":  "JP-13-000199"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_higashiyotsugi",
@@ -99,7 +105,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_arakawa_higashiyotsugi",
+                        "cameraId":  "JP-13-000198"
                     },
                     {
                         "id":  "tokyo_katsushika_naka_shinnaka_branch",
@@ -133,7 +142,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_naka_shinnaka_branch",
+                        "cameraId":  "JP-13-000203"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_okudo",
@@ -167,7 +179,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_nakagawa_okudo",
+                        "cameraId":  "JP-13-000205"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_higashitateishi",
@@ -201,7 +216,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_nakagawa_higashitateishi",
+                        "cameraId":  "JP-13-000204"
                     },
                     {
                         "id":  "tokyo_katsushika_obagawa",
@@ -235,7 +253,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_obagawa",
+                        "cameraId":  "JP-13-000207"
                     },
                     {
                         "id":  "tokyo_katsushika_koaidame",
@@ -269,7 +290,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_koaidame",
+                        "cameraId":  "JP-13-000202"
                     },
                     {
                         "id":  "tokyo_katsushika_arakawa_horikiri_port",
@@ -303,7 +327,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_arakawa_horikiri_port",
+                        "cameraId":  "JP-13-000200"
                     },
                     {
                         "id":  "tokyo_katsushika_nakagawa_takasago",
@@ -337,7 +364,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_nakagawa_takasago",
+                        "cameraId":  "JP-13-000206"
                     },
                     {
                         "id":  "tokyo_katsushika_edogawa_matsudo_gauge",
@@ -371,7 +401,10 @@
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "riverName":  null,
+                        "slug":  "tokyo_katsushika_edogawa_matsudo_gauge",
+                        "cameraId":  "JP-13-000201"
                     },
                     {
                         "id":  "river_tokyo_katsushika_ayasegawa_mitobashi",
@@ -401,18 +434,18 @@
                         "desc":  "綾瀬川・水戸橋付近を確認。",
                         "status":  "active",
                         "sourceTier":  "都",
-                        "auditStatus":  "配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/katsushikaku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都葛飾区",
                         "completionVersion":  "v105",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_katsushika_ayasegawa_mitobashi",
+                        "cameraId":  "JP-13-000087"
                     },
                     {
                         "id":  "river_tokyo_katsushika_nakagawa_aoto_mlit",
@@ -442,18 +475,18 @@
                         "desc":  "葛飾区青戸から中川右岸を確認。10分間隔更新。",
                         "status":  "active",
                         "sourceTier":  "国",
-                        "auditStatus":  "公式ページ確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/katsushikaku/nakagawa-katushikaku-aoto/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都葛飾区",
                         "completionVersion":  "v105",
                         "completionDate":  "2026-09-29",
                         "category":  "river",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "katsushika",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "riverName":  null,
+                        "slug":  "river_tokyo_katsushika_nakagawa_aoto_mlit",
+                        "cameraId":  "JP-13-000088"
                     }
                 ]
 }

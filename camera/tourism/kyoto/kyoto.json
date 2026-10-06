@@ -34,7 +34,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_fushimi_inari_front",
+                        "cameraId":  "JP-26-000007"
                     },
                     {
                         "id":  "kyoto_kyoto_heian_jingu",
@@ -65,7 +67,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_heian_jingu",
+                        "cameraId":  "JP-26-000011"
                     },
                     {
                         "id":  "kyoto_kyoto_eikando",
@@ -96,7 +100,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_eikando",
+                        "cameraId":  "JP-26-000005"
                     },
                     {
                         "id":  "kyoto_kyoto_ginkakuji",
@@ -127,7 +133,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_ginkakuji",
+                        "cameraId":  "JP-26-000008"
                     },
                     {
                         "id":  "kyoto_kyoto_ninnaji",
@@ -158,7 +166,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_ninnaji",
+                        "cameraId":  "JP-26-000021"
                     },
                     {
                         "id":  "kyoto_kyoto_daigoji",
@@ -189,7 +199,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_daigoji",
+                        "cameraId":  "JP-26-000003"
                     },
                     {
                         "id":  "kyoto_kyoto_jonangu",
@@ -220,7 +232,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_jonangu",
+                        "cameraId":  "JP-26-000015"
                     },
                     {
                         "id":  "kyoto_kyoto_oharano_jinja",
@@ -251,7 +265,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_oharano_jinja",
+                        "cameraId":  "JP-26-000023"
                     },
                     {
                         "id":  "kyoto_kyoto_jakkoin",
@@ -282,7 +298,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_jakkoin",
+                        "cameraId":  "JP-26-000013"
                     },
                     {
                         "id":  "kyoto_kyoto_kifune_jinja",
@@ -313,7 +331,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_kifune_jinja",
+                        "cameraId":  "JP-26-000016"
                     },
                     {
                         "id":  "kyoto_kyoto_jingoji",
@@ -344,7 +364,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_jingoji",
+                        "cameraId":  "JP-26-000014"
                     },
                     {
                         "id":  "kyoto_kyoto_woody_keihoku",
@@ -375,7 +397,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_woody_keihoku",
+                        "cameraId":  "JP-26-000039"
                     },
                     {
                         "id":  "kyoto_kyoto_fushimi_inari_back",
@@ -406,7 +430,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_fushimi_inari_back",
+                        "cameraId":  "JP-26-000006"
                     },
                     {
                         "id":  "kyoto_kyoto_tetsugaku",
@@ -437,7 +463,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_tetsugaku",
+                        "cameraId":  "JP-26-000038"
                     },
                     {
                         "id":  "kyoto_kyoto_kitano_tenmangu",
@@ -468,7 +496,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_kitano_tenmangu",
+                        "cameraId":  "JP-26-000017"
                     },
                     {
                         "id":  "kyoto_kyoto_arashiyama_togetsukyo",
@@ -499,7 +529,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_arashiyama_togetsukyo",
+                        "cameraId":  "JP-26-000001"
                     },
                     {
                         "id":  "kyoto_kyoto_bamboo_path",
@@ -530,7 +562,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_bamboo_path",
+                        "cameraId":  "JP-26-000002"
                     },
                     {
                         "id":  "kyoto_kyoto_daikakuji",
@@ -561,7 +595,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_daikakuji",
+                        "cameraId":  "JP-26-000004"
                     },
                     {
                         "id":  "kyoto_kyoto_saga_toriimoto",
@@ -592,7 +628,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_saga_toriimoto",
+                        "cameraId":  "JP-26-000036"
                     },
                     {
                         "id":  "kyoto_kyoto_kiyomizudera",
@@ -623,7 +661,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_kiyomizudera",
+                        "cameraId":  "JP-26-000018"
                     }
                 ]
 }

@@ -34,19 +34,17 @@
                         "desc":  "中野駅前オートバイ駐車場の混雑状況を確認。",
                         "status":  "active",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行掲載・配信元確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "ライブカメラ一覧で東京都道路整備保全公社配信として現行掲載を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/nakanoku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都中野区",
                         "completionVersion":  "v95",
                         "completionDate":  "2026-09-29",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nakano",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_nakano_station_motorcycle_parking",
+                        "cameraId":  "JP-13-000248"
                     }
                 ]
 }

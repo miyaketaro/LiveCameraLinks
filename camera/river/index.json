@@ -43,6 +43,12 @@
                             "file":  "tokyo/index.json",
                             "areaCount":  23,
                             "cameraCount":  159
+                        },
+                        {
+                            "prefecture":  "yamanashi",
+                            "file":  "yamanashi/index.json",
+                            "areaCount":  18,
+                            "cameraCount":  7
                         }
                     ]
 }

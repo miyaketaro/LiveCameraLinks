@@ -4,23 +4,23 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  394,
-                       "prefectureCount":  7,
-                       "areaCount":  29,
+                       "cameraCount":  450,
+                       "prefectureCount":  8,
+                       "areaCount":  47,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  131
+                                          "cameraCount":  165
                                       },
                              "river":  {
                                            "file":  "river/index.json",
-                                           "cameraCount":  159
+                                           "cameraCount":  166
                                        },
                              "station":  {
                                              "file":  "station/index.json",
-                                             "cameraCount":  27
+                                             "cameraCount":  28
                                          },
                              "city":  {
                                           "file":  "city/index.json",
@@ -32,7 +32,7 @@
                                          },
                              "parking":  {
                                              "file":  "parking/index.json",
-                                             "cameraCount":  12
+                                             "cameraCount":  16
                                          },
                              "port":  {
                                           "file":  "port/index.json",
@@ -40,7 +40,7 @@
                                       },
                              "tourism":  {
                                              "file":  "tourism/index.json",
-                                             "cameraCount":  53
+                                             "cameraCount":  63
                                          }
                          },
     "routes":  {
@@ -81,6 +81,11 @@
                             "prefecture":  "tokyo",
                             "areaCount":  23,
                             "cameraCount":  311
+                        },
+                        {
+                            "prefecture":  "yamanashi",
+                            "areaCount":  18,
+                            "cameraCount":  56
                         }
                     ]
 }

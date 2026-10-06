@@ -38,7 +38,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nakano",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_nakano_waseda_auto",
+                        "cameraId":  "JP-13-000112"
                     },
                     {
                         "id":  "cametan_tokyo_nakano_auto_waseda",
@@ -67,18 +69,17 @@
                         "desc":  "洗車場の混雑状況と早稲田通りをリアルタイム確認。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13114.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都中野区",
                         "completionVersion":  "v111",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "nakano",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_nakano_auto_waseda",
+                        "cameraId":  "JP-13-000239"
                     }
                 ]
 }

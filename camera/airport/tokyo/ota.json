@@ -32,18 +32,17 @@
                                         ],
                         "desc":  "羽田空港第2ターミナルを日テレNEWSが24時間配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行24時間LIVE確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/map/3945.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "airport",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_ota_haneda_t2_ntv",
+                        "cameraId":  "JP-13-000254"
                     },
                     {
                         "id":  "cametan_tokyo_ota_haneda_t2_ann",
@@ -71,18 +70,17 @@
                                         ],
                         "desc":  "羽田空港第2ターミナルをANNnewsCHが24時間配信。",
                         "status":  "active",
-                        "auditStatus":  "カメ探現行24時間LIVE確認",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/map/5007.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v113",
                         "completionDate":  "2026-09-29",
                         "category":  "airport",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_ota_haneda_t2_ann",
+                        "cameraId":  "JP-13-000253"
                     }
                 ]
 }

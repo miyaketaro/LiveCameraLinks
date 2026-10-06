@@ -55,7 +55,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_station_yaesu_bus",
+                        "cameraId":  "JP-13-000293"
                     },
                     {
                         "id":  "road_tokyo_takaracho_c1",
@@ -80,10 +82,8 @@
                         "url":  "https://www.m-tv.jp/way.html",
                         "desc":  "首都高速都心環状線（C1）の宝町付近を確認できる道路ライブカメラ。配信URLは切り替わるため、配信元チャンネルを登録。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "構造・配信元監査済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "モバイルテレビジョン公式「ライブ映像道路情報」にC1宝町付近を掲載。固定LIVE URLではなく公式道路ページ＋配信チャンネルへ統一",
                         "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
                         "providerPageUrl":  "https://www.m-tv.jp/way.html",
                         "linkPolicy":  "both",
@@ -91,11 +91,12 @@
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v76",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/highway/tokyoto/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_takaracho_c1",
+                        "cameraId":  "JP-13-000144"
                     },
                     {
                         "id":  "road_tokyo_gofukubashi_c1",
@@ -121,10 +122,8 @@
                         "url":  "https://www.m-tv.jp/way.html",
                         "desc":  "首都高速都心環状線（C1）呉服橋付近と東京都道405号外濠環状線（外堀通り）、日本橋川・一石橋周辺を確認できる道路ライブカメラ。",
                         "sourceTier":  "民間",
-                        "auditStatus":  "構造・配信元監査済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "モバイルテレビジョン公式「ライブ映像道路情報」にC1呉服橋付近を掲載。固定watch URL依存をやめ、公式道路ページ＋配信チャンネルへ統一",
                         "directStreamUrl":  "https://www.youtube.com/@LIVECAMTraffic",
                         "providerPageUrl":  "https://www.m-tv.jp/way.html",
                         "linkPolicy":  "both",
@@ -132,11 +131,12 @@
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v76",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/chuoku/metropolitan-exway-toshinkanjo-gofukubashi-jct/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_gofukubashi_c1",
+                        "cameraId":  "JP-13-000106"
                     },
                     {
                         "id":  "tokyo_mtv_edobashi_hakozaki",
@@ -176,7 +176,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_edobashi_hakozaki",
+                        "cameraId":  "JP-13-000227"
                     },
                     {
                         "id":  "cametan_tokyo_chuo_kabuto_one",
@@ -209,18 +211,17 @@
                         "desc":  "KABUTO ONEアトリウムと茅場町駅出入口周辺を24時間LIVE。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行LIVE確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "referencePageUrl":  "https://www.cametan.com/city/13102.html",
-                        "batchSource":  "cametan",
                         "batchArea":  "東京都中央区",
                         "completionVersion":  "v111",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "chuo",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_chuo_kabuto_one",
+                        "cameraId":  "JP-13-000169"
                     }
                 ]
 }

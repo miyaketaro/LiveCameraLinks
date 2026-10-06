@@ -36,7 +36,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_nishiki",
+                        "cameraId":  "JP-26-000022"
                     },
                     {
                         "id":  "kyoto_kyoto_hanamikoji",
@@ -69,7 +71,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_hanamikoji",
+                        "cameraId":  "JP-26-000010"
                     },
                     {
                         "id":  "kyoto_kyoto_nenenomichi",
@@ -102,7 +106,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式資料確認済み",
                         "prefectureCode":  "kyoto",
-                        "areaCode":  "kyoto"
+                        "areaCode":  "kyoto",
+                        "slug":  "kyoto_kyoto_nenenomichi",
+                        "cameraId":  "JP-26-000020"
                     }
                 ]
 }

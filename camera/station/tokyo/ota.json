@@ -36,7 +36,9 @@
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_kamata_station",
+                        "cameraId":  "JP-13-000194"
                     },
                     {
                         "id":  "city_tokyo_ota_kamata_sbps",
@@ -47,11 +49,11 @@
                         "icon":  "🚉",
                         "lat":  35.5625,
                         "lng":  139.716,
-                        "source":  "SBPS",
-                        "publisher":  "SBPS",
-                        "url":  "https://livecam.asia/ota/",
-                        "providerPageUrl":  "https://livecam.asia/ota/",
-                        "directStreamUrl":  "",
+                        "source":  "譬ｪ蠑丈ｼ夂､ｾSBPS",
+                        "publisher":  "譬ｪ蠑丈ｼ夂､ｾSBPS",
+                        "url":  "https://www.youtube.com/watch?v=x4gyqPBWZW8",
+                        "providerPageUrl":  "https://sbp-s.co.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=x4gyqPBWZW8",
                         "linkPolicy":  "provider",
                         "preferredView":  "provider",
                         "mediaType":  "YouTube LIVE",
@@ -69,19 +71,17 @@
                         "desc":  "蒲田周辺の駅前・道路・市街地の状況をリアルタイム動画で確認。",
                         "status":  "active",
                         "sourceTier":  "民間",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "ライブカメラDBで現行YouTube生配信掲載を確認",
-                        "referencePageUrl":  "https://livecam.asia/ota/",
-                        "batchSource":  "livecam.asia",
                         "batchArea":  "東京都大田区",
                         "completionVersion":  "v90",
                         "completionDate":  "2026-09-29",
                         "category":  "station",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "ota",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "city_tokyo_ota_kamata_sbps",
+                        "cameraId":  "JP-13-000011"
                     }
                 ]
 }

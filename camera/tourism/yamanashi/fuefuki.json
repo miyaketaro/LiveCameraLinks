@@ -1,0 +1,45 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "yamanashi",
+    "area":  "fuefuki",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_fuefuki_shindotoge",
+                        "name":  "新道峠・富士山",
+                        "place":  "山梨県 笛吹市 芦川町 新道峠",
+                        "region":  "中部",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "富士の国やまなし観光ネット",
+                        "publisher":  "やまなし観光推進機構",
+                        "providerPageUrl":  "https://www.yamanashi-kankou.jp/heritage/fujisanwatcher/jp/live/01.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式観光ライブカメラ",
+                        "themes":  [
+                                       "観光・名所",
+                                       "富士山",
+                                       "展望"
+                                   ],
+                        "viewTargets":  [
+                                            "新道峠",
+                                            "富士山",
+                                            "河口湖"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "公式観光",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "山梨県公式観光情報確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fuefuki",
+                        "slug":  "yamanashi_fuefuki_shindotoge",
+                        "cameraId":  "JP-19-000001"
+                    }
+                ]
+}

@@ -35,19 +35,17 @@
                         "desc":  "押上・東京スカイツリータウン周辺の空模様と市街地を確認。",
                         "status":  "active",
                         "sourceTier":  "公式",
-                        "auditStatus":  "現行掲載確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "基準リストで東京スカイツリータウン配信の現行カメラを確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/sumida-ku/tokyo-skytree-town/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都墨田区",
                         "completionVersion":  "v104",
                         "completionDate":  "2026-09-29",
                         "category":  "tourism",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "sumida",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "sumida_skytree_town",
+                        "cameraId":  "JP-13-000154"
                     }
                 ]
 }

@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "yamanashi",
+    "area":  "kawaguchiko",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_kawaguchiko_station_uty",
+                        "name":  "富士急行線 河口湖駅",
+                        "place":  "山梨県 南都留郡富士河口湖町 船津 河口湖駅",
+                        "region":  "中部",
+                        "kind":  "駅・鉄道",
+                        "category":  "station",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "UTYテレビ山梨",
+                        "publisher":  "UTYテレビ山梨",
+                        "providerPageUrl":  "https://www.uty.co.jp/livecam/",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式ライブカメラ",
+                        "themes":  [
+                                       "駅",
+                                       "鉄道",
+                                       "駅周辺",
+                                       "観光"
+                                   ],
+                        "viewTargets":  [
+                                            "富士急行線",
+                                            "河口湖駅",
+                                            "駅前"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "放送局公式",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "UTY公式ライブカメラ一覧確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "kawaguchiko",
+                        "slug":  "yamanashi_kawaguchiko_station_uty",
+                        "cameraId":  "JP-19-000014"
+                    }
+                ]
+}

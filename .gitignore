@@ -35,3 +35,32 @@ migration_atami_report.json
 migration_kyoto_report.json
 migration_kyoto_roads_report.json
 migration_kyoto_roads_fix_report.json
+
+# Local UI / integration test artifacts
+test-*.html
+index-v17-4-*.html
+livecamera-*.zip
+
+# Local index promotion backups
+backup_index_*/
+
+# Local reports / audit outputs
+reports/
+rivername_normalization_report.json
+
+# Local generated helper files
+frontend_files.txt
+
+# Local Yamanashi migration scripts
+add_yamanashi_*.ps1
+migrate_yamanashi_*.ps1
+normalize_rivername_*.ps1
+
+# Local camera / migration backups
+camera_backup_*/
+camera_tokyo_tokyo_backup_*/
+migration_backup_*/
+
+# Local asset backups
+assets/**/*.backup.css
+assets/**/*.backup.js

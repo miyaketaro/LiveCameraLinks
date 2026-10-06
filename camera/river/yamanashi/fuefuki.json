@@ -1,0 +1,120 @@
+{
+    "schemaVersion":  "1.0",
+    "category":  "river",
+    "prefecture":  "yamanashi",
+    "area":  "fuefuki",
+    "cameraCount":  3,
+    "cameras":  [
+                    {
+                        "id":  "yamanashi_fuefukigawa_torinkyo",
+                        "name":  "笛吹川・桃林橋",
+                        "place":  "山梨県 笛吹川 桃林橋周辺",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/kawa/torinkyo.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式河川カメラ・静止画",
+                        "themes":  [
+                                       "河川",
+                                       "防災",
+                                       "水位",
+                                       "笛吹川"
+                                   ],
+                        "viewTargets":  [
+                                            "笛吹川",
+                                            "桃林橋"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所かわカメラ個別ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fuefuki",
+                        "riverName":  "笛吹川",
+                        "slug":  "yamanashi_fuefukigawa_torinkyo",
+                        "cameraId":  "JP-19-000004"
+                    },
+                    {
+                        "id":  "yamanashi_fuefukigawa_isawa",
+                        "name":  "笛吹川・石和",
+                        "place":  "山梨県 笛吹市 石和町",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/kawa/isawa.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式河川カメラ・静止画",
+                        "themes":  [
+                                       "河川",
+                                       "防災",
+                                       "水位",
+                                       "笛吹川"
+                                   ],
+                        "viewTargets":  [
+                                            "笛吹川",
+                                            "石和"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所かわカメラ個別ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fuefuki",
+                        "riverName":  "笛吹川",
+                        "slug":  "yamanashi_fuefukigawa_isawa",
+                        "cameraId":  "JP-19-000002"
+                    },
+                    {
+                        "id":  "yamanashi_fuefukigawa_kikkobashi",
+                        "name":  "笛吹川・亀甲橋",
+                        "place":  "山梨県 笛吹川 亀甲橋周辺",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "riverName":  "笛吹川",
+                        "lat":  null,
+                        "lng":  null,
+                        "coordinateType":  "unknown",
+                        "source":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "publisher":  "国土交通省 関東地方整備局 甲府河川国道事務所",
+                        "providerPageUrl":  "https://www.ktr.mlit.go.jp/koufu/livecamera/kawa/kikkoubasi.html",
+                        "directStreamUrl":  "",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "公式河川カメラ・静止画",
+                        "themes":  [
+                                       "河川",
+                                       "防災",
+                                       "水位",
+                                       "笛吹川"
+                                   ],
+                        "viewTargets":  [
+                                            "笛吹川",
+                                            "亀甲橋"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "国土交通省",
+                        "lastChecked":  "2026-10-05",
+                        "auditStatus":  "甲府河川国道事務所かわカメラ個別ページ確認済み",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "fuefuki",
+                        "slug":  "yamanashi_fuefukigawa_kikkobashi",
+                        "cameraId":  "JP-19-000003"
+                    }
+                ]
+}

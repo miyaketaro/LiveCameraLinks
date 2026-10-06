@@ -36,7 +36,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_hokubu_under",
+                        "cameraId":  "JP-13-000117"
                     },
                     {
                         "id":  "road_tokyo_oi_hokubu_upper",
@@ -69,7 +71,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_hokubu_upper",
+                        "cameraId":  "JP-13-000118"
                     },
                     {
                         "id":  "road_tokyo_oi_yashio2",
@@ -101,7 +105,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_yashio2",
+                        "cameraId":  "JP-13-000127"
                     },
                     {
                         "id":  "road_tokyo_oi_zeikanmae",
@@ -123,18 +129,17 @@
                         "url":  "https://www.portal-tokyoport.jp/",
                         "desc":  "大井税関前交差点と都道316号（海岸通り）の交通状況を確認できるWebカメラ。",
                         "sourceTier":  "運営者",
-                        "auditStatus":  "現行配信・静止画方式確認済み",
                         "healthStatus":  "確認済み",
                         "lastChecked":  "2026-09-29",
-                        "healthReason":  "配信中・24時間365日・一定間隔更新の静止画を確認",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v86",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/tokyo-road316-oi-customs-mae-crossroad1/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_oi_zeikanmae",
+                        "cameraId":  "JP-13-000128"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_container_center",
@@ -156,18 +161,17 @@
                         "url":  "https://www.portal-tokyoport.jp/",
                         "desc":  "品川コンテナセンター前から品川埠頭と東京都道480号品川埠頭線の交通状況を確認できるライブカメラ。",
                         "sourceTier":  "運営者",
-                        "auditStatus":  "現行配信・静止画方式確認済み",
                         "healthStatus":  "確認済み",
                         "lastChecked":  "2026-09-29",
-                        "healthReason":  "配信中・24時間365日・一定間隔更新の静止画を確認",
                         "prefectureCompletion":  "初期完成",
                         "completionVersion":  "v86",
                         "completionDate":  "2026-09-29",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/tokyo-road480-shinagawa-container-center/",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinagawa_container_center",
+                        "cameraId":  "JP-13-000133"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_haigo_shibaura",
@@ -199,7 +203,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinagawa_haigo_shibaura",
+                        "cameraId":  "JP-13-000135"
                     },
                     {
                         "id":  "road_tokyo_shinagawa_todou480",
@@ -232,7 +238,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_shinagawa_todou480",
+                        "cameraId":  "JP-13-000137"
                     },
                     {
                         "id":  "road_tokyo_oi_minatogaoka",
@@ -267,17 +275,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "品川区道路一覧でLIVE・東京港埠頭株式会社配信を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/tokyo-road316-minatogaoka-futo-park/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都品川区",
                         "completionVersion":  "v85",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行掲載・配信状態確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "road_tokyo_oi_minatogaoka",
+                        "cameraId":  "JP-13-000119"
                     },
                     {
                         "id":  "road_tokyo_oi_chuo_rikkyo",
@@ -311,17 +317,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "配信中・24時間365日・一定間隔更新の静止画を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/oi-chuo-rikkyo-crossroad/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都品川区",
                         "completionVersion":  "v86",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行配信・静止画方式確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "road_tokyo_oi_chuo_rikkyo",
+                        "cameraId":  "JP-13-000115"
                     },
                     {
                         "id":  "road_tokyo_oi_zeikanmae2",
@@ -354,17 +358,15 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "品川区道路一覧で別カメラとしてLIVE掲載を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/shinagawaku/oi-customs-mae-crossroad2/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都品川区",
                         "completionVersion":  "v85",
                         "completionDate":  "2026-09-29",
-                        "auditStatus":  "現行掲載・配信状態確認済み",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "road_tokyo_oi_zeikanmae2",
+                        "cameraId":  "JP-13-000129"
                     },
                     {
                         "id":  "road_tokyo_oi_chassis_pool",
@@ -399,7 +401,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "road_tokyo_oi_chassis_pool",
+                        "cameraId":  "JP-13-000114"
                     },
                     {
                         "id":  "road_tokyo_oi_hokubu_south",
@@ -435,7 +439,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "unknown"
+                        "coordinateType":  "unknown",
+                        "slug":  "road_tokyo_oi_hokubu_south",
+                        "cameraId":  "JP-13-000116"
                     },
                     {
                         "id":  "tokyo_mtv_oi_jct",
@@ -474,7 +480,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "shinagawa",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_oi_jct",
+                        "cameraId":  "JP-13-000233"
                     }
                 ]
 }

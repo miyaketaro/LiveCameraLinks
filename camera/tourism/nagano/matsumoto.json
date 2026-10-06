@@ -33,7 +33,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_castle_alps",
+                        "cameraId":  "JP-20-000001"
                     },
                     {
                         "id":  "nagano_matsumoto_castle_honmaru",
@@ -63,7 +65,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_castle_honmaru",
+                        "cameraId":  "JP-20-000002"
                     },
                     {
                         "id":  "nagano_matsumoto_castle_kuromon",
@@ -93,7 +97,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_castle_kuromon",
+                        "cameraId":  "JP-20-000003"
                     },
                     {
                         "id":  "nagano_matsumoto_utsukushigahara",
@@ -126,7 +132,9 @@
                         "lastChecked":  "2026-10-05",
                         "auditStatus":  "公式ページ確認済み",
                         "prefectureCode":  "nagano",
-                        "areaCode":  "matsumoto"
+                        "areaCode":  "matsumoto",
+                        "slug":  "nagano_matsumoto_utsukushigahara",
+                        "cameraId":  "JP-20-000013"
                     }
                 ]
 }

@@ -33,18 +33,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都道路整備保全公社の個別施設ページでライブカメラ設備を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v73",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_roppongi_415",
+                        "cameraId":  "JP-13-000021"
                     },
                     {
                         "id":  "minato_roppongi6_412",
@@ -74,18 +72,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都道路整備保全公社の個別施設ページでライブカメラ設備を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v73",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_roppongi6_412",
+                        "cameraId":  "JP-13-000022"
                     },
                     {
                         "id":  "minato_shimbashi3_parking",
@@ -115,18 +111,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都道路整備保全公社の個別施設ページでライブカメラ設備を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v73",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_shimbashi3_parking",
+                        "cameraId":  "JP-13-000024"
                     },
                     {
                         "id":  "minato_kaigan2_481",
@@ -156,18 +150,16 @@
                         "status":  "active",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "東京都道路整備保全公社の個別施設ページでライブカメラ設備を確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/minato-ku/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都港区",
                         "completionVersion":  "v73",
                         "completionDate":  "2026-09-29",
                         "sourceTier":  "公式",
-                        "auditStatus":  "公式個別施設ページ・ライブカメラ設備確認済み",
                         "category":  "parking",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "minato",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "minato_kaigan2_481",
+                        "cameraId":  "JP-13-000016"
                     }
                 ]
 }

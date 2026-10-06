@@ -38,19 +38,17 @@
                         "desc":  "二子玉川ライズ・タワーオフィス屋上から国道246号・新二子橋・二子橋・二子玉川駅周辺と多摩川を確認。10分間隔更新。",
                         "status":  "active",
                         "sourceTier":  "国",
-                        "auditStatus":  "公式直接画像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "京浜河川事務所の公式静止画URLを確認。24時間365日・10分更新",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/setagaya-ku/tamagawa-futakotamagawa-rize-tower/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都世田谷区",
                         "completionVersion":  "v92",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_setagaya_futakotamagawa_rise_tower_r246",
+                        "cameraId":  "JP-13-000132"
                     },
                     {
                         "id":  "road_tokyo_setagaya_futagobashi_r246",
@@ -83,19 +81,17 @@
                         "desc":  "二子橋付近から多摩川左岸・新二子橋・国道246号（玉川通り）を確認。10分間隔更新。",
                         "status":  "active",
                         "sourceTier":  "国",
-                        "auditStatus":  "現行配信・直接画像確認済み",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "healthReason":  "京浜河川事務所の直接静止画URLを確認",
-                        "referencePageUrl":  "https://livecombs.com/tokyoto/setagaya-ku/tamagawa-futagobashi/",
-                        "batchSource":  "livecombs",
                         "batchArea":  "東京都世田谷区",
                         "completionVersion":  "v91",
                         "completionDate":  "2026-09-29",
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "road_tokyo_setagaya_futagobashi_r246",
+                        "cameraId":  "JP-13-000131"
                     },
                     {
                         "id":  "tokyo_yoga_road",
@@ -146,7 +142,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_yoga_road",
+                        "cameraId":  "JP-13-000308"
                     },
                     {
                         "id":  "tokyo_mtv_sangenjaya",
@@ -185,7 +183,9 @@
                         "category":  "road",
                         "prefectureCode":  "tokyo",
                         "areaCode":  "setagaya",
-                        "coordinateType":  "approximate"
+                        "coordinateType":  "approximate",
+                        "slug":  "tokyo_mtv_sangenjaya",
+                        "cameraId":  "JP-13-000234"
                     }
                 ]
 }

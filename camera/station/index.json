@@ -3,10 +3,16 @@
     "category":  "station",
     "prefectures":  [
                         {
+                            "prefecture":  "chiba",
+                            "file":  "chiba/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "fukui",
                             "file":  "fukui/index.json",
                             "areaCount":  1,
-                            "cameraCount":  2
+                            "cameraCount":  3
                         },
                         {
                             "prefecture":  "gifu",

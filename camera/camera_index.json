@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  469,
-                       "prefectureCount":  13,
-                       "areaCount":  56,
+                       "cameraCount":  472,
+                       "prefectureCount":  14,
+                       "areaCount":  57,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  179
+                                          "cameraCount":  180
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -20,7 +20,7 @@
                                        },
                              "station":  {
                                              "file":  "station/index.json",
-                                             "cameraCount":  30
+                                             "cameraCount":  32
                                          },
                              "city":  {
                                           "file":  "city/index.json",
@@ -48,9 +48,14 @@
                },
     "prefectures":  [
                         {
+                            "prefecture":  "chiba",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "fukui",
                             "areaCount":  2,
-                            "cameraCount":  5
+                            "cameraCount":  6
                         },
                         {
                             "prefecture":  "gifu",
@@ -110,7 +115,7 @@
                         {
                             "prefecture":  "yamanashi",
                             "areaCount":  18,
-                            "cameraCount":  61
+                            "cameraCount":  62
                         }
                     ]
 }

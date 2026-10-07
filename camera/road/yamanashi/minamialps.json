@@ -3,7 +3,7 @@
     "category":  "road",
     "prefecture":  "yamanashi",
     "area":  "minamialps",
-    "cameraCount":  5,
+    "cameraCount":  6,
     "cameras":  [
                     {
                         "id":  "yamanashi_nns_kaikokubashi_e",
@@ -180,6 +180,41 @@
                         "areaCode":  "minamialps",
                         "slug":  "jp_19_000061",
                         "cameraId":  "JP-19-000061"
+                    },
+                    {
+                        "id":  "jp_19_000062",
+                        "name":  "小笠原橋ライブカメラ",
+                        "place":  "山梨県 小笠原橋ライブカメラ",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "白根ケーブルネットワーク株式会社",
+                        "publisher":  "白根ケーブルネットワーク株式会社",
+                        "providerPageUrl":  "https://www.nus.co.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=jTmQFaMz2Hc",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "小笠原橋ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minamialps",
+                        "slug":  "jp_19_000062",
+                        "cameraId":  "JP-19-000062"
                     }
                 ]
 }

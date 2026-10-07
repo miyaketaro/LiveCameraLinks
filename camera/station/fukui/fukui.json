@@ -3,7 +3,7 @@
     "category":  "station",
     "prefecture":  "fukui",
     "area":  "fukui",
-    "cameraCount":  2,
+    "cameraCount":  3,
     "cameras":  [
                     {
                         "id":  "jp_18_000003",
@@ -74,6 +74,41 @@
                         "areaCode":  "fukui",
                         "slug":  "jp_18_000005",
                         "cameraId":  "JP-18-000005"
+                    },
+                    {
+                        "id":  "jp_18_000006",
+                        "name":  "【ライブカメラ】FBC情報カメラ　福井駅付近　福井県福井市　#ハピラインふくい #北陸新幹線",
+                        "place":  "福井県 【ライブカメラ】FBC情報カメラ　福井駅付近　福井県福井市　#ハピラインふくい #北陸新幹線",
+                        "region":  "中部",
+                        "kind":  "駅・鉄道",
+                        "category":  "station",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "FBC 福井放送",
+                        "publisher":  "FBC 福井放送",
+                        "providerPageUrl":  "https://www.fbc.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=tHMEnSTnFd4",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "駅周辺",
+                                       "鉄道",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "【ライブカメラ】FBC情報カメラ　福井駅付近　福井県福井市　#ハピラインふくい #北陸新幹線"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "fukui",
+                        "areaCode":  "fukui",
+                        "slug":  "jp_18_000006",
+                        "cameraId":  "JP-18-000006"
                     }
                 ]
 }

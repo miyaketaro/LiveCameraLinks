@@ -1,0 +1,14 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "chiba",
+    "areaCount":  1,
+    "cameraCount":  1,
+    "areas":  [
+                  {
+                      "area":  "ichikawa",
+                      "file":  "ichikawa.json",
+                      "cameraCount":  1
+                  }
+              ]
+}

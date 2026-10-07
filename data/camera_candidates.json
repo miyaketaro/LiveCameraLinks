@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  19,
+                       "approvedCount":  22,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -2714,7 +2714,7 @@
                            "embeddable":  true,
                            "prefecture":  "山梨県",
                            "detectedPrefecture":  "山梨県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "山梨県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -2725,14 +2725,14 @@
                                              ],
                            "categoryConfidence":  "medium",
                            "categoryReason":  "bridge keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  27,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "白根ケーブルネットワーク公式。小笠原橋ライブカメラとして道路状況確認用途を確認。",
+                           "approved":  true,
                            "matchedQuery":  "山梨県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -2740,10 +2740,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "白根ケーブルネットワーク株式会社",
+                           "providerPageUrl":  "https://www.nus.co.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:27:52+09:00"
                        },
                        {
                            "candidateId":  "YT-SitepD5vzlM",
@@ -3142,7 +3142,7 @@
                            "embeddable":  true,
                            "prefecture":  "千葉県",
                            "detectedPrefecture":  "千葉県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "千葉県",
                            "searchBlock":  "関東",
                            "detectedBlock":  "関東",
                            "locationStatus":  "一致",
@@ -3153,14 +3153,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "station keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "station",
                            "candidateScore":  26,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "既知",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "千葉県タクシー協会京葉支部の公式YouTubeチャンネルによるJR本八幡駅北口ライブカメラ。防犯・防災・混雑状況確認用途を確認。",
+                           "approved":  true,
                            "matchedQuery":  "千葉県 道路 ライブカメラ",
                            "matchedQueries":  [
                                                   "千葉県 道路 ライブカメラ"
@@ -3168,10 +3168,10 @@
                            "firstSeenAt":  "2026-10-02T19:43:06+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "千葉県タクシー協会京葉支部",
+                           "providerPageUrl":  "https://www.youtube.com/channel/UCkE1JbngfWjKngmTSujg_wA",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:27:52+09:00"
                        },
                        {
                            "candidateId":  "YT-kOKevC8ajFg",
@@ -3240,7 +3240,7 @@
                            "embeddable":  true,
                            "prefecture":  "福井県",
                            "detectedPrefecture":  "福井県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "福井県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -3251,14 +3251,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "station keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "station",
                            "candidateScore":  26,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "FBC福井放送公式。福井駅付近の情報カメラとして確認。",
+                           "approved":  true,
                            "matchedQuery":  "福井県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -3266,10 +3266,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "FBC 福井放送",
+                           "providerPageUrl":  "https://www.fbc.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:27:52+09:00"
                        },
                        {
                            "candidateId":  "YT-xgunijcLVVs",

@@ -1,0 +1,44 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "station",
+    "prefecture":  "chiba",
+    "area":  "ichikawa",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "jp_12_000001",
+                        "name":  "【LIVE】JR本八幡駅北口ライブカメラ　本八幡駅側 LIVECAMERA livestream webcam 電車 鉄道カメラ train station JAPAN 交通情報",
+                        "place":  "千葉県 【LIVE】JR本八幡駅北口ライブカメラ　本八幡駅側 LIVECAMERA livestream webcam 電車 鉄道カメラ train station JAPAN 交通情報",
+                        "region":  "",
+                        "kind":  "駅・鉄道",
+                        "category":  "station",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "千葉県タクシー協会京葉支部",
+                        "publisher":  "千葉県タクシー協会京葉支部",
+                        "providerPageUrl":  "https://www.youtube.com/channel/UCkE1JbngfWjKngmTSujg_wA",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=oQVfclB6nvY",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "駅周辺",
+                                       "鉄道",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "【LIVE】JR本八幡駅北口ライブカメラ　本八幡駅側 LIVECAMERA livestream webcam 電車 鉄道カメラ train station JAPAN 交通情報"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "ichikawa",
+                        "slug":  "jp_12_000001",
+                        "cameraId":  "JP-12-000001"
+                    }
+                ]
+}

@@ -1,0 +1,79 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "nagano",
+    "area":  "karuizawa",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "jp_20_000014",
+                        "name":  "国道18号追分付近ライブカメラ",
+                        "place":  "長野県 国道18号追分付近ライブカメラ",
+                        "region":  "",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "軽井沢町",
+                        "publisher":  "軽井沢町",
+                        "providerPageUrl":  "https://www.town.karuizawa.lg.jp/page/2184.html",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=Y4KAMd2eGuU",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "国道18号追分付近ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "karuizawa",
+                        "slug":  "jp_20_000014",
+                        "cameraId":  "JP-20-000014"
+                    },
+                    {
+                        "id":  "jp_20_000015",
+                        "name":  "新軽井沢西交差点付近ライブカメラ",
+                        "place":  "長野県 新軽井沢西交差点付近ライブカメラ",
+                        "region":  "",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "軽井沢町",
+                        "publisher":  "軽井沢町",
+                        "providerPageUrl":  "https://www.town.karuizawa.lg.jp/page/2222.html",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=GkoIAnOeazM",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "新軽井沢西交差点付近ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "karuizawa",
+                        "slug":  "jp_20_000015",
+                        "cameraId":  "JP-20-000015"
+                    }
+                ]
+}

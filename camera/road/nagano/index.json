@@ -2,9 +2,14 @@
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "nagano",
-    "areaCount":  1,
-    "cameraCount":  9,
+    "areaCount":  2,
+    "cameraCount":  11,
     "areas":  [
+                  {
+                      "area":  "karuizawa",
+                      "file":  "karuizawa.json",
+                      "cameraCount":  2
+                  },
                   {
                       "area":  "matsumoto",
                       "file":  "matsumoto.json",

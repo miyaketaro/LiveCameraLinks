@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  8,
+                       "approvedCount":  10,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -4014,7 +4014,7 @@
                            "embeddable":  true,
                            "prefecture":  "長野県",
                            "detectedPrefecture":  "長野県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "長野県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -4025,14 +4025,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  25,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "軽井沢町公式ライブカメラ。国道18号追分付近を確認",
+                           "approved":  true,
                            "matchedQuery":  "長野県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -4040,10 +4040,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "軽井沢町",
+                           "providerPageUrl":  "https://www.town.karuizawa.lg.jp/page/2184.html",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T10:50:01+09:00"
                        },
                        {
                            "candidateId":  "YT-ghl9m2Ool1o",
@@ -5132,7 +5132,7 @@
                            "embeddable":  true,
                            "prefecture":  "長野県",
                            "detectedPrefecture":  "長野県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "長野県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -5143,14 +5143,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  23,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "軽井沢町公式ライブカメラ。新軽井沢西交差点付近を確認",
+                           "approved":  true,
                            "matchedQuery":  "長野県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -5158,10 +5158,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "軽井沢町",
+                           "providerPageUrl":  "https://www.town.karuizawa.lg.jp/page/2222.html",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T10:50:01+09:00"
                        },
                        {
                            "candidateId":  "YT-0PAnSx_u_a8",

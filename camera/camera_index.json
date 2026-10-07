@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  458,
+                       "cameraCount":  460,
                        "prefectureCount":  10,
-                       "areaCount":  50,
+                       "areaCount":  51,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  171
+                                          "cameraCount":  173
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -79,8 +79,8 @@
                         },
                         {
                             "prefecture":  "nagano",
-                            "areaCount":  1,
-                            "cameraCount":  13
+                            "areaCount":  2,
+                            "cameraCount":  15
                         },
                         {
                             "prefecture":  "shizuoka",

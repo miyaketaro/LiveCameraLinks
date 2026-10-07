@@ -41,8 +41,8 @@
                         {
                             "prefecture":  "nagano",
                             "file":  "nagano/index.json",
-                            "areaCount":  1,
-                            "cameraCount":  9
+                            "areaCount":  2,
+                            "cameraCount":  11
                         },
                         {
                             "prefecture":  "shizuoka",

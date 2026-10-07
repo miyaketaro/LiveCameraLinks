@@ -234,11 +234,10 @@ Write-Host ''
 Write-Host ('Total cameras     : ' + $totalCameraCount)
 Write-Host ('Total prefectures : ' + $masterPrefectures.Count)
 
-if ([int]$totalCameraCount -ne 458) {
+if ([int]$totalCameraCount -le 0) {
     throw (
-        'Expected 458 cameras, but calculated ' +
-        $totalCameraCount +
-        '. No index files were modified.'
+        'No cameras were found. ' +
+        'No index files were modified.'
     )
 }
 

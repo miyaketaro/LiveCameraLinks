@@ -226,11 +226,36 @@ foreach ($group in $groups) {
 
         $first = $group.Group[0]
 
+        # Derive structural metadata from targetFile.
+        # Example:
+        # camera/road/nagano/karuizawa.json
+        #   category   = road
+        #   prefecture = nagano
+        #   area       = karuizawa
+        $normalizedTargetFile = $targetFile -replace '\\', '/'
+        $targetParts = @(
+            $normalizedTargetFile -split '/' |
+            Where-Object { $_ -ne '' }
+        )
+
+        if (
+            $targetParts.Count -lt 4 -or
+            $targetParts[0] -ne 'camera'
+        ) {
+            throw "Invalid targetFile structure: $targetFile"
+        }
+
+        $targetCategory   = [string]$targetParts[1]
+        $targetPrefecture = [string]$targetParts[2]
+        $targetArea       = [System.IO.Path]::GetFileNameWithoutExtension(
+            [string]$targetParts[3]
+        )
+
         $target = [PSCustomObject][ordered]@{
             schemaVersion = "1.0"
-            category      = [string]$first.record.category
-            prefecture    = [string]$first.record.prefectureCode
-            area          = [string]$first.record.areaCode
+            category      = $targetCategory
+            prefecture    = $targetPrefecture
+            area          = $targetArea
             cameraCount   = $group.Count
             cameras       = @(
                 $group.Group |

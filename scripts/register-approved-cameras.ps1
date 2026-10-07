@@ -1,5 +1,6 @@
 ﻿param(
     [string]$PreviewPath = ".\reports\approved-registration-records.json",
+    [string]$RegistrationCsvPath = ".\reports\approved-registration-preview.csv",
     [switch]$Write
 )
 
@@ -270,6 +271,70 @@ foreach ($group in $groups) {
 
     Write-Host "Written:" $targetFile
 }
+
+# --------------------------------------------------
+# Update registration status after all camera files
+# were written successfully.
+# --------------------------------------------------
+
+if (-not (Test-Path $RegistrationCsvPath)) {
+    throw "Registration CSV not found: $RegistrationCsvPath"
+}
+
+$registeredCandidateIds = @(
+    $preview |
+    ForEach-Object {
+        [string]$_.candidateId
+    } |
+    Where-Object {
+        -not [string]::IsNullOrWhiteSpace($_)
+    } |
+    Sort-Object -Unique
+)
+
+if ($registeredCandidateIds.Count -ne $preview.Count) {
+    throw (
+        "Could not resolve all candidateIds after registration. " +
+        "Camera files were written, but registration CSV was not updated."
+    )
+}
+
+$registrationRows = @(Import-Csv $RegistrationCsvPath)
+
+$updatedRegistrationRows = 0
+
+foreach ($row in $registrationRows) {
+
+    if (
+        [string]$row.candidateId -in $registeredCandidateIds
+    ) {
+        $row.registrationStatus = "registered"
+        $row.registrationNote =
+            "Registered to production camera JSON"
+
+        $updatedRegistrationRows++
+    }
+}
+
+if ($updatedRegistrationRows -ne $registeredCandidateIds.Count) {
+    throw (
+        "Registration CSV update count mismatch. Expected " +
+        $registeredCandidateIds.Count +
+        ", updated " +
+        $updatedRegistrationRows +
+        "."
+    )
+}
+
+$registrationRows |
+Export-Csv `
+    -Path $RegistrationCsvPath `
+    -NoTypeInformation `
+    -Encoding UTF8
+
+Write-Host ""
+Write-Host "Registration status updated:" $updatedRegistrationRows
+Write-Host "Registration CSV          :" $RegistrationCsvPath
 
 Write-Host ""
 Write-Host "Registration completed."

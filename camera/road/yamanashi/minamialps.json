@@ -1,9 +1,9 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "yamanashi",
     "area":  "minamialps",
-    "cameraCount":  1,
+    "cameraCount":  4,
     "cameras":  [
                     {
                         "id":  "yamanashi_nns_kaikokubashi_e",
@@ -40,6 +40,111 @@
                         "areaCode":  "minamialps",
                         "slug":  "yamanashi_nns_kaikokubashi_e",
                         "cameraId":  "JP-19-000022"
+                    },
+                    {
+                        "id":  "jp_19_000057",
+                        "name":  "三郡橋北交差点",
+                        "place":  "山梨県南アルプス市 三郡橋北交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "富士川CATV",
+                        "publisher":  "富士川CATV",
+                        "providerPageUrl":  "https://fujikawa-net.co.jp/tv/street_camera_09.php",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=HvYIQxERbIo",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "三郡橋北交差点ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minamialps",
+                        "slug":  "jp_19_000057",
+                        "cameraId":  "JP-19-000057"
+                    },
+                    {
+                        "id":  "jp_19_000058",
+                        "name":  "十五所交差点",
+                        "place":  "山梨県南アルプス市 十五所交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "富士川CATV",
+                        "publisher":  "富士川CATV",
+                        "providerPageUrl":  "https://fujikawa-net.co.jp/tv/street_camera_05.php",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=KLOsZ6IzP3U",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "十五所交差点ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minamialps",
+                        "slug":  "jp_19_000058",
+                        "cameraId":  "JP-19-000058"
+                    },
+                    {
+                        "id":  "jp_19_000059",
+                        "name":  "白根IC西交差点",
+                        "place":  "山梨県南アルプス市 白根IC西交差点",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "白根ケーブルネットワーク",
+                        "publisher":  "白根ケーブルネットワーク",
+                        "providerPageUrl":  "https://www.nus.co.jp/livecam.html",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=r3Qi439HTzI",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "白根IC西交差点ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minamialps",
+                        "slug":  "jp_19_000059",
+                        "cameraId":  "JP-19-000059"
                     }
                 ]
 }

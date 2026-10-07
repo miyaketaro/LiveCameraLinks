@@ -57,7 +57,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-AD2S75lTwkc",
@@ -197,7 +201,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "FBC 福井放送",
+                           "providerPageUrl":  "https://www.fbc.jp/fbcweb/live_camera",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-tQhaoiNC5ko",
@@ -338,7 +346,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "福井新聞社",
+                           "providerPageUrl":  "https://www.youtube.com/@digicon2007",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-X304dz1zrfU",
@@ -522,7 +534,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "株式会社つなぐ",
+                           "providerPageUrl":  "https://www.setana.life/livecam",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-qcXFhfNRe5g",
@@ -710,7 +726,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-1Xm5bjdI5hU",
@@ -800,7 +820,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "福井新聞社",
+                           "providerPageUrl":  "https://www.youtube.com/@digicon2007",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-hp3bvC0dQrE",
@@ -985,7 +1009,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "富士川CATV",
+                           "providerPageUrl":  "https://fujikawa-net.co.jp/tv/street_camera_09.php",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-KLOsZ6IzP3U",
@@ -1031,7 +1059,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "富士川CATV",
+                           "providerPageUrl":  "https://fujikawa-net.co.jp/tv/street_camera_05.php",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-sgzeogDT4c4",
@@ -1123,7 +1155,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:43:06+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "富士川CATV",
+                           "providerPageUrl":  "https://fujikawa-net.co.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-oWzkS5g6oqc",
@@ -1215,7 +1251,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "白根ケーブルネットワーク",
+                           "providerPageUrl":  "https://www.nus.co.jp/livecam.html",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T07:42:22+09:00"
                        },
                        {
                            "candidateId":  "YT-XlCFjPwPH2s",
@@ -1445,7 +1485,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-DPk8o9QDtMc",
@@ -1943,7 +1987,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT--nQCcDvp7Xs",
@@ -2079,7 +2127,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-XUa1KBQt9fk",
@@ -2125,7 +2177,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-eFAa1Ku7HLo",
@@ -2216,7 +2272,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-QCjlVmoCazI",
@@ -2261,7 +2321,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-wVYiVODQAkg",
@@ -2532,7 +2596,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-lq4xGSr3DEA",
@@ -2577,7 +2645,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-jIjsSNlgflM",
@@ -2667,7 +2739,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-SitepD5vzlM",
@@ -2712,7 +2788,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-ohGHxbfeq54",
@@ -2803,7 +2883,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-6a8XvKfhc4Y",
@@ -2941,7 +3025,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T20:16:44+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-ErHJBXTmm2Q",
@@ -3030,7 +3118,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-oQVfclB6nvY",
@@ -3075,7 +3167,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:43:06+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-kOKevC8ajFg",
@@ -3120,7 +3216,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-tHMEnSTnFd4",
@@ -3165,7 +3265,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-xgunijcLVVs",
@@ -3392,7 +3496,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-i9LRwkZCGtU",
@@ -3615,7 +3723,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-kWUpi81cENQ",
@@ -3879,7 +3991,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-Y4KAMd2eGuU",
@@ -3923,7 +4039,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-ghl9m2Ool1o",
@@ -3967,7 +4087,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-jLZ_T91paAU",
@@ -4099,7 +4223,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:26:53+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-Dgx5Gv20fHo",
@@ -4143,7 +4271,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:26:53+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-yNgpcqA9X64",
@@ -4187,7 +4319,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-1v8Ln286PcE",
@@ -4371,7 +4507,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:26:53+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-p1UjIiYqoMA",
@@ -4416,7 +4556,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-pwcDyqRcLcw",
@@ -4461,7 +4605,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-HeD0lx2Qm_k",
@@ -4642,7 +4790,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-YZMZSqz9fx8",
@@ -4957,7 +5109,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-GkoIAnOeazM",
@@ -5001,7 +5157,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-0PAnSx_u_a8",
@@ -5319,7 +5479,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-6_8ehEmYBYc",
@@ -5500,7 +5664,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-SgDKj-WigDU",
@@ -5681,7 +5849,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-03T09:30:32+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-yLHx5DV9rB8",
@@ -5907,7 +6079,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-ywXRfMLuw78",
@@ -5998,7 +6174,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-fHUBA7fEdzU",
@@ -6088,7 +6268,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-s1IXIMAPb3w",
@@ -6177,7 +6361,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-LzlrHXS-ebM",
@@ -6315,7 +6503,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-B1tvHi67OgA",
@@ -6403,7 +6595,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-eHrqIefbe9Q",
@@ -6890,7 +7086,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T20:00:50+09:00",
                            "lastSeenAt":  null,
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-E1FRbnCA8Jg",
@@ -6934,7 +7134,11 @@
                                               ],
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
-                           "source":  "youtube-national-collector"
+                           "source":  "youtube-national-collector",
+                           "providerName":  "",
+                           "providerPageUrl":  "",
+                           "officialConfirmed":  false,
+                           "reviewedAt":  ""
                        },
                        {
                            "candidateId":  "YT-TR0ZBrVbDio",

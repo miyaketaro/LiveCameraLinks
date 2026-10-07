@@ -1,25 +1,25 @@
 ﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
-    "prefecture":  "yamanashi",
-    "area":  "fujikawa",
+    "prefecture":  "hokkaido",
+    "area":  "setana",
     "cameraCount":  1,
     "cameras":  [
                     {
-                        "id":  "jp_19_000060",
-                        "name":  "富士川大橋西交差点",
-                        "place":  "山梨県富士川町 富士川大橋西交差点",
-                        "region":  "中部",
+                        "id":  "jp_01_000001",
+                        "name":  "せたな町 北檜山交差点",
+                        "place":  "北海道せたな町北檜山区 北檜山交差点",
+                        "region":  "北海道",
                         "kind":  "道路",
                         "category":  "road",
                         "road_name":  "",
                         "lat":  "",
                         "lng":  "",
                         "coordinateType":  "unknown",
-                        "source":  "富士川CATV",
-                        "publisher":  "富士川CATV",
-                        "providerPageUrl":  "https://fujikawa-net.co.jp/",
-                        "directStreamUrl":  "https://www.youtube.com/watch?v=BuBGphGBPEA",
+                        "source":  "株式会社つなぐ",
+                        "publisher":  "株式会社つなぐ",
+                        "providerPageUrl":  "https://www.setana.life/livecam",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=VfGY3uhJW_8",
                         "linkPolicy":  "provider",
                         "preferredView":  "provider",
                         "mediaType":  "YouTube Live",
@@ -29,16 +29,16 @@
                                        "交通"
                                    ],
                         "viewTargets":  [
-                                            "富士川大橋西交差点ライブカメラ"
+                                            "【LIVE】せたな町 北檜山 交差点ライブカメラ｜北海道 道路状況・天気"
                                         ],
                         "status":  "active",
                         "sourceTier":  "配信元公式",
                         "lastChecked":  "2026-10-07",
                         "auditStatus":  "YouTube candidate review approved",
-                        "prefectureCode":  "yamanashi",
-                        "areaCode":  "fujikawa",
-                        "slug":  "jp_19_000060",
-                        "cameraId":  "JP-19-000060"
+                        "prefectureCode":  "hokkaido",
+                        "areaCode":  "setana",
+                        "slug":  "jp_01_000001",
+                        "cameraId":  "JP-01-000001"
                     }
                 ]
 }

@@ -6,6 +6,30 @@
 
 $ErrorActionPreference = "Stop"
 
+function ConvertTo-SafeBoolean {
+    param($Value)
+
+    if ($Value -is [bool]) {
+        return $Value
+    }
+
+    if ($null -eq $Value) {
+        return $false
+    }
+
+    $text = ([string]$Value).Trim().ToLowerInvariant()
+
+    switch ($text) {
+        "true"  { return $true }
+        "1"     { return $true }
+        "yes"   { return $true }
+        "false" { return $false }
+        "0"     { return $false }
+        "no"    { return $false }
+        default { return $false }
+    }
+}
+
 function Read-Utf8Json {
     param([string]$Path)
 
@@ -215,6 +239,10 @@ $converted = foreach ($item in $master) {
     $approved = $false
     $confirmedPrefecture = ""
     $confirmedCategory = ""
+    $providerName = ""
+    $providerPageUrl = ""
+    $officialConfirmed = $false
+    $reviewedAt = ""
 
     if ($existingMap.ContainsKey($candidateId)) {
 
@@ -238,6 +266,22 @@ $converted = foreach ($item in $master) {
 
         if ($null -ne $old.confirmedCategory) {
             $confirmedCategory = [string]$old.confirmedCategory
+        }
+
+        if ($null -ne $old.providerName) {
+            $providerName = [string]$old.providerName
+        }
+
+        if ($null -ne $old.providerPageUrl) {
+            $providerPageUrl = [string]$old.providerPageUrl
+        }
+
+        if ($null -ne $old.officialConfirmed) {
+            $officialConfirmed = ConvertTo-SafeBoolean $old.officialConfirmed
+        }
+
+        if ($null -ne $old.reviewedAt) {
+            $reviewedAt = [string]$old.reviewedAt
         }
     }
 
@@ -281,6 +325,11 @@ $converted = foreach ($item in $master) {
         reviewStatus         = $reviewStatus
         reviewNote           = $reviewNote
         approved             = $approved
+
+        providerName         = $providerName
+        providerPageUrl      = $providerPageUrl
+        officialConfirmed    = $officialConfirmed
+        reviewedAt           = $reviewedAt
 
         matchedQuery         = $item.matched_query
         matchedQueries       = $matchedQueries

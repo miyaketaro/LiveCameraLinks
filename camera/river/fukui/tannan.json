@@ -1,0 +1,44 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "river",
+    "prefecture":  "fukui",
+    "area":  "tannan",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "jp_18_000001",
+                        "name":  "丹南地域② 交通・河川情報",
+                        "place":  "福井県 丹南地域（越前市・鯖江市・越前町）",
+                        "region":  "中部",
+                        "kind":  "河川",
+                        "category":  "river",
+                        "road_name":  "県道武生美山線・県道福井鯖江線",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "福井新聞社",
+                        "publisher":  "福井新聞社",
+                        "providerPageUrl":  "https://www.youtube.com/@digicon2007",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=djKLm8qKdlY",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "河川",
+                                       "水位",
+                                       "防災"
+                                   ],
+                        "viewTargets":  [
+                                            "【ライブカメラ】丹南地域②　交通＆河川情報  県道武生美山線・県道福井鯖江線（越前市・鯖江市・越前町）"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "fukui",
+                        "areaCode":  "tannan",
+                        "slug":  "jp_18_000001",
+                        "cameraId":  "JP-18-000001"
+                    }
+                ]
+}

@@ -6,6 +6,30 @@
 
 $ErrorActionPreference = "Stop"
 
+function ConvertTo-SafeBoolean {
+    param($Value)
+
+    if ($Value -is [bool]) {
+        return $Value
+    }
+
+    if ($null -eq $Value) {
+        return $false
+    }
+
+    $text = ([string]$Value).Trim().ToLowerInvariant()
+
+    switch ($text) {
+        "true"  { return $true }
+        "1"     { return $true }
+        "yes"   { return $true }
+        "false" { return $false }
+        "0"     { return $false }
+        "no"    { return $false }
+        default { return $false }
+    }
+}
+
 if (-not (Test-Path $ReviewPath)) {
     throw "Review CSV not found: $ReviewPath"
 }
@@ -43,9 +67,12 @@ foreach ($review in $reviews) {
 
     $candidate = $candidateMap[$review.candidateId]
 
+    $review.approved = ConvertTo-SafeBoolean $review.approved
+    $review.officialConfirmed = ConvertTo-SafeBoolean $review.officialConfirmed
+
     $isApproved = (
         $review.reviewStatus -eq "approved" -and
-        $review.approved -eq "True"
+        $review.approved -eq $true
     )
 
     if ($isApproved) {
@@ -55,7 +82,7 @@ foreach ($review in $reviews) {
             [string]::IsNullOrWhiteSpace($review.confirmedCategory) -or
             [string]::IsNullOrWhiteSpace($review.providerName) -or
             [string]::IsNullOrWhiteSpace($review.providerPageUrl) -or
-            $review.officialConfirmed -ne "true"
+            $review.officialConfirmed -ne $true
         ) {
             $invalidApproved += $review.candidateId
             continue
@@ -67,6 +94,22 @@ foreach ($review in $reviews) {
     $candidate.reviewStatus = $review.reviewStatus
     $candidate.reviewNote = $review.reviewNote
     $candidate.approved = $isApproved
+
+    foreach ($field in @(
+        "providerName",
+        "providerPageUrl",
+        "officialConfirmed",
+        "reviewedAt"
+    )) {
+        if ($candidate.PSObject.Properties.Name -contains $field) {
+            $candidate.$field = $review.$field
+        }
+        else {
+            $candidate | Add-Member `
+                -NotePropertyName $field `
+                -NotePropertyValue $review.$field
+        }
+    }
 
     $updated++
 

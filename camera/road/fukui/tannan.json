@@ -1,25 +1,25 @@
 ﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
-    "prefecture":  "yamanashi",
-    "area":  "fujikawa",
+    "prefecture":  "fukui",
+    "area":  "tannan",
     "cameraCount":  1,
     "cameras":  [
                     {
-                        "id":  "jp_19_000060",
-                        "name":  "富士川大橋西交差点",
-                        "place":  "山梨県富士川町 富士川大橋西交差点",
+                        "id":  "jp_18_000002",
+                        "name":  "丹南地域① 交通情報",
+                        "place":  "福井県 丹南地域（越前市・鯖江市・越前町）",
                         "region":  "中部",
                         "kind":  "道路",
                         "category":  "road",
-                        "road_name":  "",
+                        "road_name":  "国道8号・県道鯖江織田線",
                         "lat":  "",
                         "lng":  "",
                         "coordinateType":  "unknown",
-                        "source":  "富士川CATV",
-                        "publisher":  "富士川CATV",
-                        "providerPageUrl":  "https://fujikawa-net.co.jp/",
-                        "directStreamUrl":  "https://www.youtube.com/watch?v=BuBGphGBPEA",
+                        "source":  "福井新聞社",
+                        "publisher":  "福井新聞社",
+                        "providerPageUrl":  "https://www.youtube.com/@digicon2007",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=4GOcBMwX9SY",
                         "linkPolicy":  "provider",
                         "preferredView":  "provider",
                         "mediaType":  "YouTube Live",
@@ -29,16 +29,16 @@
                                        "交通"
                                    ],
                         "viewTargets":  [
-                                            "富士川大橋西交差点ライブカメラ"
+                                            "【ライブカメラ】丹南地域①  交通情報  国道8号線・県道鯖江織田線（越前市・鯖江市・越前町）"
                                         ],
                         "status":  "active",
                         "sourceTier":  "配信元公式",
                         "lastChecked":  "2026-10-07",
                         "auditStatus":  "YouTube candidate review approved",
-                        "prefectureCode":  "yamanashi",
-                        "areaCode":  "fujikawa",
-                        "slug":  "jp_19_000060",
-                        "cameraId":  "JP-19-000060"
+                        "prefectureCode":  "fukui",
+                        "areaCode":  "tannan",
+                        "slug":  "jp_18_000002",
+                        "cameraId":  "JP-18-000002"
                     }
                 ]
 }

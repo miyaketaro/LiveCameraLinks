@@ -1,13 +1,13 @@
 ﻿{
     "schemaVersion":  "1.0",
-    "category":  "tourism",
-    "prefecture":  "gifu",
+    "category":  "road",
+    "prefecture":  "hokkaido",
     "areaCount":  1,
     "cameraCount":  1,
     "areas":  [
                   {
-                      "area":  "shirakawago",
-                      "file":  "shirakawago.json",
+                      "area":  "setana",
+                      "file":  "setana.json",
                       "cameraCount":  1
                   }
               ]

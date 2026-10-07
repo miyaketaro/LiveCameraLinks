@@ -1,7 +1,13 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "station",
     "prefectures":  [
+                        {
+                            "prefecture":  "fukui",
+                            "file":  "fukui/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
                         {
                             "prefecture":  "gifu",
                             "file":  "gifu/index.json",

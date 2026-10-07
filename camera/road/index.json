@@ -1,7 +1,13 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefectures":  [
+                        {
+                            "prefecture":  "fukui",
+                            "file":  "fukui/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
                         {
                             "prefecture":  "gifu",
                             "file":  "gifu/index.json",
@@ -13,6 +19,12 @@
                             "file":  "gunma/index.json",
                             "areaCount":  1,
                             "cameraCount":  2
+                        },
+                        {
+                            "prefecture":  "hokkaido",
+                            "file":  "hokkaido/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
                         },
                         {
                             "prefecture":  "kanagawa",
@@ -48,7 +60,7 @@
                             "prefecture":  "yamanashi",
                             "file":  "yamanashi/index.json",
                             "areaCount":  18,
-                            "cameraCount":  34
+                            "cameraCount":  38
                         }
                     ]
 }

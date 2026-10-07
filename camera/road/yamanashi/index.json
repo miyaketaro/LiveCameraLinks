@@ -1,9 +1,9 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "yamanashi",
     "areaCount":  18,
-    "cameraCount":  34,
+    "cameraCount":  38,
     "areas":  [
                   {
                       "area":  "fuefuki",
@@ -13,7 +13,7 @@
                   {
                       "area":  "fujikawa",
                       "file":  "fujikawa.json",
-                      "cameraCount":  0
+                      "cameraCount":  1
                   },
                   {
                       "area":  "fujisan",
@@ -48,7 +48,7 @@
                   {
                       "area":  "minamialps",
                       "file":  "minamialps.json",
-                      "cameraCount":  1
+                      "cameraCount":  4
                   },
                   {
                       "area":  "minobu",

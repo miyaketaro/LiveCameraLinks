@@ -1,0 +1,79 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "hokkaido",
+    "area":  "kaminokuni",
+    "cameraCount":  2,
+    "cameras":  [
+                    {
+                        "id":  "jp_01_000002",
+                        "name":  "【上ノ国町ライブカメラ】①R228 ラウンドアバウト Roundabout Town Kaminokuni , Hokkaido ,Japan",
+                        "place":  "北海道 【上ノ国町ライブカメラ】①R228 ラウンドアバウト Roundabout Town Kaminokuni , Hokkaido ,Japan",
+                        "region":  "北海道",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "株式会社若狭組",
+                        "publisher":  "株式会社若狭組",
+                        "providerPageUrl":  "https://www.wakasagumi.co.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=6bQyyhNOzY0",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "【上ノ国町ライブカメラ】①R228 ラウンドアバウト Roundabout Town Kaminokuni , Hokkaido ,Japan"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "hokkaido",
+                        "areaCode":  "kaminokuni",
+                        "slug":  "jp_01_000002",
+                        "cameraId":  "JP-01-000002"
+                    },
+                    {
+                        "id":  "jp_01_000003",
+                        "name":  "【上ノ国町ライブカメラ】②ラウンドアバウト拡大 Roundabout Town Kaminokuni , Hokkaido ,Japan",
+                        "place":  "北海道 【上ノ国町ライブカメラ】②ラウンドアバウト拡大 Roundabout Town Kaminokuni , Hokkaido ,Japan",
+                        "region":  "北海道",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "株式会社若狭組",
+                        "publisher":  "株式会社若狭組",
+                        "providerPageUrl":  "https://www.wakasagumi.co.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=QCjlVmoCazI",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "【上ノ国町ライブカメラ】②ラウンドアバウト拡大 Roundabout Town Kaminokuni , Hokkaido ,Japan"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "hokkaido",
+                        "areaCode":  "kaminokuni",
+                        "slug":  "jp_01_000003",
+                        "cameraId":  "JP-01-000003"
+                    }
+                ]
+}

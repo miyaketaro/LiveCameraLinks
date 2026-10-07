@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  460,
-                       "prefectureCount":  10,
-                       "areaCount":  51,
+                       "cameraCount":  465,
+                       "prefectureCount":  12,
+                       "areaCount":  54,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  173
+                                          "cameraCount":  178
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -50,7 +50,7 @@
                         {
                             "prefecture":  "fukui",
                             "areaCount":  2,
-                            "cameraCount":  3
+                            "cameraCount":  4
                         },
                         {
                             "prefecture":  "gifu",
@@ -64,8 +64,8 @@
                         },
                         {
                             "prefecture":  "hokkaido",
-                            "areaCount":  1,
-                            "cameraCount":  1
+                            "areaCount":  2,
+                            "cameraCount":  3
                         },
                         {
                             "prefecture":  "kanagawa",
@@ -83,6 +83,11 @@
                             "cameraCount":  15
                         },
                         {
+                            "prefecture":  "saitama",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "shizuoka",
                             "areaCount":  1,
                             "cameraCount":  5
@@ -91,6 +96,11 @@
                             "prefecture":  "tokyo",
                             "areaCount":  23,
                             "cameraCount":  311
+                        },
+                        {
+                            "prefecture":  "yamagata",
+                            "areaCount":  1,
+                            "cameraCount":  1
                         },
                         {
                             "prefecture":  "yamanashi",

@@ -1,0 +1,44 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "saitama",
+    "area":  "kumagaya",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "jp_11_000001",
+                        "name":  "ユメックス株式会社 埼玉県熊谷市 国道17号バイパス代交差点付近 ライブカメラ配信",
+                        "place":  "埼玉県 ユメックス株式会社 埼玉県熊谷市 国道17号バイパス代交差点付近 ライブカメラ配信",
+                        "region":  "",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "ユメックス株式会社",
+                        "publisher":  "ユメックス株式会社",
+                        "providerPageUrl":  "https://yumex-jp.com/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=YJTCrhp8dVU",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "ユメックス株式会社 埼玉県熊谷市 国道17号バイパス代交差点付近 ライブカメラ配信"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "kumagaya",
+                        "slug":  "jp_11_000001",
+                        "cameraId":  "JP-11-000001"
+                    }
+                ]
+}

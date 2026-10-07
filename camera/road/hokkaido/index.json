@@ -2,9 +2,14 @@
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "hokkaido",
-    "areaCount":  1,
-    "cameraCount":  1,
+    "areaCount":  2,
+    "cameraCount":  3,
     "areas":  [
+                  {
+                      "area":  "kaminokuni",
+                      "file":  "kaminokuni.json",
+                      "cameraCount":  2
+                  },
                   {
                       "area":  "setana",
                       "file":  "setana.json",

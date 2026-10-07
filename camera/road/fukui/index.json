@@ -2,9 +2,14 @@
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "fukui",
-    "areaCount":  1,
-    "cameraCount":  1,
+    "areaCount":  2,
+    "cameraCount":  2,
     "areas":  [
+                  {
+                      "area":  "fukui",
+                      "file":  "fukui.json",
+                      "cameraCount":  1
+                  },
                   {
                       "area":  "tannan",
                       "file":  "tannan.json",

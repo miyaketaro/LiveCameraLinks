@@ -5,8 +5,8 @@
                         {
                             "prefecture":  "fukui",
                             "file":  "fukui/index.json",
-                            "areaCount":  1,
-                            "cameraCount":  1
+                            "areaCount":  2,
+                            "cameraCount":  2
                         },
                         {
                             "prefecture":  "gifu",
@@ -23,8 +23,8 @@
                         {
                             "prefecture":  "hokkaido",
                             "file":  "hokkaido/index.json",
-                            "areaCount":  1,
-                            "cameraCount":  1
+                            "areaCount":  2,
+                            "cameraCount":  3
                         },
                         {
                             "prefecture":  "kanagawa",
@@ -45,6 +45,12 @@
                             "cameraCount":  11
                         },
                         {
+                            "prefecture":  "saitama",
+                            "file":  "saitama/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "shizuoka",
                             "file":  "shizuoka/index.json",
                             "areaCount":  1,
@@ -55,6 +61,12 @@
                             "file":  "tokyo/index.json",
                             "areaCount":  23,
                             "cameraCount":  95
+                        },
+                        {
+                            "prefecture":  "yamagata",
+                            "file":  "yamagata/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
                         },
                         {
                             "prefecture":  "yamanashi",

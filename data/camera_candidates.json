@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  10,
+                       "approvedCount":  15,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -701,7 +701,7 @@
                            "embeddable":  true,
                            "prefecture":  "山形県",
                            "detectedPrefecture":  "山形県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "山形県",
                            "searchBlock":  "東北",
                            "detectedBlock":  "東北",
                            "locationStatus":  "一致",
@@ -712,14 +712,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  32,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "既知",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "株式会社スガイ公式。工場前県道の道路状況確認用ライブカメラ。",
+                           "approved":  true,
                            "matchedQuery":  "山形県 道路 ライブカメラ",
                            "matchedQueries":  [
                                                   "山形県 道路 ライブカメラ"
@@ -727,10 +727,10 @@
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:28:05+09:00",
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "株式会社スガイ",
+                           "providerPageUrl":  "https://www.kk-sugai.com/company-profile-2/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:05:52+09:00"
                        },
                        {
                            "candidateId":  "YT-1Xm5bjdI5hU",
@@ -1460,7 +1460,7 @@
                            "embeddable":  true,
                            "prefecture":  "福井県",
                            "detectedPrefecture":  "福井県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "福井県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -1471,14 +1471,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  30,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "福井新聞社公式。国道8号大和田交差点ライブカメラ。個別YouTube LIVEは差し替わる可能性があるため公式ライブカメラページを配信元として採用。",
+                           "approved":  true,
                            "matchedQuery":  "福井県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -1486,10 +1486,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "福井新聞社",
+                           "providerPageUrl":  "https://www.fukuishimbun.co.jp/feature/live-camera-1?f=y",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:05:52+09:00"
                        },
                        {
                            "candidateId":  "YT-DPk8o9QDtMc",
@@ -1962,7 +1962,7 @@
                            "embeddable":  true,
                            "prefecture":  "埼玉県",
                            "detectedPrefecture":  "埼玉県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "埼玉県",
                            "searchBlock":  "関東",
                            "detectedBlock":  "関東",
                            "locationStatus":  "一致",
@@ -1973,14 +1973,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  30,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "既知",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "ユメックス公式。本社屋上から国道17号熊谷バイパス付近をライブ配信。",
+                           "approved":  true,
                            "matchedQuery":  "埼玉県 道路 ライブカメラ",
                            "matchedQueries":  [
                                                   "埼玉県 道路 ライブカメラ"
@@ -1988,10 +1988,10 @@
                            "firstSeenAt":  "2026-10-02T19:58:00+09:00",
                            "lastSeenAt":  "2026-10-03T09:30:32+09:00",
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "ユメックス株式会社",
+                           "providerPageUrl":  "https://yumex-jp.com/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:05:52+09:00"
                        },
                        {
                            "candidateId":  "YT--nQCcDvp7Xs",
@@ -2247,7 +2247,7 @@
                            "embeddable":  true,
                            "prefecture":  "北海道",
                            "detectedPrefecture":  "北海道",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "北海道",
                            "searchBlock":  "北海道",
                            "detectedBlock":  "北海道",
                            "locationStatus":  "一致",
@@ -2258,14 +2258,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  28,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "既知",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "株式会社若狭組配信。上ノ国町・国道228号ラウンドアバウト道路ライブカメラ。",
+                           "approved":  true,
                            "matchedQuery":  "北海道 道路 ライブカメラ",
                            "matchedQueries":  [
                                                   "北海道 道路 ライブカメラ"
@@ -2273,10 +2273,10 @@
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "株式会社若狭組",
+                           "providerPageUrl":  "https://www.wakasagumi.co.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:05:52+09:00"
                        },
                        {
                            "candidateId":  "YT-QCjlVmoCazI",
@@ -2296,7 +2296,7 @@
                            "embeddable":  true,
                            "prefecture":  "北海道",
                            "detectedPrefecture":  "北海道",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "北海道",
                            "searchBlock":  "北海道",
                            "detectedBlock":  "北海道",
                            "locationStatus":  "一致",
@@ -2307,14 +2307,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  28,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "既知",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "株式会社若狭組配信。上ノ国町ラウンドアバウト拡大カメラ。国道228号等の道路状況を確認可能。",
+                           "approved":  true,
                            "matchedQuery":  "北海道 道路 ライブカメラ",
                            "matchedQueries":  [
                                                   "北海道 道路 ライブカメラ"
@@ -2322,10 +2322,10 @@
                            "firstSeenAt":  "2026-10-02T19:56:33+09:00",
                            "lastSeenAt":  "2026-10-03T09:25:55+09:00",
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "株式会社若狭組",
+                           "providerPageUrl":  "https://www.wakasagumi.co.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:05:52+09:00"
                        },
                        {
                            "candidateId":  "YT-wVYiVODQAkg",

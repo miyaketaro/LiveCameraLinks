@@ -2,7 +2,8 @@
 
 param(
     [string]$PreviewPath = ".\reports\approved-registration-preview.csv",
-    [string]$RecordsPath = ".\reports\approved-registration-records.json"
+    [string]$RecordsPath = ".\reports\approved-registration-records.json",
+    [switch]$Write
 )
 
 Set-StrictMode -Version Latest
@@ -39,43 +40,142 @@ function Invoke-PipelineStep {
 }
 
 Write-Host "===== LiveCameraLinks Approved Registration Pipeline ====="
-Write-Host "Mode        : DRY-RUN"
+Write-Host "Mode        :" $(if ($Write) { "WRITE" } else { "DRY-RUN" })
 Write-Host "Preview     : $PreviewPath"
 Write-Host "Records     : $RecordsPath"
 Write-Host ""
-Write-Host "Production camera JSON files will NOT be modified."
+
+if ($Write) {
+    Write-Host "Production camera JSON files WILL be modified."
+}
+else {
+    Write-Host "Production camera JSON files will NOT be modified."
+}
 
 if (-not (Test-Path $PreviewPath)) {
     throw "Preview CSV not found: $PreviewPath"
 }
 
+$effectivePreviewPath = $PreviewPath
+$effectiveRecordsPath = $RecordsPath
+$tempPreviewPath = $null
+$tempRecordsPath = $null
+
+if (-not $Write) {
+
+    $previewDir = Split-Path $PreviewPath -Parent
+
+    if ([string]::IsNullOrWhiteSpace($previewDir)) {
+        $previewDir = "."
+    }
+
+    $token = [Guid]::NewGuid().ToString("N")
+
+    $tempPreviewPath = Join-Path `
+        $previewDir `
+        ("pipeline-dryrun-" + $token + ".csv")
+
+    $tempRecordsPath = Join-Path `
+        $previewDir `
+        ("pipeline-dryrun-" + $token + ".json")
+
+    Copy-Item `
+        -LiteralPath $PreviewPath `
+        -Destination $tempPreviewPath `
+        -Force
+
+    $effectivePreviewPath = $tempPreviewPath
+    $effectiveRecordsPath = $tempRecordsPath
+
+    Write-Host "DRY-RUN working copy:" $effectivePreviewPath
+}
+
 # --------------------------------------------------
 # Step 1
 # Check target-file suggestions.
-# No -Write flag: preview only.
+# In WRITE mode, applies target-file suggestions.
 # --------------------------------------------------
+
+$step1Arguments = @(
+    "-PreviewPath",
+    $effectivePreviewPath
+)
+
+$step1Arguments += "-Write"
 
 Invoke-PipelineStep `
     -Name "STEP 1 - Target file suggestion" `
     -ScriptPath ".\scripts\suggest-target-files.ps1" `
-    -Arguments @(
-        "-PreviewPath",
-        $PreviewPath
-    )
+    -Arguments $step1Arguments
 
 # --------------------------------------------------
 # Step 2
 # Check camera-ID allocation.
-# No -Write flag: preview only.
+# In WRITE mode, applies target-file suggestions.
 # --------------------------------------------------
+
+$step2Arguments = @(
+    "-PreviewPath",
+    $effectivePreviewPath
+)
+
+$step2Arguments += "-Write"
 
 Invoke-PipelineStep `
     -Name "STEP 2 - Camera ID allocation" `
     -ScriptPath ".\scripts\allocate-camera-ids.ps1" `
-    -Arguments @(
-        "-PreviewPath",
-        $PreviewPath
+    -Arguments $step2Arguments
+
+# --------------------------------------------------
+# Safety gate
+# Verify all unregistered rows have targetFile
+# and proposedCameraId before continuing.
+# --------------------------------------------------
+
+$registrationRows = @(Import-Csv $effectivePreviewPath)
+
+$registrationTargets = @(
+    $registrationRows |
+    Where-Object {
+        [string]$_.registrationStatus -ne "registered"
+    }
+)
+
+$invalidTargets = @(
+    $registrationTargets |
+    Where-Object {
+        [string]::IsNullOrWhiteSpace(
+            [string]$_.targetFile
+        ) -or
+        [string]::IsNullOrWhiteSpace(
+            [string]$_.proposedCameraId
+        )
+    }
+)
+
+Write-Host ""
+Write-Host "===== Registration Safety Gate ====="
+Write-Host "Unregistered rows :" $registrationTargets.Count
+Write-Host "Invalid rows      :" $invalidTargets.Count
+
+if ($invalidTargets.Count -gt 0) {
+
+    $invalidTargets |
+    Select-Object `
+        candidateId,
+        confirmedPrefecture,
+        confirmedCategory,
+        targetFile,
+        proposedCameraId |
+    Format-Table -AutoSize
+
+    throw (
+        "Registration safety gate failed. " +
+        "Resolve targetFile or proposedCameraId before continuing."
     )
+}
+
+Write-Host "Safety gate       : OK"
 
 # --------------------------------------------------
 # Step 3
@@ -90,9 +190,9 @@ Invoke-PipelineStep `
     -ScriptPath ".\scripts\export-approved-registration-records.ps1" `
     -Arguments @(
         "-SourcePath",
-        $PreviewPath,
+        $effectivePreviewPath,
         "-OutputPath",
-        $RecordsPath
+        $effectiveRecordsPath
     )
 
 # --------------------------------------------------
@@ -101,13 +201,26 @@ Invoke-PipelineStep `
 # No -Write flag.
 # --------------------------------------------------
 
+$step4Arguments = @(
+    "-PreviewPath",
+    $effectiveRecordsPath,
+    "-RegistrationCsvPath",
+    $effectivePreviewPath
+)
+
+if ($Write) {
+    $step4Arguments += "-Write"
+}
+
 Invoke-PipelineStep `
-    -Name "STEP 4 - Production registration check" `
+    -Name $(if ($Write) {
+        "STEP 4 - Production registration"
+    }
+    else {
+        "STEP 4 - Production registration check"
+    }) `
     -ScriptPath ".\scripts\register-approved-cameras.ps1" `
-    -Arguments @(
-        "-PreviewPath",
-        $RecordsPath
-    )
+    -Arguments $step4Arguments
 
 # --------------------------------------------------
 # Step 5
@@ -115,14 +228,48 @@ Invoke-PipelineStep `
 # No -Write flag.
 # --------------------------------------------------
 
+$step5Arguments = @()
+
+if ($Write) {
+    $step5Arguments += "-Write"
+}
+
 Invoke-PipelineStep `
-    -Name "STEP 5 - Camera index rebuild check" `
+    -Name $(if ($Write) {
+        "STEP 5 - Camera index rebuild"
+    }
+    else {
+        "STEP 5 - Camera index rebuild check"
+    }) `
     -ScriptPath ".\scripts\rebuild-camera-index.ps1" `
-    -Arguments @()
+    -Arguments $step5Arguments
 
 Write-Host ""
 Write-Host "============================================================"
 Write-Host "PIPELINE RESULT"
 Write-Host "============================================================"
-Write-Host "All DRY-RUN pipeline steps completed successfully."
-Write-Host "Production camera JSON files were not modified."
+
+if ($Write) {
+    Write-Host "All WRITE pipeline steps completed successfully."
+    Write-Host "Production camera JSON files and indexes were updated."
+}
+else {
+    Write-Host "All DRY-RUN pipeline steps completed successfully."
+    Write-Host "Production camera JSON files were not modified."
+
+    if (
+        $null -ne $tempPreviewPath -and
+        (Test-Path $tempPreviewPath)
+    ) {
+        Remove-Item $tempPreviewPath -Force
+    }
+
+    if (
+        $null -ne $tempRecordsPath -and
+        (Test-Path $tempRecordsPath)
+    ) {
+        Remove-Item $tempRecordsPath -Force
+    }
+
+    Write-Host "Temporary DRY-RUN files were removed."
+}

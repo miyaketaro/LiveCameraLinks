@@ -5,8 +5,8 @@
                         {
                             "prefecture":  "gifu",
                             "file":  "gifu/index.json",
-                            "areaCount":  1,
-                            "cameraCount":  1
+                            "areaCount":  2,
+                            "cameraCount":  2
                         },
                         {
                             "prefecture":  "gunma",

@@ -1,0 +1,42 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "tourism",
+    "prefecture":  "gifu",
+    "area":  "takayama",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "jp_21_000007",
+                        "name":  "【LIVE STREAMING HIDA TAKAYAMA】飛騨高山 陣屋前ライブカメラ",
+                        "place":  "岐阜県 【LIVE STREAMING HIDA TAKAYAMA】飛騨高山 陣屋前ライブカメラ",
+                        "region":  "",
+                        "kind":  "観光",
+                        "category":  "tourism",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "飛騨・高山観光コンベンション協会",
+                        "publisher":  "飛騨・高山観光コンベンション協会",
+                        "providerPageUrl":  "https://www.hidatakayama.or.jp/spot/detail_2009.html",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=fbY0VRfHsS8",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "観光・名所"
+                                   ],
+                        "viewTargets":  [
+                                            "【LIVE STREAMING HIDA TAKAYAMA】飛騨高山 陣屋前ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "takayama",
+                        "slug":  "jp_21_000007",
+                        "cameraId":  "JP-21-000007"
+                    }
+                ]
+}

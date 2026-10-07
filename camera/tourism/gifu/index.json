@@ -2,12 +2,17 @@
     "schemaVersion":  "1.0",
     "category":  "tourism",
     "prefecture":  "gifu",
-    "areaCount":  1,
-    "cameraCount":  1,
+    "areaCount":  2,
+    "cameraCount":  2,
     "areas":  [
                   {
                       "area":  "shirakawago",
                       "file":  "shirakawago.json",
+                      "cameraCount":  1
+                  },
+                  {
+                      "area":  "takayama",
+                      "file":  "takayama.json",
                       "cameraCount":  1
                   }
               ]

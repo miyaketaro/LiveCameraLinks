@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  15,
+                       "approvedCount":  17,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -2763,7 +2763,7 @@
                            "embeddable":  true,
                            "prefecture":  "山梨県",
                            "detectedPrefecture":  "山梨県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "山梨県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -2774,14 +2774,14 @@
                                              ],
                            "categoryConfidence":  "medium",
                            "categoryReason":  "bridge keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  27,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "白根ケーブルネットワーク公式。御勅使川橋カメラとして道路状況確認用途を確認。",
+                           "approved":  true,
                            "matchedQuery":  "山梨県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -2789,10 +2789,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "白根ケーブルネットワーク株式会社",
+                           "providerPageUrl":  "https://www.nus.co.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:34:54+09:00"
                        },
                        {
                            "candidateId":  "YT-ohGHxbfeq54",
@@ -3093,7 +3093,7 @@
                            "embeddable":  true,
                            "prefecture":  "岐阜県",
                            "detectedPrefecture":  "岐阜県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "岐阜県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -3104,14 +3104,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "tourism keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "tourism",
                            "candidateScore":  26,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "飛騨・高山観光コンベンション協会公式。高山陣屋前交差点の常時ライブ配信を確認。",
+                           "approved":  true,
                            "matchedQuery":  "岐阜県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -3119,10 +3119,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "飛騨・高山観光コンベンション協会",
+                           "providerPageUrl":  "https://www.hidatakayama.or.jp/spot/detail_2009.html",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T12:34:54+09:00"
                        },
                        {
                            "candidateId":  "YT-oQVfclB6nvY",

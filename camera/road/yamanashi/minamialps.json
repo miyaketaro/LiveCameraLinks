@@ -3,7 +3,7 @@
     "category":  "road",
     "prefecture":  "yamanashi",
     "area":  "minamialps",
-    "cameraCount":  4,
+    "cameraCount":  5,
     "cameras":  [
                     {
                         "id":  "yamanashi_nns_kaikokubashi_e",
@@ -145,6 +145,41 @@
                         "areaCode":  "minamialps",
                         "slug":  "jp_19_000059",
                         "cameraId":  "JP-19-000059"
+                    },
+                    {
+                        "id":  "jp_19_000061",
+                        "name":  "御勅使川橋ライブカメラ",
+                        "place":  "山梨県 御勅使川橋ライブカメラ",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "白根ケーブルネットワーク株式会社",
+                        "publisher":  "白根ケーブルネットワーク株式会社",
+                        "providerPageUrl":  "https://www.nus.co.jp/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=SitepD5vzlM",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "御勅使川橋ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "minamialps",
+                        "slug":  "jp_19_000061",
+                        "cameraId":  "JP-19-000061"
                     }
                 ]
 }

@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  465,
+                       "cameraCount":  467,
                        "prefectureCount":  12,
-                       "areaCount":  54,
+                       "areaCount":  55,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  178
+                                          "cameraCount":  179
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -40,7 +40,7 @@
                                       },
                              "tourism":  {
                                              "file":  "tourism/index.json",
-                                             "cameraCount":  63
+                                             "cameraCount":  64
                                          }
                          },
     "routes":  {
@@ -54,8 +54,8 @@
                         },
                         {
                             "prefecture":  "gifu",
-                            "areaCount":  1,
-                            "cameraCount":  6
+                            "areaCount":  2,
+                            "cameraCount":  7
                         },
                         {
                             "prefecture":  "gunma",
@@ -105,7 +105,7 @@
                         {
                             "prefecture":  "yamanashi",
                             "areaCount":  18,
-                            "cameraCount":  60
+                            "cameraCount":  61
                         }
                     ]
 }

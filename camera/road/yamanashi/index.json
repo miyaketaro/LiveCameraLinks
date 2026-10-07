@@ -3,7 +3,7 @@
     "category":  "road",
     "prefecture":  "yamanashi",
     "areaCount":  18,
-    "cameraCount":  40,
+    "cameraCount":  41,
     "areas":  [
                   {
                       "area":  "fuefuki",
@@ -83,7 +83,7 @@
                   {
                       "area":  "uenohara",
                       "file":  "uenohara.json",
-                      "cameraCount":  1
+                      "cameraCount":  2
                   },
                   {
                       "area":  "yamanakako",

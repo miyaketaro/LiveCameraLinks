@@ -1,0 +1,44 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "toyama",
+    "area":  "takaoka",
+    "cameraCount":  1,
+    "cameras":  [
+                    {
+                        "id":  "jp_16_000001",
+                        "name":  "【LIVE】高岡市野村－交通情報ライブカメラ",
+                        "place":  "富山県 【LIVE】高岡市野村－交通情報ライブカメラ",
+                        "region":  "",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "高岡ケーブルネットワーク",
+                        "publisher":  "高岡ケーブルネットワーク",
+                        "providerPageUrl":  "https://www.tcnet.ne.jp/news/comu/36347/",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=sNjoG5oS66U",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "【LIVE】高岡市野村－交通情報ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "",
+                        "areaCode":  "takaoka",
+                        "slug":  "jp_16_000001",
+                        "cameraId":  "JP-16-000001"
+                    }
+                ]
+}

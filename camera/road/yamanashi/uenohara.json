@@ -1,9 +1,9 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "yamanashi",
     "area":  "uenohara",
-    "cameraCount":  1,
+    "cameraCount":  2,
     "cameras":  [
                     {
                         "id":  "yamanashi_uty_uenohara_ic",
@@ -40,6 +40,41 @@
                         "areaCode":  "uenohara",
                         "slug":  "yamanashi_uty_uenohara_ic",
                         "cameraId":  "JP-19-000055"
+                    },
+                    {
+                        "id":  "jp_19_000063",
+                        "name":  "国道20号線付近ライブカメラ",
+                        "place":  "山梨県 国道20号線付近ライブカメラ",
+                        "region":  "中部",
+                        "kind":  "道路",
+                        "category":  "road",
+                        "road_name":  "",
+                        "lat":  "",
+                        "lng":  "",
+                        "coordinateType":  "unknown",
+                        "source":  "上野原市",
+                        "publisher":  "上野原市",
+                        "providerPageUrl":  "https://www.city.uenohara.yamanashi.jp/site/bousai/1469.html",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=ghl9m2Ool1o",
+                        "linkPolicy":  "provider",
+                        "preferredView":  "provider",
+                        "mediaType":  "YouTube Live",
+                        "themes":  [
+                                       "道路",
+                                       "渋滞・流れ",
+                                       "交通"
+                                   ],
+                        "viewTargets":  [
+                                            "国道20号線付近ライブカメラ"
+                                        ],
+                        "status":  "active",
+                        "sourceTier":  "配信元公式",
+                        "lastChecked":  "2026-10-07",
+                        "auditStatus":  "YouTube candidate review approved",
+                        "prefectureCode":  "yamanashi",
+                        "areaCode":  "uenohara",
+                        "slug":  "jp_19_000063",
+                        "cameraId":  "JP-19-000063"
                     }
                 ]
 }

@@ -63,6 +63,12 @@
                             "cameraCount":  95
                         },
                         {
+                            "prefecture":  "toyama",
+                            "file":  "toyama/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "yamagata",
                             "file":  "yamagata/index.json",
                             "areaCount":  1,
@@ -72,7 +78,7 @@
                             "prefecture":  "yamanashi",
                             "file":  "yamanashi/index.json",
                             "areaCount":  18,
-                            "cameraCount":  40
+                            "cameraCount":  41
                         }
                     ]
 }

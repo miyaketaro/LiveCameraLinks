@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  22,
+                       "approvedCount":  24,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -32,7 +32,7 @@
                            "embeddable":  true,
                            "prefecture":  "富山県",
                            "detectedPrefecture":  "富山県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "富山県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -43,14 +43,14 @@
                                              ],
                            "categoryConfidence":  "medium",
                            "categoryReason":  "road keyword in description only",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  37,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "高岡ケーブルネットワーク公式。高岡市野村の交通情報ライブカメラとして確認。",
+                           "approved":  true,
                            "matchedQuery":  "富山県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -58,10 +58,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "高岡ケーブルネットワーク",
+                           "providerPageUrl":  "https://www.tcnet.ne.jp/news/comu/36347/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:46:10+09:00"
                        },
                        {
                            "candidateId":  "YT-AD2S75lTwkc",
@@ -4062,7 +4062,7 @@
                            "embeddable":  false,
                            "prefecture":  "山梨県",
                            "detectedPrefecture":  "山梨県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "山梨県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -4073,14 +4073,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "strong road keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "road",
                            "candidateScore":  25,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "上野原市公式。国道20号上野原付近のライブカメラとして確認。",
+                           "approved":  true,
                            "matchedQuery":  "山梨県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -4088,10 +4088,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "上野原市",
+                           "providerPageUrl":  "https://www.city.uenohara.yamanashi.jp/site/bousai/1469.html",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:46:10+09:00"
                        },
                        {
                            "candidateId":  "YT-jLZ_T91paAU",

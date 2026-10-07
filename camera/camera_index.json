@@ -4,15 +4,15 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  472,
-                       "prefectureCount":  14,
-                       "areaCount":  57,
+                       "cameraCount":  474,
+                       "prefectureCount":  15,
+                       "areaCount":  58,
                        "routeCount":  0
                    },
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  180
+                                          "cameraCount":  182
                                       },
                              "river":  {
                                            "file":  "river/index.json",
@@ -108,6 +108,11 @@
                             "cameraCount":  311
                         },
                         {
+                            "prefecture":  "toyama",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "yamagata",
                             "areaCount":  1,
                             "cameraCount":  1
@@ -115,7 +120,7 @@
                         {
                             "prefecture":  "yamanashi",
                             "areaCount":  18,
-                            "cameraCount":  62
+                            "cameraCount":  63
                         }
                     ]
 }

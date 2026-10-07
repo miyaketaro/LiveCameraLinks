@@ -1,0 +1,14 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "category":  "road",
+    "prefecture":  "toyama",
+    "areaCount":  1,
+    "cameraCount":  1,
+    "areas":  [
+                  {
+                      "area":  "takaoka",
+                      "file":  "takaoka.json",
+                      "cameraCount":  1
+                  }
+              ]
+}

@@ -117,6 +117,8 @@ $records = foreach ($r in $rows) {
     [PSCustomObject][ordered]@{
         candidateId     = $r.candidateId
         targetFile      = $r.targetFile
+        registrationStatus = $r.registrationStatus
+        registrationNote   = $r.registrationNote
 
         record = [PSCustomObject][ordered]@{
             id              = $slugBase

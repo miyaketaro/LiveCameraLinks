@@ -49,6 +49,33 @@ if ($preview.Count -eq 0) {
     throw "No preview records found."
 }
 
+$allPreviewCount = $preview.Count
+
+$registeredRecords = @(
+    $preview |
+    Where-Object {
+        [string]$_.registrationStatus -eq "registered"
+    }
+)
+
+$preview = @(
+    $preview |
+    Where-Object {
+        [string]$_.registrationStatus -ne "registered"
+    }
+)
+
+Write-Host ""
+Write-Host "All preview records :" $allPreviewCount
+Write-Host "Already registered  :" $registeredRecords.Count
+Write-Host "Registration targets:" $preview.Count
+
+if ($preview.Count -eq 0) {
+    Write-Host ""
+    Write-Host "No unregistered cameras to process."
+    exit 0
+}
+
 # --------------------------------------------------
 # 既存 cameraId 全件取得
 # --------------------------------------------------

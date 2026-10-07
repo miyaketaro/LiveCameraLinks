@@ -3,12 +3,12 @@
     "category":  "station",
     "prefecture":  "fukui",
     "areaCount":  1,
-    "cameraCount":  1,
+    "cameraCount":  2,
     "areas":  [
                   {
                       "area":  "fukui",
                       "file":  "fukui.json",
-                      "cameraCount":  1
+                      "cameraCount":  2
                   }
               ]
 }

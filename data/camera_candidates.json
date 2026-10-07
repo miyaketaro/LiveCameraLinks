@@ -5,7 +5,7 @@
     "description":  "ライブカメラ探索候補",
     "statistics":  {
                        "candidateCount":  420,
-                       "approvedCount":  17,
+                       "approvedCount":  19,
                        "rejectedCount":  0
                    },
     "workflow":  {
@@ -2571,7 +2571,7 @@
                            "embeddable":  true,
                            "prefecture":  "石川県",
                            "detectedPrefecture":  "石川県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "石川県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -2582,14 +2582,14 @@
                                              ],
                            "categoryConfidence":  "low",
                            "categoryReason":  "no strong category signal",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "city",
                            "candidateScore":  27,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "HAB北陸朝日放送公式。能登特設ページの珠洲ライブカメラとして確認。",
+                           "approved":  true,
                            "matchedQuery":  "石川県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -2597,10 +2597,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "HAB 北陸朝日放送",
+                           "providerPageUrl":  "https://www.hab.co.jp/noto2024/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:04:24+09:00"
                        },
                        {
                            "candidateId":  "YT-lq4xGSr3DEA",
@@ -3191,7 +3191,7 @@
                            "embeddable":  true,
                            "prefecture":  "福井県",
                            "detectedPrefecture":  "福井県",
-                           "confirmedPrefecture":  "",
+                           "confirmedPrefecture":  "福井県",
                            "searchBlock":  "中部",
                            "detectedBlock":  "中部",
                            "locationStatus":  "一致",
@@ -3202,14 +3202,14 @@
                                              ],
                            "categoryConfidence":  "high",
                            "categoryReason":  "station keyword in title",
-                           "confirmedCategory":  "",
+                           "confirmedCategory":  "station",
                            "candidateScore":  26,
                            "candidateStatus":  "採用候補",
                            "discoveryStatus":  "新規",
                            "reviewTier":  "priority-review",
-                           "reviewStatus":  "pending",
-                           "reviewNote":  "",
-                           "approved":  false,
+                           "reviewStatus":  "approved",
+                           "reviewNote":  "FBC福井放送公式。福井市大和田エリアの情報カメラとして確認。",
+                           "approved":  true,
                            "matchedQuery":  "福井県 道路 ライブカメラ",
                            "matchedQueries":  [
 
@@ -3217,10 +3217,10 @@
                            "firstSeenAt":  "2026-10-02T19:59:46+09:00",
                            "lastSeenAt":  null,
                            "source":  "youtube-national-collector",
-                           "providerName":  "",
-                           "providerPageUrl":  "",
-                           "officialConfirmed":  false,
-                           "reviewedAt":  ""
+                           "providerName":  "FBC 福井放送",
+                           "providerPageUrl":  "https://www.fbc.jp/",
+                           "officialConfirmed":  true,
+                           "reviewedAt":  "2026-10-07T13:04:24+09:00"
                        },
                        {
                            "candidateId":  "YT-tHMEnSTnFd4",

@@ -4,9 +4,9 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  467,
-                       "prefectureCount":  12,
-                       "areaCount":  55,
+                       "cameraCount":  469,
+                       "prefectureCount":  13,
+                       "areaCount":  56,
                        "routeCount":  0
                    },
     "cameraCategories":  {
@@ -20,11 +20,11 @@
                                        },
                              "station":  {
                                              "file":  "station/index.json",
-                                             "cameraCount":  29
+                                             "cameraCount":  30
                                          },
                              "city":  {
                                           "file":  "city/index.json",
-                                          "cameraCount":  10
+                                          "cameraCount":  11
                                       },
                              "airport":  {
                                              "file":  "airport/index.json",
@@ -50,7 +50,7 @@
                         {
                             "prefecture":  "fukui",
                             "areaCount":  2,
-                            "cameraCount":  4
+                            "cameraCount":  5
                         },
                         {
                             "prefecture":  "gifu",
@@ -66,6 +66,11 @@
                             "prefecture":  "hokkaido",
                             "areaCount":  2,
                             "cameraCount":  3
+                        },
+                        {
+                            "prefecture":  "ishikawa",
+                            "areaCount":  1,
+                            "cameraCount":  1
                         },
                         {
                             "prefecture":  "kanagawa",

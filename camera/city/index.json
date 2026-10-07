@@ -15,6 +15,12 @@
                             "cameraCount":  0
                         },
                         {
+                            "prefecture":  "ishikawa",
+                            "file":  "ishikawa/index.json",
+                            "areaCount":  1,
+                            "cameraCount":  1
+                        },
+                        {
                             "prefecture":  "kanagawa",
                             "file":  "kanagawa/index.json",
                             "areaCount":  1,

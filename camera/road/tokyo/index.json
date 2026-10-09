@@ -3,12 +3,12 @@
     "category":  "road",
     "prefecture":  "tokyo",
     "areaCount":  23,
-    "cameraCount":  95,
+    "cameraCount":  94,
     "areas":  [
                   {
                       "area":  "adachi",
                       "file":  "adachi.json",
-                      "cameraCount":  3
+                      "cameraCount":  2
                   },
                   {
                       "area":  "arakawa",

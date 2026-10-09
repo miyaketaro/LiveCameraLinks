@@ -1251,7 +1251,11 @@ function card(c,extra=''){
   const providerButton=providerUrl
     ? `<a class="camera-action-v174 primary track-live" ${liveDataAttrs} data-live-url="${attr(providerUrl)}" href="${attr(providerUrl)}" target="_blank" rel="noopener noreferrer">配信元</a>`
     : '';
-  const directButton=directUrl
+  const listUrl=c.youtubeChannelUrl||'';
+  const listButton=/^https:\/\/(www\.)?youtube\.com\//i.test(listUrl)
+    ? `<a class="camera-action-v174" href="${attr(listUrl)}" target="_blank" rel="noopener noreferrer">一覧</a>`
+    : '';
+  const directButton=directUrl && !/^https?:\/\/(?:www\.)?youtube\.com\/(?:@|channel\/)/i.test(directUrl)
     ? `<a class="camera-action-v174 track-live" ${liveDataAttrs} data-live-url="${attr(directUrl)}" href="${attr(directUrl)}" target="_blank" rel="noopener noreferrer">映像</a>`
     : '';
   const mapButton=hasCoords
@@ -1303,7 +1307,7 @@ function card(c,extra=''){
       <div class="camera-action-frame-v174">
         ${confirmedLive?'<span class="camera-live-v174">● LIVE</span>':''}
         <div class="camera-actions-v174">
-          ${providerButton}${directButton}${mapButton}${routeButton}<button class="fav-toggle camera-favorite-top-v174" type="button" data-fav-label="favorite" aria-label="お気に入りに追加" title="お気に入りに追加">☆</button>
+          ${providerButton}${listButton}${directButton}${mapButton}${routeButton}<button class="fav-toggle camera-favorite-top-v174" type="button" data-fav-label="favorite" aria-label="お気に入りに追加" title="お気に入りに追加">☆</button>
         </div>
       </div>
       <div class="camera-preview-v174">${preview}</div>

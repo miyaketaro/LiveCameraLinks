@@ -276,6 +276,7 @@
 
             <div class="camera-actions-v174">
               ${action("配信元", provider, "primary")}
+              ${action("一覧", camera.youtubeChannelUrl)}
               ${action("映像", direct)}
 
               ${

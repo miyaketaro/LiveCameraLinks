@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "tokyo",
@@ -23,12 +23,12 @@
                         "lat":  35.6702,
                         "lng":  139.7027,
                         "source":  "原宿駅前・表参道口 ライブカメラ",
-                        "url":  "",
+                        "url":  "https://www.youtube.com/watch?v=NHpbIep_anI",
                         "desc":  "原宿駅表参道口、神宮橋交差点、五輪橋付近、東京都道413号赤坂杉並線を24時間LIVEで確認。",
                         "sourceTier":  "民間",
                         "lastChecked":  "2026-09-29",
                         "healthStatus":  "確認済み",
-                        "providerPageUrl":  "",
+                        "providerPageUrl":  "https://www.youtube.com/@harapeco_camera/featured",
                         "linkPolicy":  "none",
                         "preferredView":  "none",
                         "mediaType":  "YouTube LIVE",
@@ -51,7 +51,9 @@
                         "areaCode":  "shibuya",
                         "coordinateType":  "approximate",
                         "slug":  "tokyo_harajuku_station",
-                        "cameraId":  "JP-13-000184"
+                        "cameraId":  "JP-13-000184",
+                        "youtubeChannelUrl":  "https://www.youtube.com/@harapeco_camera/streams",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=NHpbIep_anI"
                     },
                     {
                         "id":  "tokyo_mtv_hatsudai",

@@ -4,7 +4,7 @@
     "project":  "LiveCameraLinks",
     "description":  "LiveCameraLinks camera master index",
     "statistics":  {
-                       "cameraCount":  474,
+                       "cameraCount":  473,
                        "prefectureCount":  15,
                        "areaCount":  58,
                        "routeCount":  0
@@ -12,7 +12,7 @@
     "cameraCategories":  {
                              "road":  {
                                           "file":  "road/index.json",
-                                          "cameraCount":  182
+                                          "cameraCount":  181
                                       },
                              "river":  {
                                            "file":  "river/index.json",

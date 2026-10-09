@@ -383,17 +383,23 @@ if ($q !== '') {
 
     $where[] = '
         (
-            camera_id LIKE :q
-            OR candidate_id LIKE :q
-            OR original_id LIKE :q
-            OR name LIKE :q
-            OR provider_name LIKE :q
-            OR location_name LIKE :q
+            camera_id LIKE :q_camera
+            OR candidate_id LIKE :q_candidate
+            OR original_id LIKE :q_original
+            OR name LIKE :q_name
+            OR provider_name LIKE :q_provider
+            OR location_name LIKE :q_location
         )
     ';
 
-    $params[':q'] =
-        '%' . $q . '%';
+    $searchValue = '%' . $q . '%';
+
+    $params[':q_camera'] = $searchValue;
+    $params[':q_candidate'] = $searchValue;
+    $params[':q_original'] = $searchValue;
+    $params[':q_name'] = $searchValue;
+    $params[':q_provider'] = $searchValue;
+    $params[':q_location'] = $searchValue;
 }
 
 if ($status !== '') {

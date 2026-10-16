@@ -168,192 +168,139 @@ try {
         exit('カメラが見つかりません。');
     }
 
-    // 4. 自分の配信者IDに一致するPRのみ取得
+    // 4. 下書きを優先して取得。なければ既存PRを初期値にする。
     $stmt = $pdo->prepare(
-        "SELECT
-             id,
-             promotion_text,
-             promotion_url,
-             status
+        "SELECT id, promotion_text, promotion_url, status
          FROM provider_promotions
-         WHERE camera_id = :camera_id
-           AND provider_id = :provider_id
-         ORDER BY id DESC
+         WHERE camera_id = :camera_id AND provider_id = :provider_id
+         ORDER BY (status = 'draft') DESC, id DESC
          LIMIT 1"
     );
+    $stmt->execute(['camera_id' => $cameraId, 'provider_id' => $providerId]);
+    $promotion = $stmt->fetch() ?: null;
 
-    $stmt->execute([
-        'camera_id' => $cameraId,
-        'provider_id' => $providerId,
-    ]);
-
-    $promotion = $stmt->fetch();
-
-    // =====================================================
-    // POST: Save draft
-    // =====================================================
-
+    // POST: Save draft. 公開中の行は絶対に更新しない。
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-
         $token = $_POST['csrf_token'] ?? '';
-
-        if (
-            !is_string($token)
-            || !hash_equals(
-                (string)$_SESSION['provider_csrf'],
-                $token
-            )
-        ) {
+        if (!is_string($token) || !hash_equals((string)$_SESSION['provider_csrf'], $token)) {
             http_response_code(403);
             $error = '画面を再読み込みして、もう一度お試しください。';
-
         } else {
-
-            $text = trim(
-                (string)($_POST['promotion_text'] ?? '')
-            );
-
-            $url = trim(
-                (string)($_POST['promotion_url'] ?? '')
-            );
-
-            // 入力内容を検証
-            if (mb_strlen($text, 'UTF-8') > 1000) {
-                $error = 'PR文章は1000文字以内で入力してください。';
-
-            } elseif (strlen($url) > 2048) {
-                $error = 'URLが長すぎます。';
-
-            } elseif (
-                $url !== ''
-                && (
-                    !filter_var(
-                        $url,
-                        FILTER_VALIDATE_URL
-                    )
-                    || !in_array(
-                        strtolower(
-                            (string)parse_url(
-                                $url,
-                                PHP_URL_SCHEME
-                            )
-                        ),
-                        ['http', 'https'],
-                        true
-                    )
-                )
-            ) {
-                $error = 'URLはhttpまたはhttps形式で入力してください。';
-
-            } elseif (!$promotion) {
-                $error = 'PR登録情報がありません。管理者へお問い合わせください。';
-
+            $rawText = $_POST['promotion_text'] ?? '';
+            $rawUrl = $_POST['promotion_url'] ?? '';
+            if (!is_string($rawText) || !is_string($rawUrl)) {
+                $error = '入力内容が正しくありません。';
             } else {
-
-                // 保存直前に編集権限を再確認
-                if (!providerCanEditCamera(
-                    $pdo,
-                    $accountId,
-                    $cameraId
+                $text = trim($rawText);
+                $url = trim($rawUrl);
+                if (mb_strlen($text, 'UTF-8') > 1000) {
+                    $error = 'PR文章は1000文字以内で入力してください。';
+                } elseif (strlen($url) > 2048) {
+                    $error = 'URLが長すぎます。';
+                } elseif ($url !== '' && (
+                    !filter_var($url, FILTER_VALIDATE_URL)
+                    || !in_array(strtolower((string)parse_url($url, PHP_URL_SCHEME)), ['http', 'https'], true)
                 )) {
-                    http_response_code(403);
-                    exit('編集権限がありません。');
-                }
-
-                // 保存直前に配信者の認証状態を再確認
-                $stmt = $pdo->prepare(
-                    "SELECT 1
-                     FROM provider_accounts
-                     WHERE id = :account_id
-                       AND provider_id = :provider_id
-                       AND status = 'active'
-                       AND verification_status = 'verified'
-                       AND email_verified_at IS NOT NULL
-                     LIMIT 1"
-                );
-
-                $stmt->execute([
-                    'account_id' => $accountId,
-                    'provider_id' => $providerId,
-                ]);
-
-                if (!$stmt->fetchColumn()) {
-                    http_response_code(403);
-                    exit('配信者認証が無効です。');
-                }
-
-                // 既存PRを下書きとして保存
-                // 公開状態にはしない
-                $stmt = $pdo->prepare(
-                    "UPDATE provider_promotions
-                     SET
-                         promotion_text = :promotion_text,
-                         promotion_url = :promotion_url,
-                         status = 'draft'
-                     WHERE id = :id
-                       AND camera_id = :camera_id
-                       AND provider_id = :provider_id"
-                );
-
-                $stmt->execute([
-                    'promotion_text' => $text,
-                    'promotion_url' => $url !== ''
-                        ? $url
-                        : null,
-                    'id' => $promotion['id'],
-                    'camera_id' => $cameraId,
-                    'provider_id' => $providerId,
-                ]);
-
-                // 更新件数が0でも同一値保存の可能性がある
-                if ($stmt->rowCount() === 0) {
-
-                    $check = $pdo->prepare(
-                        "SELECT
-                             id,
-                             promotion_text,
-                             promotion_url,
-                             status
-                         FROM provider_promotions
-                         WHERE id = :id
-                           AND camera_id = :camera_id
-                           AND provider_id = :provider_id
-                         LIMIT 1"
+                    $error = 'URLはhttpまたはhttps形式で入力してください。';
+                } elseif (!$promotion) {
+                    $error = 'PR登録情報がありません。管理者へお問い合わせください。';
+                } else {
+                    $pdo->beginTransaction();
+                    // 同じカメラへの同時保存を直列化する。
+                    $lock = $pdo->prepare(
+                        'SELECT camera_id FROM cameras WHERE camera_id = :camera_id FOR UPDATE'
                     );
+                    $lock->execute(['camera_id' => $cameraId]);
+                    if (!$lock->fetchColumn()) {
+                        throw new RuntimeException('Camera disappeared during save');
+                    }
 
-                    $check->execute([
-                        'id' => $promotion['id'],
+                    // ロック取得後に権限と本人確認を再検証する。
+                    if (!providerCanEditCamera($pdo, $accountId, $cameraId)) {
+                        $pdo->rollBack();
+                        http_response_code(403);
+                        exit('編集権限がありません。');
+                    }
+                    $checkAccount = $pdo->prepare(
+                        "SELECT 1 FROM provider_accounts
+                         WHERE id = :account_id AND provider_id = :provider_id
+                           AND status = 'active' AND verification_status = 'verified'
+                           AND email_verified_at IS NOT NULL LIMIT 1"
+                    );
+                    $checkAccount->execute([
+                        'account_id' => $accountId,
+                        'provider_id' => $providerId,
+                    ]);
+                    if (!$checkAccount->fetchColumn()) {
+                        $pdo->rollBack();
+                        http_response_code(403);
+                        exit('配信者認証が無効です。');
+                    }
+
+                    $findDraft = $pdo->prepare(
+                        "SELECT id FROM provider_promotions
+                         WHERE camera_id = :camera_id AND provider_id = :provider_id
+                           AND status = 'draft'
+                         ORDER BY id DESC LIMIT 1 FOR UPDATE"
+                    );
+                    $findDraft->execute([
                         'camera_id' => $cameraId,
                         'provider_id' => $providerId,
                     ]);
+                    $draftId = $findDraft->fetchColumn();
 
-                    $saved = $check->fetch();
-
-                    if (
-                        !$saved
-                        || (string)(
-                            $saved['promotion_text'] ?? ''
-                        ) !== $text
-                        || (string)(
-                            $saved['promotion_url'] ?? ''
-                        ) !== $url
-                        || $saved['status'] !== 'draft'
-                    ) {
-                        $error = 'PRを保存できませんでした。';
+                    if ($draftId !== false) {
+                        $save = $pdo->prepare(
+                            "UPDATE provider_promotions
+                             SET promotion_text = :promotion_text,
+                                 promotion_url = :promotion_url
+                             WHERE id = :id AND camera_id = :camera_id
+                               AND provider_id = :provider_id AND status = 'draft'"
+                        );
+                        $save->execute([
+                            'promotion_text' => $text,
+                            'promotion_url' => $url !== '' ? $url : null,
+                            'id' => $draftId,
+                            'camera_id' => $cameraId,
+                            'provider_id' => $providerId,
+                        ]);
+                    } else {
+                        // 公開中PRは保持し、新しい下書きを別行として作成する。
+                        $save = $pdo->prepare(
+                            "INSERT INTO provider_promotions
+                             (camera_id, provider_id, promotion_text, promotion_url, status)
+                             VALUES (:camera_id, :provider_id, :promotion_text, :promotion_url, 'draft')"
+                        );
+                        $save->execute([
+                            'camera_id' => $cameraId,
+                            'provider_id' => $providerId,
+                            'promotion_text' => $text,
+                            'promotion_url' => $url !== '' ? $url : null,
+                        ]);
+                        $draftId = $pdo->lastInsertId();
                     }
-                }
 
-                if ($error === '') {
-
-                    $promotion['promotion_text'] = $text;
-                    $promotion['promotion_url'] = $url;
-                    $promotion['status'] = 'draft';
-
-                    // 保存後にCSRFトークンを更新
-                    $_SESSION['provider_csrf'] = bin2hex(
-                        random_bytes(32)
+                    $getSaved = $pdo->prepare(
+                        "SELECT id, promotion_text, promotion_url, status
+                         FROM provider_promotions
+                         WHERE id = :id AND camera_id = :camera_id
+                           AND provider_id = :provider_id AND status = 'draft' LIMIT 1"
                     );
-
+                    $getSaved->execute([
+                        'id' => $draftId,
+                        'camera_id' => $cameraId,
+                        'provider_id' => $providerId,
+                    ]);
+                    $saved = $getSaved->fetch();
+                    if (!$saved
+                        || (string)($saved['promotion_text'] ?? '') !== $text
+                        || (string)($saved['promotion_url'] ?? '') !== $url
+                    ) {
+                        throw new RuntimeException('Draft save verification failed');
+                    }
+                    $pdo->commit();
+                    $promotion = $saved;
+                    $_SESSION['provider_csrf'] = bin2hex(random_bytes(32));
                     $message = 'PR文章を下書き保存しました。まだ公開されていません。';
                 }
             }
@@ -361,6 +308,10 @@ try {
     }
 
 } catch (Throwable $e) {
+
+    if ($pdo instanceof PDO && $pdo->inTransaction()) {
+        $pdo->rollBack();
+    }
 
     error_log(
         'Provider promotion edit error: '

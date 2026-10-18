@@ -47,7 +47,7 @@
                         "desc":  "東京駅八重洲側の高速バスについて、本日の出発時刻・行先・のりば・運休便・のりば変更を公式案内で確認。",
                         "sourceTier":  "公式",
                         "auditStatus":  "公式サイト確認済み",
-                        "lastChecked":  "2026-09-29",
+                        "lastChecked":  "2026-10-18",
                         "healthStatus":  "確認済み",
                         "prefectureCompletion":  "東京駅移動情報強化",
                         "completionVersion":  "v55",
@@ -57,7 +57,8 @@
                         "areaCode":  "chuo",
                         "coordinateType":  "approximate",
                         "slug":  "tokyo_station_yaesu_bus",
-                        "cameraId":  "JP-13-000293"
+                        "cameraId":  "JP-13-000293",
+                        "visibility":  "hidden"
                     },
                     {
                         "id":  "road_tokyo_takaracho_c1",

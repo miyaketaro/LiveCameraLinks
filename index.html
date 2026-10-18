@@ -1098,6 +1098,19 @@ window.LCLoadAllCameras=async function(){
           if(!c.kind){
             c.kind=({road:'道路',river:'河川',station:'駅',city:'街',tourism:'名所',parking:'駐車場',airport:'空港',port:'港'})[category]||category;
           }
+          const visibilityRaw=c.visibility;
+          const visibilityText=typeof visibilityRaw==='string'?visibilityRaw.trim().toLowerCase():visibilityRaw==null?'':null;
+          if(visibilityText===null|| (visibilityText && visibilityText!=='public')){
+            if(visibilityText!=='hidden'&&visibilityText!=='retired'){
+              const visibilityId=c.cameraId||c.slug||c.id||'(unknown)';
+              console.warn('Camera excluded due to invalid visibility',{
+                cameraId:visibilityId,
+                visibility:visibilityRaw,
+                source:`camera/${category}/${prefecture}/${file}`
+              });
+            }
+            continue;
+          }
           rows.push(c);
         }
       }

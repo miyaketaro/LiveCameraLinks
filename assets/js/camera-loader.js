@@ -58,6 +58,22 @@
     return normalized;
   }
 
+  function isPublicCamera(camera, source) {
+    const raw = camera?.visibility;
+    if (raw == null) return true;
+    if (typeof raw === "string") {
+      const value = raw.trim().toLowerCase();
+      if (!value || value === "public") return true;
+      if (value === "hidden" || value === "retired") return false;
+    }
+    console.warn("Camera excluded due to invalid visibility", {
+      cameraId: camera?.cameraId || camera?.slug || camera?.id || "(unknown)",
+      visibility: raw,
+      source
+    });
+    return false;
+  }
+
   function matchesIdentifier(camera, value) {
     if (!camera || !value) return false;
 
@@ -187,6 +203,12 @@
                 })
               )
               .filter(Boolean)
+              .filter(camera =>
+                isPublicCamera(
+                  camera,
+                  `camera/${category}/${prefecture}/${area}`
+                )
+              )
           : [];
 
       return {

@@ -1,4 +1,4 @@
-﻿{
+{
     "schemaVersion":  "1.0",
     "category":  "road",
     "prefecture":  "tokyo",
@@ -148,11 +148,11 @@
                         "lng":  139.7037,
                         "source":  "渋谷愛ビジョン",
                         "publisher":  "渋谷愛ビジョン",
-                        "url":  "https://www.youtube.com/@shibuya-ai-vision",
-                        "providerPageUrl":  "https://www.youtube.com/@shibuya-ai-vision",
-                        "directStreamUrl":  "",
-                        "linkPolicy":  "provider",
-                        "preferredView":  "none",
+                        "url":  "https://www.youtube.com/watch?v=ZTR8FFdF0x8",
+                        "providerPageUrl":  "https://www.youtube.com/@liveaishibuyaaivision2555",
+                        "directStreamUrl":  "https://www.youtube.com/watch?v=ZTR8FFdF0x8",
+                        "linkPolicy":  "both",
+                        "preferredView":  "direct",
                         "mediaType":  "YouTube LIVE",
                         "themes":  [
                                        "道路",
@@ -165,7 +165,7 @@
                                         ],
                         "desc":  "宮益坂交差点・ビックカメラ渋谷前から明治通り（都道305号）の交通状況を確認。",
                         "status":  "active",
-                        "lastChecked":  "2026-09-29",
+                        "lastChecked":  "2026-10-18",
                         "healthStatus":  "確認済み",
                         "batchArea":  "東京都渋谷区",
                         "completionVersion":  "v83",
@@ -205,7 +205,7 @@
                                         ],
                         "desc":  "渋谷センター街・井の頭通りと西武百貨店バス停周辺を確認。",
                         "status":  "active",
-                        "lastChecked":  "2026-09-29",
+                        "lastChecked":  "2026-10-18",
                         "healthStatus":  "確認済み",
                         "batchArea":  "東京都渋谷区",
                         "completionVersion":  "v83",
@@ -215,7 +215,8 @@
                         "areaCode":  "shibuya",
                         "coordinateType":  "approximate",
                         "slug":  "shibuya_center_inogashira",
-                        "cameraId":  "JP-13-000148"
+                        "cameraId":  "JP-13-000148",
+                        "healthReason":  "公式ページは有効。03井の頭通りの映像は現在確認できず、配信元導線のみ維持"
                     }
                 ]
 }

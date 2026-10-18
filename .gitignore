@@ -82,6 +82,10 @@ private/
 # Generated database reports and exports
 scripts/db/output/
 scripts/export/output/
+scripts/youtube/output/
+
+# Local YouTube script backups
+scripts/youtube/*.php.bak*
 
 # Historical PHP versions
 admin/*-v*.php

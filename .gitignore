@@ -92,3 +92,8 @@ youtube-test/*.bak*
 admin/*-v*.php
 scripts/db/*-v*.php
 scripts/export/*-v*.php
+
+# Local YouTube runtime state
+youtube-test/rotation-state.json
+youtube-test/block-runs.json
+youtube-test/youtube-quota-usage.json

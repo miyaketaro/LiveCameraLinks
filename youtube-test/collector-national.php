@@ -181,9 +181,9 @@ function detectPrefecture(string $title, string $description, string $channel, a
     return '';
 }
 function loadMunicipalityIndex(string $path): array {
-    if (!is_file($path)) { fwrite(STDERR, 'Municipality master unavailable; municipality fallback disabled.'.PHP_EOL); return []; }
+    if (!is_file($path)) { error_log('Municipality master unavailable; municipality fallback disabled.'); return []; }
     $data = json_decode((string)@file_get_contents($path), true);
-    if (!is_array($data) || !isset($data['municipalities']) || !is_array($data['municipalities'])) { fwrite(STDERR, 'Municipality master invalid; municipality fallback disabled.'.PHP_EOL); return []; }
+    if (!is_array($data) || !isset($data['municipalities']) || !is_array($data['municipalities'])) { error_log('Municipality master invalid; municipality fallback disabled.'); return []; }
     return array_values(array_filter($data['municipalities'], static fn($m): bool => is_array($m) && (string)($m['municipality_code'] ?? '') !== '' && (string)($m['prefecture_name'] ?? '') !== ''));
 }
 function inferMunicipality(array $row, array $municipalities): ?array {
@@ -272,6 +272,17 @@ function legacyRowsForNewBlock(string $slug,array $def,string $outDir): ?array {
 function nationalCategoryDefinitions(): array {
     return ['tourism'=>'観光地','road'=>'道路','station'=>'駅','city'=>'繁華街','parking'=>'駐車場'];
 }
+function saveRegistrationCandidatesCsvAtomic(string $path, array $rows): void {
+    $dir=dirname($path); $tmp=tempnam($dir,'registration-candidates-'); if($tmp===false)fail('Could not create temporary registration candidates CSV.');
+    $fp=fopen($tmp,'wb'); if($fp===false){@unlink($tmp);fail('Could not open temporary registration candidates CSV.');}
+    $ok=fputcsv($fp,['site_status','candidate_status','score','detected_prefecture','location_status','tags','title','url','channel','video_id'],',','"','')!==false;
+    if($ok)foreach($rows as $r){if(($r['site_status']??'未登録')!=='未登録'||($r['candidate_status']??'')!=='採用候補')continue;if(fputcsv($fp,[$r['site_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']??[]),$r['title'],$r['url'],$r['channel_title'],$r['video_id']],',','"','')===false){$ok=false;break;}}
+    if(!fclose($fp))$ok=false; if(!$ok){@unlink($tmp);fail('Could not write registration candidates CSV.');}
+    $backup=null;
+    if(file_exists($path)){try{$backup=$path.'.bak-'.bin2hex(random_bytes(8));}catch(Throwable $e){@unlink($tmp);fail('Could not create CSV backup name; existing CSV was preserved.');}if(!rename($path,$backup)){@unlink($tmp);fail('Could not preserve existing registration candidates CSV.');}}
+    if(!rename($tmp,$path)){if($backup!==null&&!rename($backup,$path))fail('Could not replace registration candidates CSV; backup remains.');@unlink($tmp);fail('Could not replace registration candidates CSV; previous version restored.');}
+    if($backup!==null&&!@unlink($backup))error_log('Registration candidates CSV backup remains: '.$backup);
+}
 function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,array $municipalities): array {
     $master=[];
     $categories=nationalCategoryDefinitions();
@@ -315,14 +326,14 @@ function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,
     $rows=array_values($master);
     usort($rows,fn(array $a,array $b):int => (($a['site_status']??'未登録')==='未登録'?-1:1)<=> (($b['site_status']??'未登録')==='未登録'?-1:1) ?: ((int)($b['candidate_score']??0)<=>(int)($a['candidate_score']??0)) ?: strcmp((string)($a['title']??''),(string)($b['title']??'')));
     saveJsonFileAtomic($outDir.'/national-master.json',$rows);
-    $fp=@fopen($outDir.'/registration-candidates.csv','wb');
-    if(!$fp) fail('Could not create registration candidates CSV.');
-    fputcsv($fp,['site_status','candidate_status','score','detected_prefecture','location_status','tags','title','url','channel','video_id'],',','"','');
-    foreach($rows as $r){if(($r['site_status']??'未登録')!=='未登録'||($r['candidate_status']??'')!=='採用候補')continue;fputcsv($fp,[$r['site_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']??[]),$r['title'],$r['url'],$r['channel_title'],$r['video_id']],',','"','');}
-    if(!fclose($fp)) fail('Could not close registration candidates CSV.');
+    saveRegistrationCandidatesCsvAtomic($outDir.'/registration-candidates.csv',$rows);
     return $rows;
 }
 
+$runRequested=((string)($_GET['run']??''))==='1';
+if(!$runRequested){
+    $previewDefs=blockDefinitions();$previewSlugs=array_keys($previewDefs);$previewState=loadJsonFile(__DIR__.'/rotation-state.json',['next_index'=>0,'category_index'=>0]);$previewIndex=((int)($previewState['next_index']??0))%count($previewSlugs);$previewCategories=nationalCategoryDefinitions();$previewCategoryKeys=array_keys($previewCategories);$previewCategoryIndex=((int)($previewState['category_index']??0))%count($previewCategoryKeys);$previewRequested=trim((string)($_GET['block']??''));$previewSlug=isset($previewDefs[$previewRequested])?$previewRequested:$previewSlugs[$previewIndex];$previewCategoryKey=$previewCategoryKeys[$previewCategoryIndex];header('Content-Type:text/plain; charset=UTF-8');echo 'Preview only. Add run=1 to execute collection.'.PHP_EOL;echo 'block='.$previewSlug.PHP_EOL;echo 'category='.$previewCategoryKey.PHP_EOL;exit;
+}
 $configPath=__DIR__.'/config.php'; if(!file_exists($configPath))fail('config.php not found.'); $config=require $configPath;
 $apiKey=trim((string)($config['youtube_api_key']??'')); if($apiKey===''||$apiKey==='PASTE_YOUR_API_KEY_HERE')fail('YouTube API key is not configured.');
 $quotaDailyLimit=max(1,(int)($config['search_daily_limit']??100));
@@ -354,7 +365,7 @@ if($isManualBlock){
     $pendingNextCategoryIndex=$categoryIndex;
 }
 
-$municipalities=loadMunicipalityIndex($root.'/data/master/municipalities.json');
+$municipalities=loadMunicipalityIndex(dirname(__DIR__).'/data/master/municipalities.json');
 $queries=[];foreach($defs[$currentSlug]['prefs'] as $pref)$queries[]=$pref.' '.$currentCategory.' ライブカメラ';
 $requiredSearches=count($queries);
 $remaining=max(0,$quotaDailyLimit-(int)$quotaState['used']);

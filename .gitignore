@@ -86,6 +86,7 @@ scripts/youtube/output/
 
 # Local YouTube script backups
 scripts/youtube/*.php.bak*
+youtube-test/*.bak*
 
 # Historical PHP versions
 admin/*-v*.php

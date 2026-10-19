@@ -20,6 +20,37 @@ function loadJsonFile(string $path, array $default = []): array {
 function saveJsonFile(string $path, array $data): void {
     @file_put_contents($path, json_encode($data, JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT));
 }
+function saveJsonFileAtomic(string $path, array $data): void {
+    $json=json_encode($data,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);
+    if($json===false) fail('Could not encode JSON output.');
+    $tmp=tempnam(dirname($path),'snapshot-');
+    if($tmp===false){fail('Could not create temporary JSON output.');}
+    $written=file_put_contents($tmp,$json);
+    if($written===false||$written!==strlen($json)||!file_exists($tmp)||(int)filesize($tmp)!==strlen($json)){
+        @unlink($tmp);
+        fail('Could not write temporary JSON output.');
+    }
+    $backup=null;
+    if(file_exists($path)){
+        try{$suffix=bin2hex(random_bytes(12));}catch(Throwable $e){@unlink($tmp);fail('Could not create backup name; existing JSON was preserved.');}
+        $backup=$path.'.bak-'.$suffix;
+        if(file_exists($backup)||!rename($path,$backup)){
+            @unlink($tmp);
+            fail('Could not backup existing JSON; original was preserved.');
+        }
+    }
+    if(!rename($tmp,$path)){
+        @unlink($tmp);
+        if($backup!==null&&rename($backup,$path)){
+            fail('JSON replacement failed; previous version restored.');
+        }
+        $backupMessage=$backup===null?'':' Backup remains at '.$backup.'.';
+        fail('JSON replacement and rollback failed.'.$backupMessage);
+    }
+    if($backup!==null&&!@unlink($backup)){
+        error_log('JSON saved; backup could not be removed: '.$backup);
+    }
+}
 function loadQuotaState(string $path, int $limit): array {
     $day = quotaDay();
     $state = loadJsonFile($path, []);
@@ -85,10 +116,11 @@ function containsAny(string $text, array $keywords): bool {
 }
 function classifyCandidate(string $text): array {
     $rules = [
+        '観光' => ['観光','温泉','富士山','海','港','空港','展望','観光地','tourism','airport','beach','harbor'],
         '道路' => ['道路','国道','県道','高速','渋滞','交通','峠','トンネル','road','traffic','highway','expressway'],
         '駅' => ['駅','鉄道','新幹線','電車','railway','station','train'],
         '繁華街' => ['繁華街','商店街','スクランブル','交差点','街並み','downtown','street','city view'],
-        '観光' => ['観光','温泉','富士山','海','港','空港','展望','観光地','tourism','airport','beach','harbor'],
+        '駐車場' => ['駐車場','パーキング','parking','parking lot','car park'],
         '雪道' => ['雪','積雪','凍結','スキー','snow','winter','ski'],
         '河川' => ['河川','川','水位','ダム','river','dam'],
     ];
@@ -99,7 +131,7 @@ function classifyCandidate(string $text): array {
 function candidateAssessment(array $tags, string $title, string $description, string $channel): array {
     $text = $title . ' ' . $description . ' ' . $channel;
     $score = 0; $reasons = [];
-    $weights = ['道路'=>7,'雪道'=>7,'駅'=>6,'繁華街'=>5,'観光'=>3,'河川'=>2];
+    $weights = ['観光'=>9,'道路'=>8,'駅'=>7,'繁華街'=>6,'駐車場'=>5,'雪道'=>7,'河川'=>2];
     foreach ($tags as $tag) { $score += $weights[$tag] ?? 0; $reasons[] = $tag . 'タグ'; }
     $cameraWords = ['ライブカメラ','live camera','webcam','定点カメラ','定点','ライブ映像','live view'];
     $continuousWords = ['24/7','24時間','24h','常時配信'];
@@ -115,7 +147,7 @@ function candidateAssessment(array $tags, string $title, string $description, st
     if (containsAny($text, $negative)) { $score -= 22; $reasons[] = '強い除外語'; }
     elseif (containsAny($text, $softNegative)) { $score -= 8; $reasons[] = '除外語'; }
     if (empty($tags)) { $score -= 5; $reasons[] = 'カテゴリ不明'; }
-    $highConfidence = containsAny($text, $cameraWords) && !empty(array_intersect($tags, ['道路','雪道','駅','繁華街','観光']));
+    $highConfidence = containsAny($text, $cameraWords) && !empty(array_intersect($tags, ['道路','雪道','駅','繁華街','観光','駐車場']));
     $hardReject = containsAny($text, $negative);
     if (!$hardReject && ($highConfidence || $score >= 16)) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
@@ -148,14 +180,66 @@ function detectPrefecture(string $title, string $description, string $channel, a
     }
     return '';
 }
-function enrichLocation(array $row, array $defs): array {
+function loadMunicipalityIndex(string $path): array {
+    if (!is_file($path)) { fwrite(STDERR, 'Municipality master unavailable; municipality fallback disabled.'.PHP_EOL); return []; }
+    $data = json_decode((string)@file_get_contents($path), true);
+    if (!is_array($data) || !isset($data['municipalities']) || !is_array($data['municipalities'])) { fwrite(STDERR, 'Municipality master invalid; municipality fallback disabled.'.PHP_EOL); return []; }
+    return array_values(array_filter($data['municipalities'], static fn($m): bool => is_array($m) && (string)($m['municipality_code'] ?? '') !== '' && (string)($m['prefecture_name'] ?? '') !== ''));
+}
+function inferMunicipality(array $row, array $municipalities): ?array {
+    if ($municipalities === []) return null;
+    $searched = array_values(array_filter(array_map('strval', (array)($row['searched_prefectures'] ?? []))));
+    if ($searched === []) return null;
+    $text = (string)($row['title'] ?? '') . ' ' . (string)($row['description'] ?? '') . ' ' . (string)($row['channel_title'] ?? '');
+    $exactHits = [];
+    $shortHits = [];
+    foreach ($municipalities as $m) {
+        if (!is_array($m) || !in_array((string)($m['prefecture_name'] ?? ''), $searched, true)) continue;
+        $exactTokens = [(string)($m['official_name'] ?? ''), (string)($m['full_name'] ?? '')];
+        foreach ((array)($m['aliases'] ?? []) as $alias) if (is_scalar($alias)) $exactTokens[] = (string)$alias;
+        foreach (array_unique(array_filter($exactTokens, static fn(string $t): bool => $t !== '')) as $token) {
+            if (mb_strpos($text, $token, 0, 'UTF-8') !== false) { $exactHits[(string)$m['municipality_code']]=['municipality'=>$m,'match_type'=>'exact']; break; }
+        }
+        $type=(string)($m['type']??'');
+        if (in_array($type,['city','town','village'],true)) {
+            $short=preg_replace('/(市|町|村)$/u','',(string)($m['official_name']??''));
+            if (is_string($short) && function_exists('mb_strlen') && mb_strlen($short,'UTF-8')>=3 && mb_strpos($text,$short,0,'UTF-8')!==false) {
+                if (preg_match('/'.preg_quote($short,'/').'(?:(?:駅)|(?:市役所)|(?:町役場)|(?:村役場))/u',$text)) $shortHits[(string)$m['municipality_code']]=['municipality'=>$m,'match_type'=>'short_context'];
+            }
+        }
+    }
+    if (count($exactHits) === 1) return array_values($exactHits)[0];
+    if (count($exactHits) > 1) return null;
+    return count($shortHits) === 1 ? array_values($shortHits)[0] : null;
+}
+function enrichLocation(array $row, array $defs, array $municipalities = []): array {
     $detected = detectPrefecture((string)($row['title']??''),(string)($row['description']??''),(string)($row['channel_title']??''),allPrefectures($defs));
     $row['detected_prefecture'] = $detected;
     $row['detected_block'] = $detected !== '' ? blockForPrefecture($detected,$defs) : '';
+    $row['detected_municipality_code'] = '';
+    $row['detected_municipality_name'] = '';
+    $row['municipality_match_type'] = '';
+    if ($detected === '') {
+        $municipalityMatch = inferMunicipality($row, $municipalities);
+        if ($municipalityMatch !== null) {
+            $municipality = $municipalityMatch['municipality'];
+            $row['detected_municipality_code'] = (string)$municipality['municipality_code'];
+            $row['detected_municipality_name'] = (string)$municipality['official_name'];
+            $row['municipality_match_type'] = (string)$municipalityMatch['match_type'];
+            $row['detected_prefecture'] = (string)$municipality['prefecture_name'];
+            $row['detected_block'] = blockForPrefecture($row['detected_prefecture'], $defs);
+        }
+    }
     $searched = (array)($row['searched_prefectures'] ?? []);
-    if ($detected === '') $row['location_status'] = '未判定';
-    elseif (in_array($detected,$searched,true)) $row['location_status'] = '一致';
-    else $row['location_status'] = '地域外';
+    if ($detected === '' && $row['detected_prefecture'] === '') $row['location_status'] = '未判定';
+    elseif (in_array($row['detected_prefecture'],$searched,true)) $row['location_status'] = '一致';
+    else {
+        $row['location_status'] = '地域外';
+        $row['candidate_status'] = '除外候補';
+        $reasons = array_values(array_unique((array)($row['assessment_reasons'] ?? [])));
+        if (!in_array('検索対象地域外', $reasons, true)) $reasons[] = '検索対象地域外';
+        $row['assessment_reasons'] = $reasons;
+    }
     return $row;
 }
 function loadSiteRegistered(string $path): array {
@@ -185,34 +269,57 @@ function legacyRowsForNewBlock(string $slug,array $def,string $outDir): ?array {
     foreach($rows as $r){$searched=(array)($r['searched_prefectures']??[$r['prefecture']??'']); if(array_intersect($searched,$def['prefs']))$filtered[]=$r;}
     return $filtered ?: null;
 }
-function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered): array {
+function nationalCategoryDefinitions(): array {
+    return ['tourism'=>'観光地','road'=>'道路','station'=>'駅','city'=>'繁華街','parking'=>'駐車場'];
+}
+function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,array $municipalities): array {
     $master=[];
+    $categories=nationalCategoryDefinitions();
     foreach($defs as $slug=>$def){
-        $snapshot=$outDir.'/block-'.$slug.'-latest.json';
-        $rows=null;
-        if(file_exists($snapshot)) $rows=json_decode((string)file_get_contents($snapshot),true);
-        if(!is_array($rows)) $rows=legacyRowsForNewBlock($slug,$def,$outDir);
-        if(!is_array($rows)) {$legacy=latestSnapshotForBlockFromHistory($def['name'],$outDir); if(is_array($legacy))$rows=$legacy;}
-        if(!is_array($rows)) continue;
+        $sources=[];
+        foreach($categories as $categoryKey=>$categoryLabel){
+            $snapshot=$outDir.'/block-'.$slug.'-'.$categoryKey.'-latest.json';
+            $rows=null;
+            if(file_exists($snapshot)) $rows=json_decode((string)file_get_contents($snapshot),true);
+            if($categoryKey==='road'&&!is_array($rows)){
+                $legacySnapshot=$outDir.'/block-'.$slug.'-latest.json';
+                if(file_exists($legacySnapshot)) $rows=json_decode((string)file_get_contents($legacySnapshot),true);
+                if(!is_array($rows)) $rows=legacyRowsForNewBlock($slug,$def,$outDir);
+                if(!is_array($rows)) {$legacy=latestSnapshotForBlockFromHistory($def['name'],$outDir); if(is_array($legacy))$rows=$legacy;}
+            }
+            if(is_array($rows)) $sources[]=['rows'=>$rows,'key'=>$categoryKey,'label'=>$categoryLabel];
+        }
+        foreach($sources as $source){$rows=$source['rows'];$categoryKey=$source['key'];$categoryLabel=$source['label'];
         foreach($rows as $row){
             $id=(string)($row['video_id']??''); if($id==='')continue;
             $row['search_blocks']=array_values(array_unique(array_filter(array_merge((array)($row['search_blocks']??[]),[(string)($row['search_block']??$def['name'])]))));
             $row['searched_prefectures']=array_values(array_unique(array_filter(array_merge((array)($row['searched_prefectures']??[]),[(string)($row['prefecture']??'')]))));
-            $row=enrichLocation($row,$defs);
+            $row['matched_queries']=array_values(array_unique(array_filter(array_merge((array)($row['matched_queries']??[]),[(string)($row['matched_query']??'')]))));
+            $row['matched_categories']=array_values(array_unique(array_merge((array)($row['matched_categories']??[]),[$categoryKey])));
+            $row['matched_category_labels']=array_values(array_unique(array_merge((array)($row['matched_category_labels']??[]),[$categoryLabel])));
+            $row=enrichLocation($row,$defs,$municipalities);
             $row['site_status']=isset($siteRegistered[$id])?'登録済':'未登録';
             if(!isset($master[$id])){$master[$id]=$row;continue;}
             $blocks=array_values(array_unique(array_filter(array_merge((array)$master[$id]['search_blocks'],(array)$row['search_blocks']))));
             $prefs=array_values(array_unique(array_filter(array_merge((array)$master[$id]['searched_prefectures'],(array)$row['searched_prefectures']))));
+            $existingQueries=array_merge((array)($master[$id]['matched_queries']??[]),(array)($master[$id]['matched_query']??[]));
             if((int)($row['candidate_score']??0)>(int)($master[$id]['candidate_score']??0))$master[$id]=array_merge($master[$id],$row);
             $master[$id]['search_blocks']=$blocks; $master[$id]['searched_prefectures']=$prefs;
-            $master[$id]=enrichLocation($master[$id],$defs); $master[$id]['site_status']=isset($siteRegistered[$id])?'登録済':'未登録';
+            $master[$id]['matched_queries']=array_values(array_unique(array_filter(array_merge($existingQueries,(array)($row['matched_queries']??[]),[(string)($row['matched_query']??'')]))));
+            $master[$id]['matched_categories']=array_values(array_unique(array_merge((array)($master[$id]['matched_categories']??[]),(array)($row['matched_categories']??[]))));
+            $master[$id]['matched_category_labels']=array_values(array_unique(array_merge((array)($master[$id]['matched_category_labels']??[]),(array)($row['matched_category_labels']??[]))));
+            $master[$id]=enrichLocation($master[$id],$defs,$municipalities); $master[$id]['site_status']=isset($siteRegistered[$id])?'登録済':'未登録';
+        }
         }
     }
     $rows=array_values($master);
     usort($rows,fn(array $a,array $b):int => (($a['site_status']??'未登録')==='未登録'?-1:1)<=> (($b['site_status']??'未登録')==='未登録'?-1:1) ?: ((int)($b['candidate_score']??0)<=>(int)($a['candidate_score']??0)) ?: strcmp((string)($a['title']??''),(string)($b['title']??'')));
-    @file_put_contents($outDir.'/national-master.json',json_encode($rows,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT));
+    saveJsonFileAtomic($outDir.'/national-master.json',$rows);
     $fp=@fopen($outDir.'/registration-candidates.csv','wb');
-    if($fp){fputcsv($fp,['site_status','candidate_status','score','detected_prefecture','location_status','tags','title','url','channel','video_id']);foreach($rows as $r){if(($r['site_status']??'未登録')!=='未登録'||($r['candidate_status']??'')!=='採用候補')continue;fputcsv($fp,[$r['site_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']??[]),$r['title'],$r['url'],$r['channel_title'],$r['video_id']]);}fclose($fp);}
+    if(!$fp) fail('Could not create registration candidates CSV.');
+    fputcsv($fp,['site_status','candidate_status','score','detected_prefecture','location_status','tags','title','url','channel','video_id'],',','"','');
+    foreach($rows as $r){if(($r['site_status']??'未登録')!=='未登録'||($r['candidate_status']??'')!=='採用候補')continue;fputcsv($fp,[$r['site_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']??[]),$r['title'],$r['url'],$r['channel_title'],$r['video_id']],',','"','');}
+    if(!fclose($fp)) fail('Could not close registration candidates CSV.');
     return $rows;
 }
 
@@ -228,19 +335,38 @@ $blockRuns=loadJsonFile($blockRunsPath,[]);
 $defs=blockDefinitions(); $slugs=array_keys($defs); $statePath=__DIR__.'/rotation-state.json'; $state=['next_index'=>0];
 if(file_exists($statePath)){$tmp=json_decode((string)file_get_contents($statePath),true);if(is_array($tmp))$state=$tmp;}
 $requested=trim((string)($_GET['block']??''));
-if($requested!==''&&isset($defs[$requested])){$currentSlug=$requested;$idx=array_search($currentSlug,$slugs,true);$state['next_index']=(($idx===false?0:(int)$idx)+1)%count($slugs);$runMode='手動指定';}
-else{$idx=((int)($state['next_index']??0))%count($slugs);$currentSlug=$slugs[$idx];$state['next_index']=($idx+1)%count($slugs);$runMode='自動ローテーション';}
-$currentBlock=$defs[$currentSlug]['name']; $state['last_block']=$currentBlock;$state['last_slug']=$currentSlug;$state['last_run_at']=date(DATE_ATOM);@file_put_contents($statePath,json_encode($state,JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT));
+if($requested!==''&&isset($defs[$requested])){$currentSlug=$requested;$idx=array_search($currentSlug,$slugs,true);$isManualBlock=true;$runMode='手動指定';}
+else{$idx=((int)($state['next_index']??0))%count($slugs);$currentSlug=$slugs[$idx];$isManualBlock=false;$runMode='自動ローテーション';}
+$categoryDefinitions=nationalCategoryDefinitions();
+$categoryKeys=array_keys($categoryDefinitions);
+$categoryIndex=((int)($state['category_index']??0))%count($categoryKeys);
+$currentCategoryKey=$categoryKeys[$categoryIndex];
+$currentCategory=$categoryDefinitions[$currentCategoryKey];
+$currentBlock=$defs[$currentSlug]['name'];
+if($isManualBlock){
+    $pendingNextIndex=(int)($state['next_index']??0)%count($slugs);
+    $pendingNextCategoryIndex=(int)($state['category_index']??0)%count($categoryKeys);
+}elseif($idx===count($slugs)-1){
+    $pendingNextIndex=0;
+    $pendingNextCategoryIndex=($categoryIndex+1)%count($categoryKeys);
+}else{
+    $pendingNextIndex=$idx+1;
+    $pendingNextCategoryIndex=$categoryIndex;
+}
 
-$queries=[];foreach($defs[$currentSlug]['prefs'] as $pref)$queries[]=$pref.' 道路 ライブカメラ';
+$municipalities=loadMunicipalityIndex($root.'/data/master/municipalities.json');
+$queries=[];foreach($defs[$currentSlug]['prefs'] as $pref)$queries[]=$pref.' '.$currentCategory.' ライブカメラ';
 $requiredSearches=count($queries);
 $remaining=max(0,$quotaDailyLimit-(int)$quotaState['used']);
 $force=((string)($_GET['force']??''))==='1';
 $todayKey=quotaDay();
 $lastRun=$blockRuns[$currentSlug]??[];
-if(!$force && ($lastRun['quota_day']??'')===$todayKey){
+$lastCategoryRun=(array)($lastRun['categories'][$currentCategoryKey]??[]);
+$alreadyCollected=($lastCategoryRun!==[] && ($lastCategoryRun['quota_day']??'')===$todayKey)
+    || ($lastCategoryRun===[] && ($lastRun['quota_day']??'')===$todayKey && ($lastRun['category']??'')===$currentCategory);
+if(!$force && $alreadyCollected){
     $savedCount=(int)($lastRun['count']??0);
-    renderNotice('本日は収集済みです', $currentBlock.'は本日すでに収集済みです（保存済み '.$savedCount.'件）。API節約のため再収集を停止しました。', 'national-viewer.php?block='.rawurlencode($currentBlock));
+    renderNotice('本日は収集済みです', $currentBlock.'の'.$currentCategory.'は本日すでに収集済みです（保存済み '.$savedCount.'件）。API節約のため再収集を停止しました。', 'national-viewer.php?block='.rawurlencode($currentBlock));
 }
 if($remaining<$requiredSearches){
     renderNotice('API検索枠が不足しています', 'この地域の収集には '.$requiredSearches.' 回の検索が必要ですが、本システム記録上の残りは '.$remaining.' 回です。Google側の検索枠が回復してから実行してください。', 'national-viewer.php', 429);
@@ -261,21 +387,40 @@ foreach($queries as $query){
 }
 foreach(array_chunk(array_keys($all),50) as $chunk){$params=['part'=>'snippet,liveStreamingDetails,status','id'=>implode(',',$chunk),'key'=>$apiKey];$data=httpGetJson('https://www.googleapis.com/youtube/v3/videos?'.http_build_query($params));$returned=[];foreach(($data['items']??[]) as $video){$id=(string)($video['id']??'');if($id===''||!isset($all[$id]))continue;$returned[$id]=true;$live=$video['liveStreamingDetails']??[];$all[$id]['actual_start_time']=(string)($live['actualStartTime']??'');$all[$id]['actual_end_time']=(string)($live['actualEndTime']??'');$all[$id]['embeddable']=(bool)($video['status']['embeddable']??false);$all[$id]['privacy_status']=(string)($video['status']['privacyStatus']??'');$all[$id]['is_live_now']=isset($live['actualStartTime'])&&!isset($live['actualEndTime']);}foreach($chunk as $id)if(!isset($returned[$id]))unset($all[$id]);}
 $rows=array_values(array_filter($all,fn(array $x):bool=>($x['is_live_now']??false)===true));
-foreach($rows as &$row){$id=(string)$row['video_id'];$row['discovery_status']=isset($known[$id])?'既知':'新規';$row['first_seen_at']=(string)($known[$id]['first_seen_at']??$runStartedAt);$row['last_seen_at']=$runStartedAt;$row=enrichLocation($row,$defs);$known[$id]=['video_id'=>$id,'title'=>(string)$row['title'],'url'=>(string)$row['url'],'channel_title'=>(string)$row['channel_title'],'first_seen_at'=>$row['first_seen_at'],'last_seen_at'=>$runStartedAt];}unset($row);
+foreach($rows as &$row){$id=(string)$row['video_id'];$row['discovery_status']=isset($known[$id])?'既知':'新規';$row['first_seen_at']=(string)($known[$id]['first_seen_at']??$runStartedAt);$row['last_seen_at']=$runStartedAt;$row=enrichLocation($row,$defs,$municipalities);$known[$id]=['video_id'=>$id,'title'=>(string)$row['title'],'url'=>(string)$row['url'],'channel_title'=>(string)$row['channel_title'],'first_seen_at'=>$row['first_seen_at'],'last_seen_at'=>$runStartedAt];}unset($row);
 @file_put_contents($historyPath,json_encode($known,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT));
 usort($rows,fn(array $a,array $b):int=>(($a['discovery_status']==='新規'?1:0)<=>($b['discovery_status']==='新規'?1:0))*-1 ?: ($b['candidate_score']<=>$a['candidate_score']) ?: strcmp($a['title'],$b['title']));
-$outDir=__DIR__.'/output';if(!is_dir($outDir)&&!mkdir($outDir,0775,true)&&!is_dir($outDir))fail('Could not create output directory.');$stamp=date('Ymd-His');$jsonPath=$outDir."/candidates-{$stamp}.json";$json=json_encode($rows,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);if($json===false||file_put_contents($jsonPath,$json)===false)fail('Could not create JSON output.');@file_put_contents($outDir.'/block-'.$currentSlug.'-latest.json',$json);
+$outDir=__DIR__.'/output';if(!is_dir($outDir)&&!mkdir($outDir,0775,true)&&!is_dir($outDir))fail('Could not create output directory.');$stamp=date('Ymd-His');$jsonPath=$outDir."/candidates-{$stamp}.json";$json=json_encode($rows,JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT);if($json===false||file_put_contents($jsonPath,$json)===false)fail('Could not create JSON output.');saveJsonFileAtomic($outDir.'/block-'.$currentSlug.'-'.$currentCategoryKey.'-latest.json',$rows);
+$csvPath=$outDir."/candidates-{$stamp}.csv";$fp=fopen($csvPath,'wb');if($fp===false)fail('Could not create CSV output.');fputcsv($fp,['discovery','status','score','detected_prefecture','location_status','tags','title','url','channel','matched_query','search_block','searched_prefectures','actual_start_time','video_id'],',','"','');foreach($rows as $r)fputcsv($fp,[$r['discovery_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']),$r['title'],$r['url'],$r['channel_title'],$r['matched_query'],$r['search_block'],implode('|',$r['searched_prefectures']??[]),$r['actual_start_time'],$r['video_id']],',','"','');fclose($fp);
+$siteRegistered=loadSiteRegistered(__DIR__.'/site-registered.json');$master=rebuildNationalMaster($outDir,$defs,$siteRegistered,$municipalities);$count=count($rows);$adopt=count(array_filter($rows,fn($r)=>($r['candidate_status']??'')==='採用候補'));$review=count(array_filter($rows,fn($r)=>($r['candidate_status']??'')==='要確認'));$exclude=$count-$adopt-$review;$unregistered=count(array_filter($master,fn($r)=>($r['site_status']??'未登録')==='未登録'));
+$existingCategories=(array)($blockRuns[$currentSlug]['categories']??[]);
 $blockRuns[$currentSlug]=[
     'name'=>$currentBlock,
     'quota_day'=>$todayKey,
     'last_run_at'=>date(DATE_ATOM),
+    'category'=>$currentCategory,
     'count'=>count($rows),
     'searches_used'=>$requiredSearches,
-    'snapshot'=>'output/block-'.$currentSlug.'-latest.json'
+    'snapshot'=>'output/block-'.$currentSlug.'-'.$currentCategoryKey.'-latest.json'
 ];
-saveJsonFile($blockRunsPath,$blockRuns);
-$csvPath=$outDir."/candidates-{$stamp}.csv";$fp=fopen($csvPath,'wb');if($fp===false)fail('Could not create CSV output.');fputcsv($fp,['discovery','status','score','detected_prefecture','location_status','tags','title','url','channel','matched_query','search_block','searched_prefectures','actual_start_time','video_id']);foreach($rows as $r)fputcsv($fp,[$r['discovery_status'],$r['candidate_status'],$r['candidate_score'],$r['detected_prefecture']??'',$r['location_status']??'',implode('|',$r['tags']),$r['title'],$r['url'],$r['channel_title'],$r['matched_query'],$r['search_block'],implode('|',$r['searched_prefectures']??[]),$r['actual_start_time'],$r['video_id']]);fclose($fp);
-$siteRegistered=loadSiteRegistered(__DIR__.'/site-registered.json');$master=rebuildNationalMaster($outDir,$defs,$siteRegistered);$count=count($rows);$adopt=count(array_filter($rows,fn($r)=>($r['candidate_status']??'')==='採用候補'));$review=count(array_filter($rows,fn($r)=>($r['candidate_status']??'')==='要確認'));$exclude=$count-$adopt-$review;$unregistered=count(array_filter($master,fn($r)=>($r['site_status']??'未登録')==='未登録'));
+$blockRuns[$currentSlug]['categories']=$existingCategories;
+$blockRuns[$currentSlug]['categories'][$currentCategoryKey]=[
+    'category'=>$currentCategory,
+    'snapshot'=>'output/block-'.$currentSlug.'-'.$currentCategoryKey.'-latest.json',
+    'quota_day'=>$todayKey,
+    'count'=>count($rows),
+    'searches_used'=>$requiredSearches,
+    'last_run_at'=>date(DATE_ATOM)
+];
+saveJsonFileAtomic($blockRunsPath,$blockRuns);
+// Advance the category only after all API calls and outputs completed successfully.
+$state['next_index']=$pendingNextIndex;
+$state['last_block']=$currentBlock;
+$state['last_slug']=$currentSlug;
+$state['last_category']=$currentCategory;
+$state['last_run_at']=date(DATE_ATOM);
+$state['category_index']=$pendingNextCategoryIndex;
+saveJsonFileAtomic($statePath,$state);
 $remaining=max(0,$quotaDailyLimit-(int)$quotaState['used']);
 $saved=[];
 foreach($defs as $slug=>$def){

@@ -128,7 +128,7 @@ function classifyCandidate(string $text): array {
     foreach ($rules as $tag => $keywords) if (containsAny($text, $keywords)) $tags[] = $tag;
     return $tags;
 }
-function candidateAssessment(array $tags, string $title, string $description, string $channel): array {
+function candidateAssessment(array $tags, string $title, string $description, string $channel, string $currentCategory = ''): array {
     $text = $title . ' ' . $description . ' ' . $channel;
     $score = 0; $reasons = [];
     $weights = ['観光'=>9,'道路'=>8,'駅'=>7,'繁華街'=>6,'駐車場'=>5,'雪道'=>7,'河川'=>2];
@@ -149,7 +149,7 @@ function candidateAssessment(array $tags, string $title, string $description, st
     if (empty($tags)) { $score -= 5; $reasons[] = 'カテゴリ不明'; }
     $highConfidence = containsAny($text, $cameraWords) && !empty(array_intersect($tags, ['道路','雪道','駅','繁華街','観光','駐車場']));
     $hardReject = containsAny($text, $negative);
-    if (!$hardReject && ($highConfidence || $score >= 16)) $status = '採用候補';
+    if (!$hardReject && $currentCategory !== '' && in_array($currentCategory, $tags, true) && ($highConfidence || $score >= 16)) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
     else $status = '要確認';
     return ['score'=>$score,'status'=>$status,'reasons'=>array_values(array_unique($reasons))];
@@ -423,7 +423,7 @@ foreach($queries as $query){
     markQuotaUsed($quotaStatePath,$quotaState,1);
     foreach(($data['items']??[]) as $item){$videoId=$item['id']['videoId']??null;if(!$videoId)continue;$s=$item['snippet']??[];$title=html_entity_decode((string)($s['title']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$description=html_entity_decode((string)($s['description']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$channel=(string)($s['channelTitle']??'');
         if(isset($all[$videoId])){$all[$videoId]['matched_queries'][]=$query;$all[$videoId]['searched_prefectures'][]=$prefecture;$all[$videoId]['matched_queries']=array_values(array_unique($all[$videoId]['matched_queries']));$all[$videoId]['searched_prefectures']=array_values(array_unique($all[$videoId]['searched_prefectures']));continue;}
-        $tags=classifyCandidate($title.' '.$description.' '.$channel);$ass=candidateAssessment($tags,$title,$description,$channel);
+        $tags=classifyCandidate($title.' '.$description.' '.$channel);$ass=candidateAssessment($tags,$title,$description,$channel,$currentCategory);
         $all[$videoId]=['video_id'=>$videoId,'title'=>$title,'url'=>'https://www.youtube.com/watch?v='.$videoId,'channel_id'=>(string)($s['channelId']??''),'channel_title'=>$channel,'published_at'=>(string)($s['publishedAt']??''),'thumbnail'=>(string)($s['thumbnails']['high']['url']??$s['thumbnails']['medium']['url']??$s['thumbnails']['default']['url']??''),'matched_query'=>$query,'matched_queries'=>[$query],'search_block'=>$currentBlock,'search_blocks'=>[$currentBlock],'prefecture'=>$prefecture,'searched_prefectures'=>[$prefecture],'tags'=>$tags,'candidate_score'=>$ass['score'],'candidate_status'=>$ass['status'],'assessment_reasons'=>$ass['reasons'],'description'=>$description];
     }
 }

@@ -128,6 +128,7 @@ $municipalities = (array)($master['municipalities'] ?? []);
 $prefectures = prefectureList($master);
 $counts = ['一致' => 0, '地域外' => 0, '未判定' => 0];
 $improved = 0;
+$defs = blockDefinitions();
 
 foreach ($snapshot as $row) {
     if (!is_array($row)) {
@@ -149,12 +150,19 @@ foreach ($snapshot as $row) {
         }
     }
     $searched = (array)($row['searched_prefectures'] ?? []);
-    if ($detected === '') {
-        $new = '未判定';
-    } elseif (in_array($detected, $searched, true)) {
-        $new = '一致';
+    $searchBlocks = array_values(array_filter(array_map('strval', (array)($row['search_blocks'] ?? []))));
+    $searchBlock = (string)($row['search_block'] ?? '');
+    if ($searchBlock !== '') {
+        $searchBlocks[] = $searchBlock;
+    }
+    $searchBlocks = array_values(array_unique(array_filter($searchBlocks)));
+    $detectedBlock = blockForPrefecture($detected, $defs);
+    if ($detected === '' || $searchBlocks === []) {
+        $new = "\u{672A}\u{5224}\u{5B9A}";
+    } elseif (in_array($detectedBlock, $searchBlocks, true)) {
+        $new = "\u{4E00}\u{81F4}";
     } else {
-        $new = '地域外';
+        $new = "\u{5730}\u{57DF}\u{5916}";
     }
     $counts[$new]++;
     if ($old === '未判定' && $new === '一致') {

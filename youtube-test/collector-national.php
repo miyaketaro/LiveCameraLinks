@@ -160,7 +160,8 @@ function candidateAssessment(array $tags, string $title, string $description, st
     if (!$hardReject && $requiredTag !== '' && in_array($requiredTag, $tags, true) && ($highConfidence || $score >= 16)) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
     else $status = '要確認';
-    return ['score'=>$score,'status'=>$status,'reasons'=>array_values(array_unique($reasons))];
+    $baseReasons = array_values(array_unique($reasons));
+    return ['score'=>$score,'status'=>$status,'reasons'=>$baseReasons,'base_candidate_status'=>$status,'base_assessment_reasons'=>$baseReasons];
 }
 function blockDefinitions(): array {
     return [
@@ -277,8 +278,36 @@ function enrichLocation(array $row, array $defs, array $municipalities = []): ar
     $row['detected_prefecture']=$detected;$row['detected_block']=$detected!==''?blockForPrefecture($detected,$defs):'';$row['detected_municipality_code']='';$row['detected_municipality_name']='';$row['municipality_match_type']='';
     $municipalityMatch=inferMunicipality($row,$municipalities);
     if($municipalityMatch!==null){$municipality=$municipalityMatch['municipality'];$row['detected_municipality_code']=(string)$municipality['municipality_code'];$row['detected_municipality_name']=(string)$municipality['official_name'];$row['municipality_match_type']=(string)$municipalityMatch['match_type'];if($row['detected_prefecture']==='')$row['detected_prefecture']=(string)$municipality['prefecture_name'];$row['detected_block']=blockForPrefecture((string)$row['detected_prefecture'],$defs);}
-    $detectedPref=(string)($row['detected_prefecture']??'');$detectedBlock=(string)($row['detected_block']??'');$searchBlocks=array_values(array_filter(array_map('strval',(array)($row['search_blocks']??[]))));$searchBlock=(string)($row['search_block']??'');if($searchBlock!=='')$searchBlocks[]=$searchBlock;$searchBlocks=array_values(array_unique(array_filter($searchBlocks)));
-    if($detectedPref==='')$row['location_status']='未判定';elseif($searchBlocks!==[]&&in_array($detectedBlock,$searchBlocks,true))$row['location_status']='一致';elseif($searchBlocks!==[]){$row['location_status']='地域外';$row['candidate_status']='除外候補';$reasons=array_values(array_unique((array)($row['assessment_reasons']??[])));if(!in_array('検索対象地域外',$reasons,true))$reasons[]='検索対象地域外';$row['assessment_reasons']=$reasons;}else $row['location_status']='未判定';
+    $detectedPref=(string)($row['detected_prefecture']??'');
+    $detectedBlock=(string)($row['detected_block']??'');
+    $searchBlocks=array_values(array_filter(array_map('strval',(array)($row['search_blocks']??[]))));
+    $searchBlock=(string)($row['search_block']??'');
+    if($searchBlock!=='')$searchBlocks[]=$searchBlock;
+    $searchBlocks=array_values(array_unique(array_filter($searchBlocks)));
+    $baseStatus=(string)($row['base_candidate_status']??'');
+    $baseReasons=array_values(array_unique((array)($row['base_assessment_reasons']??[])));
+    if($detectedPref===''){
+        $row['location_status']="\u{672A}\u{5224}\u{5B9A}";
+    }elseif($searchBlocks!==[]&&in_array($detectedBlock,$searchBlocks,true)){
+        $row['location_status']="\u{4E00}\u{81F4}";
+        if($baseStatus!==''){
+            $row['candidate_status']=$baseStatus;
+            $row['assessment_reasons']=$baseReasons;
+        }
+    }elseif($searchBlocks!==[]){
+        $row['location_status']="\u{5730}\u{57DF}\u{5916}";
+        $row['candidate_status']="\u{9664}\u{5916}\u{5019}\u{88DC}";
+        $reasons=$baseReasons!==[]?$baseReasons:array_values(array_unique((array)($row['assessment_reasons']??[])));
+        $regionReason="\u{691C}\u{7D22}\u{5BFE}\u{8C61}\u{5730}\u{57DF}\u{5916}";
+        if(!in_array($regionReason,$reasons,true))$reasons[]=$regionReason;
+        $row['assessment_reasons']=$reasons;
+    }else{
+        $row['location_status']="\u{672A}\u{5224}\u{5B9A}";
+        if($baseStatus!==''){
+            $row['candidate_status']=$baseStatus;
+            $row['assessment_reasons']=$baseReasons;
+        }
+    }
     return $row;
 }
 function loadSiteRegistered(string $path): array {
@@ -322,7 +351,7 @@ function saveRegistrationCandidatesCsvAtomic(string $path, array $rows): void {
     if(!rename($tmp,$path)){if($backup!==null&&!rename($backup,$path))fail('Could not replace registration candidates CSV; backup remains.');@unlink($tmp);fail('Could not replace registration candidates CSV; previous version restored.');}
     if($backup!==null&&!@unlink($backup))error_log('Registration candidates CSV backup remains: '.$backup);
 }
-function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,array $municipalities): array {
+function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,array $municipalities,bool $writeOutputs=true): array {
     $master=[];
     $categories=nationalCategoryDefinitions();
     foreach($defs as $slug=>$def){
@@ -347,6 +376,17 @@ function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,
             $row['matched_queries']=array_values(array_unique(array_filter(array_merge((array)($row['matched_queries']??[]),[(string)($row['matched_query']??'')]))));
             $row['matched_categories']=array_values(array_unique(array_merge((array)($row['matched_categories']??[]),[$categoryKey])));
             $row['matched_category_labels']=array_values(array_unique(array_merge((array)($row['matched_category_labels']??[]),[$categoryLabel])));
+            if (!array_key_exists('base_candidate_status', $row) || !array_key_exists('base_assessment_reasons', $row)) {
+                $baseAssessment = candidateAssessment(
+                    (array)($row['tags'] ?? []),
+                    (string)($row['title'] ?? ''),
+                    (string)($row['description'] ?? ''),
+                    (string)($row['channel_title'] ?? ''),
+                    $categoryLabel
+                );
+                $row['base_candidate_status'] = $baseAssessment['status'];
+                $row['base_assessment_reasons'] = $baseAssessment['reasons'];
+            }
             $row=enrichLocation($row,$defs,$municipalities);
             $row['site_status']=isset($siteRegistered[$id])?'登録済':'未登録';
             if(!isset($master[$id])){$master[$id]=$row;continue;}
@@ -364,9 +404,62 @@ function rebuildNationalMaster(string $outDir,array $defs,array $siteRegistered,
     }
     $rows=array_values($master);
     usort($rows,fn(array $a,array $b):int => (($a['site_status']??'未登録')==='未登録'?-1:1)<=> (($b['site_status']??'未登録')==='未登録'?-1:1) ?: ((int)($b['candidate_score']??0)<=>(int)($a['candidate_score']??0)) ?: strcmp((string)($a['title']??''),(string)($b['title']??'')));
-    saveJsonFileAtomic($outDir.'/national-master.json',$rows);
-    saveRegistrationCandidatesCsvAtomic($outDir.'/registration-candidates.csv',$rows);
+    if ($writeOutputs) {
+        saveJsonFileAtomic($outDir.'/national-master.json',$rows);
+        saveRegistrationCandidatesCsvAtomic($outDir.'/registration-candidates.csv',$rows);
+    }
     return $rows;
+}
+
+function runRebuildOnlyCli(array $arguments): never {
+    $dryRun = in_array('--dry-run', $arguments, true);
+    $apply = in_array('--apply', $arguments, true);
+    if ($dryRun === $apply) {
+        fwrite(STDERR, "ERROR: specify exactly one of --dry-run or --apply.\n");
+        exit(2);
+    }
+    foreach ($arguments as $argument) {
+        if (!in_array($argument, ['--rebuild-only', '--dry-run', '--apply'], true)) {
+            fwrite(STDERR, "ERROR: unknown rebuild-only argument.\n");
+            exit(2);
+        }
+    }
+    $outDir = __DIR__.'/output';
+    $defs = blockDefinitions();
+    $municipalities = loadMunicipalityIndex(dirname(__DIR__).'/data/master/municipalities.json');
+    $siteRegistered = loadSiteRegistered(__DIR__.'/site-registered.json');
+    $snapshotFiles = glob($outDir.'/block-*-*-latest.json') ?: [];
+    $rows = rebuildNationalMaster($outDir, $defs, $siteRegistered, $municipalities, false);
+    $registrationCount = 0;
+    $staleResolved = 0;
+    $staleOutside = 0;
+    $regionReason = "\u{691C}\u{7D22}\u{5BFE}\u{8C61}\u{5730}\u{57DF}\u{5916}";
+    foreach ($rows as $row) {
+        if (($row['site_status'] ?? '') === "\u{672A}\u{767B}\u{9332}" && ($row['candidate_status'] ?? '') === "\u{63A1}\u{7528}\u{5019}\u{88DC}") {
+            $registrationCount++;
+        }
+        $hasReason = in_array($regionReason, (array)($row['assessment_reasons'] ?? []), true);
+        if ($hasReason && ($row['location_status'] ?? '') === "\u{4E00}\u{81F4}") $staleResolved++;
+        if ($hasReason && ($row['location_status'] ?? '') !== "\u{5730}\u{57DF}\u{5916}") $staleOutside++;
+    }
+    if ($dryRun) {
+        echo 'snapshot_count='.count($snapshotFiles).PHP_EOL;
+        echo 'master_candidate_count='.count($rows).PHP_EOL;
+        echo 'registration_candidate_count='.$registrationCount.PHP_EOL;
+        echo 'location??_with???_reason='.$staleResolved.PHP_EOL;
+        echo 'non???_with???_reason='.$staleOutside.PHP_EOL;
+        echo 'API/network access: NONE'.PHP_EOL;
+        echo 'files changed: NONE'.PHP_EOL;
+        exit(0);
+    }
+    rebuildNationalMaster($outDir, $defs, $siteRegistered, $municipalities, true);
+    echo 'apply: national-master.json and registration-candidates.csv updated.'.PHP_EOL;
+    exit(0);
+}
+
+$cliArguments = PHP_SAPI === 'cli' ? array_slice($argv, 1) : [];
+if (in_array('--rebuild-only', $cliArguments, true)) {
+    runRebuildOnlyCli($cliArguments);
 }
 
 $runRequested=((string)($_GET['run']??''))==='1';
@@ -432,7 +525,7 @@ foreach($queries as $query){
     foreach(($data['items']??[]) as $item){$videoId=$item['id']['videoId']??null;if(!$videoId)continue;$s=$item['snippet']??[];$title=html_entity_decode((string)($s['title']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$description=html_entity_decode((string)($s['description']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$channel=(string)($s['channelTitle']??'');
         if(isset($all[$videoId])){$all[$videoId]['matched_queries'][]=$query;$all[$videoId]['searched_prefectures'][]=$prefecture;$all[$videoId]['matched_queries']=array_values(array_unique($all[$videoId]['matched_queries']));$all[$videoId]['searched_prefectures']=array_values(array_unique($all[$videoId]['searched_prefectures']));continue;}
         $tags=classifyCandidate($title.' '.$description.' '.$channel);$ass=candidateAssessment($tags,$title,$description,$channel,$currentCategory);
-        $all[$videoId]=['video_id'=>$videoId,'title'=>$title,'url'=>'https://www.youtube.com/watch?v='.$videoId,'channel_id'=>(string)($s['channelId']??''),'channel_title'=>$channel,'published_at'=>(string)($s['publishedAt']??''),'thumbnail'=>(string)($s['thumbnails']['high']['url']??$s['thumbnails']['medium']['url']??$s['thumbnails']['default']['url']??''),'matched_query'=>$query,'matched_queries'=>[$query],'search_block'=>$currentBlock,'search_blocks'=>[$currentBlock],'prefecture'=>$prefecture,'searched_prefectures'=>[$prefecture],'tags'=>$tags,'candidate_score'=>$ass['score'],'candidate_status'=>$ass['status'],'assessment_reasons'=>$ass['reasons'],'description'=>$description];
+        $all[$videoId]=['video_id'=>$videoId,'title'=>$title,'url'=>'https://www.youtube.com/watch?v='.$videoId,'channel_id'=>(string)($s['channelId']??''),'channel_title'=>$channel,'published_at'=>(string)($s['publishedAt']??''),'thumbnail'=>(string)($s['thumbnails']['high']['url']??$s['thumbnails']['medium']['url']??$s['thumbnails']['default']['url']??''),'matched_query'=>$query,'matched_queries'=>[$query],'search_block'=>$currentBlock,'search_blocks'=>[$currentBlock],'prefecture'=>$prefecture,'searched_prefectures'=>[$prefecture],'tags'=>$tags,'candidate_score'=>$ass['score'],'candidate_status'=>$ass['status'],'assessment_reasons'=>$ass['reasons'],'base_candidate_status'=>$ass['base_candidate_status'],'base_assessment_reasons'=>$ass['base_assessment_reasons'],'description'=>$description];
     }
 }
 foreach(array_chunk(array_keys($all),50) as $chunk){$params=['part'=>'snippet,liveStreamingDetails,status','id'=>implode(',',$chunk),'key'=>$apiKey];$data=httpGetJson('https://www.googleapis.com/youtube/v3/videos?'.http_build_query($params));$returned=[];foreach(($data['items']??[]) as $video){$id=(string)($video['id']??'');if($id===''||!isset($all[$id]))continue;$returned[$id]=true;$live=$video['liveStreamingDetails']??[];$all[$id]['actual_start_time']=(string)($live['actualStartTime']??'');$all[$id]['actual_end_time']=(string)($live['actualEndTime']??'');$all[$id]['embeddable']=(bool)($video['status']['embeddable']??false);$all[$id]['privacy_status']=(string)($video['status']['privacyStatus']??'');$all[$id]['is_live_now']=isset($live['actualStartTime'])&&!isset($live['actualEndTime']);}foreach($chunk as $id)if(!isset($returned[$id]))unset($all[$id]);}

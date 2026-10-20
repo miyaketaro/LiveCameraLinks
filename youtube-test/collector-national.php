@@ -149,7 +149,15 @@ function candidateAssessment(array $tags, string $title, string $description, st
     if (empty($tags)) { $score -= 5; $reasons[] = 'カテゴリ不明'; }
     $highConfidence = containsAny($text, $cameraWords) && !empty(array_intersect($tags, ['道路','雪道','駅','繁華街','観光','駐車場']));
     $hardReject = containsAny($text, $negative);
-    if (!$hardReject && $currentCategory !== '' && in_array($currentCategory, $tags, true) && ($highConfidence || $score >= 16)) $status = '採用候補';
+    $categoryTagMap = [
+        "\u{89B3}\u{5149}\u{5730}" => "\u{89B3}\u{5149}",
+        "\u{9053}\u{8DEF}" => "\u{9053}\u{8DEF}",
+        "\u{99C5}" => "\u{99C5}",
+        "\u{7E41}\u{83EF}\u{8857}" => "\u{7E41}\u{83EF}\u{8857}",
+        "\u{99D0}\u{8ECA}\u{5834}" => "\u{99D0}\u{8ECA}\u{5834}",
+    ];
+    $requiredTag = $categoryTagMap[$currentCategory] ?? '';
+    if (!$hardReject && $requiredTag !== '' && in_array($requiredTag, $tags, true) && ($highConfidence || $score >= 16)) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
     else $status = '要確認';
     return ['score'=>$score,'status'=>$status,'reasons'=>array_values(array_unique($reasons))];

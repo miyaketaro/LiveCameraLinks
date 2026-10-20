@@ -188,58 +188,89 @@ function loadMunicipalityIndex(string $path): array {
 }
 function inferMunicipality(array $row, array $municipalities): ?array {
     if ($municipalities === []) return null;
-    $searched = array_values(array_filter(array_map('strval', (array)($row['searched_prefectures'] ?? []))));
-    if ($searched === []) return null;
-    $text = (string)($row['title'] ?? '') . ' ' . (string)($row['description'] ?? '') . ' ' . (string)($row['channel_title'] ?? '');
-    $exactHits = [];
-    $shortHits = [];
-    foreach ($municipalities as $m) {
-        if (!is_array($m) || !in_array((string)($m['prefecture_name'] ?? ''), $searched, true)) continue;
-        $exactTokens = [(string)($m['official_name'] ?? ''), (string)($m['full_name'] ?? '')];
-        foreach ((array)($m['aliases'] ?? []) as $alias) if (is_scalar($alias)) $exactTokens[] = (string)$alias;
-        foreach (array_unique(array_filter($exactTokens, static fn(string $t): bool => $t !== '')) as $token) {
-            if (mb_strpos($text, $token, 0, 'UTF-8') !== false) { $exactHits[(string)$m['municipality_code']]=['municipality'=>$m,'match_type'=>'exact']; break; }
+    $text=(string)($row['title']??'').' '.(string)($row['description']??'').' '.(string)($row['channel_title']??'');
+    $prefNames=array_values(array_unique(array_filter(array_map(static fn($m)=>(string)($m['prefecture_name']??''),$municipalities))));
+    $explicitPref=detectPrefecture((string)($row['title']??''),(string)($row['description']??''),(string)($row['channel_title']??''),$prefNames);
+    $exact=[];$shortMap=[];
+    foreach($municipalities as $m){
+        if(!is_array($m))continue;
+        $code=(string)($m['municipality_code']??'');$pref=(string)($m['prefecture_name']??'');
+        if($code===''||$pref==='')continue;
+        $tokens=[(string)($m['official_name']??''),(string)($m['full_name']??'')];
+        foreach((array)($m['aliases']??[]) as $alias)if(is_scalar($alias))$tokens[]=(string)$alias;
+        foreach(array_unique(array_filter($tokens,static fn(string $t):bool=>$t!=='')) as $token){
+            if(mb_strpos($text,$token,0,'UTF-8')!==false)$exact[$code]=$m;
         }
-        $type=(string)($m['type']??'');
-        if (in_array($type,['city','town','village'],true)) {
-            $short=preg_replace('/(市|町|村)$/u','',(string)($m['official_name']??''));
-            if (is_string($short) && function_exists('mb_strlen') && mb_strlen($short,'UTF-8')>=3 && mb_strpos($text,$short,0,'UTF-8')!==false) {
-                if (preg_match('/'.preg_quote($short,'/').'(?:(?:駅)|(?:市役所)|(?:町役場)|(?:村役場))/u',$text)) $shortHits[(string)$m['municipality_code']]=['municipality'=>$m,'match_type'=>'short_context'];
+        if(in_array((string)($m['type']??''),['city','town','village'],true)){
+            $short = preg_replace('/(\x{5E02}|\x{753A}|\x{6751})$/u', '', (string)($m['official_name'] ?? ''));
+            if(is_string($short)&&mb_strlen($short,'UTF-8')>=2&&mb_strpos($text,$short,0,'UTF-8')!==false){
+                $shortMap[$short][$code]=$m;
             }
         }
     }
-    if (count($exactHits) === 1) return array_values($exactHits)[0];
-    if (count($exactHits) > 1) return null;
-    return count($shortHits) === 1 ? array_values($shortHits)[0] : null;
-}
-function enrichLocation(array $row, array $defs, array $municipalities = []): array {
-    $detected = detectPrefecture((string)($row['title']??''),(string)($row['description']??''),(string)($row['channel_title']??''),allPrefectures($defs));
-    $row['detected_prefecture'] = $detected;
-    $row['detected_block'] = $detected !== '' ? blockForPrefecture($detected,$defs) : '';
-    $row['detected_municipality_code'] = '';
-    $row['detected_municipality_name'] = '';
-    $row['municipality_match_type'] = '';
-    if ($detected === '') {
-        $municipalityMatch = inferMunicipality($row, $municipalities);
-        if ($municipalityMatch !== null) {
-            $municipality = $municipalityMatch['municipality'];
-            $row['detected_municipality_code'] = (string)$municipality['municipality_code'];
-            $row['detected_municipality_name'] = (string)$municipality['official_name'];
-            $row['municipality_match_type'] = (string)$municipalityMatch['match_type'];
-            $row['detected_prefecture'] = (string)$municipality['prefecture_name'];
-            $row['detected_block'] = blockForPrefecture($row['detected_prefecture'], $defs);
+    if ($explicitPref !== '') {
+        $prefExact = array_filter(
+            $exact,
+            static fn(array $m): bool =>
+                (string)($m['prefecture_name'] ?? '') === $explicitPref
+        );
+        if (count($prefExact) === 1) {
+            return [
+                'municipality' => array_values($prefExact)[0],
+                'match_type' => 'exact',
+            ];
+        }
+        if (count($prefExact) > 1) {
+            return null;
+        }
+        // prefExact=0: continue to explicit-prefecture short_context evaluation.
+    } elseif (count($exact) === 1) {
+        return [
+            'municipality' => array_values($exact)[0],
+            'match_type' => 'exact',
+        ];
+    } elseif (count($exact) > 1) {
+        return null;
+    }
+    $contextPattern='(?:\x{99c5}|\x{5e02}\x{5f79}\x{6240}|\x{753a}\x{5f79}\x{5834}|\x{6751}\x{5f79}\x{5834}|\x{6c34}\x{65cf}\x{9928}|\x{30bf}\x{30ef}\x{30fc}|\x{5c55}\x{671b}\x{53f0}|\x{516c}\x{5712}|\x{795e}\x{793e}|\x{5bfa}|\x{6e2f}|\x{7a7a}\x{6e2f})';
+    $shortCandidates = [];
+    foreach ($shortMap as $short => $matches) {
+        if (!preg_match('/'.preg_quote($short, '/').$contextPattern.'/u', $text)) {
+            continue;
+        }
+        foreach ($matches as $code => $municipality) {
+            if ($explicitPref !== '' && (string)($municipality['prefecture_name'] ?? '') !== $explicitPref) {
+                continue;
+            }
+            $shortCandidates[$code] = [
+                'municipality' => $municipality,
+                'length' => mb_strlen($short, 'UTF-8'),
+            ];
         }
     }
-    $searched = (array)($row['searched_prefectures'] ?? []);
-    if ($detected === '' && $row['detected_prefecture'] === '') $row['location_status'] = '未判定';
-    elseif (in_array($row['detected_prefecture'],$searched,true)) $row['location_status'] = '一致';
-    else {
-        $row['location_status'] = '地域外';
-        $row['candidate_status'] = '除外候補';
-        $reasons = array_values(array_unique((array)($row['assessment_reasons'] ?? [])));
-        if (!in_array('検索対象地域外', $reasons, true)) $reasons[] = '検索対象地域外';
-        $row['assessment_reasons'] = $reasons;
+    if ($shortCandidates === []) {
+        return null;
     }
+    $maxLength = max(array_column($shortCandidates, 'length'));
+    $longest = array_filter(
+        $shortCandidates,
+        static fn(array $candidate): bool => $candidate['length'] === $maxLength
+    );
+    if (count($longest) !== 1) {
+        return null;
+    }
+    return [
+        'municipality' => array_values($longest)[0]['municipality'],
+        'match_type' => 'short_context',
+    ];
+}
+function enrichLocation(array $row, array $defs, array $municipalities = []): array {
+    $detected=detectPrefecture((string)($row['title']??''),(string)($row['description']??''),(string)($row['channel_title']??''),allPrefectures($defs));
+    $row['detected_prefecture']=$detected;$row['detected_block']=$detected!==''?blockForPrefecture($detected,$defs):'';$row['detected_municipality_code']='';$row['detected_municipality_name']='';$row['municipality_match_type']='';
+    $municipalityMatch=inferMunicipality($row,$municipalities);
+    if($municipalityMatch!==null){$municipality=$municipalityMatch['municipality'];$row['detected_municipality_code']=(string)$municipality['municipality_code'];$row['detected_municipality_name']=(string)$municipality['official_name'];$row['municipality_match_type']=(string)$municipalityMatch['match_type'];if($row['detected_prefecture']==='')$row['detected_prefecture']=(string)$municipality['prefecture_name'];$row['detected_block']=blockForPrefecture((string)$row['detected_prefecture'],$defs);}
+    $detectedPref=(string)($row['detected_prefecture']??'');$detectedBlock=(string)($row['detected_block']??'');$searchBlocks=array_values(array_filter(array_map('strval',(array)($row['search_blocks']??[]))));$searchBlock=(string)($row['search_block']??'');if($searchBlock!=='')$searchBlocks[]=$searchBlock;$searchBlocks=array_values(array_unique(array_filter($searchBlocks)));
+    if($detectedPref==='')$row['location_status']='未判定';elseif($searchBlocks!==[]&&in_array($detectedBlock,$searchBlocks,true))$row['location_status']='一致';elseif($searchBlocks!==[]){$row['location_status']='地域外';$row['candidate_status']='除外候補';$reasons=array_values(array_unique((array)($row['assessment_reasons']??[])));if(!in_array('検索対象地域外',$reasons,true))$reasons[]='検索対象地域外';$row['assessment_reasons']=$reasons;}else $row['location_status']='未判定';
     return $row;
 }
 function loadSiteRegistered(string $path): array {

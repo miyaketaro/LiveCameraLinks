@@ -8,6 +8,32 @@ function fail(string $message, int $code = 1): never {
     exit($code);
 }
 function h(string $v): string { return htmlspecialchars($v, ENT_QUOTES, 'UTF-8'); }
+function acquireCollectorRunGuard(bool $automatic): array {
+    $path = __DIR__.'/collector-national.run.lock';
+    $handle = fopen($path, 'c+');
+    if ($handle === false || !flock($handle, LOCK_EX | LOCK_NB)) {
+        if (is_resource($handle)) fclose($handle);
+        fail('Another collector run is already in progress.');
+    }
+    rewind($handle);
+    $last = (int)trim((string)stream_get_contents($handle));
+    if ($automatic && $last > 0 && (time() - $last) < 30) {
+        flock($handle, LOCK_UN);
+        fclose($handle);
+        fail('Automatic collector run was completed recently; retry after the cooldown.');
+    }
+    return ['path'=>$path, 'handle'=>$handle];
+}
+function completeCollectorRunGuard(array $guard): void {
+    $handle = $guard['handle'] ?? null;
+    if (!is_resource($handle)) return;
+    rewind($handle);
+    ftruncate($handle, 0);
+    fwrite($handle, (string)time());
+    fflush($handle);
+    flock($handle, LOCK_UN);
+    fclose($handle);
+}
 function quotaDay(): string {
     $tz = new DateTimeZone('America/Los_Angeles');
     return (new DateTime('now', $tz))->format('Y-m-d');
@@ -466,6 +492,10 @@ $runRequested=((string)($_GET['run']??''))==='1';
 if(!$runRequested){
     $previewDefs=blockDefinitions();$previewSlugs=array_keys($previewDefs);$previewState=loadJsonFile(__DIR__.'/rotation-state.json',['next_index'=>0,'category_index'=>0]);$previewIndex=((int)($previewState['next_index']??0))%count($previewSlugs);$previewCategories=nationalCategoryDefinitions();$previewCategoryKeys=array_keys($previewCategories);$previewCategoryIndex=((int)($previewState['category_index']??0))%count($previewCategoryKeys);$previewRequested=trim((string)($_GET['block']??''));$previewSlug=isset($previewDefs[$previewRequested])?$previewRequested:$previewSlugs[$previewIndex];$previewCategoryKey=$previewCategoryKeys[$previewCategoryIndex];header('Content-Type:text/plain; charset=UTF-8');echo 'Preview only. Add run=1 to execute collection.'.PHP_EOL;echo 'block='.$previewSlug.PHP_EOL;echo 'category='.$previewCategoryKey.PHP_EOL;exit;
 }
+$requestedForGuard=trim((string)($_GET['block']??''));
+$forceForGuard=((string)($_GET['force']??''))==='1';
+$isAutomaticRunForGuard=$requestedForGuard===''&&!$forceForGuard;
+$collectorRunGuard=acquireCollectorRunGuard($isAutomaticRunForGuard);
 $configPath=__DIR__.'/config.php'; if(!file_exists($configPath))fail('config.php not found.'); $config=require $configPath;
 $apiKey=trim((string)($config['youtube_api_key']??'')); if($apiKey===''||$apiKey==='PASTE_YOUR_API_KEY_HERE')fail('YouTube API key is not configured.');
 $quotaDailyLimit=max(1,(int)($config['search_daily_limit']??100));
@@ -564,6 +594,7 @@ $state['last_category']=$currentCategory;
 $state['last_run_at']=date(DATE_ATOM);
 $state['category_index']=$pendingNextCategoryIndex;
 saveJsonFileAtomic($statePath,$state);
+completeCollectorRunGuard($collectorRunGuard);
 $remaining=max(0,$quotaDailyLimit-(int)$quotaState['used']);
 $saved=[];
 foreach($defs as $slug=>$def){

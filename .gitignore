@@ -97,3 +97,4 @@ scripts/export/*-v*.php
 youtube-test/rotation-state.json
 youtube-test/block-runs.json
 youtube-test/youtube-quota-usage.json
+youtube-test/collector-national.run.lock

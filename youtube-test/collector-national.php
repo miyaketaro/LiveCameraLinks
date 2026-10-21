@@ -140,21 +140,39 @@ function containsAny(string $text, array $keywords): bool {
     }
     return false;
 }
-function classifyCandidate(string $text): array {
+function stationClassificationEvidence(string $title, string $description): array {
+    $text = $title . ' ' . $description;
+    $strongWords = ["\u{9244}\u{9053}", "\u{96FB}\u{8ECA}", "\u{5217}\u{8ECA}", "\u{7DDA}\u{8DEF}", "\u{64CD}\u{8ECA}\u{5834}", "\u{8ECA}\u{4E21}\u{57FA}\u{5730}", "\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}", "\u{65B0}\u{5E79}\u{7DDA}", 'railway', 'train', 'railcam'];
+    $railwayContext = containsAny($text, ['JR', "\u{FF2A}\u{FF32}", "\u{9244}\u{9053}", "\u{96FB}\u{8ECA}", "\u{5217}\u{8ECA}", "\u{7DDA}\u{8DEF}", "\u{64CD}\u{8ECA}\u{5834}", "\u{8ECA}\u{4E21}\u{57FA}\u{5730}", "\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}", "\u{65B0}\u{5E79}\u{7DDA}"]);
+    $linePattern = preg_match('/[\p{Han}A-Za-z0-9\x{30FB}]{2,}\x{672C}\x{7DDA}/u', $text) === 1
+        || ($railwayContext && preg_match('/[\p{Han}A-Za-z0-9\x{30FB}]{2,}\x{7DDA}/u', $text) === 1);
+    $strong = containsAny($text, $strongWords);
+    if ($linePattern && containsAny($text, ["\u{5217}\u{8ECA}", "\u{7DDA}\u{8DEF}", "\u{64CD}\u{8ECA}\u{5834}", "\u{8ECA}\u{4E21}\u{57FA}\u{5730}", "\u{9244}\u{9053}", "\u{96FB}\u{8ECA}", "\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}", "\u{65B0}\u{5E79}\u{7DDA}"])) $strong = true;
+    $tag = $strong || $linePattern || containsAny($text, ["\u{99C5}", "\u{9244}\u{9053}", "\u{96FB}\u{8ECA}", "\u{5217}\u{8ECA}", "\u{7DDA}\u{8DEF}", "\u{64CD}\u{8ECA}\u{5834}", "\u{8ECA}\u{4E21}\u{57FA}\u{5730}", "\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}", "\u{65B0}\u{5E79}\u{7DDA}", 'railway', 'station', 'train', 'railcam']);
+    return ['tag' => $tag, 'strong' => $strong];
+}
+function classifyCandidate(string $title, string $description = '', string $channel = '', array &$evidence = []): array {
     $rules = [
-        '観光' => ['観光','温泉','富士山','海','港','空港','展望','観光地','tourism','airport','beach','harbor'],
-        '道路' => ['道路','国道','県道','高速','渋滞','交通','峠','トンネル','road','traffic','highway','expressway'],
-        '駅' => ['駅','鉄道','新幹線','電車','railway','station','train'],
-        '繁華街' => ['繁華街','商店街','スクランブル','交差点','街並み','downtown','street','city view'],
-        '駐車場' => ['駐車場','パーキング','parking','parking lot','car park'],
-        '雪道' => ['雪','積雪','凍結','スキー','snow','winter','ski'],
-        '河川' => ['河川','川','水位','ダム','river','dam'],
+        "\u{89B3}\u{5149}" => ["\u{89B3}\u{5149}", "\u{6E29}\u{6CC9}", "\u{5BCC}\u{58EB}\u{5C71}", "\u{6D77}", "\u{6E2F}", "\u{7A7A}\u{6E2F}", "\u{5C55}\u{671B}", "\u{89B3}\u{5149}\u{5730}", 'tourism','airport','beach','harbor'],
+        "\u{9053}\u{8DEF}" => ["\u{9053}\u{8DEF}", "\u{56FD}\u{9053}", "\u{770C}\u{9053}", "\u{9AD8}\u{901F}", "\u{6E0B}\u{6EDE}", "\u{4EA4}\u{901A}", "\u{5CE0}", "\u{30C8}\u{30F3}\u{30CD}\u{30EB}", 'road','traffic','highway','expressway'],
+        "\u{99C5}" => ["\u{99C5}", "\u{9244}\u{9053}", "\u{65B0}\u{5E79}\u{7DDA}", "\u{96FB}\u{8ECA}", 'railway','station','train'],
+        "\u{7E41}\u{83EF}\u{8857}" => ["\u{7E41}\u{83EF}\u{8857}", "\u{5546}\u{5E97}\u{8857}", "\u{30B9}\u{30AF}\u{30E9}\u{30F3}\u{30D6}\u{30EB}", "\u{4EA4}\u{5DEE}\u{70B9}", "\u{8857}\u{4E26}\u{307F}", 'downtown','street','city view'],
+        "\u{99D0}\u{8ECA}\u{5834}" => ["\u{99D0}\u{8ECA}\u{5834}", "\u{30D1}\u{30FC}\u{30AD}\u{30F3}\u{30B0}", 'parking','parking lot','car park'],
+        "\u{96EA}\u{9053}" => ["\u{96EA}", "\u{7A4D}\u{96EA}", "\u{51CD}\u{7D50}", "\u{30B9}\u{30AD}\u{30FC}", 'snow','winter','ski'],
+        "\u{6CB3}\u{5DDD}" => ["\u{6CB3}\u{5DDD}", "\u{5DDD}", "\u{6C34}\u{4F4D}", "\u{30C0}\u{30E0}", 'river','dam'],
     ];
     $tags = [];
-    foreach ($rules as $tag => $keywords) if (containsAny($text, $keywords)) $tags[] = $tag;
+    $combined = $title . ' ' . $description . ' ' . $channel;
+    $station = stationClassificationEvidence($title, $description);
+    foreach ($rules as $tag => $keywords) {
+        $source = $tag === "\u{99C5}" ? $title . ' ' . $description : $combined;
+        if (containsAny($source, $keywords)) $tags[] = $tag;
+    }
+    if ($station['tag'] && !in_array("\u{99C5}", $tags, true)) $tags[] = "\u{99C5}";
+    $evidence['station_strong'] = $station['strong'];
     return $tags;
 }
-function candidateAssessment(array $tags, string $title, string $description, string $channel, string $currentCategory = ''): array {
+function candidateAssessment(array $tags, string $title, string $description, string $channel, string $currentCategory = '', array $evidence = []): array {
     $text = $title . ' ' . $description . ' ' . $channel;
     $score = 0; $reasons = [];
     $weights = ['観光'=>9,'道路'=>8,'駅'=>7,'繁華街'=>6,'駐車場'=>5,'雪道'=>7,'河川'=>2];
@@ -183,7 +201,14 @@ function candidateAssessment(array $tags, string $title, string $description, st
         "\u{99D0}\u{8ECA}\u{5834}" => "\u{99D0}\u{8ECA}\u{5834}",
     ];
     $requiredTag = $categoryTagMap[$currentCategory] ?? '';
-    if (!$hardReject && $requiredTag !== '' && in_array($requiredTag, $tags, true) && ($highConfidence || $score >= 16)) $status = '採用候補';
+    if ($requiredTag === "\u{99C5}" && !array_key_exists('station_strong', $evidence)) {
+        $evidence = stationClassificationEvidence($title, $description);
+        $evidence['station_strong'] = $evidence['strong'];
+    }
+    $stationStrong = $requiredTag === "\u{99C5}" && (($evidence['station_strong'] ?? false) === true);
+    $strongEvidence = $requiredTag !== "\u{99C5}" || $stationStrong;
+    $meetsAdoptionScore = $stationStrong || $highConfidence || $score >= 16;
+    if (!$hardReject && $requiredTag !== '' && in_array($requiredTag, $tags, true) && $strongEvidence && $meetsAdoptionScore) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
     else $status = '要確認';
     $baseReasons = array_values(array_unique($reasons));
@@ -483,7 +508,98 @@ function runRebuildOnlyCli(array $arguments): never {
     exit(0);
 }
 
+function runClassificationRegression(): never {
+    $files = glob(__DIR__ . '/output/block-*-station-latest.json') ?: [];
+    $rows = [];
+    foreach ($files as $file) {
+        $data = json_decode((string)file_get_contents($file), true);
+        if (!is_array($data)) continue;
+        $sourceRows = isset($data['rows']) && is_array($data['rows']) ? $data['rows'] : $data;
+        foreach ($sourceRows as $row) if (is_array($row)) $rows[] = $row;
+    }
+    $oldTagRows = 0; $newTagRows = 0; $oldIds = []; $newIds = []; $tagChanged = []; $statusChanged = []; $statusUnavailable = 0; $strongRows = [];
+    foreach ($rows as $row) {
+        $title = (string)($row['title'] ?? '');
+        $description = (string)($row['description'] ?? '');
+        $channel = (string)($row['channel_title'] ?? '');
+        $oldTags = is_array($row['tags'] ?? null) ? $row['tags'] : [];
+        $oldHas = in_array("\u{99C5}", $oldTags, true);
+        if ($oldHas) { $oldTagRows++; $oldIds[(string)($row['video_id'] ?? '')] = true; }
+        $evidence = [];
+        $newTags = classifyCandidate($title, $description, $channel, $evidence);
+        $newHas = in_array("\u{99C5}", $newTags, true);
+        if ($newHas) { $newTagRows++; $newIds[(string)($row['video_id'] ?? '')] = true; }
+        $assessment = candidateAssessment($newTags, $title, $description, $channel, "\u{99C5}", $evidence);
+        $oldStatus = (string)($row['candidate_status'] ?? '');
+        $oldBaseStatus = $oldStatus;
+        $statusComparable = true;
+        if ($actualStrong = (bool)($evidence['station_strong'] ?? false)) {
+            $strongRows[] = [$row, $newTags, $assessment['score'], $assessment['status'], $oldStatus];
+        }
+        if ($oldHas !== $newHas) $tagChanged[] = [$row, $oldTags, $newTags, $oldStatus, $assessment['status'], (bool)($evidence['station_strong'] ?? false)];
+        if ($statusComparable && $oldBaseStatus !== $assessment['status']) $statusChanged[] = [$row, $oldTags, $newTags, $oldBaseStatus, $assessment['status'], (bool)($evidence['station_strong'] ?? false), (int)$assessment['score']];
+        if (!$statusComparable) $statusUnavailable++;
+    }
+    echo 'INPUT_ROWS=' . count($rows) . PHP_EOL;
+    echo 'UNIQUE_VIDEO_IDS=' . count(array_filter(array_unique(array_map(static fn($r) => (string)($r['video_id'] ?? ''), $rows)))) . PHP_EOL;
+    echo 'OLD_STATION_TAG_ROWS=' . $oldTagRows . PHP_EOL;
+    echo 'NEW_STATION_TAG_ROWS=' . $newTagRows . PHP_EOL;
+    echo 'OLD_STATION_TAG_UNIQUE_VIDEO_IDS=' . count(array_filter(array_keys($oldIds))) . PHP_EOL;
+    echo 'NEW_STATION_TAG_UNIQUE_VIDEO_IDS=' . count(array_filter(array_keys($newIds))) . PHP_EOL;
+    echo 'TAG_CHANGED_ROWS=' . count($tagChanged) . PHP_EOL;
+    echo 'STATUS_CHANGED_ROWS=' . count($statusChanged) . PHP_EOL;
+    echo 'STATUS_COMPARISON_UNAVAILABLE_ROWS=' . $statusUnavailable . PHP_EOL;
+    $strongIds = [];
+    foreach ($strongRows as $item) $strongIds[(string)($item[0]['video_id'] ?? '')] = true;
+    echo 'STATION_STRONG_ROWS=' . count($strongRows) . PHP_EOL;
+    echo 'STATION_STRONG_UNIQUE_VIDEO_IDS=' . count(array_filter(array_keys($strongIds))) . PHP_EOL;
+    foreach ($strongRows as $item) {
+        [$row, $newTags, $score, $newStatus, $oldStatus] = $item;
+        echo json_encode(['video_id'=>(string)($row['video_id']??''),'title'=>(string)($row['title']??''),'new_tags'=>$newTags,'score'=>(int)$score,'new_candidate_status'=>$newStatus,'old_candidate_status'=>$oldStatus], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) . PHP_EOL;
+    }
+    foreach ($tagChanged as $item) { [$row,$old,$new,$oldStatus,$newStatus,$strong] = $item; echo json_encode(['video_id'=>(string)($row['video_id']??''),'title'=>(string)($row['title']??''),'old_tags'=>$old,'new_tags'=>$new,'old_candidate_status'=>$oldStatus,'new_candidate_status'=>$newStatus,'station_strong_evidence'=>$strong], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) . PHP_EOL; }
+    $transitions = [];
+    foreach ($statusChanged as $item) {
+        [$row, $old, $new, $oldStatus, $newStatus, $strong, $score] = $item;
+        $transition = $oldStatus . '=>' . $newStatus;
+        $transitions[$transition] = ($transitions[$transition] ?? 0) + 1;
+        echo json_encode(['video_id'=>(string)($row['video_id']??''),'title'=>(string)($row['title']??''),'old_tags'=>$old,'new_tags'=>$new,'old_candidate_status'=>$oldStatus,'new_candidate_status'=>$newStatus,'station_strong_evidence'=>$strong,'score'=>$score,'current_category'=>$row['category']??$row['category_label']??null,'current_block'=>$row['search_block']??null,'search_blocks'=>$row['search_blocks']??[]], JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES) . PHP_EOL;
+    }
+    ksort($transitions);
+    foreach ($transitions as $transition => $count) echo 'STATUS_TRANSITION ' . $transition . ' = ' . $count . PHP_EOL;
+    $cases = [
+        'A' => ['title'=>"\u{5BCC}\u{58EB}\u{5C71}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'M.M.R \u{9244}\u{9053}','tag'=>false,'strong'=>false,'adopt'=>false],
+        'B' => ['title'=>'KUROSAKA Cam','description'=>"JR\u{4F2F}\u{5099}\u{7DDA} \u{7DDA}\u{8DEF}\u{6CBF}\u{3044}",'channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'C' => ['title'=>"\u{5411}\u{65E5}\u{753A}\u{64CD}\u{8ECA}\u{5834}",'description'=>"JR\u{4EAC}\u{90FD}\u{7DDA} \u{5217}\u{8ECA} \u{65B0}\u{5E79}\u{7DDA}",'channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'D' => ['title'=>"\u{4FEE}\u{5584}\u{5BFA}\u{99C5}\u{5468}\u{8FBA}\u{306E}\u{8857}\u{4E26}\u{307F}",'description'=>'','channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+        'E' => ['title'=>"\u{5C0F}\u{7530}\u{539F}\u{99C5}\u{6771}\u{53E3}\u{5F92}\u{6B69}3\u{5206}",'description'=>"\u{5546}\u{5E97}\u{8857}",'channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+        'F' => ['title'=>"\u{95A2}\u{897F}\u{672C}\u{7DDA}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+        'G' => ['title'=>"\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'H' => ['title'=>'Hakuba Live Camera','description'=>"\u{5317}\u{30A2}\u{30EB}\u{30D7}\u{30B9} JR\u{5927}\u{7CF8}\u{7DDA} \u{5929}\u{6C17}",'channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+    ];
+    foreach ($cases as $name => $case) {
+        $e = [];
+        $tags = classifyCandidate($case['title'], $case['description'], $case['channel'], $e);
+        $a = candidateAssessment($tags, $case['title'], $case['description'], $case['channel'], "\u{99C5}", $e);
+        $actualTag = in_array("\u{99C5}", $tags, true);
+        $actualStrong = (bool)($e['station_strong'] ?? false);
+        $actualAdopt = $a['status'] === "\u{63A1}\u{7528}\u{5019}\u{88DC}";
+        $ok = $actualTag === $case['tag'] && $actualStrong === $case['strong'] && $actualAdopt === $case['adopt'];
+        echo 'CASE_' . $name . '=' . ($ok ? 'PASS' : 'FAIL') . PHP_EOL;
+        echo '  station_tag actual=' . ($actualTag ? 'true' : 'false') . ' expected=' . ($case['tag'] ? 'true' : 'false') . PHP_EOL;
+        echo '  station_strong actual=' . ($actualStrong ? 'true' : 'false') . ' expected=' . ($case['strong'] ? 'true' : 'false') . PHP_EOL;
+        echo '  candidate_status actual=' . json_encode($a['status'], JSON_UNESCAPED_UNICODE) . PHP_EOL;
+        echo '  adopt actual=' . ($actualAdopt ? 'true' : 'false') . ' expected=' . ($case['adopt'] ? 'true' : 'false') . PHP_EOL;
+        echo '  score=' . (int)$a['score'] . PHP_EOL;
+    }
+    echo 'API_NETWORK_ACCESS=NONE' . PHP_EOL;
+    echo 'FILES_CHANGED=NONE' . PHP_EOL;
+    exit(0);
+}
 $cliArguments = PHP_SAPI === 'cli' ? array_slice($argv, 1) : [];
+if (in_array('--classification-test', $cliArguments, true)) {
+    runClassificationRegression();
+}
 if (in_array('--rebuild-only', $cliArguments, true)) {
     runRebuildOnlyCli($cliArguments);
 }
@@ -554,7 +670,7 @@ foreach($queries as $query){
     markQuotaUsed($quotaStatePath,$quotaState,1);
     foreach(($data['items']??[]) as $item){$videoId=$item['id']['videoId']??null;if(!$videoId)continue;$s=$item['snippet']??[];$title=html_entity_decode((string)($s['title']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$description=html_entity_decode((string)($s['description']??''),ENT_QUOTES|ENT_HTML5,'UTF-8');$channel=(string)($s['channelTitle']??'');
         if(isset($all[$videoId])){$all[$videoId]['matched_queries'][]=$query;$all[$videoId]['searched_prefectures'][]=$prefecture;$all[$videoId]['matched_queries']=array_values(array_unique($all[$videoId]['matched_queries']));$all[$videoId]['searched_prefectures']=array_values(array_unique($all[$videoId]['searched_prefectures']));continue;}
-        $tags=classifyCandidate($title.' '.$description.' '.$channel);$ass=candidateAssessment($tags,$title,$description,$channel,$currentCategory);
+        $evidence=[];$tags=classifyCandidate($title,$description,$channel,$evidence);$ass=candidateAssessment($tags,$title,$description,$channel,$currentCategory,$evidence);
         $all[$videoId]=['video_id'=>$videoId,'title'=>$title,'url'=>'https://www.youtube.com/watch?v='.$videoId,'channel_id'=>(string)($s['channelId']??''),'channel_title'=>$channel,'published_at'=>(string)($s['publishedAt']??''),'thumbnail'=>(string)($s['thumbnails']['high']['url']??$s['thumbnails']['medium']['url']??$s['thumbnails']['default']['url']??''),'matched_query'=>$query,'matched_queries'=>[$query],'search_block'=>$currentBlock,'search_blocks'=>[$currentBlock],'prefecture'=>$prefecture,'searched_prefectures'=>[$prefecture],'tags'=>$tags,'candidate_score'=>$ass['score'],'candidate_status'=>$ass['status'],'assessment_reasons'=>$ass['reasons'],'base_candidate_status'=>$ass['base_candidate_status'],'base_assessment_reasons'=>$ass['base_assessment_reasons'],'description'=>$description];
     }
 }

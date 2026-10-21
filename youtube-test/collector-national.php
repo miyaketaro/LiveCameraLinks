@@ -151,6 +151,15 @@ function stationClassificationEvidence(string $title, string $description): arra
     $tag = $strong || $linePattern || containsAny($text, ["\u{99C5}", "\u{9244}\u{9053}", "\u{96FB}\u{8ECA}", "\u{5217}\u{8ECA}", "\u{7DDA}\u{8DEF}", "\u{64CD}\u{8ECA}\u{5834}", "\u{8ECA}\u{4E21}\u{57FA}\u{5730}", "\u{30E2}\u{30CE}\u{30EC}\u{30FC}\u{30EB}", "\u{65B0}\u{5E79}\u{7DDA}", 'railway', 'station', 'train', 'railcam']);
     return ['tag' => $tag, 'strong' => $strong];
 }
+function cityClassificationEvidence(string $title, string $description): array {
+    $text = $title . ' ' . $description;
+    $strongWords = ["\u{7E41}\u{83EF}\u{8857}", "\u{5546}\u{5E97}\u{8857}", "\u{30B9}\u{30AF}\u{30E9}\u{30F3}\u{30D6}\u{30EB}", "\u{5E02}\u{8857}\u{5730}", "\u{4E2D}\u{5FC3}\u{5E02}\u{8857}\u{5730}", 'downtown'];
+    $weakWords = ["\u{8857}\u{4E26}\u{307F}", 'street', 'city view'];
+    $contextWords = array_merge($strongWords, ["\u{99C5}\u{524D}", "\u{4E2D}\u{5FC3}\u{90E8}"]);
+    $strong = containsAny($text, $strongWords);
+    $tag = $strong || containsAny($text, $weakWords) || (containsAny($text, ["\u{4EA4}\u{5DEE}\u{70B9}"]) && containsAny($text, $contextWords));
+    return ['tag' => $tag, 'strong' => $strong];
+}
 function classifyCandidate(string $title, string $description = '', string $channel = '', array &$evidence = []): array {
     $rules = [
         "\u{89B3}\u{5149}" => ["\u{89B3}\u{5149}", "\u{6E29}\u{6CC9}", "\u{5BCC}\u{58EB}\u{5C71}", "\u{6D77}", "\u{6E2F}", "\u{7A7A}\u{6E2F}", "\u{5C55}\u{671B}", "\u{89B3}\u{5149}\u{5730}", 'tourism','airport','beach','harbor'],
@@ -164,12 +173,15 @@ function classifyCandidate(string $title, string $description = '', string $chan
     $tags = [];
     $combined = $title . ' ' . $description . ' ' . $channel;
     $station = stationClassificationEvidence($title, $description);
+    $city = cityClassificationEvidence($title, $description);
     foreach ($rules as $tag => $keywords) {
-        $source = $tag === "\u{99C5}" ? $title . ' ' . $description : $combined;
-        if (containsAny($source, $keywords)) $tags[] = $tag;
+        if ($tag === "\u{99C5}" || $tag === "\u{7E41}\u{83EF}\u{8857}") continue;
+        if (containsAny($combined, $keywords)) $tags[] = $tag;
     }
-    if ($station['tag'] && !in_array("\u{99C5}", $tags, true)) $tags[] = "\u{99C5}";
+    if ($station['tag']) $tags[] = "\u{99C5}";
+    if ($city['tag']) $tags[] = "\u{7E41}\u{83EF}\u{8857}";
     $evidence['station_strong'] = $station['strong'];
+    $evidence['city_strong'] = $city['strong'];
     return $tags;
 }
 function candidateAssessment(array $tags, string $title, string $description, string $channel, string $currentCategory = '', array $evidence = []): array {
@@ -205,9 +217,15 @@ function candidateAssessment(array $tags, string $title, string $description, st
         $evidence = stationClassificationEvidence($title, $description);
         $evidence['station_strong'] = $evidence['strong'];
     }
+    if ($requiredTag === "\u{7E41}\u{83EF}\u{8857}" && !array_key_exists('city_strong', $evidence)) {
+        $evidence = cityClassificationEvidence($title, $description);
+        $evidence['city_strong'] = $evidence['strong'];
+    }
     $stationStrong = $requiredTag === "\u{99C5}" && (($evidence['station_strong'] ?? false) === true);
-    $strongEvidence = $requiredTag !== "\u{99C5}" || $stationStrong;
-    $meetsAdoptionScore = $stationStrong || $highConfidence || $score >= 16;
+    $cityStrong = $requiredTag === "\u{7E41}\u{83EF}\u{8857}" && (($evidence['city_strong'] ?? false) === true);
+    $categoryStrong = $stationStrong || $cityStrong;
+    $strongEvidence = ($requiredTag !== "\u{99C5}" && $requiredTag !== "\u{7E41}\u{83EF}\u{8857}") || $categoryStrong;
+    $meetsAdoptionScore = $categoryStrong || $highConfidence || $score >= 16;
     if (!$hardReject && $requiredTag !== '' && in_array($requiredTag, $tags, true) && $strongEvidence && $meetsAdoptionScore) $status = '採用候補';
     elseif ($hardReject || $score <= 1) $status = '除外候補';
     else $status = '要確認';
@@ -517,7 +535,7 @@ function runClassificationRegression(): never {
         $sourceRows = isset($data['rows']) && is_array($data['rows']) ? $data['rows'] : $data;
         foreach ($sourceRows as $row) if (is_array($row)) $rows[] = $row;
     }
-    $oldTagRows = 0; $newTagRows = 0; $oldIds = []; $newIds = []; $tagChanged = []; $statusChanged = []; $statusUnavailable = 0; $strongRows = [];
+    $oldTagRows = 0; $newTagRows = 0; $oldIds = []; $newIds = []; $tagChanged = []; $statusChanged = []; $statusUnavailable = 0; $strongRows = []; $regressionFailed = false;
     foreach ($rows as $row) {
         $title = (string)($row['title'] ?? '');
         $description = (string)($row['description'] ?? '');
@@ -585,6 +603,7 @@ function runClassificationRegression(): never {
         $actualStrong = (bool)($e['station_strong'] ?? false);
         $actualAdopt = $a['status'] === "\u{63A1}\u{7528}\u{5019}\u{88DC}";
         $ok = $actualTag === $case['tag'] && $actualStrong === $case['strong'] && $actualAdopt === $case['adopt'];
+        if (!$ok) $regressionFailed = true;
         echo 'CASE_' . $name . '=' . ($ok ? 'PASS' : 'FAIL') . PHP_EOL;
         echo '  station_tag actual=' . ($actualTag ? 'true' : 'false') . ' expected=' . ($case['tag'] ? 'true' : 'false') . PHP_EOL;
         echo '  station_strong actual=' . ($actualStrong ? 'true' : 'false') . ' expected=' . ($case['strong'] ? 'true' : 'false') . PHP_EOL;
@@ -592,9 +611,29 @@ function runClassificationRegression(): never {
         echo '  adopt actual=' . ($actualAdopt ? 'true' : 'false') . ' expected=' . ($case['adopt'] ? 'true' : 'false') . PHP_EOL;
         echo '  score=' . (int)$a['score'] . PHP_EOL;
     }
+    $cityCases = [
+        'A' => ['title'=>"\u{5C71}\u{53E3}\u{770C}\u{5C71}\u{53E3}\u{5E02}\u{9ED2}\u{5DDD}\u{4EA4}\u{5DEE}\u{70B9}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>false,'strong'=>false,'adopt'=>false],
+        'B' => ['title'=>"\u{56FD}\u{9053}58\u{53F7}\u{7DDA}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9} \u{5B9C}\u{91CE}\u{6E7E} \u{5927}\u{8B1D}\u{540D}\u{4EA4}\u{5DEE}\u{70B9}",'description'=>'','channel'=>'','tag'=>false,'strong'=>false,'adopt'=>false],
+        'C' => ['title'=>"\u{6E0B}\u{8C37}\u{30B9}\u{30AF}\u{30E9}\u{30F3}\u{30D6}\u{30EB}\u{4EA4}\u{5DEE}\u{70B9}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'D' => ['title'=>"\u{30B5}\u{30F3}\u{30D7}\u{30EB}\u{5546}\u{5E97}\u{8857}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'E' => ['title'=>"\u{30B5}\u{30F3}\u{30D7}\u{30EB}\u{4E2D}\u{5FC3}\u{5E02}\u{8857}\u{5730}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>true,'adopt'=>true],
+        'F' => ['title'=>"\u{4FEE}\u{5584}\u{5BFA}\u{8857}\u{4E26}\u{307F}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+        'G' => ['title'=>'Okinawa Kokusai Street Live Camera','description'=>'','channel'=>'','tag'=>true,'strong'=>false,'adopt'=>false],
+        'H' => ['title'=>"\u{9053}\u{8DEF}\u{4EA4}\u{5DEE}\u{70B9}\u{30E9}\u{30A4}\u{30D6}\u{30AB}\u{30E1}\u{30E9}",'description'=>'','channel'=>"\u{7E41}\u{83EF}\u{8857}",'tag'=>false,'strong'=>false,'adopt'=>false],
+    ];
+    foreach ($cityCases as $name => $case) {
+        $e=[]; $tags=classifyCandidate($case['title'],$case['description'],$case['channel'],$e);
+        $a=candidateAssessment($tags,$case['title'],$case['description'],$case['channel'],"\u{7E41}\u{83EF}\u{8857}",$e);
+        $actualTag = in_array("\u{7E41}\u{83EF}\u{8857}", $tags, true);
+        $actualStrong = (bool)($e['city_strong'] ?? false);
+        $actualAdopt = $a['status'] === "\u{63A1}\u{7528}\u{5019}\u{88DC}";
+        $ok = $actualTag === $case['tag'] && $actualStrong === $case['strong'] && $actualAdopt === $case['adopt'];
+        if (!$ok) $regressionFailed = true;
+        echo 'CITY_CASE_'.$name.'=' . ($ok?'PASS':'FAIL') . PHP_EOL;
+    }
     echo 'API_NETWORK_ACCESS=NONE' . PHP_EOL;
     echo 'FILES_CHANGED=NONE' . PHP_EOL;
-    exit(0);
+    exit($regressionFailed ? 1 : 0);
 }
 $cliArguments = PHP_SAPI === 'cli' ? array_slice($argv, 1) : [];
 if (in_array('--classification-test', $cliArguments, true)) {

@@ -71,3 +71,36 @@ The following rules are mandatory for all LiveCameraLinks batch verification and
 4. Batch verification, CSV generation, and learning-data processing MUST NOT automatically modify provider master data, production databases, or publication approvals. Default to read-only or DRY-RUN. Any production write requires separate explicit authorization.
 
 Apply these rules to existing tools and all future implementations. Validate Japanese text round-trip, BOM compatibility, and preservation of reviewed decisions before release.
+## Database-First Development Policy (MANDATORY)
+
+### Primary Database
+- MySQL MUST be the primary production database.
+- MySQL MUST be the Single Source of Truth.
+- All future development MUST follow a MySQL-first architecture.
+
+### Data Management
+- Cameras, Providers, Places, Routes, Parking, Reviews,
+  LIVE Status, and Audit History MUST be managed in MySQL.
+- JSON and CSV are for migration, import, export, and backup.
+- JSON and CSV MUST NOT be the primary production database.
+
+### Automation
+- Nationwide collection, verification, deduplication, and
+  monitoring MUST use batch processing.
+- Routine maintenance SHOULD use a web administration interface.
+- Minimize repetitive PowerShell and manual CSV operations.
+
+### Safety
+- Preserve existing data during migration.
+- Use dry-run and backups before database migrations.
+- Never automatically approve publication from evidence matching.
+- Preserve human review decisions and teacher labels.
+- Require explicit approval for destructive DB operations.
+
+### Development Priority
+1. MySQL schema
+2. Existing data migration
+3. MySQL-based Manager
+4. Web administration interface
+5. Nationwide automated collection and verification
+
